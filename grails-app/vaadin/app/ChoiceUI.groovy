@@ -12,7 +12,7 @@ import com.vaadin.ui.themes.Reindeer
 class ChoiceUI {
 
     public static final String SITE_CHOICE = "site"
-    public static final String EDITOR_CHOICE = "form"
+    public static final String EDITOR_CHOICE = "list"
     ContainerUI container
 
     public createChoiceBody() {

@@ -19,9 +19,11 @@ import org.json.JSONException
  */
 class EditorUI {
 
+    public static final String THIS_CHOICE = "editor"
     Article article = new Article()
     FieldGroup fields
     Label html
+    ContainerUI parent
 
     public HorizontalLayout createEditorBody() {
         HorizontalLayout topLayout = new HorizontalLayout();
@@ -54,6 +56,7 @@ class EditorUI {
 
         html = new Label()
         html.setContentMode(ContentMode.HTML)
+        html.setValue(article.body)
         layout.addComponent(html)
 
         bodyLayout.addComponent(panel)
@@ -68,6 +71,20 @@ class EditorUI {
 
         bodyLayout.addComponent(createForm());
 
+        HorizontalLayout buttonLayout = new HorizontalLayout()
+        buttonLayout.setSizeUndefined()
+        bodyLayout.addComponent(buttonLayout)
+        bodyLayout.setComponentAlignment(buttonLayout, Alignment.BOTTOM_CENTER)
+
+        Button cancel = new Button("cancel");
+        cancel.addClickListener(new Button.ClickListener() {
+            public void buttonClick(Button.ClickEvent event) {
+                parent.switchBodies(ArticleListUI.THIS_CHOICE)
+            }
+        });
+        buttonLayout.addComponent(cancel);
+        buttonLayout.setComponentAlignment(cancel, Alignment.BOTTOM_LEFT)
+
         Button button = new Button("Save");
         button.addClickListener(new Button.ClickListener() {
             public void buttonClick(Button.ClickEvent event) {
@@ -76,15 +93,16 @@ class EditorUI {
                 editorService.saveNewArticle(article)
             }
         });
+        buttonLayout.addComponent(button);
+        buttonLayout.setComponentAlignment(button, Alignment.BOTTOM_RIGHT)
 
-        bodyLayout.addComponent(button);
-        bodyLayout.setComponentAlignment(button, Alignment.BOTTOM_RIGHT)
         return bodyLayout
     }
 
     Component createForm() {
         fields = new FieldGroup(new BeanItem(article))
         VerticalLayout form = new VerticalLayout();
+        form.setSizeFull()
         DateField createdDate = new DateField("Created Date")
         createdDate.setResolution(Resolution.MINUTE)
         fields.bind(createdDate, "createdDate")
@@ -99,10 +117,11 @@ class EditorUI {
         form.addComponent(author)
 
         TextArea body = new TextArea("Content")
+        fields.bind(body, "body")
         body.setWidth("100%")
         body.setId("editorArea")
-        body.setImmediate(true)
         form.addComponent(body)
+
         return form
     }
 

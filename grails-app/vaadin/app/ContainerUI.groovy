@@ -36,7 +36,8 @@ class ContainerUI extends UI {
     def bodies =
         [
                 (CHOICE_CHOICE): { new ChoiceUI(container: this).createChoiceBody() },
-                (ChoiceUI.EDITOR_CHOICE): { new ArticleListUI().showBody() },
+                (ArticleListUI.THIS_CHOICE): { new ArticleListUI(parent: this).showBody() },
+                (EditorUI.THIS_CHOICE): { new EditorUI(parent: this).createEditorBody() },
                 (ChoiceUI.SITE_CHOICE): { new EditorUI().createEditorBody() }
         ]
 
@@ -98,6 +99,10 @@ class ContainerUI extends UI {
 
     def switchBodies(String name) {
         def newBody = bodies[name]()
+        switchIt(newBody)
+    }
+
+    def void switchIt(Component newBody) {
         root.replaceComponent(currentBody, newBody)
         root.setExpandRatio(newBody, 100)
         currentBody = newBody
