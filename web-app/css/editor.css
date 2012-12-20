@@ -1,0 +1,30 @@
+.homeLink .v-label {
+    cursor: pointer;
+}
+
+.homeLink {
+    cursor: pointer;
+}
+
+.imageButton:hover {
+    border: 2px solid #8888aa;
+    box-shadow: 1px 3px 3px 1px #8888aa;
+    cursor: pointer;
+}
+
+.imageButton .v-label {
+    text-align: center;
+}
+
+.imageButton {
+    padding: 10px;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.CodeMirror {
+    border: 1px solid black;
+    font-size: 13px;
+    background-color: #ffffff;
+}

@@ -1,0 +1,1 @@
+java -cp C:\globallibs\hsqldb-2.2.8\hsqldb\lib/hsqldb.jar org.hsqldb.server.Server --database.0 file:data/editor --dbname.0 editor
