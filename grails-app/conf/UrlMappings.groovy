@@ -1,7 +1,7 @@
 class UrlMappings {
 
     static mappings = {
-        "/"(view: "/index.gsp")
+        "/"(view: "/index")
         "/$controller/$action?/"()
     }
 }

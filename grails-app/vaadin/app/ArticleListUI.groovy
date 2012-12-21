@@ -33,30 +33,39 @@ class ArticleListUI {
         layout.setSizeFull()
         layout.setMargin(true)
 
+        HorizontalLayout horizontalLayout = new HorizontalLayout()
+        horizontalLayout.setSizeUndefined()
+        Button button = new Button("Create article", new Button.ClickListener() {
+            void buttonClick(Button.ClickEvent event) {
+                parent.switchBodies(EditorUI.THIS_CHOICE)
+            }
+        })
+        horizontalLayout.addComponent(button)
+        layout.addComponent(horizontalLayout)
+
         EditorService editorService = Grails.get(EditorService)
         List<Article> articles = editorService.listArticles()
         ArticleListContainer container = new ArticleListContainer(articles)
 
         Table table = new Table("Articles", container)
         table.setWidth("100%")
+        table.selectable = true
         table.addItemClickListener(new ItemClickEvent.ItemClickListener() {
             void itemClick(ItemClickEvent event) {
-                BeanItem item = event.getItem()
-                Component body = new EditorUI(parent: parent,
-                        article: item.getBean()).createEditorBody()
-                parent.switchIt(body)
+                if (event.isDoubleClick()) {
+                    BeanItem item = event.getItem()
+                    Component body = new EditorUI(parent: parent,
+                            article: item.getBean()).createEditorBody()
+                    parent.switchIt(body)
+                }
             }
         })
-        layout.addComponent(table)
 
-        HorizontalLayout horizontalLayout = new HorizontalLayout()
-        horizontalLayout.addComponent(new Button("Create article", new Button.ClickListener() {
-            void buttonClick(Button.ClickEvent event) {
-                parent.switchBodies(EditorUI.THIS_CHOICE)
-            }
-        }))
-        layout.addComponent(horizontalLayout)
-        layout.setComponentAlignment(horizontalLayout, Alignment.BOTTOM_RIGHT)
+        VerticalLayout vlayout = new VerticalLayout(table)
+        vlayout.setSizeFull()
+        layout.addComponent(vlayout)
+        layout.setExpandRatio(vlayout, 100)
+
         return layout
     }
 }

@@ -37,8 +37,6 @@ class EditorUI {
         layout.setSizeFull()
         topLayout.addComponent(layout)
 
-        setUpCodeMirror();
-
         return topLayout;
     }
 
@@ -72,7 +70,7 @@ class EditorUI {
         bodyLayout.addComponent(createForm());
 
         HorizontalLayout buttonLayout = new HorizontalLayout()
-        buttonLayout.setSizeUndefined()
+        buttonLayout.setSizeFull()
         bodyLayout.addComponent(buttonLayout)
         bodyLayout.setComponentAlignment(buttonLayout, Alignment.BOTTOM_CENTER)
 
@@ -102,7 +100,7 @@ class EditorUI {
     Component createForm() {
         fields = new FieldGroup(new BeanItem(article))
         VerticalLayout form = new VerticalLayout();
-        form.setSizeFull()
+        form.setSizeUndefined()
         DateField createdDate = new DateField("Created Date")
         createdDate.setResolution(Resolution.MINUTE)
         fields.bind(createdDate, "createdDate")
@@ -120,8 +118,10 @@ class EditorUI {
         fields.bind(body, "body")
         body.setWidth("100%")
         body.setId("editorArea")
+        body.setImmediate(true)
         form.addComponent(body)
 
+        setUpCodeMirror();
         return form
     }
 

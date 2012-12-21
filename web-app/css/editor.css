@@ -23,7 +23,11 @@
     background-color: #ffffff;
 }
 
+.cm-container {
+}
+
 .CodeMirror {
+    position: relative;
     border: 1px solid black;
     font-size: 13px;
     background-color: #ffffff;
