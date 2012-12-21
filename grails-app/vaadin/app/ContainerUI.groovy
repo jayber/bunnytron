@@ -33,12 +33,22 @@ class ContainerUI extends UI {
     public static final String CHOICE_CHOICE = "choice"
     private VerticalLayout root
 
+    //todo: replace this with Navigator
     def bodies =
         [
-                (CHOICE_CHOICE): { new ChoiceUI(container: this).createChoiceBody() },
-                (ArticleListUI.THIS_CHOICE): { new ArticleListUI(parent: this).showBody() },
-                (EditorUI.THIS_CHOICE): { new EditorUI(parent: this).createEditorBody() },
-                (ChoiceUI.SITE_CHOICE): { new EditorUI().createEditorBody() }
+                (CHOICE_CHOICE): {
+                    switchBodies(new ChoiceUI(container: this).createChoiceBody())
+                },
+                (ArticleListUI.THIS_CHOICE): {
+                    switchBodies(new ArticleListUI(parent: this).showBody())
+                },
+                (EditorUI.THIS_CHOICE): {
+                    switchBodies(new EditorUI(parent: this).createEditorBody())
+                },
+                (ChoiceUI.PERSON_CHOICE): {
+                    getPage().open("/person/list", "")
+                },
+                (ChoiceUI.SITE_CHOICE): { Notification.show("Not implemented yet") }
         ]
 
     private Component currentBody
@@ -53,9 +63,8 @@ class ContainerUI extends UI {
 
         root.addComponent(createHeader())
 
-        currentBody = bodies[CHOICE_CHOICE]()
-        root.addComponent(currentBody)
-        root.setExpandRatio(currentBody, 100)
+        currentBody = new Label("This is just a dummy component. Should never appear")
+        bodies[CHOICE_CHOICE]()
 
         root.addComponent(createFooter())
     }
@@ -73,7 +82,7 @@ class ContainerUI extends UI {
         titleLayout.addLayoutClickListener(new LayoutEvents.LayoutClickListener() {
             @Override
             void layoutClick(LayoutEvents.LayoutClickEvent event) {
-                switchBodies(CHOICE_CHOICE)
+                doUIAction(CHOICE_CHOICE)
             }
         })
 
@@ -97,9 +106,12 @@ class ContainerUI extends UI {
         return topLayout;
     }
 
-    def switchBodies(String name) {
-        def newBody = bodies[name]()
-        switchIt(newBody)
+    def doUIAction(String name) {
+        bodies[name]()
+    }
+
+    def switchBodies(Component body) {
+        switchIt(body)
     }
 
     def void switchIt(Component newBody) {

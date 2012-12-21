@@ -1,7 +1,10 @@
 class UrlMappings {
 
     static mappings = {
-        "/"(view: "/index")
+        "/" {
+            controller = "redirect"
+            url = "/ui"
+        }
         "/$controller/$action?/"()
     }
 }

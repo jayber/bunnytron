@@ -12,24 +12,27 @@ import com.vaadin.ui.themes.Reindeer
 class ChoiceUI {
 
     public static final String SITE_CHOICE = "site"
-    public static final String EDITOR_CHOICE = "list"
+    public static final String PERSON_CHOICE = "persons"
     ContainerUI container
 
     public createChoiceBody() {
-        HorizontalLayout hlayout = new HorizontalLayout()
+        GridLayout hlayout = new GridLayout(2, 3)
         hlayout.setMargin(true)
         hlayout.setSpacing(true)
-        hlayout.setWidth("100%")
+        hlayout.setSizeFull()
 
-        VerticalLayout button1 = createChoiceButton(EDITOR_CHOICE, "/images/puppy.png", "Write and edit content")
-
+        VerticalLayout button1 = createChoiceButton(ArticleListUI.THIS_CHOICE, "/images/puppy.png", "Write and edit content")
         hlayout.addComponent(button1)
-        hlayout.setComponentAlignment(button1, Alignment.TOP_CENTER)
+        hlayout.setComponentAlignment(button1, Alignment.MIDDLE_CENTER)
 
         VerticalLayout button2 = createChoiceButton(SITE_CHOICE, "/images/octopus.png", "Layout site")
-
         hlayout.addComponent(button2)
-        hlayout.setComponentAlignment(button2, Alignment.TOP_CENTER)
+        hlayout.setComponentAlignment(button2, Alignment.MIDDLE_CENTER)
+
+        VerticalLayout button3 = createChoiceButton(PERSON_CHOICE, "/images/person2.jpg", "Persons actions")
+        hlayout.addComponent(button3)
+        hlayout.setComponentAlignment(button3, Alignment.MIDDLE_CENTER)
+
         return hlayout
     }
 
@@ -39,7 +42,7 @@ class ChoiceUI {
         layout.addStyleName("imageButton")
         layout.addStyleName("homeLink")
         layout.addLayoutClickListener({ LayoutEvents.LayoutClickEvent event ->
-            container.switchBodies(bodyName)
+            container.doUIAction(bodyName)
         } as LayoutEvents.LayoutClickListener)
 
         Label label = new Label(labelText)

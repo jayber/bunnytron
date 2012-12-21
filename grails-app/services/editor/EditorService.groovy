@@ -7,6 +7,10 @@ class EditorService {
     }
 
     def listArticles() {
-        Article.list([fetch: [author: "eager"]])
+        Article.listOrderByCreatedDate([order: "desc", fetch: [author: "eager"]])
+    }
+
+    def listTElements() {
+        TElement.listOrderByParent()
     }
 }

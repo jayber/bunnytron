@@ -3,6 +3,7 @@ package app
 import com.vaadin.data.fieldgroup.FieldGroup
 import com.vaadin.data.util.BeanItem
 import com.vaadin.data.util.BeanItemContainer
+import com.vaadin.event.ItemClickEvent
 import com.vaadin.grails.Grails
 import com.vaadin.shared.ui.datefield.Resolution
 import com.vaadin.shared.ui.label.ContentMode
@@ -10,6 +11,7 @@ import com.vaadin.ui.*
 import editor.Article
 import editor.EditorService
 import editor.Person
+import editor.TElement
 import org.json.JSONArray
 import org.json.JSONException
 
@@ -25,7 +27,33 @@ class EditorUI {
     Label html
     ContainerUI parent
 
-    public HorizontalLayout createEditorBody() {
+    private VerticalLayout keywordLayout
+
+    private top
+
+    public Component createEditorBody() {
+
+        VerticalLayout vlayout = new VerticalLayout()
+        vlayout.setSizeFull()
+        TabSheet tabSheet = new TabSheet()
+        tabSheet.setSizeFull()
+        vlayout.addComponent(tabSheet)
+
+        Component componentTab = createContentTab()
+        tabSheet.addTab(componentTab, "Content")
+
+        tabSheet.addTab(createCodingTab(), "Coding")
+        tabSheet.addSelectedTabChangeListener(new TabSheet.SelectedTabChangeListener() {
+            void selectedTabChange(TabSheet.SelectedTabChangeEvent event) {
+                if (event.getTabSheet().getSelectedTab() == componentTab) {
+                    setUpCodeMirror()
+                }
+            }
+        })
+        return vlayout;
+    }
+
+    def Component createContentTab() {
         HorizontalLayout topLayout = new HorizontalLayout();
         topLayout.setSizeFull()
 
@@ -37,7 +65,82 @@ class EditorUI {
         layout.setSizeFull()
         topLayout.addComponent(layout)
 
-        return topLayout;
+        return topLayout
+    }
+
+    def Component createCodingTab() {
+        HorizontalLayout horizontalLayout = new HorizontalLayout()
+        horizontalLayout.setMargin(true)
+        horizontalLayout.setSpacing(true)
+        horizontalLayout.setSizeFull()
+
+        horizontalLayout.addComponent(createTaxonomyTree())
+
+        def keyWordPanel = new Panel("Keywords")
+        keyWordPanel.setSizeFull()
+        keywordLayout = new VerticalLayout()
+        keyWordPanel.setContent(keywordLayout)
+        horizontalLayout.addComponent(keyWordPanel)
+        horizontalLayout.setExpandRatio(keyWordPanel, 100)
+        return horizontalLayout
+    }
+
+    def VerticalLayout createTaxonomyTree() {
+        VerticalLayout layout = new VerticalLayout()
+        layout.setSizeUndefined()
+        layout.setHeight("100%")
+
+        Panel panel = new Panel("Taxonomy tree")
+        panel.setSizeUndefined()
+        panel.setHeight("100%")
+        layout.addComponent(panel)
+
+        def tree = new Tree("(double-click to add)")
+        tree.setSelectable(true)
+        VerticalLayout panelLayout = new VerticalLayout()
+        panel.setContent(panelLayout)
+        panelLayout.addComponent(tree)
+
+        EditorService editorService = Grails.get(EditorService)
+        List<TElement> elements = editorService.listTElements()
+
+        elements.each { TElement it ->
+            addTreeItem(it, tree)
+        }
+
+        elements.each { TElement it ->
+            if (!tree.hasChildren(it)) {
+                tree.setChildrenAllowed(it, false)
+            }
+        }
+
+        tree.addItemClickListener(new ItemClickEvent.ItemClickListener() {
+            void itemClick(ItemClickEvent event) {
+                if (event.isDoubleClick()) {
+                    addKeyword(event.itemId)
+                }
+            }
+        })
+
+        tree.expandItemsRecursively(top)
+        return layout
+    }
+
+    def addTreeItem(TElement it, Tree tree) {
+        if (!tree.containsId(it)) {
+            tree.addItem(it)
+            if (it.parent != null) {
+                addTreeItem(it.parent, tree)
+                tree.setParent(it, it.parent)
+            } else {
+                top = it
+            }
+        }
+    }
+
+
+    def addKeyword(TElement element) {
+        keywordLayout.addComponent(new Label(element.name))
     }
 
     private VerticalLayout createRightBody() {
@@ -45,7 +148,7 @@ class EditorUI {
         bodyLayout.setMargin(true)
         bodyLayout.setSizeFull()
 
-        Panel panel = new Panel("Content")
+        Panel panel = new Panel("Preview")
         VerticalLayout layout = new VerticalLayout()
         layout.setSizeUndefined()
         layout.setMargin(true)
@@ -74,10 +177,10 @@ class EditorUI {
         bodyLayout.addComponent(buttonLayout)
         bodyLayout.setComponentAlignment(buttonLayout, Alignment.BOTTOM_CENTER)
 
-        Button cancel = new Button("cancel");
+        Button cancel = new Button("Cancel");
         cancel.addClickListener(new Button.ClickListener() {
             public void buttonClick(Button.ClickEvent event) {
-                parent.switchBodies(ArticleListUI.THIS_CHOICE)
+                goBack()
             }
         });
         buttonLayout.addComponent(cancel);
@@ -89,12 +192,17 @@ class EditorUI {
                 fields.commit()
                 EditorService editorService = Grails.get(EditorService)
                 editorService.saveNewArticle(article)
+                goBack()
             }
         });
         buttonLayout.addComponent(button);
         buttonLayout.setComponentAlignment(button, Alignment.BOTTOM_RIGHT)
 
         return bodyLayout
+    }
+
+    void goBack() {
+        parent.doUIAction(ArticleListUI.THIS_CHOICE)
     }
 
     Component createForm() {
@@ -115,7 +223,7 @@ class EditorUI {
         form.addComponent(author)
 
         TextArea body = new TextArea("Content")
-        fields.bind(body, "body")
+        body.setValue(article.body)
         body.setWidth("100%")
         body.setId("editorArea")
         body.setImmediate(true)
