@@ -15,28 +15,27 @@ import java.text.SimpleDateFormat
 
 @Theme("reindeer")
 @com.vaadin.annotations.JavaScript([
-"http://localhost:8080/codemirror/lib/codemirror.js",
-"http://localhost:8080/codemirror/mode/xml/xml.js",
-"http://localhost:8080/codemirror/lib/util/closetag.js",
-"http://localhost:8080/codemirror/lib/util/foldcode.js",
-"http://localhost:8080/codemirror/lib/util/simple-hint.js",
-"http://localhost:8080/codemirror/lib/util/formatting.js",
-"http://localhost:8080/codemirror/lib/util/xml-hint.js"
+"codemirror/lib/codemirror.js",
+"codemirror/mode/xml/xml.js",
+"codemirror/lib/util/closetag.js",
+"codemirror/lib/util/foldcode.js",
+"codemirror/lib/util/simple-hint.js",
+"codemirror/lib/util/formatting.js",
+"codemirror/lib/util/xml-hint.js"
 ])
 @StyleSheet([
-"http://localhost:8080/codemirror/lib/codemirror.css",
-"http://localhost:8080/css/editor.css",
-"http://localhost:8080/codemirror/theme/neat.css"
+"codemirror/lib/codemirror.css",
+"css/editor.css",
+"codemirror/theme/neat.css"
 ])
 class ContainerUI extends UI {
 
-    public static final String CHOICE_CHOICE = "choice"
     private VerticalLayout root
 
     //todo: replace this with Navigator
     def bodies =
         [
-                (CHOICE_CHOICE): {
+                (ChoiceUI.CHOICE_CHOICE): {
                     switchBodies(new ChoiceUI(container: this).createChoiceBody())
                 },
                 (ArticleListUI.THIS_CHOICE): {
@@ -46,9 +45,11 @@ class ContainerUI extends UI {
                     switchBodies(new EditorUI(parent: this).createEditorBody())
                 },
                 (ChoiceUI.PERSON_CHOICE): {
-                    getPage().open("/person/list", "")
+                    getPage().open("/index", "")
                 },
-                (ChoiceUI.SITE_CHOICE): { Notification.show("Not implemented yet") }
+                (ChoiceUI.SITE_CHOICE): {
+                    switchBodies(new SiteLayoutUI(parent: this).createBody())
+                }
         ]
 
     private Component currentBody
@@ -64,7 +65,7 @@ class ContainerUI extends UI {
         root.addComponent(createHeader())
 
         currentBody = new Label("This is just a dummy component. Should never appear")
-        bodies[CHOICE_CHOICE]()
+        bodies[ChoiceUI.CHOICE_CHOICE]()
 
         root.addComponent(createFooter())
     }
@@ -82,7 +83,7 @@ class ContainerUI extends UI {
         titleLayout.addLayoutClickListener(new LayoutEvents.LayoutClickListener() {
             @Override
             void layoutClick(LayoutEvents.LayoutClickEvent event) {
-                doUIAction(CHOICE_CHOICE)
+                doUIAction(ChoiceUI.CHOICE_CHOICE)
             }
         })
 

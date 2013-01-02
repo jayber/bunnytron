@@ -11,12 +11,13 @@ import com.vaadin.ui.themes.Reindeer
  */
 class ChoiceUI {
 
+    public static final String CHOICE_CHOICE = "choice"
     public static final String SITE_CHOICE = "site"
     public static final String PERSON_CHOICE = "persons"
     ContainerUI container
 
     public createChoiceBody() {
-        GridLayout hlayout = new GridLayout(2, 3)
+        GridLayout hlayout = new GridLayout(2, 2)
         hlayout.setMargin(true)
         hlayout.setSpacing(true)
         hlayout.setSizeFull()
@@ -29,7 +30,7 @@ class ChoiceUI {
         hlayout.addComponent(button2)
         hlayout.setComponentAlignment(button2, Alignment.MIDDLE_CENTER)
 
-        VerticalLayout button3 = createChoiceButton(PERSON_CHOICE, "/images/person2.jpg", "Persons actions")
+        VerticalLayout button3 = createChoiceButton(PERSON_CHOICE, "/images/person2.jpg", "Other actions")
         hlayout.addComponent(button3)
         hlayout.setComponentAlignment(button3, Alignment.MIDDLE_CENTER)
 

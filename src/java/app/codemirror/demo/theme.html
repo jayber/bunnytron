@@ -72,7 +72,7 @@
     var input = document.getElementById("select");
     function selectTheme() {
         var theme = input.options[input.selectedIndex].innerHTML;
-        editor.setOption("theme", theme);
+        editor.setOption("app.codemirror.demo.theme", theme);
     }
     var choice = document.location.search && document.location.search.slice(1);
     if (choice) {

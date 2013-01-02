@@ -5,6 +5,7 @@ class UrlMappings {
             controller = "redirect"
             url = "/ui"
         }
+        "/index"(view: "index")
         "/$controller/$action?/"()
     }
 }

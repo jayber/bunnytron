@@ -1,3 +1,16 @@
+.slotContainer {
+    width: 100%;
+    position: absolute;
+}
+
+.slot {
+    float: left;
+    border: 1px dotted #000000;
+    width: 32%;
+    margin: 2px;
+    height: 100%;
+}
+
 .homeLink .v-label {
     cursor: pointer;
 }
@@ -31,4 +44,5 @@
     border: 1px solid black;
     font-size: 13px;
     background-color: #ffffff;
+    height: 20em;
 }

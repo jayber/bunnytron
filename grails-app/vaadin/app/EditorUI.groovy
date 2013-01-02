@@ -5,9 +5,11 @@ import com.vaadin.data.util.BeanItem
 import com.vaadin.data.util.BeanItemContainer
 import com.vaadin.event.ItemClickEvent
 import com.vaadin.grails.Grails
+import com.vaadin.shared.ui.MarginInfo
 import com.vaadin.shared.ui.datefield.Resolution
 import com.vaadin.shared.ui.label.ContentMode
 import com.vaadin.ui.*
+import com.vaadin.ui.themes.Reindeer
 import editor.Article
 import editor.EditorService
 import editor.Person
@@ -31,13 +33,22 @@ class EditorUI {
 
     private top
 
+    private Label titleLabel
+
     public Component createEditorBody() {
 
         VerticalLayout vlayout = new VerticalLayout()
         vlayout.setSizeFull()
+        titleLabel = new Label()
+        titleLabel.setStyleName(Reindeer.LABEL_H2)
+        VerticalLayout layout = new VerticalLayout(titleLabel)
+        layout.setMargin(true)
+        vlayout.addComponent(layout)
+
         TabSheet tabSheet = new TabSheet()
         tabSheet.setSizeFull()
         vlayout.addComponent(tabSheet)
+        vlayout.setExpandRatio(tabSheet, 100)
 
         Component componentTab = createContentTab()
         tabSheet.addTab(componentTab, "Content")
@@ -50,6 +61,11 @@ class EditorUI {
                 }
             }
         })
+
+        HorizontalLayout buttonLayout = createButtonLayout()
+        vlayout.addComponent(buttonLayout)
+        vlayout.setComponentAlignment(buttonLayout, Alignment.BOTTOM_CENTER)
+
         return vlayout;
     }
 
@@ -172,10 +188,14 @@ class EditorUI {
 
         bodyLayout.addComponent(createForm());
 
+        return bodyLayout
+    }
+
+    private HorizontalLayout createButtonLayout() {
         HorizontalLayout buttonLayout = new HorizontalLayout()
         buttonLayout.setSizeFull()
-        bodyLayout.addComponent(buttonLayout)
-        bodyLayout.setComponentAlignment(buttonLayout, Alignment.BOTTOM_CENTER)
+        buttonLayout.setMargin(new MarginInfo(false, false, false, true))
+        buttonLayout.setSpacing(true)
 
         Button cancel = new Button("Cancel");
         cancel.addClickListener(new Button.ClickListener() {
@@ -196,9 +216,9 @@ class EditorUI {
             }
         });
         buttonLayout.addComponent(button);
-        buttonLayout.setComponentAlignment(button, Alignment.BOTTOM_RIGHT)
-
-        return bodyLayout
+        buttonLayout.setComponentAlignment(button, Alignment.BOTTOM_LEFT)
+        buttonLayout.setExpandRatio(button, 100)
+        return buttonLayout
     }
 
     void goBack() {
@@ -214,7 +234,9 @@ class EditorUI {
         fields.bind(createdDate, "createdDate")
         form.addComponent(createdDate)
 
-        form.addComponent(fields.buildAndBind("title"))
+        TextField bind = fields.buildAndBind("title")
+        titleLabel.setPropertyDataSource(bind)
+        form.addComponent(bind)
 
         ComboBox author = new ComboBox("Author", new BeanItemContainer<Person>(Person.list()))
         author.setNullSelectionAllowed(false)

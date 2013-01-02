@@ -68,7 +68,7 @@
     });
 
     function updatePreview() {
-        var previewFrame = document.getElementById('preview');
+        var previewFrame = document.getElementById('app.codemirror.demo.preview');
         var preview = previewFrame.contentDocument || previewFrame.contentWindow.document;
         preview.open();
         preview.write(editor.getValue());
