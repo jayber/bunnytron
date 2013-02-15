@@ -20,8 +20,8 @@
 }
 
 .imageButton:hover {
-    border: 2px solid #8888aa;
-    box-shadow: 1px 3px 3px 1px #8888aa;
+    border: 2px solid #8888c0;
+    box-shadow: 1px 3px 3px 1px #8888c0;
     cursor: pointer;
 }
 

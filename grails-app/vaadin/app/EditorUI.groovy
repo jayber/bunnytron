@@ -5,6 +5,7 @@ import com.vaadin.data.util.BeanItem
 import com.vaadin.data.util.BeanItemContainer
 import com.vaadin.event.ItemClickEvent
 import com.vaadin.grails.Grails
+import com.vaadin.server.Sizeable
 import com.vaadin.shared.ui.MarginInfo
 import com.vaadin.shared.ui.datefield.Resolution
 import com.vaadin.shared.ui.label.ContentMode
@@ -193,7 +194,6 @@ class EditorUI {
 
     private HorizontalLayout createButtonLayout() {
         HorizontalLayout buttonLayout = new HorizontalLayout()
-        buttonLayout.setSizeFull()
         buttonLayout.setMargin(new MarginInfo(false, false, false, true))
         buttonLayout.setSpacing(true)
 
@@ -228,7 +228,7 @@ class EditorUI {
     Component createForm() {
         fields = new FieldGroup(new BeanItem(article))
         VerticalLayout form = new VerticalLayout();
-        form.setSizeUndefined()
+        form.setWidth(100, Sizeable.Unit.PERCENTAGE)
         DateField createdDate = new DateField("Created Date")
         createdDate.setResolution(Resolution.MINUTE)
         fields.bind(createdDate, "createdDate")
@@ -246,9 +246,9 @@ class EditorUI {
 
         TextArea body = new TextArea("Content")
         body.setValue(article.body)
-        body.setWidth("100%")
         body.setId("editorArea")
         body.setImmediate(true)
+        body.setWidth(100, Sizeable.Unit.PERCENTAGE)
         form.addComponent(body)
 
         setUpCodeMirror();
