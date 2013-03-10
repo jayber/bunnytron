@@ -74,12 +74,12 @@ class ContainerUI extends UI {
         VerticalLayout topLayout = new VerticalLayout()
         topLayout.setStyleName(Reindeer.LAYOUT_BLACK);
         topLayout.setMargin(new MarginInfo(false, false, true, true))
-        topLayout.setSizeUndefined()
+        topLayout.setWidth("100%")
+
 
         HorizontalLayout titleLayout = new HorizontalLayout();
         titleLayout.addStyleName("homeLink")
         titleLayout.setDescription("Home")
-        titleLayout.setSizeUndefined()
         titleLayout.addLayoutClickListener(new LayoutEvents.LayoutClickListener() {
             @Override
             void layoutClick(LayoutEvents.LayoutClickEvent event) {
@@ -128,7 +128,7 @@ class ContainerUI extends UI {
         HorizontalLayout layout = new HorizontalLayout(label);
         layout.setMargin(new MarginInfo(true, false, false, true));
         layout.setStyleName(Reindeer.LAYOUT_BLACK);
-        layout.setSizeUndefined()
+        layout.setWidth("100%")
         layout.setComponentAlignment(label, Alignment.TOP_LEFT)
         return layout;
     }
