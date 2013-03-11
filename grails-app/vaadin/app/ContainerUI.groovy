@@ -74,7 +74,8 @@ class ContainerUI extends UI {
         VerticalLayout topLayout = new VerticalLayout()
         topLayout.setStyleName(Reindeer.LAYOUT_BLACK);
         topLayout.setMargin(new MarginInfo(false, false, true, true))
-        topLayout.setWidth(100, Unit.PERCENTAGE)
+        topLayout.setWidth("100%")
+
 
         HorizontalLayout titleLayout = new HorizontalLayout();
         titleLayout.addStyleName("homeLink")
@@ -87,7 +88,6 @@ class ContainerUI extends UI {
         })
 
         topLayout.addComponent(titleLayout)
-        topLayout.setExpandRatio(titleLayout, 1)
 
         Label label = new Label("bunnytron", ContentMode.HTML);
         label.addStyleName(Reindeer.LABEL_H1);
@@ -128,9 +128,8 @@ class ContainerUI extends UI {
         HorizontalLayout layout = new HorizontalLayout(label);
         layout.setMargin(new MarginInfo(true, false, false, true));
         layout.setStyleName(Reindeer.LAYOUT_BLACK);
-        layout.setSizeUndefined()
+        layout.setWidth("100%")
         layout.setComponentAlignment(label, Alignment.TOP_LEFT)
-        layout.setWidth(100, Unit.PERCENTAGE)
         return layout;
     }
 }

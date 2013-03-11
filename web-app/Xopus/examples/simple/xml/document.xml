@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<article xml:lang="en-US">
+    <title>Example document</title>
+    <section>
+        <title>About Xopus</title>
+        <paragraph>
+            <link href="http://www.xopus.com">Xopus</link>
+            is a<strong>browser based in-place wysiwyg XML editor</strong>. Xopus allows users to edit XML data in an
+            intuitive word processor like way while keeping the document valid.
+        </paragraph>
+        <orderedlist>
+            <item>
+                <paragraph>Item 1</paragraph>
+            </item>
+            <item>
+                <paragraph>Item 2</paragraph>
+            </item>
+        </orderedlist>
+        <paragraph>For an example of the combination of schema validation and an intuitive user interface select the two
+            items in the list above and click the ordered list button.
+        </paragraph>
+    </section>
+    <section>
+        <title>Controlled style</title>
+        <table width="50" border="cell" alternaterowcolor="true" color="grey" cellpadding="1">
+            <tbody>
+                <tr>
+                    <th>
+                        <paragraph>Column 1</paragraph>
+                    </th>
+                    <th>
+                        <paragraph>Column 2</paragraph>
+                    </th>
+                    <th>
+                        <paragraph>Column 3</paragraph>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <paragraph>Row 1, Column 1</paragraph>
+                    </td>
+                    <td>
+                        <paragraph>Row 1, Column 2</paragraph>
+                    </td>
+                    <td>
+                        <paragraph>Row 1, Column 3</paragraph>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <paragraph>Row 2, Column 1</paragraph>
+                    </td>
+                    <td>
+                        <paragraph>Row 2, Column 2</paragraph>
+                    </td>
+                    <td>
+                        <paragraph>Row 2, Column 3</paragraph>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <paragraph>Row 3, Column 1</paragraph>
+                    </td>
+                    <td>
+                        <paragraph>Row 3, Column 2</paragraph>
+                    </td>
+                    <td>
+                        <paragraph>Row 3, Column 3</paragraph>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <paragraph>Row 4, Column 1</paragraph>
+                    </td>
+                    <td>
+                        <paragraph>Row 4, Column 2</paragraph>
+                    </td>
+                    <td>
+                        <paragraph>Row 4, Column 3</paragraph>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <paragraph>This example combines regular wysiwyg editing of a document with very controlled editing of semantic
+            rich content. The main content can be edited like you would in a normal word processor. Though the
+            difference is that the content remains schema valid XML because Xopus will not allow you to perform actions
+            on the document that would render it invalid.
+        </paragraph>
+        <paragraph>The table is an example of controlled style. The style of the table is controlled by three
+            attributes:
+        </paragraph>
+        <unorderedlist>
+            <item>
+                <paragraph><emphasis>alternaterowcolor</emphasis>, do all rows have the same color, or should the
+                    background color alternate?
+                </paragraph>
+            </item>
+            <item>
+                <paragraph><emphasis>border</emphasis>, a limited choice of border styles.
+                </paragraph>
+            </item>
+            <item>
+                <paragraph><emphasis>color</emphasis>, a limited choice of colors.
+                </paragraph>
+            </item>
+        </unorderedlist>
+        <paragraph>You have quite some freedom to style the table, but you can't break the predefined style.</paragraph>
+    </section>
+    <footer>Xopus, online editing</footer>
+</article>
