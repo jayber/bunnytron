@@ -15,8 +15,6 @@ import editor.Article
 import editor.EditorService
 import editor.Person
 import editor.TElement
-import org.json.JSONArray
-import org.json.JSONException
 
 /**
  * User: James
@@ -27,7 +25,7 @@ class EditorUI {
     public static final String THIS_CHOICE = "editor"
     Article article = new Article()
     FieldGroup fields
-    Label html
+    Label html = new Label()
     ContainerUI parent
 
     private VerticalLayout keywordLayout
@@ -35,6 +33,8 @@ class EditorUI {
     private top
 
     private Label titleLabel
+
+    private EditorArea editorArea
 
     public Component createEditorBody() {
 
@@ -58,7 +58,7 @@ class EditorUI {
         tabSheet.addSelectedTabChangeListener(new TabSheet.SelectedTabChangeListener() {
             void selectedTabChange(TabSheet.SelectedTabChangeEvent event) {
                 if (event.getTabSheet().getSelectedTab() == componentTab) {
-                    setUpCodeMirror()
+                    editorArea.setUp()
                 }
             }
         })
@@ -172,7 +172,6 @@ class EditorUI {
         panel.setContent(layout)
         panel.setSizeFull()
 
-        html = new Label()
         html.setContentMode(ContentMode.HTML)
         html.setValue(article.body)
         layout.addComponent(html)
@@ -244,43 +243,19 @@ class EditorUI {
         fields.bind(author, "author")
         form.addComponent(author)
 
-        TextArea body = new TextArea("Content")
-        body.setValue(article.body)
-        body.setId("editorArea")
-        body.setImmediate(true)
-        body.setWidth(100, Sizeable.Unit.PERCENTAGE)
-        form.addComponent(body)
+        editorArea = createEditorArea2()
 
-        setUpCodeMirror();
+        form.addComponent(editorArea)
         return form
     }
 
-    private void setUpCodeMirror() {
-        JavaScript.getCurrent().execute(
-                """
-                editorArea = document.getElementById("editorArea");
-                editor = CodeMirror.fromTextArea(editorArea, {
-                    mode: 'text/xml',
-                    lineNumbers: true,
-
-                    extraKeys: {
-                        "'>'": function(cm) { cm.closeTag(cm, '>'); },
-                        "'/'": function(cm) { cm.closeTag(cm, '/'); }
-                    },
-                    wordWrap: true,
-                    onChange : function(editor) {
-                        updateBody(editor.getValue());
-                    }
-                });
-            """
-        )
-
-        JavaScript.getCurrent().addFunction("updateBody", new JavaScriptFunction() {
-            public void call(JSONArray arguments) throws JSONException {
-                article.setBody(arguments.getString(0))
-                html.setValue(article.getBody())
-            }
-        });
+    private EditorArea createEditorArea() {
+        editorArea = new CodeMirrorArea(article, html)
+        return editorArea
     }
 
+    private EditorArea createEditorArea2() {
+        editorArea = new XopusArea(article, html)
+        return editorArea
+    }
 }

@@ -9,53 +9,56 @@
  *
  **/
 
-function mySaveFunction(uri, xmlDocument)
-{
-  var hdrs = {};
+function mySaveFunction(uri, xmlDocument) {
+    var hdrs = {};
 
-  hdrs['Content-Type'] = "application/xml";
-  hdrs['x-amz-acl'] = "public-read-write";
+    hdrs['Content-Type'] = "application/xml";
+    hdrs['x-amz-acl'] = "public-read-write";
 
-  var req = getXMLHttpRequest();
-  req.open('put', uri, true);
-  for (var k in hdrs)   
-    req.setRequestHeader(k, hdrs[k]);
+    var req = getXMLHttpRequest();
+    req.open('put', uri, true);
+    for (var k in hdrs)
+        req.setRequestHeader(k, hdrs[k]);
 
-  req.send(xmlDocument.xml);
+    req.send(xmlDocument.xml);
 
-  alert("Document saved!");    
+    alert("Document saved!");
 }
 
 // Register the save function.
 IO.setSaveXMLFunction(mySaveFunction);
 
-if (!window['getXMLHttpRequest']) 
-{
-  function getXMLHttpRequest() 
-  {
-    var self = arguments.callee;
-    if (!self.XMLHttpRequest) 
-    {
-      var tryThese = [
-        function () { return new XMLHttpRequest(); },
-        function () { return new ActiveXObject('Msxml2.XMLHTTP'); },
-        function () { return new ActiveXObject('Microsoft.XMLHTTP'); },
-        function () { return new ActiveXObject('Msxml2.XMLHTTP.4.0'); },
-        function () { return null; }
-      ];
-      for (var i = 0; i < tryThese.length; i++) 
-      {
-        var func = tryThese[i];
-        try 
-        {
-            self.XMLHttpRequest = func;
-            return func();
-        } catch (e) 
-        {
-            
+if (!window['getXMLHttpRequest']) {
+    function getXMLHttpRequest() {
+        var self = arguments.callee;
+        if (!self.XMLHttpRequest) {
+            var tryThese = [
+                function () {
+                    return new XMLHttpRequest();
+                },
+                function () {
+                    return new ActiveXObject('Msxml2.XMLHTTP');
+                },
+                function () {
+                    return new ActiveXObject('Microsoft.XMLHTTP');
+                },
+                function () {
+                    return new ActiveXObject('Msxml2.XMLHTTP.4.0');
+                },
+                function () {
+                    return null;
+                }
+            ];
+            for (var i = 0; i < tryThese.length; i++) {
+                var func = tryThese[i];
+                try {
+                    self.XMLHttpRequest = func;
+                    return func();
+                } catch (e) {
+
+                }
+            }
         }
-      }
+        return self.XMLHttpRequest();
     }
-    return self.XMLHttpRequest();
-  }
 }

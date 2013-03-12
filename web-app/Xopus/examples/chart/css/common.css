@@ -1,79 +1,68 @@
 html, body {
-  background: white; color: black;
-}
-body 
-{
-  /* Nimbus Sans L for Linux */
-  font-family: "Corbel", "Nimbus Sans L", "Arial", sans-serif;
-  font-size: 90%;
+    background: white;
+    color: black;
 }
 
-h1, h2, h3, h4, h5, h6
-{
-  color: #007DAD;
-  font-weight: bold;
-  margin-top: 0;
-  font-family: "Nimbus Sans L","TW Cen MT", "Gill Sans MT", "Century Gothic", "Trebuchet MS", Arial, Sans-Serif;
+body {
+    /* Nimbus Sans L for Linux */
+    font-family: "Corbel", "Nimbus Sans L", "Arial", sans-serif;
+    font-size: 90%;
 }
 
-h1
-{
-  font-size: 200%;
+h1, h2, h3, h4, h5, h6 {
+    color: #007DAD;
+    font-weight: bold;
+    margin-top: 0;
+    font-family: "Nimbus Sans L", "TW Cen MT", "Gill Sans MT", "Century Gothic", "Trebuchet MS", Arial, Sans-Serif;
 }
 
-h2
-{
-  font-size: 150%;
+h1 {
+    font-size: 200%;
 }
 
-h3
-{
-  font-size: 120%;
+h2 {
+    font-size: 150%;
 }
 
-table p
-{
-  margin:0;
-  
+h3 {
+    font-size: 120%;
 }
 
-.example
-{
-  border: solid 1px #D1D2D4;
-  background-color: #F4F3EE;
-  padding: 0.5em;
+table p {
+    margin: 0;
+
 }
 
-.section
-{
-  padding-left: 3px;
+.example {
+    border: solid 1px #D1D2D4;
+    background-color: #F4F3EE;
+    padding: 0.5em;
 }
 
-.toc-group
-{
-  border-left: solid 1px #007DAD;
-  padding-left: 0.5em;
+.section {
+    padding-left: 3px;
 }
 
-.toc-item
-{
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+.toc-group {
+    border-left: solid 1px #007DAD;
+    padding-left: 0.5em;
 }
 
-.footer
-{
-  border-top:  solid 1px #007DAD;
-  font-size: 70%;
+.toc-item {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
-.emphasis
-{
-  font-style: italic;
+.footer {
+    border-top: solid 1px #007DAD;
+    font-size: 70%;
 }
 
-a
-{
-  color: #007DAD;
-  cursor: text;
+.emphasis {
+    font-style: italic;
+}
+
+a {
+    color: #007DAD;
+    cursor: text;
 }

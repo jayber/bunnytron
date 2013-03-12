@@ -1,38 +1,31 @@
-@media print
-{
-  body,
-  body *
-  {
-    overflow:hidden;
-  }
+@media print {
+    body,
+    body * {
+        overflow: hidden;
+    }
 
-  html,
-  body
-  {
-    border:solid 0 white!important;
-  }
+    html,
+    body {
+        border: solid 0 white !important;
+    }
 
-  #logo,
-  #acknowledgement,
-  .extras
+    #logo,
+    #acknowledgement,
+    .extras {
 
-  {
+        display: none !important;
+    }
 
-    display:none!important;
-  }
+    #recipe {
 
-  #recipe
-  {
+        width: 100% !important;
+    }
 
-    width:100%!important;
-  }
-
-  #recipe-canvas
-  {
-    border:solid 0 white!important;
-    padding:54px 0 0 0!important;
-    height:100%;
-  }
+    #recipe-canvas {
+        border: solid 0 white !important;
+        padding: 54px 0 0 0 !important;
+        height: 100%;
+    }
 }
 
 

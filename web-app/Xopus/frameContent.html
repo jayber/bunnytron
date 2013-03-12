@@ -1,0 +1,16 @@
+<script src="/xopus/xopus/xopus.js"></script>
+<div xopus="true">
+    Starting Xopus...
+    <xml>
+        <config version="1.0" xmlns="http://www.xopus.com/xmlns/config">
+
+            <import src="config.xml"/>
+
+            <pipeline xml="/document.xml" xsd="pathToMySchemas/schema.xsd">
+                <view name="WYSIWYG View">
+                    <transform xsl="pathToMyStylesheets/presentation.xsl"/>
+                </view>
+            </pipeline>
+        </config>
+    </xml>
+</div>

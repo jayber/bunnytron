@@ -9,31 +9,28 @@
 // This function will be used to load the document. 
 // 
 // Locks the document if the server supports locking.
-function loadAndLock(uri)
-{    
-  var lockObj = WebDAVTools.getXML(uri);
-  if (lockObj.locked == false)
-    alert(lockObj.message);
-  
-  return(lockObj.responseXML);
+function loadAndLock(uri) {
+    var lockObj = WebDAVTools.getXML(uri);
+    if (lockObj.locked == false)
+        alert(lockObj.message);
+
+    return(lockObj.responseXML);
 }
 
 // This function is called when the save button is pressed.
 // 
 // Keeps the lock.
-function saveAndKeepLock(uri, xmlDocument)
-{  
-  var lockObj = WebDAVTools.putXML(uri, xmlDocument, "UTF-8", true);
-  if (lockObj.locked == false)
-    alert(lockObj.message);
+function saveAndKeepLock(uri, xmlDocument) {
+    var lockObj = WebDAVTools.putXML(uri, xmlDocument, "UTF-8", true);
+    if (lockObj.locked == false)
+        alert(lockObj.message);
 }
 
 // This function will be called when the document/editor is closed.
 //
 // Releases the lock if the document was locked.
-function releaseLock(evt)
-{
-  WebDAVTools.releaseLock(evt.document.getDocumentURI());
+function releaseLock(evt) {
+    WebDAVTools.releaseLock(evt.document.getDocumentURI());
 }
 
 
