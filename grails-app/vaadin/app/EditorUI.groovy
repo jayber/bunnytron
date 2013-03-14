@@ -5,10 +5,9 @@ import com.vaadin.data.util.BeanItem
 import com.vaadin.data.util.BeanItemContainer
 import com.vaadin.event.ItemClickEvent
 import com.vaadin.grails.Grails
-import com.vaadin.server.Sizeable
+import com.vaadin.server.*
 import com.vaadin.shared.ui.MarginInfo
 import com.vaadin.shared.ui.datefield.Resolution
-import com.vaadin.shared.ui.label.ContentMode
 import com.vaadin.ui.*
 import com.vaadin.ui.themes.Reindeer
 import editor.Article
@@ -25,7 +24,6 @@ class EditorUI {
     public static final String THIS_CHOICE = "editor"
     Article article = new Article()
     FieldGroup fields
-    Label html = new Label()
     ContainerUI parent
 
     private VerticalLayout keywordLayout
@@ -35,6 +33,10 @@ class EditorUI {
     private Label titleLabel
 
     private EditorArea editorArea
+
+    private Label statusLabel
+
+    private HorizontalLayout buttonLayout
 
     public Component createEditorBody() {
 
@@ -65,7 +67,7 @@ class EditorUI {
 
         HorizontalLayout buttonLayout = createButtonLayout()
         vlayout.addComponent(buttonLayout)
-        vlayout.setComponentAlignment(buttonLayout, Alignment.BOTTOM_CENTER)
+        vlayout.setComponentAlignment(buttonLayout, Alignment.BOTTOM_LEFT)
 
         return vlayout;
     }
@@ -77,10 +79,6 @@ class EditorUI {
         VerticalLayout leftBodyLayout = createLeftBody()
         leftBodyLayout.setSizeFull()
         topLayout.addComponent(leftBodyLayout);
-
-        VerticalLayout layout = createRightBody()
-        layout.setSizeFull()
-        topLayout.addComponent(layout)
 
         return topLayout
     }
@@ -160,26 +158,6 @@ class EditorUI {
         keywordLayout.addComponent(new Label(element.name))
     }
 
-    private VerticalLayout createRightBody() {
-        VerticalLayout bodyLayout = new VerticalLayout()
-        bodyLayout.setMargin(true)
-        bodyLayout.setSizeFull()
-
-        Panel panel = new Panel("Preview")
-        VerticalLayout layout = new VerticalLayout()
-        layout.setSizeUndefined()
-        layout.setMargin(true)
-        panel.setContent(layout)
-        panel.setSizeFull()
-
-        html.setContentMode(ContentMode.HTML)
-        html.setValue(article.body)
-        layout.addComponent(html)
-
-        bodyLayout.addComponent(panel)
-        return bodyLayout
-    }
-
     private VerticalLayout createLeftBody() {
         VerticalLayout bodyLayout = new VerticalLayout();
         bodyLayout.setSpacing(true)
@@ -192,31 +170,25 @@ class EditorUI {
     }
 
     private HorizontalLayout createButtonLayout() {
-        HorizontalLayout buttonLayout = new HorizontalLayout()
+        buttonLayout = new HorizontalLayout()
         buttonLayout.setMargin(new MarginInfo(false, false, false, true))
         buttonLayout.setSpacing(true)
 
-        Button cancel = new Button("Cancel");
-        cancel.addClickListener(new Button.ClickListener() {
-            public void buttonClick(Button.ClickEvent event) {
-                goBack()
-            }
-        });
-        buttonLayout.addComponent(cancel);
-        buttonLayout.setComponentAlignment(cancel, Alignment.BOTTOM_LEFT)
-
-        Button button = new Button("Save");
+        Button button = new Button("Save & close");
         button.addClickListener(new Button.ClickListener() {
             public void buttonClick(Button.ClickEvent event) {
-                fields.commit()
-                EditorService editorService = Grails.get(EditorService)
-                editorService.saveNewArticle(article)
+                saveArticle()
                 goBack()
             }
         });
         buttonLayout.addComponent(button);
         buttonLayout.setComponentAlignment(button, Alignment.BOTTOM_LEFT)
-        buttonLayout.setExpandRatio(button, 100)
+
+        statusLabel = new Label("Opened...")
+        buttonLayout.addComponent(statusLabel)
+        buttonLayout.setExpandRatio(statusLabel, 100)
+        buttonLayout.setComponentAlignment(statusLabel, Alignment.MIDDLE_LEFT)
+
         return buttonLayout
     }
 
@@ -246,16 +218,51 @@ class EditorUI {
         editorArea = createEditorArea2()
 
         form.addComponent(editorArea)
+
+        handleDocSave()
         return form
     }
 
+    private void handleDocSave() {
+        VaadinSession.getCurrent().addRequestHandler(
+                new RequestHandler() {
+                    @Override
+                    public boolean handleRequest(VaadinSession session,
+                                                 VaadinRequest request,
+                                                 VaadinResponse response)
+                    throws IOException {
+                        synchronized (VaadinSession.getCurrent()) {
+                            if ("/saveBody".equals(request.getPathInfo())) {
+                                article.body = request.getInputStream().getText("UTF-8")
+                                saveArticle()
+                                Label label = new Label()
+                                label.value = "Saved " + (new Date()).format("HH:mm:ss")
+                                buttonLayout.replaceComponent(statusLabel, label)
+                                statusLabel = label
+                                buttonLayout.setComponentAlignment(statusLabel, Alignment.MIDDLE_LEFT)
+                                return true;
+                            } else {
+                                return false; // No response was written
+                            }
+                        }
+                    }
+                });
+    }
+
     private EditorArea createEditorArea() {
-        editorArea = new CodeMirrorArea(article, html)
+        editorArea = new CodeMirrorArea(article)
         return editorArea
     }
 
     private EditorArea createEditorArea2() {
-        editorArea = new XopusArea(article, html)
+        editorArea = new XopusArea(article)
         return editorArea
+    }
+
+
+    private void saveArticle() {
+        fields.commit()
+        EditorService editorService = Grails.get(EditorService)
+        editorService.saveNewArticle(article)
     }
 }

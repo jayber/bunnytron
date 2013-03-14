@@ -53,12 +53,10 @@ class ArticleListUI {
         table.selectable = true
         table.addItemClickListener(new ItemClickEvent.ItemClickListener() {
             void itemClick(ItemClickEvent event) {
-                if (event.isDoubleClick()) {
-                    BeanItem item = event.getItem()
-                    Component body = new EditorUI(parent: parent,
-                            article: item.getBean()).createEditorBody()
-                    parent.switchIt(body)
-                }
+                BeanItem item = event.getItem()
+                Component body = new EditorUI(parent: parent,
+                        article: item.getBean()).createEditorBody()
+                parent.switchIt(body)
             }
         })
 

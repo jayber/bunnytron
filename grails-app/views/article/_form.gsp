@@ -15,7 +15,8 @@
         <g:message code="article.author.label" default="Author"/>
         <span class="required-indicator">*</span>
     </label>
-    <g:select id="author" name="author.id" from="${editor.Person.list()}" optionKey="id" required="" value="${articleInstance?.author?.id}" class="many-to-one"/>
+    <g:select id="author" name="author.id" from="${editor.Person.list()}" optionKey="id" required=""
+              value="${articleInstance?.author?.id}" class="many-to-one"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: articleInstance, field: 'body', 'error')} ">
@@ -23,7 +24,7 @@
         <g:message code="article.body.label" default="Body"/>
 
     </label>
-    <g:textArea id="body" name="body" cols="40" rows="5" maxlength="1000" value="${articleInstance?.body}"/>
+    <g:textArea id="body" name="body" cols="40" rows="5" value="${articleInstance?.body}"/>
     <script type="text/javascript">
         var myCodeMirror = CodeMirror.fromTextArea(document.getElementById('body'), {mode: 'xml',
             theme: "neat",
@@ -49,7 +50,8 @@
 <div id="editor">
 
 </div>
-<script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" type="text/javascript"
+        charset="utf-8"></script>
 <script>
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");

@@ -1,32 +1,54 @@
 package app
 
 import com.vaadin.server.Sizeable
-import com.vaadin.ui.JavaScript
-import com.vaadin.ui.JavaScriptFunction
-import com.vaadin.ui.Label
-import com.vaadin.ui.TextArea
+import com.vaadin.shared.ui.label.ContentMode
+import com.vaadin.ui.*
 import editor.Article
 import org.json.JSONArray
 import org.json.JSONException
 
-class CodeMirrorArea extends TextArea implements EditorArea {
+class CodeMirrorArea extends HorizontalLayout implements EditorArea {
     Article article
-    Label html
+    Label html = new Label()
 
-    CodeMirrorArea(Article article, Label html) {
+    CodeMirrorArea(Article article) {
         super()
-        this.html = html
         this.article = article
+        this.setWidth(100, Sizeable.Unit.PERCENTAGE)
         setUpTextArea()
     }
 
     private void setUpTextArea() {
-        this.setValue(article.body)
-        this.setId("editorArea")
-        this.setImmediate(true)
-        this.setWidth(100, Sizeable.Unit.PERCENTAGE)
+        def area = new TextArea()
+        area.setValue(article.body)
+        area.setId("editorArea")
+        area.setImmediate(true)
+        area.wordwrap = Boolean.TRUE;
+        area.setWidth(100, Sizeable.Unit.PERCENTAGE)
+        this.addComponent(area)
+        this.addComponent(createRightBody())
 
         setUpCodeMirror(article, html);
+    }
+
+    private VerticalLayout createRightBody() {
+        VerticalLayout bodyLayout = new VerticalLayout()
+        bodyLayout.setMargin(true)
+        bodyLayout.setSizeFull()
+
+        Panel panel = new Panel("Preview")
+        VerticalLayout layout = new VerticalLayout()
+        layout.setSizeUndefined()
+        layout.setMargin(true)
+        panel.setContent(layout)
+        panel.setSizeFull()
+
+        html.setContentMode(ContentMode.HTML)
+        html.setValue(article.body)
+        layout.addComponent(html)
+
+        bodyLayout.addComponent(panel)
+        return bodyLayout
     }
 
     @Override
