@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2004, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent jurisdiction="US"
+        >
+    <metadata></metadata>
+    <coversheet showdated="yes">
+        <title>[AGREEMENT TITLE]</title>
+        <coverparties>
+            <title>[PARTY NAME]</title>
+            <title>[PARTY NAME]</title>
+        </coverparties>
+    </coversheet>
+    <toc></toc>
+    <parties>
+        <title>[AGREEMENT]</title>
+        <party>
+            <para>This [NAME OF AGREEMENT] (this<defterm>Agreement</defterm>), dated as of [DATE], is entered into
+                [between/among] [PARTY NAME] a [STATE OF ORGANIZATION/TYPE OF ENTITY](<defterm>Defined name</defterm>)
+                and [PARTY NAME] a [STATE OF ORGANIZATION/TYPE OF ENTITY] (<defterm>Defined name</defterm>).
+            </para>
+        </party>
+    </parties>
+    <recitals>
+        <title>Recitals</title>
+        <clause>
+            <para>
+                <emphasis role="bold">WHEREAS,</emphasis>
+                [TEXT OF RECITAL]; and
+            </para>
+        </clause>
+        <clause>
+            <para>
+                <emphasis role="bold">WHEREAS,</emphasis>
+                [TEXT OF RECITAL]
+            </para>
+        </clause>
+        <clause>
+            <para>
+                <emphasis role="bold">NOW, THEREFORE,</emphasis>
+                in consideration of the mutual covenants and agreements hereinafter set forth and for other good and
+                valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereto
+                agree as follows:
+            </para>
+        </clause>
+    </recitals>
+    <operative properties="uslfa">
+        <clause>
+            <title>Definitions</title>
+            <defitem>
+                <defterm>Defined term</defterm>
+                <def>
+                    <para>[TEXT OF DEFINITION].</para>
+                </def>
+            </defitem>
+            <defitem>
+                <defterm>Defined term</defterm>
+                <def>
+                    <para>[TEXT OF DEFINITION].</para>
+                </def>
+            </defitem>
+        </clause>
+        <clause>
+            <title>[TITLE]</title>
+            <subclause1>
+                <title>[TITLE]</title>
+                <subclause2>
+                    <para>Insert text here</para>
+                    <subclause3>
+                        <para>text here;</para>
+                    </subclause3>
+                    <subclause3>
+                        <para>text here</para>
+                    </subclause3>
+                </subclause2>
+            </subclause1>
+            <subclause1>
+                <title>[TITLE]</title>
+                <para>[TEXT]</para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>[TITLE]</title>
+        </clause>
+    </operative>
+    <signature pagebreak="true" signaturemessage="yes">
+        <clause id="a254050">
+            <para>IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed as of the date first
+                written above by their respective officers thereunto duly authorized.
+            </para>
+            <table frame="none" pgwide="1">
+                <tgroup cols="2">
+                    <colspec colname="col1" colwidth="50%"/>
+                    <colspec colname="col2" colwidth="50%"/>
+                    <tbody>
+                        <row>
+                            <entry></entry>
+                            <entry>
+                                <para>Company Name</para>
+                                <para></para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry></entry>
+                            <entry>
+                                <para>By_____________________</para>
+                                <para></para>
+                                <para>Name:</para>
+                                <para>Title:</para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table frame="none" pgwide="1">
+                <tgroup cols="2">
+                    <colspec colname="col1" colwidth="50%"/>
+                    <colspec colname="col2" colwidth="50%"/>
+                    <tbody>
+                        <row>
+                            <entry></entry>
+                            <entry>
+                                <para>Company Name</para>
+                                <para></para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry></entry>
+                            <entry>
+                                <para>By_____________________</para>
+                                <para></para>
+                                <para>Name:</para>
+                                <para>Title:</para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </clause>
+    </signature>
+    <exhibit>
+        <title>[EXHIBIT TITLE]</title>
+    </exhibit>
+    <disclosureschedule>
+        <coversheet>
+            <para></para>
+        </coversheet>
+        <toc></toc>
+        <schedule></schedule>
+    </disclosureschedule>
+</precedent>

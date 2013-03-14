@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset:
+ArborText, Inc., 1988-2001, v.4002
+<!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">
+-->
+<article>
+    <metadata>
+        <!-- Leave blank - contact details will appear here -->
+    </metadata>
+    <fulltext>
+        <section1>
+            <title>Qualified</title>
+            <para></para>
+        </section1>
+        <section1>
+            <title>Degree</title>
+            <para></para>
+        </section1>
+        <section1>
+            <title>Areas of Practice</title>
+            <para></para>
+        </section1>
+        <section1>
+            <title>Professional Associations</title>
+            <para></para>
+        </section1>
+    </fulltext>
+</article>

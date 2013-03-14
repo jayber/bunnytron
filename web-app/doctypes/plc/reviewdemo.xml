@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset:
+ArborText, Inc., 1988-2001, v.4002
+<!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN"
+ "plc.dtd">
+-->
+<?Pub Inc?>
+<?Pub CX plc(?>
+<review>
+    <metadata>
+        <author>
+            <givenname>Gillian</givenname>
+            <familyname>Ridgway</familyname>
+            <?Pub Caret?>
+        </author>
+        <publisher>
+            <plcxlink>
+                <xlink:locator xlink:href="http://www.practicallaw.com"
+                               xlink:role="organisation" xlink:title="Practical Law Company">PLC
+                </xlink:locator>
+            </plcxlink>
+        </publisher>
+    </metadata>
+    <fulltext>
+        <section1>
+            <para>Based on a human rights index which measured the UK's compliance with
+                its international human rights obligations, this book aims to provide a framework
+                for monitoring and evaluating the impact of the Human Rights Act 1998 (the
+                Act) which came into force on 2nd October, 2000 (PLC, 2000, XI(9), 7). The
+                Act incorporates the European Convention on Human Rights (the Convention)
+                into UK domestic law.
+            </para>
+        </section1>
+    </fulltext>
+</review>
+        <?Pub *0000001026 0?>

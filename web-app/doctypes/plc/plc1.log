@@ -1,0 +1,117 @@
+Log filename: "C:\epic5\custom\doctypes\plc\plc1.log"
+Document type compile date: Thu Aug 19 14:45:57 2004
+Version "Epic Editor 5.0 March 30, 2004"   Build CHE-1090
+Platform: Windows NT 5.0
+
+Host: ws01231   Login: ChrisB
+
+Catalog path: "C:\epic5\custom\doctypes;C:\epic5\doctypes;C:\epic5\doctypes;"
+
+
+Update (.ptd file written) or Validate (.ptd file not written): Update
+XML or SGML Application: SGML
+Force Compile: Yes
+Top level element: plc
+Public ID: (not specified)
+DTD Path: "C:\epic5\custom\doctypes\plc\plc.dtd"
+PTD Path: "C:\epic5\custom\doctypes\plc\plc.ptd"
+ATI Tag Path: "C:\epic5\lib\dtgen\atitag.cf"
+Message File Path: (not specified)
+SGML Declaration Path: (not specified) using "C:\epic5\entities\ati-unc.dcl"
+
+Entity Name: %calstbls
+Public Identifier: "-//SGML Open//DTD Exchange Table Model 19960430//EN"
+System Identifier: entities/soex-tbl.dtd
+Resolved Path: "C:\epic5\custom\doctypes\entities\soex-tbl.dtd"
+Catalog File: "C:\epic5\custom\doctypes\catalog"
+
+Entity Name: %atimath
+Public Identifier: "-//ArborText//ELEMENTS Math Equation Structures//EN"
+System Identifier: entities/ati-math.elm
+Resolved Path: "C:\epic5\custom\doctypes\entities\ati-math.elm"
+Catalog File: "C:\epic5\custom\doctypes\catalog"
+
+Entity Name: %ISOamsa
+Public Identifier: "ISO 8879-1986//ENTITIES Added Math Symbols: Arrow Relations//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-amsa.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOamsb
+Public Identifier: "ISO 8879-1986//ENTITIES Added Math Symbols: Binary Operators//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-amsb.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOamsn
+Public Identifier: "ISO 8879-1986//ENTITIES Added Math Symbols: Negated Relations//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-amsn.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOamso
+Public Identifier: "ISO 8879-1986//ENTITIES Added Math Symbols: Ordinary//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-amso.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOamsr
+Public Identifier: "ISO 8879-1986//ENTITIES Added Math Symbols: Relations//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-amsr.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOcyr1
+Public Identifier: "ISO 8879-1986//ENTITIES Russian Cyrillic//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-cyr1.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOdia
+Public Identifier: "ISO 8879-1986//ENTITIES Diacritical Marks//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-dia.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOlat1
+Public Identifier: "ISO 8879-1986//ENTITIES Added Latin 1//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-lat1.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOlat2
+Public Identifier: "ISO 8879-1986//ENTITIES Added Latin 2//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-lat2.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOnum
+Public Identifier: "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-num.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOpub
+Public Identifier: "ISO 8879-1986//ENTITIES Publishing//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-pub.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ISOtech
+Public Identifier: "ISO 8879-1986//ENTITIES General Technical//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\iso-tech.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %ATIeqn1
+Public Identifier: "-//ArborText//ENTITIES Equation1//EN"
+System Identifier: (none)
+Resolved Path: "C:\epic5\entities\ati-eqn1.gml"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %xlink
+Public Identifier: "-//PLC//ELEMENTS PLC Xlink Structures//EN"
+System Identifier: entities/xlink.ent
+Resolved Path: "C:\epic5\custom\doctypes\entities\xlink.ent"
+Catalog File: "C:\epic5\custom\doctypes\catalog"
+

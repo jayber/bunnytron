@@ -1,0 +1,33 @@
+Log filename: "C:\epic5\custom\doctypes\plc\plc7.log"
+Document type compile date: Thu Aug 19 15:30:41 2004
+Version "Epic Editor 5.0 March 30, 2004"   Build CHE-1090
+Platform: Windows NT 5.0
+
+Host: ws01231   Login: ChrisB
+
+Catalog path: "C:\epic5\custom\doctypes;C:\epic5\doctypes;C:\epic5\doctypes;"
+
+
+Update (.ptd file written) or Validate (.ptd file not written): Update
+XML or SGML Application: SGML
+Force Compile: Yes
+Top level element: plc
+Public ID: (not specified)
+DTD Path: "C:\epic5\custom\doctypes\plc\plc.dtd"
+PTD Path: "C:\epic5\custom\doctypes\plc\plc.ptd"
+ATI Tag Path: "C:\epic5\lib\dtgen\atitag.cf"
+Message File Path: (not specified)
+SGML Declaration Path: (not specified) using "C:\epic5\entities\ati-unc.dcl"
+
+Entity Name: %calstbls
+Public Identifier: "-//SGML Open//DTD Exchange Table Model 19960430//EN"
+System Identifier: entities/soextblx.dtd
+Resolved Path: "C:\epic5\entities\soex-tbl.dtd"
+Catalog File: "C:\epic5\doctypes\catalog"
+
+Entity Name: %atimath
+Public Identifier: "-//ArborText//ELEMENTS XML Math Equation Structures//EN"
+System Identifier: entities/atimathx.dtd
+Resolved Path: "C:\epic5\custom\doctypes\entities\atimathx.dtd"
+Catalog File: "C:\epic5\custom\doctypes\catalog"
+

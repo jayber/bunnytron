@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: ArborText, Inc., 1988-2001, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">--><?Pub CX plc(?>
+<practicenote xmlns:xlink="http://www.w3.org/1999/xlink">
+    <metadata><!--Document template for practice note with qanda links--><?Pub Caret?><!--See article_id 21130 for a full example-->
+        <relation>
+            <plcxlink xlink:role="qandaset" xlink:title="Question parts" xlink:label="countryqaparts">
+                <xlink:locator xlink:href="21060" xlink:role="Article" xlink:title="UK" xlink:label="UK">Link to country
+                    specific qanda article
+                </xlink:locator>
+            </plcxlink>
+        </relation>
+    </metadata>
+    <fulltext>
+        <section1 id="a617554">
+            <title>TITLE</title>
+            <para>Text of practice note</para>
+            <para>
+                <plcxlink>
+                    <xlink:locator xlink:href="1" xlink:role="qandaentry" xlink:title="Question 1">Question 1
+                    </xlink:locator>
+                    <xlink:arc xlink:arcrole="Part Of" xlink:show="embed" xlink:actuate="onLoad" xlink:from="source"
+                               xlink:to="countryqaparts"/>
+                </plcxlink>
+            </para>
+        </section1>
+    </fulltext>
+</practicenote><?Pub *0000001085 0?>

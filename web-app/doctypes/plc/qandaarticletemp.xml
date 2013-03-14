@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2005, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">--><?Pub CX plc(?>
+<article>
+    <metadata><!--Document template for article with qanda--><!--See article_id 21128 for a full example --></metadata>
+    <fulltext>
+        <qandaset>
+            <section1>
+                <title>Section title [optional]</title>
+                <qandaentry>
+                    <question label="W_q1">
+                        <section2>
+                            <para>Text for first question.</para>
+                        </section2>
+                    </question>
+                    <answer>
+                        <section2>
+                            <title>A<?Pub Caret?>nswer title [optional]</title>
+                            <itemizedlist>
+                                <listitem>
+                                    <para>Bulleted lists can be used in answers</para>
+                                </listitem>
+                                <listitem>
+                                    <para>Bulleted lists can be used in answers</para>
+                                </listitem>
+                                <listitem>
+                                    <para>Bulleted lists can be used in answers</para>
+                                </listitem>
+                            </itemizedlist>
+                        </section2>
+                    </answer>
+                </qandaentry>
+                <qandaentry>
+                    <question label="W_q2">
+                        <section2>
+                            <para>Text for second question.</para>
+                            <para>More question text.</para>
+                        </section2>
+                    </question>
+                    <answer>
+                        <section2>
+                            <para>Answer text.</para>
+                            <section3>
+                                <title>Answer sub-title [optional]</title>
+                                <para>More answer text</para>
+                            </section3>
+                        </section2>
+                    </answer>
+                </qandaentry>
+                <qandaentry>
+                    <question label="W_q3">
+                        <section2>
+                            <para>Text for third question.</para>
+                        </section2>
+                    </question>
+                    <answer>
+                        <section2>
+                            <para>Answer text.</para>
+                        </section2>
+                    </answer>
+                </qandaentry>
+            </section1>
+        </qandaset>
+    </fulltext>
+</article><?Pub *0000001449 0?>

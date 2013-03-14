@@ -1,0 +1,968 @@
+<?xml encoding='utf-8' ?>
+
+        <!-- customised for Epic5 -->
+
+        <!-- ### DTD for document type plc ###-->
+        <!--
+        The Public Identifier for this Doctype is:
+                    PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc/plc.dtd"
+        -->
+        <!-- Version 0.5B -->
+        <!-- Created By: ArborText -->
+        <!--
+             Charles Angione
+             Principal Consultant
+             cangione@arbortext.com-->
+
+        <!-- Amendments -->
+        <!-- Practical Law Company -->
+        <!-- 22 Oct 2001
+             emphasis element - added "amend" as a value for the role attribute
+             section1, section2, section3 elements - added optional id attribute
+        -->
+        <!-- 24 Oct 2001
+             section1, section2, section3 elements - para and section2/section3 elements are
+             now optional and repeatable
+        -->
+
+        <!-- 28 Nov 2001
+            amendments to answer, fulltext, qandaentry, qandaset, question, section1 to handle
+            question/answer structure
+
+        -->
+
+        <!-- 18 Dec 2001
+            added relation to metadata - used to handle related items - part of Dublin Core
+
+        -->
+
+        <!-- 15 Jan 2002
+            added emphasis, plcxlink and simpleplcxlink to emphasis - emphasis tags can now
+            be nested and links can have emphasis tags around them
+        -->
+
+        <!-- 11 Feb 2002
+            added spacing attribute to itemizedlist and orderedlist. Default is normal. If compact
+            is selected vertical spacing in the list is minimized.
+        -->
+
+        <!-- 12 Feb 2002
+            Defined metadata.content entity
+
+            metadata.content is used by:
+            author, contributor, jurisdiction, publisher, relatedcompany, relation, subject,
+            sector, rights, type
+
+        -->
+
+        <!-- 10 Apr 2002
+            amended def element to include only %para.level | subclause1 elements
+
+        -->
+
+        <!-- 29 May 2002
+            added xml:space attribute to para - indicates a block of text in which line breaks and
+            whitespace need to be preserved
+        -->
+
+        <!-- 6 June 2002
+            removed #PCDATA from itemizedlist - tidies up export via Interchange
+            added table to layout attribute
+            restructured orgprofile doctype for GC3000 organisation profile
+        -->
+
+        <!-- 10 June 2002
+            added gc3kformat attribute group for GC3000 specific layout
+        -->
+
+        <!-- 8 July 2002
+            amended qandaset and related elements, added trainingmodule and trainingquestion
+            to handle update programme multiplechoice
+        -->
+
+        <!-- 23 Aug 2002
+            source element changed to handle para.level elements
+            added source element to trainingquestion
+        -->
+
+        <!-- 29 Oct 2002
+            Added system identifiers for calstbls, atimath and xlink
+            Removed default.ns entity and namespace attributes from elements
+            Moved itemizedlist, orderedlist and columnlist from in.lines to para.level
+        -->
+
+        <!-- 3 Dec 2002
+            Changes for precedent doctype.
+            1. Removed para.level from operative
+            2. Replaced para.level in parties with clause
+            3. Replaced para.level in recitals with clause
+            4. Added id attribute to clause, subclause1,subclause2,subclause3,subclause4,subclause5
+            5. Removed id attribute from defitem
+            6. Added id attribute to defterm
+            7. Removed defref from DTD
+            7. Removed defref from in.lines - will used plcxlink instead
+            8. Added defterm to in.lines
+        -->
+
+        <!-- 10 Dec 2002
+            Changes for precedent doctype
+            1. Removed id attribute from defterm
+            2. Added id attribute to defitem
+        -->
+
+        <!--
+            NFM 17-Jan-2003
+            Changed order of Element Groups and Entity Declaration sections to allow successful compilation
+            of DTD with updated table model
+        -->
+
+        <!--
+            NFM 23-Jan-2003
+            Added clause as a high level element - can now be used as a document fragment
+        -->
+
+        <!--
+            NFM 05-Feb-2003
+            Changes for precedent doctype
+            1. Added toc element between coversheet and intro
+            2. recitals is now optional
+        -->
+
+        <!--
+            NFM 10-Feb-2003
+            Topic amended to allow multiple editorial elements
+        -->
+
+        <!--
+            NFM 21-Feb-2003
+            Added bridgehead element to fulltext
+            bridgehead has id and renderas attributes
+        -->
+
+        <!--
+            CB 29-Apr-2003
+            Added section1 layout attributes
+            for competition articles
+        -->
+
+        <!--
+            CB 30-May-2003
+            Added competition attribute to editorial type attribute
+        -->
+
+        <!--
+            CB 3-June-2003
+            Added additional gc3kformat attribute officetable
+        -->
+
+        <!--
+            CB 4-June-2003
+            Added id attribute to schedule
+        -->
+
+        <!--
+            CB 9-June-2003
+            Added tocheading element for precedent
+        -->
+
+        <!--
+            CB 17-June-2003
+            Various precedent changes
+        -->
+
+        <!--
+            CB 29-July-2003
+            Changes to TOC to add structure needed for word output
+        -->
+
+
+        <!--
+         DP 6-Aug-2003
+                  allow clause to be nested in clause
+                  make defitem  a high.level element
+                  define draftingnote for da drafting notes.
+                  make draftingnote a high.level element
+        -->
+
+        <!--
+            CB 11-August-2003
+            Added new precedentform element as a child of precedent
+        -->
+
+        <!--  DP 4-Sept-2003
+              added defitems as container for defitem
+              it can appear in any context in which defitem appears, but may have an attribute which determines the order
+              in which defterms are sorted
+        -->
+
+        <!--
+            CB 8-September-2003
+            Added new attribute smallcaps for emphasis
+        -->
+
+        <!--
+            CB 19-September-2003
+            Added condition attribute to indicate optional clauses, subclauses etc.
+        -->
+
+        <!--
+            CB 25-September-2003
+            Added precedenttype attribute to precedentform.
+        -->
+
+        <!--
+            CB 14-October-2003
+            Added signatureformat attribute to party.
+        -->
+
+        <!--
+            CB 16-October-2003
+            Added letter/board mainutes doctype and dtd elements.
+        -->
+
+        <!--
+            CB 20-October-2003
+            Changed glossdef to include para level elements.
+        -->
+
+        <!--
+            CB Jan-2004
+            Added glossitem to high level
+        -->
+
+        <!--
+            CB Jan-2004
+            Added individual-company,individual-several party attribute
+            Relaxed part definition
+            Allowed letter child of schedule
+
+            CB Feb 2004
+            Changed document to miscdocument
+            Minor changes to invalid definitions e.g. defitems
+
+            CB Mar 2004
+            Added precedenttype and draftingarticle to metadata definition
+
+            CB Mar 2004
+            Added clausegroup element logic
+
+            CB Apr 2004
+            Added optional medatadata element to schedule
+            Extend schedule so this it can contain minutes/miscdocument
+
+            CB May 2004
+            Added foreignphrase element
+            Added deftype attribute to distinguish rules of interpretation
+
+            CB May 2004
+            Added numbering attribute to miscdocument; also added optional coversheet element
+
+            CB June 2004
+            Extended def to allow it to have clausegroup child
+            Extended clauseholder to allow optional appendix children
+
+            CB July 2004
+            Extended elements that can appear in letter (recitals, schedule, appendix)
+        -->
+
+        <!-- ############################## -->
+
+        <!-- ### Element Groups ###-->
+
+        <!ENTITY % equations " f | fd">
+
+        <!ENTITY % para.level "para | defitem | defitems | graphic | figure | blockquote | table | plcxlink | simpleplcxlink | itemizedlist | orderedlist | columnlist">
+
+        <!ENTITY % clause.level "clause | subclause1 | subclause2 | subclause3 | subclause4 | subclause5">
+
+
+        <!ENTITY % in.lines "emphasis | defterm | graphic | figure | foreignphrase | glossref| blockquote |table | plcxlink | simpleplcxlink | subscript | superscript | url">
+
+        <!ENTITY % high.level "article | book | case | checklist | clause | defitem | defitems | miscdocument | draftingguide | draftingnote | event | faq | flowchart | glossary | glossitem | individual | legalupdate | legislation | letter | minutes | organisation | orgprofile | practicenote | precedent | indvprofile | profupdate | review | topic | training | trainingquestion | website">
+
+        <!ENTITY % meta.data "abstract | access | author | contributor | creator | dateamended | datecreated | dateexpiry | datevalid | draftingarticle | edition | editor | format | identifier | isbn | jurisdiction | keywords | language | lastupdate_user | publication_status | precedenttype | publisher | relation | resourceid | rights | source | subject | title | type | url">
+
+        <!ENTITY % name.elements "formattedname*, givenname*, preferredgivenname?, middlename?, familyname*, affix*">
+
+        <!ENTITY % name.informal "#PCDATA | plcxlink | simpleplcxlink | givenname | familyname | email | phone | middlename">
+
+        <!ENTITY % postaladdress.elements " country | postcode | region | municipality | deliveryaddress | addressline">
+
+        <!ENTITY % metadata.content "#PCDATA | plcxlink" >
+
+        <!-- ############################## -->
+
+
+        <!--  ### Entity Declaration for OASIS Exchange CALS table structures ### -->
+        <!ENTITY % calstbls PUBLIC "-//OASIS//DTD XML Exchange Table Model 19990315//EN" "entities/soextblx.dtd">
+        %calstbls;
+
+        <!-- ############################## -->
+
+
+        <!-- ### ArborText Equation Editor Integration ### -->
+        <!ENTITY % atimath PUBLIC "-//ArborText//ELEMENTS XML Math Equation Structures//EN" "entities/atimathx.dtd">
+        %atimath;
+
+        <!-- ############################## -->
+
+
+        <!-- ### XLINK Module ###-->
+        <!ENTITY % xlink PUBLIC "-//PLC//ELEMENTS PLC Xlink Structures//EN" "entities/xlink.ent">
+        %xlink;
+
+        <!-- ############################## -->
+
+
+        <!-- ### Attribute Groups ###-->
+        <!ENTITY % layout "layout (box|inline|lhcell|rhcell) #IMPLIED">
+
+        <!ENTITY % gc3kformat "gc3kformat (topright|areasofpractice|firmcontacts|officetable) #IMPLIED">
+
+        <!ENTITY % currency "currency CDATA #IMPLIED">
+
+        <!ENTITY % listtype "listtype (conjunctive|disjunctive) #IMPLIED">
+
+        <!ENTITY % wording "wording (deed|contract) #IMPLIED">
+
+        <!ENTITY % consistsof "consistsof (operative|schedule) #IMPLIED">
+
+        <!ENTITY % status "status (individual|company|guarantor|individual-company|individual-several) #IMPLIED">
+
+        <!ENTITY % condition "condition (optional) #IMPLIED">
+
+        <!ENTITY % deftype "deftype (interpretation) #IMPLIED">
+
+        <!ENTITY % executionmethod "executionmethod (deed|contract) #IMPLIED">
+
+        <!ENTITY % precedenttype "precedenttype (agreement|contract|deed|lease|licence) #IMPLIED">
+
+        <!ENTITY % signatureformat "signatureformat (lrstandard) #IMPLIED">
+
+        <!-- ### ROOT ELEMENT (PLC can contain any one type of document or multiple types if under volume.) ###-->
+
+        <!ELEMENT plc  ( volume | %high.level; )>
+
+
+        <!-- ############################## -->
+
+
+        <!-- ### ELEMENTS -->
+
+        <!-- ### A ### -->
+        <!ELEMENT abstract  (%para.level; )+>
+
+        <!ELEMENT access  (#PCDATA )>
+
+        <!ELEMENT additional (#PCDATA|section1)*>
+
+        <!ELEMENT addressees (addressee+)>
+
+        <!ELEMENT addressee (addressline+)>
+
+        <!ELEMENT addressline (#PCDATA)>
+
+        <!ELEMENT affiliations (title?, (%para.level;)*)>
+
+        <!ELEMENT affix  (#PCDATA )>
+
+        <!ELEMENT altterm  (#PCDATA | %in.lines; )*>
+
+        <!ELEMENT answer  (section2+ )>
+        <!ATTLIST answer  correct (1|0)  "1"
+                jurisdiction CDATA #IMPLIED
+                id ID #IMPLIED
+                label CDATA #IMPLIED>
+
+        <!ELEMENT appendix  (title? ,  (%para.level; )* , (part)* )>
+        <!ATTLIST appendix
+                id    ID    #IMPLIED
+                %condition;
+                >
+
+        <!ELEMENT areacode (#PCDATA)>
+
+        <!ELEMENT article  (metadata , authorblurb?, standfirst? , speedread? , fulltext? )>
+
+        <!ELEMENT associations (%para.level;)>
+
+        <!ELEMENT attendance  (#PCDATA )>
+
+        <!ELEMENT author  (%metadata.content;)*>
+
+        <!ELEMENT authorblurb  (%in.lines; )*>
+
+        <!-- ### B ### -->
+        <!ELEMENT basename (#PCDATA)>
+
+        <!ELEMENT basephone (#PCDATA)>
+
+        <!ELEMENT bibliography  (title? )*>
+
+        <!ELEMENT blockquote  (#PCDATA|%in.lines; )*>
+
+        <!ELEMENT book  (metadata , price )>
+
+        <!ELEMENT bridgehead  (#PCDATA )>
+        <!ATTLIST bridgehead
+                id        ID    #IMPLIED
+                renderas     CDATA      #IMPLIED
+                >
+
+
+        <!-- ### C ### -->
+        <!ELEMENT career (%para.level; )*>
+
+        <!ELEMENT case  (metadata , fulltext? )>
+
+
+        <!ELEMENT checklist  (metadata , fulltext )>
+
+
+        <!ELEMENT choice  (section2+ )>
+        <!ATTLIST choice  correct (1|0)  "1">
+
+
+        <!ELEMENT clause  (title? |  (%para.level; )? | subclause1 | clause | clausegroup | draftingnote )*>
+        <!ATTLIST clause
+                id    ID    #IMPLIED
+                %condition;
+                >
+
+        <!ELEMENT clauseholder  (title?, (%para.level;)?, clause?, schedule?, appendix? )+>
+
+        <!ELEMENT clausegroup  (%clause.level;)+>
+        <!ATTLIST clausegroup
+                %listtype;
+                >
+
+        <!ELEMENT closing  (sincerely? , signature? )>
+
+        <!ELEMENT col1  (#PCDATA | %in.lines; )*>
+
+        <!ELEMENT col2  (#PCDATA | %in.lines; )*>
+
+        <!ELEMENT col3  (#PCDATA | %in.lines; )*>
+
+        <!ELEMENT col4  (#PCDATA | %in.lines; )*>
+
+        <!ELEMENT columnlist  (member* )>
+
+        <!ELEMENT contacts (title?, contactgroup*)?>
+        <!ATTLIST contacts type CDATA #IMPLIED
+                coverage CDATA #IMPLIED>
+
+        <!ELEMENT contactgroup (title?, contact*)>
+
+        <!ELEMENT contact (title?, contactdetail)>
+
+        <!ELEMENT contactdetail (#PCDATA|para|plcxlink | simpleplcxlink)*>
+
+
+        <!ELEMENT contributor  (%metadata.content;)*>
+
+        <!ELEMENT country  (#PCDATA )>
+
+        <!ELEMENT countrycode (#PCDATA)>
+
+        <!-- coversheet structure CB edited June 2003 -->
+
+        <!ELEMENT coversheet  (title*,((subjectintro?,subjects?,coverparties?)|(para,title)*))>
+
+        <!ELEMENT subjectintro  (#PCDATA)>
+
+        <!ELEMENT subjects  (subjecttext+)>
+
+        <!ELEMENT subjecttext  (#PCDATA)>
+
+        <!ELEMENT coverparties  (title+)>
+
+        <!-- end of coversheet edits -->
+
+        <!ELEMENT cpd (#PCDATA)>
+
+        <!ELEMENT creator  (%name.informal;)*>
+
+        <!-- ### D ### -->
+        <!ELEMENT dateamended  (#PCDATA )>
+
+        <!ELEMENT datecreated  (#PCDATA )>
+
+        <!ELEMENT dateexpiry  (#PCDATA )>
+
+        <!ELEMENT datevalid  (#PCDATA )>
+
+        <!ELEMENT date (#PCDATA )>
+
+        <!ELEMENT def  (%para.level; | subclause2 | clause | clausegroup )*>
+
+        <!ELEMENT defitem  (defterm | def)*>
+        <!ATTLIST defitem  id ID  #IMPLIED
+                %condition;
+                >
+
+
+        <!ELEMENT defitems  (defitem*)>
+
+        <!ATTLIST defitems sort (true | false) "false">
+
+        <!ELEMENT defterm (#PCDATA )>
+
+        <!ATTLIST defterm
+                %deftype;
+                >
+
+        <!ELEMENT deliveryaddress (addressline+)>
+
+        <!ELEMENT displayname (#PCDATA)>
+
+        <!ELEMENT miscdocument  (metadata , coversheet? , toc? , heading?, preamble? , (operative | operativeinformal | clauseholder)? , closing?)>
+
+        <!ELEMENT draftingarticle   (%metadata.content;)*>
+
+        <!ELEMENT draftingguide  (metadata , speedread? , fulltext? )>
+
+        <!ELEMENT draftingnote (title?, (section1 | bridgehead)*)>
+
+        <!-- ### E ### -->
+        <!ELEMENT edition  (#PCDATA )>
+
+        <!ELEMENT editor  (%name.informal;)*>
+
+        <!ELEMENT editorial (section1 )+>
+        <!ATTLIST editorial type (corporate | ipandit | ldglobal | lduk | plcglobal | practicallaw | property | competition) #IMPLIED>
+
+        <!ELEMENT email  (#PCDATA )>
+
+        <!ELEMENT emphasis (#PCDATA|emphasis|plcxlink|simpleplcxlink)*>
+
+        <!ATTLIST emphasis id   NMTOKEN  #IMPLIED
+                role (bold|italic|bold-italic|underline|amend|smallcaps) "bold" >
+
+        <!ELEMENT event  (metadata , speaker* , organiser* , price? , cpd?,  location? , speedread?, fulltext?)>
+
+
+        <!-- ### F ### -->
+        <!ELEMENT familyname  (#PCDATA )>
+        <!ATTLIST familyname primary CDATA #IMPLIED>
+
+        <!ELEMENT faq  (metadata , qandaset* )>
+
+        <!ELEMENT figure  ((graphic )+, title?)>
+
+        <!ELEMENT financial (#PCDATA)>
+        <!ATTLIST financial type (turnover | sales | profit) #IMPLIED
+                coverage (global | region | jurisdiction | country) #IMPLIED
+                currency (USD | GBP | FFR | DM) #IMPLIED
+                unit     (thousand |million | billion) #IMPLIED
+                value    CDATA #IMPLIED>
+
+
+        <!ELEMENT flowchart  (graphic* , figure* )>
+
+        <!ELEMENT foreignphrase  (#PCDATA )>
+
+        <!ELEMENT format  (#PCDATA )>
+
+        <!ELEMENT formattedname  (#PCDATA )>
+
+        <!ELEMENT fulltext (section1 | qandaset | bridgehead)+>
+
+        <!-- ### G ### -->
+
+        <!ELEMENT givenname  (#PCDATA )>
+
+        <!ELEMENT glossary  (metadata ,  (glossitem )* )>
+
+        <!ELEMENT glossdef  (%para.level; )*>
+
+        <!ELEMENT glossitem  ( ( (glossterm , glossdef ) , altterm* )+ )>
+
+        <!ELEMENT glossref (#PCDATA)>
+
+        <!ELEMENT glossterm  (#PCDATA | %in.lines; )*>
+
+        <!ELEMENT graphic EMPTY>
+        <!ATTLIST graphic  entityref CDATA  #IMPLIED
+                fileref    CDATA  #IMPLIED
+                format    CDATA  #IMPLIED
+                srccredit CDATA  #IMPLIED
+                width     CDATA  #IMPLIED
+                depth     CDATA  #IMPLIED
+                align     CDATA  #IMPLIED
+                scale     CDATA  #IMPLIED
+                scalefit  CDATA  #IMPLIED
+                id        CDATA  #IMPLIED
+                role      CDATA  #IMPLIED >
+
+        <!-- ### H ### -->
+
+        <!ELEMENT headcount (#PCDATA)>
+        <!ATTLIST headcount type (employees | partners | lawyers) #IMPLIED
+                coverage (global | region | jurisdiction | country) #IMPLIED>
+
+        <!ELEMENT heading (letterhead? , ((privacystatus? , addressees? , date? , salutation?)|(minuteheader?, attendance?)) , title?)>
+
+        <!-- ### I ### -->
+
+        <!ELEMENT identifier  (#PCDATA )>
+
+        <!ELEMENT individual  (metadata , personname , primarylocation , secondarylocation?)>
+
+        <!ELEMENT indvprofile  (metadata, qualificationdate? , university? , career? , practice?, associations?, publications?, additional? )>
+        <!ATTLIST indvprofile type NMTOKEN #IMPLIED>
+
+        <!ELEMENT instructor  (plcxlink+)>
+
+        <!ELEMENT instructornote  ( (%para.level; )+ )>
+
+        <!ELEMENT intro (title?, (%para.level;)* )>
+
+        <!ELEMENT isbn  (#PCDATA )>
+
+        <!ELEMENT itemizedlist (listitem )+>
+        <!ATTLIST itemizedlist
+                mark (bullet | checkbox | dash | none) #IMPLIED
+                role CDATA #IMPLIED
+                spacing (compact | normal) "normal">
+
+        <!-- ### J ### -->
+
+        <!ELEMENT jurisdiction  (%metadata.content;)*>
+
+        <!-- ### K ### -->
+        <!ELEMENT keywords  (%para.level; )+>
+
+        <!-- ### L ### -->
+
+        <!ELEMENT language  (#PCDATA )>
+
+        <!ELEMENT lastupdate_user  (#PCDATA )>
+
+        <!ELEMENT legalupdate  (metadata , fulltext )>
+
+        <!ELEMENT legislation  (metadata ,  (%para.level; )* , clause* )>
+
+        <!ELEMENT letter  (metadata , heading?, preamble? , recitals? , (operative | operativeinformal)? , schedule* , closing?, appendix*)>
+
+        <!ELEMENT letterhead  (#PCDATA )>
+        <!ATTLIST letterhead partyhead CDATA #IMPLIED>
+
+        <!ELEMENT listitem  ( (%para.level; )* )>
+
+        <!ELEMENT location  ( %postaladdress.elements; )*>
+
+        <!-- ### M ### -->
+
+        <!ELEMENT member  (col1? , col2? , col3? , col4? )?>
+
+        <!ELEMENT metadata  ( (%meta.data; )* )>
+
+        <!ELEMENT middlename  (#PCDATA )>
+
+        <!ELEMENT minutes  (metadata , heading?, preamble? , (operative | operativeinformal)? , closing?)>
+
+        <!ELEMENT minuteheader  (#PCDATA )>
+
+        <!ELEMENT multiplechoice (choice+)>
+
+
+        <!ELEMENT municipality  (#PCDATA )>
+
+        <!-- ### N ### -->
+
+
+        <!-- ### O ### -->
+
+        <!ELEMENT offices (title?, officegroup*)>
+
+        <!ELEMENT officegroup (title?, office*)>
+
+        <!ELEMENT office (title?, officedetail)>
+
+        <!ELEMENT officedetail (#PCDATA|para|plcxlink | simpleplcxlink |primarylocation)*>
+
+
+        <!ELEMENT operative  (title? , ( draftingnote | clause )+)>
+
+        <!ELEMENT operativeinformal  (title?, (%para.level;)+ )+>
+        <!ATTLIST  operativeinformal
+                numbering (none) "none"
+                >
+
+        <!ELEMENT orderedlist (listitem )+>
+        <!ATTLIST orderedlist
+                numeration ( arabic | upperroman | lowerroman | upperalpha | loweralpha ) #IMPLIED
+                role    CDATA #IMPLIED
+                spacing (compact | normal) "normal">
+
+        <!ELEMENT organisation  (metadata , headcount?, financial?, relatedcompany*, sector*, primarylocation?, secondarylocation?)>
+
+        <!ELEMENT organiser  (plcxlink,(%postaladdress.elements;|phone | email | url))*>
+
+        <!-- ### ELEMENT orgprofile (metadata, strapline?, contacts*, offices*, affiliations?, structure?, practice?, service?, additional?) ### -->
+        <!ELEMENT orgprofile (metadata, strapline?, fulltext?)>
+
+
+        <!-- ### P ### -->
+
+        <!ELEMENT para  (#PCDATA | %in.lines;)*>
+        <!ATTLIST para xml:space (default|preserve) 'default'>
+
+
+        <!ELEMENT part  (title? , ((%para.level;) |clause | draftingnote))+>
+        <!ATTLIST part
+                id    ID    #IMPLIED
+                %condition;
+                >
+
+        <!ELEMENT party (title? |  (%para.level; )? | subclause1 )*>
+        <!ATTLIST party
+                %status;
+                %executionmethod;
+                id    ID    #IMPLIED
+                %condition;
+                %signatureformat;
+                >
+
+        <!ELEMENT parties  (title?, party+)+>
+
+        <!ELEMENT preamble  (title?, (%para.level;)*)>
+
+
+        <!ELEMENT precedenttype  (%metadata.content;)*>
+
+        <!ELEMENT privacystatus  (#PCDATA)>
+
+        <!ELEMENT personname (%name.elements;)>
+        <!ATTLIST personname %xlink.locator.attributes;>
+
+        <!ELEMENT phone  (countrycode, areacode, basephone)>
+        <!ATTLIST phone   toll (toll|toolfree) "toll"
+                type (voice|fax|pager|cell) "voice"
+                pagertype (voice|data) "voice">
+
+        <!ELEMENT postcode (#PCDATA)>
+
+        <!ELEMENT postaladdress  (%postaladdress.elements;)*>
+
+        <!ELEMENT practice (title?, (%para.level;)*)>
+
+        <!ELEMENT practicenote  (metadata , speedread? , fulltext )>
+
+        <!ELEMENT precedent  (metadata, coversheet?, toc?, heading?, intro?, parties, preamble?, recitals?, operative, testimonium?, schedule*, closing?, appendix*)>
+
+        <!ELEMENT precedentform  (intro?, parties, recitals?, operative, testimonium?, schedule*, signature, appendix*)>
+        <!ATTLIST precedentform %precedenttype;>
+
+        <!ELEMENT preferredgivenname  (#PCDATA )>
+
+        <!ELEMENT price  (#PCDATA )>
+        <!ATTLIST price %currency;>
+
+        <!ELEMENT primarylocation (location, (phone | email | url)*)>
+
+        <!ELEMENT preface  (#PCDATA )>
+
+        <!ELEMENT profupdate  (metadata , standfirst , fulltext )+>
+
+        <!ELEMENT publications (%para.level;)>
+
+        <!ELEMENT publication_status  (#PCDATA )>
+
+        <!ELEMENT publisher  (%metadata.content;)*>
+
+        <!-- ### Q ### -->
+
+        <!ELEMENT qandaset  (section1+ )>
+        <!ATTLIST qandaset  jurisdiction CDATA #IMPLIED>
+
+        <!ELEMENT qandaentry (question, answer*)?>
+        <!ATTLIST qandaentry
+                jurisdiction CDATA #IMPLIED
+                id ID #IMPLIED
+                label CDATA #IMPLIED>
+
+
+        <!ELEMENT qualificationdate ANY>
+
+        <!ELEMENT question  (section2+ )>
+        <!ATTLIST question
+                jurisdiction CDATA #IMPLIED
+                type (single|multichoice) "single"
+                id ID #IMPLIED
+                label CDATA #IMPLIED>
+
+        <!-- ### R ### -->
+
+        <!ELEMENT recitals  (title?, clause+)+>
+
+        <!ELEMENT reason (section2+)>
+
+        <!ELEMENT region (#PCDATA)>
+
+        <!ELEMENT relatedcompany (%metadata.content;)*>
+        <!ATTLIST relatedcompany type (parent|subsidiary) #IMPLIED >
+
+        <!ELEMENT relation  (%metadata.content;)*>
+
+        <!ELEMENT resourceid  (#PCDATA )>
+
+        <!ELEMENT review  (metadata , fulltext)>
+
+        <!ELEMENT rights  (%metadata.content;)*>
+
+        <!-- ### S ### -->
+
+        <!ELEMENT salutation  (#PCDATA )>
+
+        <!ELEMENT schedule  (metadata? , title? ,  (%para.level; )* , (part | clause | precedent| draftingnote)* )>
+        <!ATTLIST schedule
+                id    ID    #IMPLIED
+                %condition;
+                >
+
+        <!ELEMENT secondarylocation (location, (phone | email | url)*)>
+
+        <!ELEMENT section1  (title? ,  (%para.level; )* , (section2|qandaentry|trainingquestion)* )>
+        <!ATTLIST section1
+                %layout;
+                %gc3kformat;
+                id    ID    #IMPLIED
+                >
+
+        <!ELEMENT section2  (title? ,  (%para.level; )* , section3* )>
+        <!ATTLIST section2
+                %layout;
+                id    ID    #IMPLIED
+                >
+
+        <!ELEMENT section3  (title? ,  (%para.level; )* )>
+        <!ATTLIST section3
+                %layout;
+                id    ID    #IMPLIED
+                >
+
+        <!ELEMENT sector (%metadata.content;)*>
+
+        <!ELEMENT service (title?, (%para.level;)*)>
+
+        <!ELEMENT structure (title?,(%para.level;)*)>
+
+        <!ELEMENT sincerely  (#PCDATA)>
+
+        <!ELEMENT signature  (title? , clause* )*>
+
+        <!ELEMENT sortname (#PCDATA)>
+
+        <!ELEMENT source  (%para.level;)*>
+
+        <!ELEMENT speaker  (plcxlink , %name.elements;)*>
+
+
+        <!ELEMENT speedread  (title ,  (%para.level; )+ )>
+
+        <!ELEMENT standfirst  (%para.level; )+>
+
+        <!ELEMENT strapline (#PCDATA) >
+
+        <!ELEMENT subclause1  (title? ,  (%para.level; | subclause2* | clausegroup | draftingnote )* )>
+        <!ATTLIST subclause1
+                id    ID    #IMPLIED
+                %condition;
+                >
+
+
+        <!ELEMENT subclause2  (title? ,  (%para.level; | subclause3* | clausegroup | draftingnote )* )>
+        <!ATTLIST subclause2
+                id    ID    #IMPLIED
+                %condition;
+                >
+
+
+        <!ELEMENT subclause3  (title? ,  (%para.level; | subclause4* | clausegroup | draftingnote )* )>
+        <!ATTLIST subclause3
+                id    ID    #IMPLIED
+                %condition;
+                >
+
+
+        <!ELEMENT subclause4  (title? ,  (%para.level; | subclause5* | clausegroup | draftingnote )* )>
+        <!ATTLIST subclause4
+                id    ID    #IMPLIED
+                %condition;
+                >
+
+
+        <!ELEMENT subclause5  (%para.level; | draftingnote )*>
+        <!ATTLIST subclause5
+                id    ID    #IMPLIED
+                %condition;
+                >
+
+
+        <!ELEMENT subject  (%metadata.content;)*>
+
+        <!ELEMENT subscript  (#PCDATA )>
+
+        <!ELEMENT subtitle  (#PCDATA )>
+
+        <!ELEMENT subtitleright  (#PCDATA )>
+
+        <!ELEMENT superscript  (#PCDATA )>
+
+        <!-- ### T ### -->
+
+        <!-- ELEMENT Table Defined in Entity Reference Section -->
+
+        <!ELEMENT term  (#PCDATA )>
+
+        <!ELEMENT testimonium  (title? , section1?)>
+        <!ATTLIST testimonium
+                %wording;
+                >
+
+        <!ELEMENT title  (#PCDATA | foreignphrase)*>
+        <!ATTLIST title  case CDATA  #IMPLIED >
+
+        <!ELEMENT titlepg  (title?, (%para.level;)*)>
+
+        <!ELEMENT topic (metadata, basename?, sortname?, displayname?, editorial*)>
+
+        <!ELEMENT toc ((title, subtitle, subtitleright, toccontents, subtitle, toccontents)?)>
+
+        <!ELEMENT toccontents (#PCDATA )>
+        <!ATTLIST toccontents
+                %consistsof;
+                >
+
+        <!ELEMENT training  (metadata , speedread? , instructornote? , (fulltext|trainingmodule)? )>
+
+        <!ELEMENT trainingmodule (section1 | qandaset )+>
+
+        <!ELEMENT trainingquestion (question, source?, (answer | multiplechoice), reason?)>
+
+        <!ELEMENT type  (%metadata.content;)*>
+
+        <!-- ### U ### -->
+
+        <!ELEMENT university (%para.level;)>
+
+        <!ELEMENT url  (#PCDATA )>
+        <!ATTLIST url     type CDATA #IMPLIED
+                url    CDATA #REQUIRED>
+
+
+        <!-- ### V ### -->
+
+        <!ELEMENT volume  ( (metadata | %high.level; | appendix | bibliography | coversheet | toc )* )>
+
+        <!-- ### W ### -->
+
+        <!ELEMENT website  (metadata )>
+
+        <!-- ### X ### -->
+
+        <!-- ### Y ### -->
+
+        <!-- ### Z ### -->

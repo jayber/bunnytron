@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2005, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<article>
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Resource created</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <author>PLC Service<?Pub Caret?></author>
+                <revdescription>
+                    <section1>
+                        <para>Amendments to this resource will be tracked here from XX-XXX-XXXX.</para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <fulltext>
+        <section1>
+            <title>Title</title>
+            <para>Main text of article</para>
+        </section1>
+    </fulltext>
+</article><?Pub *0000000681 0?>

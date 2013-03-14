@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset:
+ArborText, Inc., 1988-2001, v.4002
+<!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN"
+ "plc.dtd">
+-->
+<?Pub Inc?>
+<?Pub CX plc(?>
+<practicenote>
+    <metadata>
+        <title>Jo<?Pub Caret?>int and several liability</title>
+        <abstract>
+            <para>This is a note on joint and several liability. If more than one person
+                takes on liability for the same obligation, the liability of each person may
+                be joint or several or joint and several. See also:
+            </para>
+        </abstract>
+        <jurisdiction>England, Wales</jurisdiction>
+    </metadata>
+    <fulltext>
+        <section1>
+            <para>Where more than one person takes on an obligation, their liability may
+                be
+                <itemizedlist>
+                    <listitem>
+                        <para>Joint, or</para>
+                    </listitem>
+                    <listitem>
+                        <para>Several, or</para>
+                    </listitem>
+                    <listitem>
+                        <para>Joint and several.</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>Where a party to a contract or deed is made up of more than one person,
+                the nature of the liability of that party will usually be expressly stated.
+                The document will often also deal with the liability of successors in title
+                to the original parties if they are made up of more than one person.
+            </para>
+            <para>Where a document is silent as to the nature of the liability, then it
+                will be a matter of construction. In general there will be joint liability
+                if two or more people covenant in the same document that they or any one of
+                them will do something or if they covenant generally without using any words
+                of severance.
+            </para>
+            <para>Illustration:</para>
+            <para>
+                <emphasis>If A and B jointly agree to pay X &pound;1,000</emphasis>
+                then
+                X is entitled to &pound;1,000 and may claim the whole amount from either A
+                or B. There is only one obligation. Payment of &pound;1,000 by A will discharge
+                the liability of both A and B. If X releases A from the obligation to pay,
+                then B will also be released.
+            </para>
+            <para>
+                <emphasis>If A and B severally agree to pay X &pound;1,000</emphasis>
+                then
+                X is entitled to &pound;1,000 from A and a further &pound;1,000 from B. There
+                are in effect two separate contracts: one between A and X, and one between
+                B and X. If A pays &pound;1,000, B will still owe &pound;1,000.
+            </para>
+            <para>Sometimes, however, the liability will not be cumulative. This can occur
+                in a property context where an original tenant and later an assignee separately
+                covenant with the landlord to pay the rent. The landlord is only entitled
+                to the rent once.
+            </para>
+            <para>
+                <emphasis>If A and B jointly and severally agree to pay X &pound;1,000</emphasis>
+                then
+                X is entitled to &pound;1000 and may claim the whole of it from either A or
+                B. The nature of a joint and several obligation is that:
+                <orderedlist>
+                    <listitem>
+                        <para>A and B jointly promise to pay X &pound;1,000;</para>
+                    </listitem>
+                    <listitem>
+                        <para>A promises that X will be paid &pound;1,000 by either A or
+                            B; and
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>B promises that X will be paid &pound;1,000 by either A or
+                            B.
+                        </para>
+                    </listitem>
+                </orderedlist>
+            </para>
+            <para>There is a joint obligation and separate obligations. However, the obligations
+                are not cumulative and X is entitled to &pound;1,000 in total, not &pound;3,000.
+                Payment of &pound;1,000 by A will discharge the liability of A and B. Despite
+                the separate promises, some of the technical rules on the discharge of joint
+                contractors also apply to joint and several contractors.
+            </para>
+        </section1>
+        <section1>
+            <title>Discharge of liability</title>
+            <para>There are a number of complex rules that affect the discharge of joint
+                contractors and, somewhat illogically, some of these also apply to joint and
+                several contractors. For example, the release of one joint or joint and several
+                contractor will release the others. Similarly accord and satisfaction with
+                one joint or joint and several contractor will discharge the others. However,
+                the application of these rules depends upon the exact formulation and expression
+                of what the covenantee/creditor purports to do. For example, sometimes a 'release'
+                of one joint or joint and several contractor will be construed as an agreement
+                not to sue and so preserve the position against the other(s); or the terms
+                of an accord and satisfaction with one joint or joint and several contractor
+                may reserve the covenantee/creditor&rsquo;s rights against the other(s).
+            </para>
+        </section1>
+        <section1>
+            <title>Section 13, Landlord and Tenant (Covenants) Act 1995</title>
+            <para>This provides that:
+                <itemizedlist>
+                    <listitem>
+                        <para>Where 'in consequence
+                            of' the 1995 Act, two or more persons become bound by the same covenant, then
+                            their liability will be joint and several.
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>Where 'by virtue of' the 1995 Act, two or more
+                            persons are jointly and severally liable and one of those persons is released
+                            from the covenant, the release does not extend to any other of those persons.
+                            This is subject to section 24(2) which deals with the release (principally)
+                            of guarantors.
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>The Civil Liability (Contribution) Act 1978 will apply as regards one
+                person seeking a contribution from another where they are jointly and severally
+                liable by virtue of the 1995 Act.
+            </para>
+        </section1>
+        <section1>
+            <title>Property documents</title>
+            <para>Condition 1.2 of both the Standard Conditions of Sale (3rd edition)
+                and of the Standard Commercial Property Conditions (1st Edition) state that
+                'if there is more than one seller or more than one buyer, the obligations
+                which they undertake can be enforced against them all jointly or against each
+                individually'. This would need clarification and expansion where, for example,
+                there were many sellers each selling a different property.
+            </para>
+        </section1>
+        <section1>
+            <title>Further reading</title>
+            <para>For further reading see Chitty, Volume I, chapters 17 and 25.</para>
+        </section1>
+    </fulltext>
+</practicenote>
+        <?Pub *0000005885 0?>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Public document type declaration subset. Typical invocation:
+    <!ENTITY % atimath PUBLIC "-//ArborText//ELEMENTS XML Math Equation Structures//EN" "atimathx.elm">
+    %atimath;
+-->
+<!--
+    Declarations for ArborText Equations (based on AAP math)
+    
+    XML Conversion NOTES:
+     - Converted to XML by nwalsh, 24 Dec 1998.
+     - Removal of exclusions allows structures that the equation editor may
+       not properly handle and that may make no logicl sense.
+    
+    NOTE: Dtgen excludes ati-math tags from the <docname>.menu and
+    <docname>.tags files it builds since the user cannot manipulate
+    these tags directly.  The tag exclusion algorithm requires that
+    the first and last math elements (in the order they are defined
+    in this file) be named <fd> and <rm> respectively.
+    
+    If these assumptions are invalidated, then some math elements may
+    be included into the menus, or some of the DTD's elements might be 
+    excluded from the menus.
+-->
+<!--
+    This version of ati-math.elm has changed the name of what was 
+    the "p.em.ph" parameter entity to "p.emph" to avoid conflict 
+    with the use of "p.em.ph" as a parameter entity name in ISO 12083.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:import namespace="##da" schemaLocation="da.xsd"/>
+    <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink.ent.xsd"/>
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+    <xs:element name="p.emph" abstract="true" substitutionGroup="f-cs">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="p.fnt.ph" abstract="true" substitutionGroup="f-cs">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="sp.pos" abstract="true" substitutionGroup="f-cs"/>
+    <xs:element name="f-cs" abstract="true" substitutionGroup="f-cstxt"/>
+    <xs:element name="f-cstxt" abstract="true"/>
+    <xs:element name="f-scs" abstract="true">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="f-cstxt"/>
+                <xs:element ref="sup"/>
+                <xs:element ref="inf"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="limits" abstract="true">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="ll"/>
+                <xs:element minOccurs="0" ref="ul"/>
+                <xs:element minOccurs="0" ref="opd"/>
+            </xs:sequence>
+            <xs:attribute name="align"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="f-bu" abstract="true"/>
+    <xs:element name="f-ph" abstract="true"/>
+    <xs:group name="f-butxt">
+        <xs:sequence>
+            <xs:choice minOccurs="0">
+                <xs:element ref="f-bu"/>
+                <xs:element ref="limits"/>
+                <xs:element ref="f-cstxt"/>
+                <xs:element ref="f-scs"/>
+                <xs:element ref="f-ph"/>
+                <xs:element ref="phr"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:group>
+    <xs:group name="f-phtxt">
+        <xs:sequence>
+            <xs:element minOccurs="0" ref="p.emph"/>
+        </xs:sequence>
+    </xs:group>
+    <xs:simpleType name="f-post">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="par"/>
+            <xs:enumeration value="sqb"/>
+            <xs:enumeration value="llsqb"/>
+            <xs:enumeration value="rrsqb"/>
+            <xs:enumeration value="cub"/>
+            <xs:enumeration value="ceil"/>
+            <xs:enumeration value="fl"/>
+            <xs:enumeration value="ang"/>
+            <xs:enumeration value="sol"/>
+            <xs:enumeration value="vb"/>
+            <xs:enumeration value="uc"/>
+            <xs:enumeration value="dc"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="f-style">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="s"/>
+            <xs:enumeration value="d"/>
+            <xs:enumeration value="t"/>
+            <xs:enumeration value="da"/>
+            <xs:enumeration value="dot"/>
+            <xs:enumeration value="b"/>
+            <xs:enumeration value="bl"/>
+            <xs:enumeration value="n"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="fd">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="fl"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="fl">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="f">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="fr" substitutionGroup="f-bu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nu"/>
+                <xs:element ref="de"/>
+            </xs:sequence>
+            <xs:attribute name="shape"/>
+            <xs:attribute name="align"/>
+            <xs:attribute name="style"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nu">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="de">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="lim" substitutionGroup="f-bu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="op"/>
+                <xs:element minOccurs="0" ref="ll"/>
+                <xs:element minOccurs="0" ref="ul"/>
+                <xs:element minOccurs="0" ref="opd"/>
+            </xs:sequence>
+            <xs:attribute name="align">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="r"/>
+                        <xs:enumeration value="c"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="op">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="f-cstxt"/>
+                <xs:element ref="rf"/>
+                <xs:element ref="f-ph"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ll">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ul">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="opd">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="pr" substitutionGroup="limits"/>
+    <xs:element name="in" substitutionGroup="limits"/>
+    <xs:element name="sum" substitutionGroup="limits"/>
+    <xs:element name="rad" substitutionGroup="f-bu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="rcd"/>
+                <xs:element minOccurs="0" ref="rdx"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rcd">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rdx">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="fen" substitutionGroup="f-bu">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="f-butxt"/>
+                <xs:element ref="cp"/>
+                <xs:element ref="rp"/>
+            </xs:choice>
+            <xs:attribute name="lp" default="vb" type="f-post"/>
+            <xs:attribute name="style" default="s" type="f-style"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="cp">
+        <xs:complexType>
+            <xs:attribute name="post" default="vb" type="f-post"/>
+            <xs:attribute name="style" default="s" type="f-style"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rp">
+        <xs:complexType>
+            <xs:attribute name="post" default="vb" type="f-post"/>
+            <xs:attribute name="style" default="s" type="f-style"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ar" substitutionGroup="f-bu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="arr"/>
+            </xs:sequence>
+            <xs:attribute name="cs"/>
+            <xs:attribute name="rs"/>
+            <xs:attribute name="ca"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="arr">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="arc"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="arc">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+            <xs:attribute name="align"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="cases" substitutionGroup="f-bu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="arr"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="eqaln" substitutionGroup="f-bu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="eqline"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="eqline">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="stk" substitutionGroup="f-bu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="lyr"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="lyr">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+            <xs:attribute name="align"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ach">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+            <xs:attribute name="atom"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="sup" substitutionGroup="f-ph">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+            <xs:attribute name="loc"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="inf" substitutionGroup="f-ph">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+            <xs:attribute name="loc"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="unl" substitutionGroup="f-ph">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+            <xs:attribute name="style"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ovl" substitutionGroup="f-ph">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+            <xs:attribute name="style"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="unb" substitutionGroup="f-ph">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ovb" substitutionGroup="f-ph">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="a" substitutionGroup="f-cs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ac"/>
+                <xs:element ref="ac"/>
+            </xs:sequence>
+            <xs:attribute name="valign"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ac">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-butxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rf" substitutionGroup="f-scs"/>
+    <xs:element name="inc" substitutionGroup="f-scs"/>
+    <xs:element name="v" substitutionGroup="f-scs"/>
+    <xs:element name="dy" substitutionGroup="f-scs"/>
+    <xs:element name="fi" substitutionGroup="f-scs"/>
+    <xs:element name="phr">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="f-phtxt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="vmk" substitutionGroup="sp.pos">
+        <xs:complexType>
+            <xs:attribute name="id"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="vmkr" substitutionGroup="sp.pos">
+        <xs:complexType>
+            <xs:attribute name="rid"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="hsp" substitutionGroup="sp.pos">
+        <xs:complexType>
+            <xs:attribute name="sp"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="vsp" substitutionGroup="sp.pos">
+        <xs:complexType>
+            <xs:attribute name="sp"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tu" substitutionGroup="sp.pos">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="g" substitutionGroup="f-cs" type="xs:string"/>
+    <xs:element name="bg" substitutionGroup="f-cs" type="xs:string"/>
+    <xs:element name="blkbd" substitutionGroup="p.fnt.ph"/>
+    <xs:element name="ig" substitutionGroup="p.fnt.ph"/>
+    <xs:element name="sc" substitutionGroup="p.fnt.ph"/>
+    <xs:element name="ge" substitutionGroup="p.fnt.ph"/>
+    <xs:element name="ty" substitutionGroup="p.fnt.ph"/>
+    <xs:element name="mit" substitutionGroup="p.fnt.ph"/>
+    <xs:element name="b" substitutionGroup="p.emph"/>
+    <xs:element name="it" substitutionGroup="p.emph"/>
+    <xs:element name="rm" substitutionGroup="p.emph"/>
+</xs:schema>

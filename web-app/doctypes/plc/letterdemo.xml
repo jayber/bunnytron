@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2005, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent>
+    <atict:info tracking="off" ref="1" xmlns:atict="http://www.arbortext.com/namespace/atict"/>
+    <atict:user user="blairn" fullname="Nikki Blair" xmlns:atict="http://www.arbortext.com/namespace/atict"/>
+    <atict:user user="carlylh" fullname="Helen Carlyle Lancaster"
+                xmlns:atict="http://www.arbortext.com/namespace/atict"/>
+    <atict:user user="marrenj" fullname="Jo Marren" xmlns:atict="http://www.arbortext.com/namespace/atict"/>
+    <atict:user user="willias" fullname="Sarah Williams" xmlns:atict="http://www.arbortext.com/namespace/atict"/>
+    <atict:user user="owens" fullname="Sarah Owens" xmlns:atict="http://www.arbortext.com/namespace/atict"/>
+    <metadata></metadata>
+    <heading>
+        <letterhead partyhead="[Seller or Seller's solicitors]"></letterhead>
+        <addressees><!-- insert 'TO' in the output-->
+            <addressee>
+                <addressline></addressline>
+            </addressee>
+            <addressee>
+                <addressline></addressline>
+            </addressee>
+        </addressees>
+        <date></date>
+        <salutation>Dear Sirs</salutation>
+        <title>Proposed Agreement to be made between [NAMES OF PARTIES].</title>
+    </heading>
+    <preamble>
+        <para>We refer to the agreement (<defterm>Agreement</defterm>) to be entered into today between [FULL NAME OF
+            SELLER] (<defterm>Seller</defterm>) and [FULL NAME OF BUYER] (<defterm>Buyer</defterm>) for the sale and
+            purchase of the entire issued share capital of [[TARGET] Limited
+            <emphasis role="bold">OR</emphasis>
+            the assets and undertaking of the business of [BUSINESS]].
+        </para>
+        <para>This letter is the Disclosure Letter referred to in the Agreement and constitutes formal disclosure to the
+            Buyer for the purposes of the Agreement of the facts and circumstances which are or may be inconsistent with
+            the representations, warranties and undertakings referred to in clause [NUMBER] and contained in Schedule
+            [NUMBER] of the Agreement (<defterm>Warranties</defterm>) or which otherwise give or may give rise to a
+            claim under the Agreement by the Buyer [in respect of the Warranties]. Such facts and circumstances will be
+            deemed to qualify the Warranties accordingly.
+        </para>
+        <para>[This Disclosure Letter is written on behalf of the Seller. The matters and information disclosed or
+            referred to in this letter have been supplied to us by or on behalf of the Seller and, accordingly, this
+            firm accepts no responsibility or liability whatsoever and howsoever arising from the accuracy, completeness
+            or otherwise of all or any part of such matters and information.]
+        </para>
+        <para>Terms defined in the Agreement shall have the same meaning in this letter. References in this letter to
+            paragraph headings and numbers shall, unless the context otherwise requires, be to those headings and
+            numbered paragraphs in Schedule [NUMBER] of the Agreement. Such headings and numbering are for convenience
+            only and shall not alter the construction of this letter nor in any way limit the effect of any of the
+            disclosures, all of which are made against the Warranties as a whole. A disclosure or qualification made by
+            reference to any particular paragraph shall be deemed to be made also in respect of any other paragraph to
+            which the disclosure or qualification may be applicable.
+        </para>
+        <para>The disclosure of any matter or document shall not imply any representation, warranty or undertaking not
+            expressly given in the Agreement nor shall such disclosure be taken as extending the scope of any of the
+            Warranties.
+        </para>
+    </preamble>
+    <operative>
+        <clause numbering="none">
+            <para>By way of general disclosure, the following matters are disclosed or deemed disclosed to the Buyer:
+            </para>
+        </clause>
+        <clause>
+            <para>The contents of the Agreement and all transactions referred to therein.</para>
+        </clause>
+        <clause>
+            <para>[The contents of the Memorandum and Articles of Association of each member of the [TARGET COMPANY
+                GROUP] (<defterm>Group</defterm>) and the documents annexed thereto, copies of which have been provided
+                to the Buyer.]
+            </para>
+        </clause>
+        <clause>
+            <para>All matters which would be revealed by an online search of the file of each member of the Group at the
+                Companies Registry at the date hereof.
+            </para>
+        </clause>
+        <clause>
+            <para>[The contents of the minute books and other statutory books of each member of the Group, all of which
+                have been made available to the Buyer.]
+            </para>
+        </clause>
+        <clause>
+            <para>All matters which would be shown by searches at HM Land Registry and HM Land Charges Registry at the
+                date of this letter and all matters which would be shown by searches at the local authorities and all
+                other public registers relevant to the [Properties<emphasis role="bold">OR</emphasis>real properties
+                owned or occupied by members of the Group] carried out at the date of this letter by the Buyer [as a
+                buyer of such Properties
+                <emphasis role="bold">OR</emphasis>
+                as if it were a buyer of such Properties].
+            </para>
+        </clause>
+        <clause>
+            <para>All matters contained in the deeds to the Properties, which have been made available to the Buyer.
+            </para>
+        </clause>
+        <clause>
+            <para>All matters which would be apparent from an inspection of the Properties at the date of this letter.
+            </para>
+        </clause>
+        <clause>
+            <para>All matters contained or referred to in the documents in the bundle of documents annexed to this
+                letter, two copies of which have been initialled by the parties thereto for the purposes of
+                identification.
+            </para>
+        </clause>
+        <clause>
+            <para>Any matters referred to in correspondence between the Seller or its advisers and the Buyer or its
+                advisers together with all enclosures attached thereto and all matters referred to in such enclosures.
+            </para>
+        </clause>
+        <clause>
+            <para>All matters shown in the audited reports and accounts of [the Seller] [each member of the Group] for
+                the financial periods [DATE] to [DATE] [and any matters shown in the management accounts of [the
+                Company] [the Seller] for the periods [DATE] to [DATE]].
+            </para>
+        </clause>
+        <clause>
+            <para>[All matters disclosed to [the accountants of the Buyer [and/or [OTHERS]] or which ought reasonably to
+                have been revealed in the course of the investigation [of the Seller
+                <emphasis role="bold">OR</emphasis>
+                of the Group] by [such accountants [and/or [OTHERS]] and all matters disclosed in the report produced by
+                [such accountants [and/or [OTHERS]] dated [DATE] [on the Business
+                <emphasis role="bold">OR</emphasis>
+                on the business and affairs of the Group
+                <emphasis role="bold">OR</emphasis>
+                All matters disclosed in the replies to the pre-contract enquiries raised by the Buyer's solicitors
+                dated [DATE] and the replies to those enquiries dated [DATE]].
+            </para>
+        </clause>
+        <clause>
+            <para>All matters which would be revealed by a search of the registers and documents maintained by the
+                Office of Fair Trading, the Consumer Credit Registry, the Trademarks Registry or the Patent Office in
+                respect of each member of the Group as at the date of this letter.
+            </para>
+        </clause>
+        <clause>
+            <para>[SPECIFY OTHER DOCUMENTS OR INFORMATION TO BE DEEMED DISCLOSED.]</para>
+        </clause>
+        <clause>
+            <para>All matters of which the Buyer ought reasonably (without having made specific enquiry) to be aware as
+                affecting a business similar to the [business carried on by the Company<emphasis role="bold">
+                    OR</emphasis>the Business] and all matters which are a matter of public record or within the public
+                domain.
+            </para>
+        </clause>
+        <clause numbering="none">
+            <para>Where brief particulars only of a matter are set out or referred to in this letter, or a document is
+                referred to but not attached, or a reference is made to a particular part only of such document, full
+                particulars of the matter and the full contents of the document are deemed to be disclosed and it is
+                assumed that the Buyer does not require any further particulars.
+            </para>
+        </clause>
+        <clause numbering="none">
+            <para>The following specific disclosures are made in relation to the Warranties:</para>
+            <para>[SET OUT SPECIFIC DISCLOSURES.]</para>
+        </clause>
+        <clause numbering="none">
+            <para>Please acknowledge receipt and acceptance of this Disclosure Letter by signing, dating and returning
+                the enclosed copy of this letter.
+            </para>
+        </clause>
+    </operative>
+    <closing>
+        <sincerely>Yours faithfully,</sincerely>
+    </closing>
+    <signature>
+        <clause>
+            <para>...<?Pub Caret?>.............................................................</para>
+            <para>[Seller or Seller's solicitors]</para>
+            <para>We hereby acknowledge receipt and accept the contents of this Disclosure Letter</para>
+            <para>Signed .....................................................</para>
+            <para>Date ........................................................</para>
+        </clause>
+    </signature>
+</precedent><?Pub *0000008675 0?>

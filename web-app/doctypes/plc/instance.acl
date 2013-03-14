@@ -1,0 +1,90 @@
+require plcDtdInitialisation;
+
+# DP amended May 2005 - calls plcDtdInitialisation::initialise() to perform any initialisation
+# which should not be included in the author version of epic
+
+# CB amended Sept 2004
+# this is the version which works with epic 5.1
+#
+# CB amended Oct 2006
+# added revision history functions and deleted text preview
+
+# CB amended Apr 2007
+# add preview added and deleted text
+
+# _linktools replaces linktools
+
+# Add to Insert menu "Text from URL..."
+menu_add .Insert. "Text from URL..." -cmd {_plclink::callVBImportURLText()} 
+
+# CB Added Dec 2004
+# Add to Insert menu "Include clause..."
+# Used for boilerplate clauses
+# not using this for time being
+# menu_add .Insert. "Include clause..." -cmd {_plclink::callVBInclude()} 
+
+# CB Added Sept 2006
+# Add to insert menu insert metadata
+menu_add .Insert. "Insert Resource History..." -cmd {_plclink::callVBInsertMeta()} 
+
+# CB added May 2006
+# function for cached link
+
+# Change Link and Link Target menu items
+menu_change .Insert.Link. -cmd {_plclink::callVBLink("false")} -active "_linktools::caret_at_new_link()" 
+#menu_change .File.Save. -cmd  {_plclink::callCheckAbstractCharCount()} 
+
+menu_change .File.Save -cmd  {_plclink::customSave()} 
+menu_change ".File.Save As" -cmd  {_plclink::customSaveAs()} 
+
+# Add completeness check to File|Close menu item (KH 1/2/2012)
+menu_change .File.Close -cmd  {_plclink::customClose()} -key Ctrl+w 
+
+
+menu_add .Insert. "Cached Link" -cmd {_plclink::callVBLink("true")} -active "_linktools::caret_at_new_link()" -key Alt+Ctrl+a
+map control-alt-a {_plclink::callVBLink("true")}
+
+
+menu_change .Insert.Link_Target. -cmd {_plclink::callVBTarget()} -active "x=1"
+
+menu_add .View. "Preview deleted text" -cmd {plc_htmlcompose::htmlcompose("true")}
+
+menu_add .View. "Preview deleted and added text" -cmd {plc_htmlcompose::htmlcompose("added")}
+
+menu_add .View. "Check for empty paras" -cmd {_plclink::checkEmptyParas()}
+
+#take out the word preview from production version for now
+menu_add .View. "Word preview" -cmd  {_plclink::wordPreview()} 
+menu_add .Insert. "Insert US Clause" -cmd  {_plclink::insertUsClause()}
+#menu_add .Insert. "Insert Short Form Clause (US)" -cmd  {_plclink::insertSFC()} 
+#menu_add .Insert. "Insert Long Form Clause (US)" -cmd  {_plclink::insertLFC()} 
+#menu_add .Insert. "Insert Resolution Clause" -cmd  {_plclink::insertUNC()} 
+#menu_add .Insert. "Insert Smart US Clause" -cmd  {_plclink::insertSmart()}
+menu_add .Insert. "Insert question numbers" -cmd {_plclink::insertQuestionNumbers()}
+
+
+# Added these for section up/down stuff
+menu_add .Edit. "" -separator
+menu_add .Edit. "Section up..." -cmd {plc_sectionupdown::pullSectionUp()}
+menu_add .Edit. "Section down..." -cmd {plc_sectionupdown::pushSectionDown()}
+
+
+# Remove Object Connect and Object Disconnect menu items
+# CB modified this no longer works with 5.1 since no object menuso has been commented out
+# menu_delete .Object.Connect.
+# menu_delete .Object.Disconnect.
+
+# Add to Object menu "Insert..."
+# DP Amended - to remove the last reference to plc_da which has now been removed from the project
+# menu_add .Insert. "Insert Article" -cmd {plc_da::insert_object()} 
+
+# For some reason the mapping: map edit alt+ctrl+m		InsertComment
+# in packages\keymaps.acl does not work, as far as I can tell none of the mappings that use alt+ctrl work at all,
+# the comment:
+# alpha keys (note that alt+ctrl is only available on US-English keyboards)
+# in packages\keymaps.acl explains why
+map edit alt+shift+m		InsertComment
+map edit ctrl+shift+q		{_plclink::insertQuestionNumbers()}
+
+
+plcDtdInitialisation::initialise(); 

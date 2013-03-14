@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset:
+ArborText, Inc., 1988-2001, v.4002
+<!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN"
+ "plc.dtd">
+-->
+<?Pub Inc?>
+<?Pub CX plc(?>
+<individual>
+    <metadata>
+        <resourceid>31929</resourceid>
+        <identifier>http://www.lawdepartment.net/scripts/contact2000.asp?contact_id=31929</identifier>
+    </metadata>
+    <personname>
+        <formattedname>Antonio Hierro Hern&aacute;ndez-Mora</formattedname>
+        <givenname>Antonio</givenname>
+        <middlename>Hierro</middlename>
+        <familyname>Hern&aacute;ndez-Mora</familyname>
+        <affix>Mr</affix>
+    </personname>
+    <primarylocation>
+        <location></location>
+        <?Pub Caret1?>
+    </primarylocation>
+</individual>
+        <?Pub *0000000717 0?>

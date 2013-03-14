@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: ArborText, Inc., 1988-2002, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">--><?Pub Inc?>
+<orgprofile>
+    <metadata></metadata>
+    <strapline>In co-operation with</strapline>
+    <fulltext>
+        <section1 gc3kformat="topright">
+            <itemizedlist mark="none" spacing="compact">
+                <listitem>
+                    <para>
+                        <emphasis role="bold">Total partners:</emphasis>
+                        xx
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        <emphasis role="bold">Total lawyers:</emphasis>
+                        xx
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        <emphasis role="bold">Managing partner:</emphasis>
+                        aaaa
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        <emphasis role="bold">Senior partner:</emphasis>
+                        aaaa
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        <emphasis role="bold">Languages:</emphasis>
+                        aaaa
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </section1>
+        <section1>
+            <title>Other offices</title>
+            <para></para>
+        </section1>
+        <section1>
+            <title>Nature of practice</title>
+            <para></para>
+        </section1>
+        <section1>
+            <title>Client service</title>
+            <para></para>
+        </section1>
+        <section1 gc3kformat="areasofpractice">
+            <title>Areas of practice</title>
+            <itemizedlist spacing="compact">
+                <listitem>
+                    <para>area of practice</para>
+                </listitem>
+                <listitem>
+                    <para>area of practice</para>
+                </listitem>
+            </itemizedlist>
+        </section1>
+        <section1 gc3kformat="firmcontacts">
+            <title>Firm contacts</title>
+            <section2>
+                <title>Pra<?Pub Caret?>ctice area</title>
+                <para>Name of lawyer</para>
+            </section2>
+            <section2>
+                <title>Practice area</title>
+                <para>Name of lawyer</para>
+            </section2>
+        </section1>
+    </fulltext>
+</orgprofile><?Pub *0000001576 0?>

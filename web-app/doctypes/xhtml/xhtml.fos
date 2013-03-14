@@ -1,0 +1,3167 @@
+<!DOCTYPE OUTSPEC PUBLIC "-//ArborText//DTD OUTPUT SPEC MIL-PRF-28001 REV B AMEND 1 19961231//EN">
+<!--ArborText, Inc., 1988-2000, v.4002-->
+<outspec><?Pub Lcl _id="343" _label="Adept v8.0">
+<!--HTML 4.0 "Loose" FOSI - 1998 ArborText-->
+<rsrcdesc dfltlayoutconfig="rigid"><?Pub Lcl _id="f1">
+<!--The following hyphrule is used in the e-i-c gi="a" to allow URLs to break after a -\/@ or . instead of hyphenating.-->
+<hyphrule language="Nynorsk" brkafchr="- / @ \ ." brkalways="1"><?Pub Lcl
+_id="f337" _comment='This hyphrule is used in the e-i-c gi="a&#39; so that URLs may be broken after -\/@ or . instead of being hyphenated.'>
+<charfill literal=" " cfid="spacefill"><?Pub Lcl _id="f332">
+<counter initial="0" style="arabic" enumid="ol1.ct"><?Pub Lcl _id="f14" _comment="1st level Ordered list counter">
+<counter initial="0" style="alphalc" enumid="ol2.ct"><?Pub Lcl _id="f180"
+_comment="2nd level Ordered list counter">
+<counter initial="0" style="romanlc" enumid="ol3.ct"><?Pub Lcl _id="f181"
+_comment="3rd level Ordered list counter">
+<counter initial="0" style="arabic" enumid="ol4.ct"><?Pub Lcl _id="f182" _comment="4th level Ordered list counter">
+<counter initial="0" style="alphalc" enumid="ol5.ct"><?Pub Lcl _id="f183"
+_comment="5th level Ordered list counter">
+<counter initial="0" style="romanlc" enumid="ol6.ct"><?Pub Lcl _id="f184"
+_comment="6th level Ordered list counter">
+<counter initial="0" style="arabic" enumid="ol7.ct"><?Pub Lcl _id="f185" _comment="7th level Ordered list counter">
+<counter initial="0" style="alphalc" enumid="ol8.ct"><?Pub Lcl _id="f186"
+_comment="8th level Ordered list counter">
+<counter initial="0" style="romanlc" enumid="ol9.ct"><?Pub Lcl _id="f187"
+_comment="9th level Ordered list counter">
+<counter initial="0" style="arabic" enumid="ol10.ct"><?Pub Lcl _id="f188"
+_comment="10th level Ordered list counter">
+<counter initial="0" style="alphalc" enumid="ol11.ct"><?Pub Lcl _id="f189"
+_comment="11th level Ordered list counter">
+<counter initial="0" style="arabic" enumid="bodyfolioct"><?Pub Lcl _id="f268">
+<stringdecl textid="bodyfolio.txt"><?Pub Lcl _id="f269">
+<stringdecl textid="olli.txt"><?Pub Lcl _id="f270">
+<stringdecl textid="currtime.txt" literal=""><?Pub Lcl _id="f333">
+<stringdecl textid="filename.txt" literal=""><?Pub Lcl _id="f334">
+<stringdecl textid="totpg.txt" literal="" status="1"><?Pub Lcl _id="f341">
+</rsrcdesc>
+<pagedesc><?Pub Dtl>
+<pageset id="generic.page"><?Pub Lcl _id="f271">
+<rectopg width="8.5in" nomdepth="11in" xvjstretch="none">
+<pageres>
+<enumerat increm="1" enumid="bodyfolioct">
+<savetext textid="bodyfolio.txt" conrule="bodyfolioct"></pageres>
+<pagespec pgid="generic.recto">
+<topmarg nomdepth="18pt">
+<botmarg nomdepth="18pt">
+<leftmarg width="1in">
+<rtmarg width="1in">
+<header nomdepth="1pi" spaflow="3pi"><?Pub Dtl>
+<usetext source="title.txt[BO],spacefill,filename.txt[BO]" placemnt="before">
+<subchars>
+<font inherit="0" style="serif" size="9" posture="upright">
+<leading inherit="0" lead="9pt">
+<indent leftind="-4.5pi" rightind="-4.5pi" firstln="-4.5pi">
+<quadding quad="left"></subchars>
+</usetext>
+</header>
+<footer nomdepth="1pi" spaflow="3pi"><?Pub Dtl>
+<usetext source="bodyfolio.txt,\ of \,totpg.txt,spacefill,currtime.txt[BO]"
+placemnt="before">
+<subchars>
+<font inherit="0" style="serif" size="9pt" posture="upright">
+<leading inherit="0" lead="9pt">
+<indent inherit="0" leftind="-4.5pi" rightind="-4.5pi" firstln="-4.5pi">
+<quadding inherit="0" quad="left" lastquad="lleft">
+<textbrk startln="1" endln="1"></subchars>
+</usetext>
+</footer>
+<flowtext numcols="1"><?Pub Dtl>
+<column width="6.5in"></flowtext>
+</pagespec>
+</rectopg>
+</pageset>
+</pagedesc>
+<styldesc>
+<!--charsubset definitions-->
+<charsubset charsubsetid="bold"><?Pub Lcl _id="f2"><?Pub Dtl>
+<font inherit="1" weight="bold"></charsubset>
+<charsubset charsubsetid="amend"><?Pub Lcl _id="f343"><?Pub Dtl>
+<font inherit="1">
+<highlt inherit="1" fontclr="olive"></charsubset>
+<charsubset charsubsetid="italic"><?Pub Lcl _id="f3"><?Pub Dtl>
+<font inherit="1" posture="italic"></charsubset>
+<charsubset charsubsetid="monospace"><?Pub Lcl _id="f4"><?Pub Dtl>
+<font inherit="1" style="monoser"></charsubset>
+<charsubset charsubsetid="inline"><?Pub Lcl _id="f6"><?Pub Dtl>
+<textbrk startln="0" endln="0"></charsubset>
+<charsubset charsubsetid="block"><?Pub Lcl _id="f7"><?Pub Dtl>
+<textbrk startln="1" endln="1"></charsubset>
+<charsubset charsubsetid="startline"><?Pub Lcl _id="f8"><?Pub Dtl>
+<textbrk startln="1" endln="0"></charsubset>
+<charsubset charsubsetid="endline"><?Pub Lcl _id="f9"><?Pub Dtl>
+<textbrk startln="0" endln="1"></charsubset>
+<charsubset charsubsetid="pre-space"><?Pub Lcl _id="f12"><?Pub Dtl>
+<presp minimum="2pt" nominal="3pt" maximum="4pt" priority="high"></charsubset>
+<charsubset charsubsetid="post-space"><?Pub Lcl _id="f13"><?Pub Dtl>
+<postsp minimum="5.5pt" nominal="6.5pt" maximum="7.5pt"></charsubset>
+<charsubset charsubsetid="keep-next-4"><?Pub Lcl _id="f336">
+<keeps next="4"></charsubset>
+<charsubset charsubsetid="left"><?Pub Lcl _id="f192"><?Pub Dtl>
+<quadding inherit="1" quad="left" lastquad="relative"></charsubset>
+<charsubset charsubsetid="right"><?Pub Lcl _id="f273"><?Pub Dtl>
+<quadding inherit="1" quad="right" lastquad="relative"></charsubset>
+<charsubset charsubsetid="center"><?Pub Lcl _id="f15"><?Pub Dtl>
+<quadding inherit="1" quad="center" lastquad="relative"></charsubset>
+<charsubset charsubsetid="justified"><?Pub Lcl _id="f16"><?Pub Dtl>
+<quadding inherit="1" quad="justify" lastquad="relative"></charsubset>
+<charsubset charsubsetid="insert"><?Pub Lcl _id="f274"><?Pub Dtl>
+<highlt inherit="1" scoring="1" bckclr="byellow" fontclr="red" scorespc="1">
+</charsubset>
+<charsubset charsubsetid="delete"><?Pub Lcl _id="f275"><?Pub Dtl>
+<highlt inherit="1" bckclr="bgray" fontclr="gray"></charsubset>
+<charsubset charsubsetid="fontoffset.1em"><?Pub Lcl _id="f321"><?Pub Dtl>
+<font inherit="1" offset=".1em"></charsubset>
+<charsubset charsubsetid="smallfont"><?Pub Lcl _id="f322"><?Pub Dtl>
+<font inherit="1" size=".7em"></charsubset>
+<charsubset charsubsetid="fontsize8pt"><?Pub Lcl _id="f196"><?Pub Dtl>
+<font inherit="1" size="8pt"></charsubset>
+<charsubset charsubsetid="fontsize10pt"><?Pub Lcl _id="f197"><?Pub Dtl>
+<font inherit="1" size="10pt"></charsubset>
+<charsubset charsubsetid="fontsize12pt"><?Pub Lcl _id="f324"><?Pub Dtl>
+<font inherit="1" size="12pt"></charsubset>
+<charsubset charsubsetid="fontsize14pt"><?Pub Lcl _id="f199"><?Pub Dtl>
+<font inherit="1" size="14pt"></charsubset>
+<charsubset charsubsetid="fontsize16pt"><?Pub Lcl _id="f339">
+<font inherit="1" size="16pt"></charsubset>
+<charsubset charsubsetid="fontsize18pt"><?Pub Lcl _id="f200"><?Pub Dtl>
+<font inherit="1" size="18pt"></charsubset>
+<charsubset charsubsetid="fontsize20pt"><?Pub Lcl _id="f340">
+<font inherit="1" size="20pt"></charsubset>
+<charsubset charsubsetid="fontsize24pt"><?Pub Lcl _id="f201"><?Pub Dtl>
+<font inherit="1" size="24pt"></charsubset>
+<charsubset charsubsetid="fontsize30pt"><?Pub Lcl _id="f202"><?Pub Dtl>
+<font inherit="1" size="30pt"></charsubset>
+<charsubset charsubsetid="li-indent"><?Pub Lcl _id="f80"><?Pub Dtl>
+<indent inherit="1" leftind="@+2em" rightind="@" firstln="*-2em"></charsubset>
+<charsubset charsubsetid="blue"><?Pub Lcl _id="f323"><?Pub Dtl>
+<highlt inherit="1" fontclr="blue"></charsubset>
+<charsubset charsubsetid="brown"><?Pub Lcl _id="f325"><?Pub Dtl>
+<highlt inherit="1" fontclr="brown"></charsubset>
+<charsubset charsubsetid="gray"><?Pub Lcl _id="f326"><?Pub Dtl>
+<highlt inherit="1" fontclr="gray"></charsubset>
+<charsubset charsubsetid="green"><?Pub Lcl _id="f327"><?Pub Dtl>
+<highlt inherit="1" fontclr="green"></charsubset>
+<charsubset charsubsetid="orange"><?Pub Lcl _id="f328"><?Pub Dtl>
+<highlt inherit="1" fontclr="orange"></charsubset>
+<charsubset charsubsetid="red"><?Pub Lcl _id="f329"><?Pub Dtl>
+<highlt inherit="1" fontclr="red"></charsubset>
+<charsubset charsubsetid="violet"><?Pub Lcl _id="f330"><?Pub Dtl>
+<highlt inherit="1" fontclr="violet"></charsubset>
+<charsubset charsubsetid="yellow"><?Pub Lcl _id="f331"><?Pub Dtl>
+<highlt inherit="1" fontclr="yellow"></charsubset>
+<docdesc><?Pub Lcl _id="f97">
+<charlist>
+<font inherit="0" style="serif" size="12pt" posture="upright" weight="medium"
+width="regular" offset="0pt">
+<leading inherit="0" lead="1.15em">
+<indent inherit="0" leftind="@" rightind="@" firstln="*">
+<quadding inherit="0" quad="justify" lastquad="relative">
+<presp minimum="0pt" nominal="0pt" maximum="0pt" condit="discard" priority="none">
+<postsp minimum="0pt" nominal="0pt" maximum="0pt" condit="discard" priority="none">
+<keeps scope="col" keep="0" widowct="2" orphanct="2" next="0" prev="0">
+<textbrk startcol="0" startpg="off" newpgmdl="global" startln="0" endln="0">
+</charlist>
+</docdesc>
+<e-i-c gi="a"><?Pub Lcl _id="f143"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<hyphen inherit="1" lang="Nynorsk" hyph="0"><?Pub Lcl _comment="The hyphrule for Nynorsk specifies that breaks are allowed after -\/@ or . This allows URLs in this element to break and not hyphenate.">
+</charlist>
+<att>
+<specval attname="href" attloc="a" attval="#ANY">
+<charsubset charsubsetref="blue">
+<highlt inherit="1" scoring="1" scorespc="1"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="a" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="plclink"><?Pub Lcl _id="f342"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline blue">
+<hyphen inherit="1" lang="Nynorsk" hyph="0"><?Pub Lcl _comment="The hyphrule for Nynorsk specifies that breaks are allowed after -\/@ or . This allows URLs in this element to break and not hyphenate.">
+<highlt inherit="1" scoring="1" scorespc="1"></charlist>
+</e-i-c>
+<e-i-c gi="abbr"><?Pub Lcl _id="f148">
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="abbr" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="acronym"><?Pub Lcl _id="f277"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="acronym" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="address"><?Pub Lcl _id="f278"><?Pub Dtl>
+<charlist charsubsetref="block italic"></charlist>
+<att>
+<specval attname="class" attloc="address" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="applet"><?Pub Lcl _id="f246"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="applet" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="area"><?Pub Lcl _id="f262"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="area" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="b"><?Pub Lcl _id="f126"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline bold"></charlist>
+<att>
+<specval attname="class" attloc="b" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="base"><?Pub Lcl _id="f138"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+</e-i-c>
+<e-i-c gi="basefont"><?Pub Lcl _id="f279"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+</e-i-c>
+<e-i-c gi="bdo"><?Pub Lcl _id="f280"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="bdo" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="big"><?Pub Lcl _id="f248"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline fontsize18pt"></charlist>
+<att>
+<specval attname="class" attloc="big" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="blockquote"><?Pub Lcl _id="f173"><?Pub Dtl>
+<charlist charsubsetref="block left">
+<indent inherit="1" leftind="@+2pi" rightind="@+2pi"></charlist>
+<att>
+<specval attname="class" attloc="blockquote" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="body"><?Pub Lcl _id="f98"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="body" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="br"><?Pub Lcl _id="f156"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="br" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="button"><?Pub Lcl _id="f281"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<highlt inherit="1" bckclr="bred"></charlist>
+<att>
+<specval attname="class" attloc="button" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="caption"><?Pub Lcl _id="f264"><?Pub Dtl>
+<charlist charsubsetref="block bold"></charlist>
+<att>
+<specval attname="class" attloc="caption" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="center"><?Pub Lcl _id="f205"><?Pub Dtl>
+<charlist charsubsetref="block center"></charlist>
+<att>
+<specval attname="class" attloc="center" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="cite"><?Pub Lcl _id="f206"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline italic"></charlist>
+<att>
+<specval attname="class" attloc="cite" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="code"><?Pub Lcl _id="f153"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="monospace inline"></charlist>
+<att>
+<specval attname="class" attloc="code" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="dd"><?Pub Lcl _id="f265"><?Pub Dtl>
+<charlist charsubsetref="block">
+<indent inherit="0" leftind="3pi" rightind="0pi" firstln="*"></charlist>
+<att>
+<specval attname="class" attloc="dd" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="del" context="body"><?Pub Lcl _id="f283"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="delete"></charlist>
+<att>
+<specval attname="class" attloc="del" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="del" context="* body"><?Pub Lcl _id="f284"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline delete"></charlist>
+<att>
+<specval attname="class" attloc="del" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="dfn"><?Pub Lcl _id="f249"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="dfn" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="dir"><?Pub Lcl _id="f103"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="dir" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="div"><?Pub Lcl _id="f250"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="div" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+<att>
+<specval attname="align" attloc="div" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att>
+<specval attname="align" attloc="div" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att>
+<specval attname="align" attloc="div" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="dl"><?Pub Lcl _id="f166"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="dl" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="dt"><?Pub Lcl _id="f207"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="dt" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="em"><?Pub Lcl _id="f108"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline italic"></charlist>
+<att>
+<specval attname="class" attloc="em" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="fieldset"><?Pub Lcl _id="f285"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="fieldset" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="font"><?Pub Lcl _id="f208"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att><?Pub Dtl>
+<specval attname="size" attloc="font" attval="1">
+<charsubset charsubsetref="inline fontsize8pt"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="size" attloc="font" attval="2">
+<charsubset charsubsetref="inline fontsize10pt"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="size" attloc="font" attval="3">
+<charsubset charsubsetref="inline fontsize12pt"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="size" attloc="font" attval="4">
+<charsubset charsubsetref="inline fontsize14pt"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="size" attloc="font" attval="5">
+<charsubset charsubsetref="inline fontsize18pt"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="size" attloc="font" attval="6">
+<charsubset charsubsetref="inline fontsize24pt"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="size" attloc="font" attval="7">
+<charsubset charsubsetref="inline fontsize30pt"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="color" attloc="font" attval="blue">
+<charsubset charsubsetref="blue"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="color" attloc="font" attval="navy">
+<charsubset charsubsetref="blue"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="color" attloc="font" attval="red">
+<charsubset charsubsetref="red"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="color" attloc="font" attval="green">
+<charsubset charsubsetref="green"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="color" attloc="font" attval="lime">
+<charsubset charsubsetref="green"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="color" attloc="font" attval="violet">
+<charsubset charsubsetref="violet"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="color" attloc="font" attval="purple">
+<charsubset charsubsetref="violet"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="color" attloc="font" attval="orange">
+<charsubset charsubsetref="orange"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="color" attloc="font" attval="yellow">
+<charsubset charsubsetref="yellow"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="color" attloc="font" attval="brown">
+<charsubset charsubsetref="brown"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="font" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="form"><?Pub Lcl _id="f209"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="form" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="h1"><?Pub Lcl _id="f172">
+<charlist charsubsetref="block bold fontsize24pt keep-next-4">
+<presp minimum="1pi" nominal="1.5pi" maximum="2pi" priority="high">
+<postsp minimum="0.5pi" nominal="1pi" maximum="1.5pi" priority="med">
+<keeps></charlist>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h1" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h1" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h1" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="h1" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="h2"><?Pub Lcl _id="f174"><?Pub Dtl>
+<charlist charsubsetref="block bold fontsize20pt keep-next-4">
+<presp minimum="1pi" nominal="1.5pi" maximum="2pi" priority="high">
+<postsp minimum="6pt" nominal="8pt" maximum="10pt" priority="med"></charlist>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h2" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h2" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h2" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="h2" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="h3"><?Pub Lcl _id="f165"><?Pub Dtl>
+<charlist charsubsetref="block bold fontsize16pt keep-next-4"><?Pub Dtl>
+<presp minimum="1pi" nominal="1.5pi" maximum="2pi" priority="high">
+<postsp minimum="6pt" nominal="8pt" maximum="10pt" priority="med"></charlist>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h3" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h3" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h3" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="h3" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="h4"><?Pub Lcl _id="f167"><?Pub Dtl>
+<charlist charsubsetref="block bold keep-next-4"><?Pub Dtl>
+<presp minimum="8pt" nominal="10pt" maximum="12pt" priority="high">
+<postsp minimum="4pt" nominal="6pt" maximum="8pt" priority="med"></charlist>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h4" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h4" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h4" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="h4" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="h5"><?Pub Lcl _id="f169"><?Pub Dtl>
+<charlist charsubsetref="block bold fontsize10pt keep-next-4"><?Pub Dtl>
+<presp minimum="8pt" nominal="10pt" maximum="12pt" priority="high">
+<postsp minimum="4pt" nominal="6pt" maximum="8pt" priority="med"></charlist>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h5" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h5" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h5" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="h5" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="h6"><?Pub Lcl _id="f170"><?Pub Dtl>
+<charlist charsubsetref="block bold fontsize8pt keep-next-4"><?Pub Dtl>
+<presp minimum="8pt" nominal="10pt" maximum="12pt" priority="high">
+<postsp minimum="4pt" nominal="6pt" maximum="8pt" priority="med"></charlist>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h6" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h6" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="align" attloc="h6" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="h6" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="head"><?Pub Lcl _id="f99"><?Pub Dtl>
+<charlist charsubsetref="block">
+<presp minimum="8pt" nominal="10pt" maximum="12pt" priority="med">
+<postsp minimum="4pt" nominal="6pt" maximum="8pt" priority="low">
+<suppress sup="1"></charlist>
+</e-i-c>
+<!-- this quad=center within the usetext subchars
+prevents hr's align attribute from working, but without this, the editor
+view shows the rule flush left.  This line should be removed when the
+editor processing is corrected. -->
+<e-i-c gi="hr"><?Pub Lcl _id="f158"><?Pub Dtl>
+<charlist charsubsetref="block">
+<quadding inherit="1" quad="center">
+<usetext source="\______________________________\" placemnt="before">
+<subchars charsubsetref="block center"></subchars>
+</usetext>
+</charlist>
+<att>
+<specval attname="align" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att>
+<specval attname="align" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att>
+<specval attname="align" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="hr" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="html"><?Pub Lcl _id="f210"><?Pub Dtl>
+<charlist charsubsetref="block">
+<quadding inherit="0" quad="left">
+<textbrk startpg="next" pageid="generic.page" newpgmdl="global">
+<savetext textid="totpg.txt" conrule="bodyfolio.txt[BO]" placemnt="after">
+</charlist>
+<att>
+<fillval attname="currtime" attloc="system-var" fillcat="savetext" fillchar="conrule">
+<charsubset>
+<savetext textid="currtime.txt"></charsubset>
+</att>
+<att>
+<fillval attname="filename" attloc="system-var" fillcat="savetext" fillchar="conrule">
+<charsubset>
+<savetext textid="filename.txt"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="i"><?Pub Lcl _id="f112"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline italic"></charlist>
+<att>
+<specval attname="class" attloc="i" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="iframe"><?Pub Lcl _id="f286"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="iframe" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="img"><?Pub Lcl _id="f164"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<presp minimum="8pt" nominal="10pt" maximum="12pt" priority="med">
+<postsp minimum="5pt" nominal="6pt" maximum="7pt" priority="low"></charlist>
+<att>
+<specval attname="class" attloc="img" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="input"><?Pub Lcl _id="f140"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="input" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ins" context="body"><?Pub Lcl _id="f287"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="insert"></charlist>
+<att>
+<specval attname="class" attloc="ins" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ins" context="* body"><?Pub Lcl _id="f288"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline insert"></charlist>
+<att>
+<specval attname="class" attloc="ins" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="isindex"><?Pub Lcl _id="f135"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="isindex" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="kbd"><?Pub Lcl _id="f154"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="monospace inline"></charlist>
+<att>
+<specval attname="class" attloc="kbd" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="label"><?Pub Lcl _id="f289"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="label" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="legend"><?Pub Lcl _id="f290"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="legend" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol" occur="first"><?Pub Lcl _id="f102"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol1.ct">
+<enumerat enumid="ol1.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li" occur="first"><?Pub Lcl _id="f211"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol2.ct">
+<enumerat enumid="ol2.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li" occur="first"><?Pub Lcl _id="f212"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol3.ct">
+<enumerat enumid="ol3.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li" occur="first"><?Pub Lcl _id="f213"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol4.ct">
+<enumerat enumid="ol4.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li" occur="first"><?Pub Lcl _id="f214"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol5.ct">
+<enumerat enumid="ol5.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li" occur="first"><?Pub Lcl
+_id="f215"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol6.ct">
+<enumerat enumid="ol6.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li * li" occur="first"><?Pub Lcl
+_id="f216"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol7.ct">
+<enumerat enumid="ol7.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li * li * li" occur="first"><?Pub Lcl
+_id="f217"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol8.ct">
+<enumerat enumid="ol8.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li * li * li * li" occur="first"><?Pub Lcl
+_id="f218"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol9.ct">
+<enumerat enumid="ol9.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li * li * li * li * li" occur="first"><?Pub Lcl
+_id="f219"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol10.ct">
+<enumerat enumid="ol10.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li * li * li * li * li * li"
+occur="first"><?Pub Lcl _id="f220"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol11.ct">
+<enumerat enumid="ol11.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol" occur="notfirst"><?Pub Lcl _id="f291"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol1.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol1.ct">
+<enumerat enumid="ol1.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AR]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[AU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[RL]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol1.ct[RU]"></charsubset>
+</att>
+<att><?Pub Dtl>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li" occur="notfirst"><?Pub Lcl _id="f267"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol2.ct"></charsubset>
+</att>
+<att>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol2.ct">
+<enumerat enumid="ol2.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol2.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li" occur="notfirst"><?Pub Lcl _id="f292"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol3.ct"></charsubset>
+</att>
+<att>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol3.ct">
+<enumerat enumid="ol3.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol3.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li" occur="notfirst"><?Pub Lcl _id="f293"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol4.ct"></charsubset>
+</att>
+<att>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol4.ct">
+<enumerat enumid="ol4.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol4.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li" occur="notfirst"><?Pub Lcl _id="f294"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol5.ct"></charsubset>
+</att>
+<att>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol5.ct">
+<enumerat enumid="ol5.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol5.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li" occur="notfirst"><?Pub Lcl
+_id="f295"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol6.ct"></charsubset>
+</att>
+<att>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol6.ct">
+<enumerat enumid="ol6.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol6.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li * li" occur="notfirst"><?Pub Lcl
+_id="f296"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol7.ct"></charsubset>
+</att>
+<att>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol7.ct">
+<enumerat enumid="ol7.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol7.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li * li * li" occur="notfirst"><?Pub Lcl
+_id="f297"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol8.ct"></charsubset>
+</att>
+<att>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol8.ct">
+<enumerat enumid="ol8.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol8.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li * li * li * li" occur="notfirst"><?Pub Lcl
+_id="f298"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol9.ct"></charsubset>
+</att>
+<att>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol9.ct">
+<enumerat enumid="ol9.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol9.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li * li * li * li * li" occur="notfirst"><?Pub Lcl
+_id="f299"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol10.ct"></charsubset>
+</att>
+<att>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol10.ct">
+<enumerat enumid="ol10.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol10.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ol li * li * li * li * li * li * li * li * li * li"
+occur="notfirst"><?Pub Lcl _id="f300"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol11.ct"></charsubset>
+</att>
+<att>
+<fillval attname="value" attloc="li" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol11.ct">
+<enumerat enumid="ol11.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#NONE">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ol" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="1">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AR]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\a\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\A\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[AU]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\i\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[RL]"></charsubset>
+</att>
+<att>
+<specval attname="type" attval="#EQ#\I\">
+<charsubset>
+<savetext textid="olli.txt" conrule="ol11.ct[RU]"></charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#ANY">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="value" attloc="li" attval="#NONE">
+<charsubset>
+<usetext source="1em,olli.txt,\.\,0.25em,@2em"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="menu"><?Pub Lcl _id="f221"><?Pub Dtl>
+<charlist charsubsetref="block li-indent">
+<usetext source="1em,\&bull;\,@2em"></usetext>
+</charlist>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="dir"><?Pub Lcl _id="f222"><?Pub Dtl>
+<charlist charsubsetref="block li-indent">
+<usetext source="1em,\&bull;\,@2em"></usetext>
+</charlist>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ul"><?Pub Lcl _id="f223"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="type" attloc="ul" attval="#NONE">
+<charsubset>
+<usetext source="1pi,\&bull;\,@2pi"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ul" attval="circle">
+<charsubset>
+<usetext source="1pi,\o\,@2pi">
+<subchars charsubsetref="bold monospace smallfont fontoffset.1em"></subchars>
+</usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ul" attval="disc">
+<charsubset>
+<usetext source="1pi,\&bull;\,@2pi"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ul" attval="square">
+<charsubset>
+<usetext source="1pi,\&squ;\,@2pi">
+<subchars charsubsetref="smallfont fontoffset.1em"></subchars>
+</usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ul * ul"><?Pub Lcl _id="f224"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="type" attloc="ul" attval="#NONE">
+<charsubset>
+<usetext source="1pi,\o\,@2pi">
+<subchars charsubsetref="bold monospace smallfont fontoffset.1em"></subchars>
+</usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ul" attval="circle">
+<charsubset>
+<usetext source="1pi,\o\,@2pi">
+<subchars charsubsetref="bold monospace smallfont fontoffset.1em"></subchars>
+</usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ul" attval="disc">
+<charsubset>
+<usetext source="1pi,\&bull;\,@2pi"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ul" attval="square">
+<charsubset>
+<usetext source="1pi,\&squ;\,@2pi">
+<subchars charsubsetref="bold monospace smallfont fontoffset.1em"></subchars>
+</usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li" context="ul * ul * ul"><?Pub Lcl _id="f301"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent"></charlist>
+<att>
+<specval attname="type" attloc="ul" attval="#NONE">
+<charsubset>
+<usetext source="1pi,\&squ;\,@2pi">
+<subchars charsubsetref="bold monospace smallfont fontoffset.1em"></subchars>
+</usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ul" attval="circle">
+<charsubset>
+<usetext source="1pi,\o\,@2pi">
+<subchars charsubsetref="bold monospace smallfont fontoffset.1em"></subchars>
+</usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ul" attval="disc">
+<charsubset>
+<usetext source="1pi,\&bull;\,@2pi"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="type" attloc="ul" attval="square">
+<charsubset>
+<usetext source="1pi,\&squ;\,@2pi">
+<subchars charsubsetref="bold monospace smallfont fontoffset.1em"></subchars>
+</usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="li"><?Pub Lcl _id="f235"><?Pub Dtl>
+<charlist charsubsetref="block pre-space li-indent">
+<usetext source="1pi,\&bull;\,@2pi"></usetext>
+</charlist>
+<att>
+<specval attname="class" attloc="li" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="link"><?Pub Lcl _id="f133"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="link" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="map"><?Pub Lcl _id="f261"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="map" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="menu"><?Pub Lcl _id="f101"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="menu" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="meta"><?Pub Lcl _id="f134"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+</e-i-c>
+<e-i-c gi="noframes"><?Pub Lcl _id="f302"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="noframes" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="noscript"><?Pub Lcl _id="f303"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="noscript" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="object"><?Pub Lcl _id="f304"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="object" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol"><?Pub Lcl _id="f175"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol1.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol1.ct">
+<enumerat enumid="ol1.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol1.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol" context="li"><?Pub Lcl _id="f177"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol2.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol2.ct">
+<enumerat enumid="ol2.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol2.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol" context="li * li"><?Pub Lcl _id="f226"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol3.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol3.ct">
+<enumerat enumid="ol3.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol3.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol" context="li * li * li"><?Pub Lcl _id="f227"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol4.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol4.ct">
+<enumerat enumid="ol4.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol4.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol" context="li * li * li * li"><?Pub Lcl _id="f228"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol5.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol5.ct">
+<enumerat enumid="ol5.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol5.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol" context="li * li * li * li * li"><?Pub Lcl _id="f229"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol6.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol6.ct">
+<enumerat enumid="ol6.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol6.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol" context="li * li * li * li * li * li"><?Pub Lcl _id="f230"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol7.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol7.ct">
+<enumerat enumid="ol7.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol7.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol" context="li * li * li * li * li * li * li"><?Pub Lcl _id="f231"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol8.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol8.ct">
+<enumerat enumid="ol8.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol8.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol" context="li * li * li * li * li * li * li * li"><?Pub Lcl _id="f232"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol9.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol9.ct">
+<enumerat enumid="ol9.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol9.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol" context="li * li * li * li * li * li * li * li * li"><?Pub Lcl
+_id="f233"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol10.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol10.ct">
+<enumerat enumid="ol10.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol10.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ol" context="li * li * li * li * li * li * li * li * li * li"><?Pub Lcl
+_id="f234"><?Pub Dtl>
+<charlist charsubsetref="block">
+<reset resetlist="ol11.ct"></charlist>
+<att>
+<fillval attname="start" attloc="ol" fillcat="enumerat" fillchar="increm">
+<charsubset>
+<reset resetlist="ol11.ct">
+<enumerat enumid="ol11.ct"></charsubset>
+</att>
+<att>
+<specval attname="start" attloc="ol" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="ol11.ct"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="ol" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="optgroup"><?Pub Lcl _id="f305"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="optgroup" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="option"><?Pub Lcl _id="f136"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="option" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="p" context="li" occur="first"><?Pub Lcl _id="f306"><?Pub Dtl>
+<charlist inherit="1"></charlist>
+<att>
+<specval attname="align" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att>
+<specval attname="align" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att>
+<specval attname="align" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="p" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="p" context="li" occur="notfirst"><?Pub Lcl _id="f307"><?Pub Dtl>
+<charlist charsubsetref="block pre-space">
+<indent inherit="1" leftind="@" rightind="@" firstln="*"></charlist>
+<att>
+<specval attname="align" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att>
+<specval attname="align" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att>
+<specval attname="align" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="p" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="p"><?Pub Lcl _id="f163"><?Pub Dtl>
+<charlist charsubsetref="block">
+<presp minimum="6pt" nominal="7pt" maximum="8pt" priority="high">
+<postsp minimum="4pt" nominal="5pt" maximum="6pt" priority="low"></charlist>
+<att>
+<specval attname="align" attval="left">
+<charsubset charsubsetref="left"></charsubset>
+</att>
+<att>
+<specval attname="align" attval="center">
+<charsubset charsubsetref="center"></charsubset>
+</att>
+<att>
+<specval attname="align" attval="right">
+<charsubset charsubsetref="right"></charsubset>
+</att>
+<att>
+<specval attname="class" attloc="p" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="param"><?Pub Lcl _id="f252"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+</e-i-c>
+<e-i-c gi="pre"><?Pub Lcl _id="f236"><?Pub Dtl>
+<charlist charsubsetref="monospace block">
+<quadding inherit="1" quad="asis" lastquad="relative"></charlist>
+<att>
+<specval attname="class" attloc="pre" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="q" context="* q"><?Pub Lcl _id="f308"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<usetext source="\&lsquo;\" placemnt="before"></usetext>
+<usetext source="\&rsquo;\" placemnt="after"></usetext>
+</charlist>
+<att>
+<specval attname="class" attloc="q" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="q"><?Pub Lcl _id="f309"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<usetext source="\&ldquo;\" placemnt="before"></usetext>
+<usetext source="\&rdquo;\" placemnt="after"></usetext>
+</charlist>
+<att>
+<specval attname="class" attloc="q" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="s"><?Pub Lcl _id="f256"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<highlt inherit="1" scoring="1" scorewt="1pt" scoreoff="4pt" scorespc="1">
+</charlist>
+<att>
+<specval attname="class" attloc="s" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="samp"><?Pub Lcl _id="f237"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="samp" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="script"><?Pub Lcl _id="f254"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+</e-i-c>
+<e-i-c gi="select"><?Pub Lcl _id="f238"><?Pub Dtl>
+<charlist charsubsetref="block">
+<indent leftind="3pi" rightind="0pi" firstln="*"></charlist>
+<att>
+<specval attname="class" attloc="select" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="small"><?Pub Lcl _id="f255"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<font inherit="1" size="9pt"></charlist>
+<att>
+<specval attname="class" attloc="small" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="span"><?Pub Lcl _id="f310"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="span" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="strike"><?Pub Lcl _id="f311"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<highlt inherit="1" scoring="1" scorewt="1pt" scoreoff="-.15em" scorespc="1">
+</charlist>
+<att>
+<specval attname="class" attloc="strike" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="strong"><?Pub Lcl _id="f151"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline bold"></charlist>
+<att>
+<specval attname="class" attloc="strong" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="style"><?Pub Lcl _id="f257">
+<charlist charsubsetref="block"></charlist>
+<att>
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="sub"><?Pub Lcl _id="f258"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<font inherit="1" size="0.8em" offset="-0.4em"></charlist>
+<att>
+<specval attname="class" attloc="sub" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="sup"><?Pub Lcl _id="f259"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<font inherit="1" size="0.8em" offset="+0.4em"></charlist>
+<att>
+<specval attname="class" attloc="sup" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="textarea"><?Pub Lcl _id="f162"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="textarea" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="title"><?Pub Lcl _id="f171">
+<charlist charsubsetref="block">
+<savetext textid="title.txt" conrule="#CONTENT" placemnt="before"></charlist>
+<att>
+<charsubset charsubsetref="amend"><?Pub Caret1></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="tt"><?Pub Lcl _id="f243"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline"></charlist>
+<att>
+<specval attname="class" attloc="tt" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="u"><?Pub Lcl _id="f312"><?Pub Dtl>
+<charlist inherit="1" charsubsetref="inline">
+<highlt inherit="1" scoring="1" scorewt="1pt" scorespc="1"></charlist>
+<att>
+<specval attname="class" attloc="u" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="ul"><?Pub Lcl _id="f244"><?Pub Dtl>
+<charlist charsubsetref="block"></charlist>
+<att>
+<specval attname="class" attloc="ul" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="var"><?Pub Lcl _id="f266">
+<charlist inherit="1" charsubsetref="inline italic"></charlist>
+<att>
+<specval attname="class" attloc="var" attval="amend">
+<charsubset charsubsetref="amend"></charsubset>
+</att>
+</e-i-c>
+</styldesc>
+</outspec>
+<?Pub *0000099513>

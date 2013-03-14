@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2011, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">--><?Pub Inc?>
+<precedent jurisdiction="US">
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Changes made to this resource</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <revdescription>
+                    <section1>
+                        <para>We will record here any changes to this resource as a result of developments in the law or
+                            practice.
+                        </para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <?Pub Caret -1?>
+    <heading>
+        <minuteheader>
+            <table frame="none" pgwide="1">
+                <tgroup cols="1">
+                    <colspec colname="col1"/>
+                    <tbody>
+                        <row>
+                            <entry align="center">
+                                <para xml:space="preserve"><emphasis role="bold">UNANIMOUS WRITTEN CONSENT</emphasis>
+<emphasis role="bold">OF</emphasis>
+<emphasis role="bold">[GOVERNING BODY]</emphasis>
+<emphasis role="bold">OF</emphasis>
+<emphasis role="bold">[COMPANY]
+IN LIEU OF A MEETING
+</emphasis></para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <para></para>
+            <para>The undersigned, being all of the [directors/managers/members/partners] of [COMPANY], a [STATE]
+                [ENTITY TYPE] (the<defterm>Company"</defterm>), acting by written consent without a meeting [pursuant to
+                [SECTION REFERENCE] of the [BODY OF LAW]], do hereby consent to the adoption of the following
+                resolutions with the same force and effect as if such resolutions were approved and adopted at a duly
+                constituted meeting of the [GOVERNING BODY] of the Company:
+            </para>
+        </minuteheader>
+    </heading>
+    <preamble>
+        <para><emphasis role="bold">WHEREAS</emphasis>, [TEXT OF RECITAL]; and
+        </para>
+        <para><emphasis role="bold">WHEREAS</emphasis>, [TEXT OF RECITAL].
+        </para>
+    </preamble>
+    <operative xrefname="paragraph">
+        <title>NOW THEREFORE LET IT BE:</title>
+        <clause numbering="none">
+            <para><emphasis role="bold">RESOLVED</emphasis>, [TEXT OF RESOLUTION];
+            </para>
+        </clause>
+        <clause numbering="none">
+            <para><emphasis role="bold">RESOLVED</emphasis>, [TEXT OF RESOLUTION]; and
+            </para>
+        </clause>
+        <clause numbering="none">
+            <para><emphasis role="bold">RESOLVED</emphasis>, [TEXT OF RESOLUTION].
+            </para>
+        </clause>
+        <clause numbering="none">
+            <para>This consent may be executed in counterparts and all so executed shall constitute one consent,
+                notwithstanding that all members of the [GOVERNING BODY] of the Company are not signatories to the
+                original of the same counterpart.
+            </para>
+        </clause>
+    </operative>
+    <signature pagebreak="true" signaturemessage="yes">
+        <clause>
+            <para>IN WITNESS WHEREOF, the undersigned [directors/managers/members/partners] have duly executed this
+                Unanimous Written Consent as of [DATE].
+            </para>
+            <para>
+                <table frame="none" pgwide="1">
+                    <tgroup cols="2">
+                        <colspec colname="col1" colwidth="50%"/>
+                        <colspec colname="col2" colwidth="50%"/>
+                        <tbody>
+                            <row>
+                                <entry colsep="0" rowsep="0"></entry>
+                                <entry>
+                                    <para></para>
+                                    <para>.............................................</para>
+                                    <para>[NAME]</para>
+                                    <para>.............................................</para>
+                                    <para>[NAME]</para>
+                                    <para>.............................................</para>
+                                    <para>[NAME]</para>
+                                    <para>.............................................</para>
+                                    <para>[NAME]</para>
+                                </entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </para>
+        </clause>
+    </signature>
+</precedent>

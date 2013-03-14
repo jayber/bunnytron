@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2004, v.4002 <!DOCTYPE postaladdress PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent xmlns:xlink="http://www.w3.org/1999/xlink">
+    <metadata></metadata>
+    <draftingnote>
+        <section1>
+            <para>General introductory comments</para>
+        </section1>
+        <section1>
+            <para>General introduction to the agreement.</para>
+        </section1>
+        <section1>
+            <title>Legal issues</title>
+            <para>Relevant legal issues that affect the document as a whole.</para>
+        </section1>
+        <section1>
+            <title>Negotiating and drafting issues</title>
+            <para>Relevant negotiating issues relevant to the document as a whole</para>
+            <section2>
+                <title>Buyer [or other party name]</title>
+                <para>The main points on the document as a whole that apply to the buyer</para>
+            </section2>
+            <section2>
+                <title>Seller</title>
+                <para>The main points on the document as a whole that apply to the seller</para>
+            </section2>
+        </section1>
+    </draftingnote>
+    <coversheet></coversheet>
+    <toc></toc>
+    <intro></intro>
+    <parties>
+        <title>Parties</title>
+        <draftingnote>
+            <section1>
+                <title>Parties Clause</title>
+                <para>Brief overview of the nature/purpose of the clause (if necessary).</para>
+                <section2>
+                    <title>Legal issues</title>
+                    <para>Any relevant legal issues.</para>
+                </section2>
+                <section2>
+                    <title>Negotiating and drafting issues</title>
+                    <para>Text here</para>
+                    <section3>
+                        <title>Buyer</title>
+                        <para>Issues relating specifically to the buyer.</para>
+                    </section3>
+                </section2>
+            </section1>
+        </draftingnote>
+        <party executionmethod="contract" status="company">
+            <draftingnote>
+                <section1>
+                    <para>[Drafting notes on party 1]</para>
+                </section1>
+            </draftingnote>
+            <defitem>
+                <def>
+                    <para><partyname>[FULL COMPANY NAME]</partyname>, incorporated and registered in [COUNTRY OF
+                        INCORPORATION] with company number [NUMBER] whose registered office is at [REGISTERED OFFICE
+                        ADDRESS]
+                    </para>
+                </def>
+                <defterm>1st Party name</defterm>
+            </defitem>
+        </party>
+        <party executionmethod="contract" status="company">
+            <draftingnote>
+                <section1>
+                    <para>[Drafting notes on party 2]</para>
+                </section1>
+            </draftingnote>
+            <defitem>
+                <def>
+                    <para>[FULL COMPANY NAME], incorporated and registered in [COUNTRY OF INCORPORATION] with company
+                        number [NUMBER] whose registered office is at [REGISTERED OFFICE ADDRESS]
+                    </para>
+                </def>
+                <defterm>2nd party name</defterm>
+            </defitem>
+        </party>
+    </parties>
+    <recitals>
+        <title>Background</title>
+        <clause>
+            <para>[First recital etc]</para>
+        </clause>
+    </recitals>
+    <operative>
+        <title>Agreed terms</title>
+        <clause>
+            <title>Interpretation</title>
+            <draftingnote>
+                <section1>
+                    <title>Interpretation: clause 1</title>
+                    <para>General explanation of the interpretation clause here.</para>
+                    <para>Note &#x2212; please use the following wording for paragraphs within schedules:</para>
+                </section1>
+            </draftingnote>
+            <subclause1>
+                <para>The definitions and rules of interpretation in this clause apply in this [licence/agreement
+                    etc.].
+                </para>
+                <defitem>
+                    <defterm>[First defterm]</defterm>
+                    <def>
+                        <para>[definition here]</para>
+                    </def>
+                    <draftingnote>
+                        <section1>
+                            <para>[Drafting notes on this defterm]</para>
+                        </section1>
+                    </draftingnote>
+                </defitem>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Second clause</title>
+            <draftingnote>
+                <section1>
+                    <title>Interpretation: clause 1</title>
+                    <para>General explanation of the second clause here.</para>
+                </section1>
+            </draftingnote>
+            <subclause1>
+                <para>[Some text]</para>
+            </subclause1>
+        </clause>
+    </operative>
+    <testimonium wording="contract"></testimonium>
+    <schedule>
+        <title>Title of schedule 1</title>
+        <para>[SCOPE OF USE]</para>
+        <draftingnote>
+            <section1>
+                <para>[Details of schedule 1]</para>
+                <para></para>
+            </section1>
+        </draftingnote>
+    </schedule>
+    <signature>
+        <draftingnote>
+            <section1>
+                <para>See
+                    <emphasis role="italic">Practice Note,
+                        <plcxlink>
+                            <xlink:locator xlink:href="16545" xlink:role="Article"
+                                           xlink:title="Execution of deeds and documents">Execution of deeds and
+                                documents
+                            </xlink:locator>
+                        </plcxlink>
+                    </emphasis>
+                    for a full discussion of execution and alternative clauses.
+                </para>
+            </section1>
+        </draftingnote>
+    </signature>
+    <appendix>
+        <title>[An annex to the document]</title>
+    </appendix>
+</precedent>

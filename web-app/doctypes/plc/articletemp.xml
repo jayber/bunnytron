@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2005, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<article><?Pub Caret1?>
+    <metadata></metadata>
+    <speedread>
+        <title>Speedread title</title>
+        <para>Speedread text</para>
+    </speedread>
+    <fulltext>
+        <section1>
+            <title>Title</title>
+            <para>Main text of article</para>
+        </section1>
+    </fulltext>
+</article><?Pub *0000000494 0?>

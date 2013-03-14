@@ -1,0 +1,13 @@
+<?xml encoding='utf-8' ?>
+
+        <!--
+        The Public Identifier for this Doctype is:
+                    PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc/plcsimple.dtd"
+        -->
+
+        <!ELEMENT para  (#PCDATA)>
+        <!ELEMENT title  (#PCDATA)>
+
+        <!ELEMENT clause  (title?,(para? | subclause1?)*)>
+
+        <!ELEMENT subclause1  (para?)>

@@ -1,0 +1,7 @@
+# Add to Insert menu "Text from URL..."
+menu_add .Insert. "Text from URL..." -cmd {_plclink::callVBImportURLText()} 
+
+# Change Link and Link Target menu items
+menu_change .Insert.Link. -cmd {_plclink::callVBLink()} -active "linktools::caret_at_new_link()" 
+
+menu_change .Insert.Link_Target. -cmd {_plclink::callVBTarget()} -active "x=1"

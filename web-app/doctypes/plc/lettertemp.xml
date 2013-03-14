@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2011, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent>
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Changes made to this resource</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <revdescription>
+                    <section1>
+                        <para>We will record here any changes to this resource as a result of developments in the law or
+                            practice.
+                        </para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <?Pub Caret -1?>
+    <heading>
+        <letterhead partyhead="[party name]"></letterhead>
+        <addressees>
+            <addressee>
+                <addressline>[ADDRESSEE]</addressline>
+                <addressline>[ADDRESS LINE 1]</addressline>
+                <addressline>[ADDRESS LINE 2]</addressline>
+                <addressline>[POSTCODE]</addressline>
+            </addressee>
+        </addressees>
+        <date>[DATE]</date>
+        <salutation>Dear Sirs,</salutation>
+        <title>Title of letter</title>
+    </heading>
+    <preamble>
+        <para>The first set of tags in the template are &lt;preamble&gt; tags. These can be filled with &lt;para&gt;
+            tags to create an introduction that will not be numbered.
+        </para>
+    </preamble>
+    <operative xrefname="paragraph">
+        <clause numbering="none">
+            <para>Example of a non-numbered introductory paragraph:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>Text.</para>
+                </listitem>
+                <listitem>
+                    <para>Text with a defined term in it (<defterm>Defined Term</defterm>).
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>You should use bulleted lists rather than numbered lists in a non-numbered introductory
+                        paragraph.
+                    </para>
+                </listitem>
+            </itemizedlist>
+            <para>You can set up the operative section, below, in one of three different ways (each is illustrated).
+                Choose one style throughout the operative and delete the others.
+            </para>
+        </clause>
+        <clause>
+            <title>Letter with formal agreement-style numbering and titles</title>
+            <subclause1>
+                <para>This is the formal agreement-style numbering and titles. It is typically used for agreements in
+                    letter form, such as a confidentiality letter agreement. You would also use it to create a series of
+                    numbered paragraphs, each with headings.
+                </para>
+                <subclause2>
+                    <para>sub-paragraphs or sub-clauses would be (a), (b), and so on; and</para>
+                </subclause2>
+                <subclause2>
+                    <para>you can choose to cross-refer to paragraphs or clauses by selecting the "clause" or
+                        "paragraph" option for the xrefname attribute of the &lt;operative&gt; tag. The default for a
+                        letter template is paragraph.
+                    </para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause>
+            <para>This is the letter form with numbered paragraphs but no headings.</para>
+            <itemizedlist>
+                <listitem>
+                    <para>You can use bullets or a numbered list with these, but thereafter you need to be consistent.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>Do not mix bullets and numbered lists, as these will cause the Word numbering to corrupt.
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </clause>
+        <clause numbering="none">
+            <para>This is the letter form with no numbering at all. Set numbering attribute on each clause to none to
+                use this.
+            </para>
+        </clause>
+        <clause numbering="none">
+            <para>Please acknowledge receipt and acceptance of this letter by signing, dating and returning the enclosed
+                copy.
+            </para>
+        </clause>
+    </operative>
+    <closing>
+        <sincerely>Yours faithfully,</sincerely>
+    </closing>
+    <signature pagebreak="false">
+        <clause>
+            <para>................................................................</para>
+            <para>[NAME OF SENDER]</para>
+            <para></para>
+            <para>We hereby acknowledge receipt and accept the contents of this letter</para>
+            <para></para>
+            <para>Signed .....................................................</para>
+            <para>[NAME OF RECIPIENT]</para>
+            <para></para>
+            <para>Date ........................................................</para>
+        </clause>
+    </signature>
+</precedent>

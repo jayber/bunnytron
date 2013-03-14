@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2011, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">--><?Pub Inc?>
+<draftingguide>
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Changes made to this resource</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <revdescription>
+                    <section1>
+                        <para>We will record here any changes to this resource as a result of developments in the law or
+                            practice.
+                        </para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <?Pub Caret 0?>
+    <fulltext>
+        <section1>
+            <para>General introductory comments</para>
+        </section1>
+        <bridgehead>General document notes</bridgehead>
+        <section1>
+            <para>General introduction to the agreement.</para>
+        </section1>
+        <section1>
+            <title>Legal issues</title>
+            <para>Relevant legal issues that affect the document as a whole.</para>
+        </section1>
+        <section1>
+            <title>Negotiating and drafting issues</title>
+            <para>Relevant negotiating issues relevant to the document as a whole</para>
+            <section2>
+                <title>Buyer [or other party name]</title>
+                <para>The main points on the document as a whole that apply to the buyer</para>
+            </section2>
+            <section2>
+                <title>Seller</title>
+                <para>The main points on the document as a whole that apply to the seller</para>
+            </section2>
+        </section1>
+        <bridgehead>Clause notes</bridgehead>
+        <section1>
+            <para>Clause specific notes.</para>
+        </section1>
+        <section1>
+            <title>Parties Clause</title>
+            <para>Brief overview of the nature/purpose of the clause (if necessary).</para>
+            <section2>
+                <title>Legal issues</title>
+                <para>Any relevant legal issues.</para>
+            </section2>
+            <section2>
+                <title>Negotiating and drafting issues</title>
+                <para>Text here</para>
+                <section3>
+                    <title>Buyer</title>
+                    <para>Issues relating specifically to the buyer.</para>
+                </section3>
+            </section2>
+        </section1>
+        <section1>
+            <title>Interpretation: clause 1</title>
+            <para>General explanation of the interpretation clause here.</para>
+            <para>Note &#x2212; please use the following wording for paragraphs within schedules:</para>
+        </section1>
+        <section1>
+            <title>Property: paragraph [ ] of schedule [ ]</title>
+        </section1>
+    </fulltext>
+</draftingguide>

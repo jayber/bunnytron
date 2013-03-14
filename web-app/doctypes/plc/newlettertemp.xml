@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset: ArborText, Inc., 1988-2002, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent>
+    <metadata/>
+    <heading>
+        <letterhead partyhead="[party name]"/>
+        <addressees>
+            <!-- insert 'TO' in the output-->
+            <addressee>
+                <addressline/>
+            </addressee>
+            <addressee>
+                <addressline/>
+            </addressee>
+        </addressees>
+        <date/>
+        <salutation>Dear Sirs</salutation>
+        <title>[Title of letter]</title>
+    </heading>
+    <preamble/>
+    <operative>
+        <clause>
+            <title>[Letter formal form]</title>
+            <subclause1>
+                <para>This is the letter formal form with full operative style numbering.</para>
+            </subclause1>
+        </clause>
+        <clause>
+            <para>[Letter informal form] This is the letter informal style numbering with a series of numbered paras
+            </para>
+        </clause>
+        <clause numbering="none">
+            <para>[This is the letter form with no numbering at all, chose operativeinformal and set numbering attribute
+                to none.]
+            </para>
+        </clause>
+    </operative>
+    <closing>
+        <sincerely>[Yours sincerely,]</sincerely>
+    </closing>
+    <signature>
+        <clause>
+            <title>[Note that for letters where there are no parties the signature is hand drafted so the below doesn't
+                apply]
+            </title>
+        </clause>
+    </signature>
+</precedent>

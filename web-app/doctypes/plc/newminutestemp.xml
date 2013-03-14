@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset: ArborText, Inc., 1988-2002, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent>
+    <metadata/>
+    <heading>
+        <letterhead/>
+        <minuteheader/>
+        <attendance/>
+    </heading>
+    <operative>
+        <title/>
+        <clause>
+            <title>Chairperson</title>
+            <para>[NAME] was appointed chairperson of the meeting.</para>
+        </clause>
+        <clause>
+            <title>Notice and quorum</title>
+            <para>The chairperson reported that due notice of the meeting had been given and that a quorum was present.
+                Accordingly, the chairperson declared the meeting open.
+            </para>
+        </clause>
+        <clause>
+            <title>etc...</title>
+        </clause>
+    </operative>
+    <closing/>
+    <signature/>
+</precedent>

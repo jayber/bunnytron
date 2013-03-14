@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2004, v.4002 <!DOCTYPE postaladdress PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent>
+    <metadata/>
+    <operative>
+        <clause numbering="none">
+            <title>Definitions</title>
+            <draftingnote>
+                <section1>
+                    <para>Insert definitions</para>
+                </section1>
+            </draftingnote>
+            <subclause1>
+                <defitems sort="true">
+                    <defitem>
+                        <defterm>[Insert definition name]</defterm>
+                        <def>
+                            <para>[Insert definition]</para>
+                        </def>
+                    </defitem>
+                </defitems>
+            </subclause1>
+        </clause>
+        <clause numbering="none">
+            <title>Clauses</title>
+            <draftingnote>
+                <section1>
+                    <para>[Add some instructional text here]</para>
+                </section1>
+            </draftingnote>
+        </clause>
+        <clause>
+            <title/>
+            <subclause1/>
+        </clause>
+    </operative>
+    <draftingnote>
+        <section1>
+            <title>SCHEDULES</title>
+            <para>[Add some instructional text here]</para>
+        </section1>
+    </draftingnote>
+    <schedule>
+        <title>[Schedule Title here]</title>
+        <clause>
+            <title>[Clause title here]</title>
+            <subclause1/>
+        </clause>
+    </schedule>
+</precedent>

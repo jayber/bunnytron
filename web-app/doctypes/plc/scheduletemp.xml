@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2011, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">--><?Pub Inc?>
+<precedent xmlns:xlink="http://www.w3.org/1999/xlink">
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Changes made to this resource</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <revdescription>
+                    <section1>
+                        <para>We will record here any changes to this resource as a result of developments in the law or
+                            practice.
+                        </para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <?Pub Caret -1?>
+    <operative></operative>
+    <schedule>
+        <title>Stand-alone schedule</title>
+        <clause>
+            <title>Using definitions</title>
+            <subclause1>
+                <para>The definitions [and rules of interpretation] in this paragraph apply in
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a955507" xlink:role="xref"
+                                       xlink:title="schedule 1 - Stand-alone schedule">this Schedule
+                            <xref link="a955507"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    .
+                </para>
+                <defitem>
+                    <defterm>Defined Term</defterm>
+                    <def>
+                        <para>definition text.</para>
+                    </def>
+                </defitem>
+                <defitem>
+                    <defterm>Defined Term</defterm>
+                    <def>
+                        <para>this example definition demonstrates that it is possible to:</para>
+                        <subclause2>
+                            <para>use subclause2 tags in definitions; and</para>
+                        </subclause2>
+                        <subclause2>
+                            <para>follow them with other defined terms,</para>
+                        </subclause2>
+                        <para>such as<defterm>This</defterm>, which will occasionally be necessary.
+                        </para>
+                    </def>
+                </defitem>
+            </subclause1>
+            <subclause1>
+                <para>Where terms are defined later in the agreement, put the defterm in brackets after the definition (
+                    <defterm>Like This</defterm>).
+                </para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Different ways to number schedules</title>
+            <subclause1>
+                <para>There are two different styles for schedules.</para>
+            </subclause1>
+            <subclause1>
+                <para>The first style uses numbered paragraphs with titles after each number, like this schedule.</para>
+            </subclause1>
+            <subclause1>
+                <para>The second style uses numbered paragraphs without titles. For an example of this, see Schedule 3
+                    of the formal agreement illustrated template.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>
+                    <emphasis role="bold">It is very important that these two styles are not mixed in the same schedule,
+                        as this can cause problems in the Word version of the document.
+                    </emphasis>
+                </para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Schedule style and structure</title>
+            <subclause1>
+                <para>Make sure your schedule has a title, which should be in sentence case (that is, only the first
+                    letter of the title should be capitalised).
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>This
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a1017704" xlink:role="xref" xlink:title="paragraph 2.2 - This ">
+                            paragraph 2.2
+                            <xref link="a1017704"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    illustrates the different subclause levels that can be used in a schedule, their layout and
+                    appropriate punctuation. This text may go to:
+                </para>
+                <subclause2>
+                    <para>subclause2 level; and</para>
+                </subclause2>
+                <subclause2>
+                    <para>that subclause2 can in turn go to:</para>
+                    <subclause3>
+                        <para>subclause3 level and stay at that level; or</para>
+                    </subclause3>
+                    <subclause3>
+                        <para>go to subclause4 level:</para>
+                        <subclause4>
+                            <para>like this; and</para>
+                        </subclause4>
+                        <subclause4>
+                            <para>this,</para>
+                        </subclause4>
+                    </subclause3>
+                </subclause2>
+                <para>but avoid using subclause4 wherever possible.</para>
+            </subclause1>
+            <subclause1>
+                <para>It is possible to divide schedules into parts. Select the &lt;part&gt; tag from the insert markup
+                    box.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>
+                    <table frame="all">
+                        <tgroup cols="3">
+                            <colspec colname="col1"/>
+                            <colspec colname="col2"/>
+                            <colspec colname="col3"/>
+                            <tbody>
+                                <row>
+                                    <entry>
+                                        <para>Sections you
+                                            <emphasis role="bold">must use</emphasis>
+                                        </para>
+                                    </entry>
+                                    <entry>
+                                        <para>Sections you<emphasis role="bold">can use</emphasis>, but don't have to
+                                            use
+                                        </para>
+                                    </entry>
+                                    <entry>
+                                        <para>Sections you
+                                            <emphasis role="bold">can't use</emphasis>
+                                        </para>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <para>Title</para>
+                                    </entry>
+                                    <entry>
+                                        <para xml:space="preserve">Part
+Clause
+Subclauses</para>
+                                    </entry>
+                                    <entry>
+                                        <para xml:space="preserve">Annex
+Closing
+Coversheet
+Operative
+Parties
+Preamble
+Recitals
+Signature
+Testimonium</para>
+                                    </entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </para>
+            </subclause1>
+        </clause>
+    </schedule>
+    <schedule>
+        <title>Document structure</title>
+        <clause>
+            <subclause1>
+                <para>Another schedule</para>
+            </subclause1>
+        </clause>
+    </schedule>
+</precedent>

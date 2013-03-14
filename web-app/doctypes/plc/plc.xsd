@@ -1,0 +1,2216 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Version 1.2 -->
+<!-- will include drafting note framework -->
+<!-- ############################## -->
+<!--  ### Element Groups ### -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:da="##da"
+           xmlns:xlink="http://www.w3.org/1999/xlink">
+    <xs:include schemaLocation="soextblx.xsd"/>
+    <xs:include schemaLocation="atimathx.xsd"/>
+    <xs:import namespace="##da" schemaLocation="da.xsd"/>
+    <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink.ent.xsd"/>
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+    <xs:group name="para.level">
+        <xs:choice>
+            <xs:element ref="para"/>
+            <xs:element ref="defitem"/>
+            <xs:element ref="defitems"/>
+            <xs:element ref="graphic"/>
+            <xs:element ref="figure"/>
+            <xs:element ref="blockquote"/>
+            <xs:element ref="table"/>
+            <xs:group ref="xlink:element.plcxlink"/>
+            <xs:group ref="xlink:element.simpleplcxlink"/>
+            <xs:element ref="itemizedlist"/>
+            <xs:element ref="orderedlist"/>
+            <xs:element ref="columnlist"/>
+            <xs:element ref="recarea"/>
+            <xs:element ref="draftingnote"/>
+        </xs:choice>
+    </xs:group>
+    <!-- subset of para level items designed for the abstract -->
+    <xs:element name="para.level.abstract" abstract="true"/>
+    <xs:group name="clause.level">
+        <xs:choice>
+            <xs:element ref="clause"/>
+            <xs:element ref="subclause1"/>
+            <xs:element ref="subclause2"/>
+            <xs:element ref="subclause3"/>
+            <xs:element ref="subclause4"/>
+            <xs:element ref="subclause5"/>
+        </xs:choice>
+    </xs:group>
+    <xs:group name="in.lines">
+        <xs:choice>
+            <xs:element ref="emphasis"/>
+            <xs:element ref="defterm"/>
+            <xs:element ref="graphic"/>
+            <xs:element ref="figure"/>
+            <xs:element ref="foreignphrase"/>
+            <xs:element ref="glossref"/>
+            <xs:element ref="blockquote"/>
+            <xs:element ref="table"/>
+            <xs:group ref="xlink:element.plcxlink"/>
+            <xs:group ref="xlink:element.simpleplcxlink"/>
+            <xs:element ref="subscript"/>
+            <xs:element ref="superscript"/>
+            <xs:element ref="url"/>
+            <xs:element ref="parameter"/>
+            <xs:element ref="inlinetitle"/>
+        </xs:choice>
+    </xs:group>
+    <xs:group name="high.level">
+        <xs:choice>
+            <xs:element ref="article"/>
+            <xs:element ref="book"/>
+            <xs:element ref="case"/>
+            <xs:element ref="checklist"/>
+            <xs:element ref="clause"/>
+            <xs:element ref="defitem"/>
+            <xs:element ref="defitems"/>
+            <xs:element ref="miscdocument"/>
+            <xs:element ref="draftingguide"/>
+            <xs:element ref="draftingnote"/>
+            <xs:element ref="event"/>
+            <xs:element ref="faq"/>
+            <xs:element ref="flowchart"/>
+            <xs:element ref="glossary"/>
+            <xs:element ref="glossitem"/>
+            <xs:element ref="individual"/>
+            <xs:element ref="legalupdate"/>
+            <xs:element ref="legislation"/>
+            <xs:element ref="letter"/>
+            <xs:element ref="minutes"/>
+            <xs:element ref="organisation"/>
+            <xs:element ref="orgprofile"/>
+            <xs:element ref="practicenote"/>
+            <xs:element ref="precedent"/>
+            <xs:element ref="primarysource"/>
+            <xs:element ref="indvprofile"/>
+            <xs:element ref="profupdate"/>
+            <xs:element ref="review"/>
+            <xs:element ref="topic"/>
+            <xs:element ref="training"/>
+            <xs:element ref="trainingquestion"/>
+            <xs:element ref="website"/>
+        </xs:choice>
+    </xs:group>
+    <xs:element name="meta.data" abstract="true"/>
+    <xs:group name="name.elements">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="formattedname"/>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="givenname"/>
+            <xs:element minOccurs="0" ref="preferredgivenname"/>
+            <xs:element minOccurs="0" ref="middlename"/>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="familyname"/>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="affix"/>
+        </xs:sequence>
+    </xs:group>
+    <xs:group name="name.informal">
+        <xs:sequence>
+            <xs:choice minOccurs="0">
+                <xs:group ref="xlink:element.plcxlink"/>
+                <xs:group ref="xlink:element.simpleplcxlink"/>
+                <xs:element ref="givenname"/>
+                <xs:element ref="familyname"/>
+                <xs:element ref="email"/>
+                <xs:element ref="phone"/>
+                <xs:element ref="middlename"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:group>
+    <xs:element name="postaladdress.elements" abstract="true"/>
+    <xs:group name="metadata.content">
+        <xs:sequence>
+            <xs:group minOccurs="0" ref="xlink:element.plcxlink"/>
+        </xs:sequence>
+    </xs:group>
+    <xs:element name="closing.elements" abstract="true"/>
+    <!-- ############################## -->
+    <!-- ### Entity Declaration for OASIS Exchange CALS table structures ### -->
+    <!-- ############################## -->
+    <!-- ### ArborText Equation Editor Integration ### -->
+    <!-- ############################## -->
+    <!--  ### XLINK Module ### -->
+    <!-- ############################## -->
+    <!--  ### Attribute Groups ### -->
+    <xs:attributeGroup name="layout">
+        <xs:attribute name="layout">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="box"/>
+                    <xs:enumeration value="inline"/>
+                    <xs:enumeration value="lhcell"/>
+                    <xs:enumeration value="rhcell"/>
+                    <xs:enumeration value="coversheet"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="pagebreak">
+        <xs:attribute name="pagebreak">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="true"/>
+                    <xs:enumeration value="false"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="gc3kformat">
+        <xs:attribute name="gc3kformat">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="topright"/>
+                    <xs:enumeration value="areasofpractice"/>
+                    <xs:enumeration value="firmcontacts"/>
+                    <xs:enumeration value="officetable"/>
+                    <xs:enumeration value="global50rec"/>
+                    <xs:enumeration value="global50portrait"/>
+                    <xs:enumeration value="piechartdata"/>
+                    <xs:enumeration value="verdict"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="currency">
+        <xs:attribute name="currency"/>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="listtype">
+        <xs:attribute name="listtype">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="conjunctive"/>
+                    <xs:enumeration value="disjunctive"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="wording">
+        <xs:attribute name="wording">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="deed"/>
+                    <xs:enumeration value="contract"/>
+                    <xs:enumeration value="contractanddeed"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="consistsof">
+        <xs:attribute name="consistsof">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="operative"/>
+                    <xs:enumeration value="schedule"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="status">
+        <xs:attribute name="status">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="individual"/>
+                    <xs:enumeration value="company"/>
+                    <xs:enumeration value="guarantor"/>
+                    <xs:enumeration value="individual-company"/>
+                    <xs:enumeration value="individual-several"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="condition">
+        <xs:attribute name="condition">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="optional"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="deftype">
+        <xs:attribute name="deftype">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="interpretation"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="numbering">
+        <xs:attribute name="numbering">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="none"/>
+                    <xs:enumeration value="informal"/>
+                    <xs:enumeration value="derived"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="derivednumber">
+        <xs:attribute name="derivednumber"/>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="executionmethod">
+        <xs:attribute name="executionmethod">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="deed"/>
+                    <xs:enumeration value="contract"/>
+                    <xs:enumeration value="both"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="precedenttype">
+        <xs:attribute name="precedenttype">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="agreement"/>
+                    <xs:enumeration value="contract"/>
+                    <xs:enumeration value="deed"/>
+                    <xs:enumeration value="lease"/>
+                    <xs:enumeration value="licence"/>
+                    <xs:enumeration value="will"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="signatureformat">
+        <xs:attribute name="signatureformat">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="lrstandard"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="properties">
+        <xs:attribute name="properties">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="preservesubtitles"/>
+                    <xs:enumeration value="ussfawithtitles"/>
+                    <xs:enumeration value="ussfa"/>
+                    <xs:enumeration value="uslfa"/>
+                    <xs:enumeration value="uslfanotitles"/>
+                    <xs:enumeration value="usmemo"/>
+                    <xs:enumeration value="ussfawithtitlesnorunin"/>
+                    <xs:enumeration value="usmedium"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="outputtype">
+        <xs:attribute name="outputtype">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="printonly"/>
+                    <xs:enumeration value="webonly"/>
+                    <xs:enumeration value="printweb"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    <!--  ### ROOT ELEMENT (PLC can contain any one type of document or multiple types if under volume.) ### -->
+    <xs:element name="plc">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element ref="da:template"/>
+                <xs:element ref="volume"/>
+                <xs:group ref="high.level"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <!-- ############################## -->
+    <!-- ### ELEMENTS -->
+    <!-- ### A ### -->
+    <xs:element name="abstract" substitutionGroup="meta.data">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="para.level.abstract"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="access" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="additional">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="section1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="addressees">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="addressee"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="addressee">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="addressline"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="addressline" substitutionGroup="postaladdress.elements">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="affiliations">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="affix" type="xs:string"/>
+    <xs:element name="altterm">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="answer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="section2"/>
+            </xs:sequence>
+            <xs:attribute name="correct" default="1">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="0"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="jurisdiction"/>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attribute name="label"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="appendix" substitutionGroup="closing.elements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="part"/>
+                    <xs:element ref="letter"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="pagebreak"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="areacode" type="xs:string"/>
+    <xs:element name="article">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="authorblurb"/>
+                <xs:element minOccurs="0" ref="standfirst"/>
+                <xs:element minOccurs="0" ref="speedread"/>
+                <xs:element minOccurs="0" ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="associations">
+        <xs:complexType>
+            <xs:group ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="attachments" substitutionGroup="closing.elements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="draftingnote"/>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:group ref="para.level"/>
+                    <xs:element ref="toc"/>
+                    <xs:element ref="attachment"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="pagebreak"/>
+            <xs:attributeGroup ref="condition"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="attachment" substitutionGroup="closing.elements">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="title"/>
+                <xs:group ref="para.level"/>
+                <xs:element ref="part"/>
+                <xs:element ref="letter"/>
+                <xs:element ref="draftingnote"/>
+            </xs:choice>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attribute name="attachmentname"/>
+            <xs:attributeGroup ref="pagebreak"/>
+            <xs:attributeGroup ref="condition"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="attendance">
+        <xs:complexType>
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="author" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="authorblurb">
+        <xs:complexType>
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="authorinitials" type="xs:string"/>
+    <!-- ### B ### -->
+    <xs:element name="basename" type="xs:string"/>
+    <xs:element name="basephone" type="xs:string"/>
+    <xs:element name="bibliography">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="title"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="blockquote">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="book">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element ref="price"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="bridgehead">
+        <xs:complexType mixed="true">
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attribute name="renderas"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### C ### -->
+    <xs:element name="career">
+        <xs:complexType>
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="case">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="checklist">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="choice">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="section2"/>
+            </xs:sequence>
+            <xs:attribute name="correct" default="1">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="1"/>
+                        <xs:enumeration value="0"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="clause">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="metadata"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element minOccurs="0" ref="title"/>
+                    <xs:group minOccurs="0" ref="para.level"/>
+                    <xs:element ref="subclause1"/>
+                    <xs:element ref="clause"/>
+                    <xs:element ref="clausegroup"/>
+                    <xs:element ref="draftingnote"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="numbering"/>
+            <xs:attributeGroup ref="pagebreak"/>
+            <xs:attributeGroup ref="derivednumber"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="clauseholder">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" ref="para.level"/>
+                <xs:element minOccurs="0" ref="clause"/>
+                <xs:element minOccurs="0" ref="schedule"/>
+                <xs:element minOccurs="0" ref="appendix"/>
+            </xs:sequence>
+            <xs:attribute name="xrefname">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="paragraph"/>
+                        <xs:enumeration value="clause"/>
+                        <xs:enumeration value="condition"/>
+                        <xs:enumeration value="rule"/>
+                        <xs:enumeration value="section"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="clausegroup">
+        <xs:complexType>
+            <xs:group maxOccurs="unbounded" ref="clause.level"/>
+            <xs:attributeGroup ref="listtype"/>
+            <xs:attribute name="canflatten">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="yes"/>
+                        <xs:enumeration value="no"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="closing" substitutionGroup="closing.elements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+                <xs:element minOccurs="0" ref="sincerely"/>
+                <xs:element minOccurs="0" ref="signature"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="col1">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="col2">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="col3">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="col4">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="columnlist">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="member"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="contacts">
+        <xs:complexType>
+            <xs:sequence minOccurs="0">
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="contactgroup"/>
+            </xs:sequence>
+            <xs:attribute name="type"/>
+            <xs:attribute name="coverage"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="contactgroup">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="contact"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="contact">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:element ref="contactdetail"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="contactdetail">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="para"/>
+                <xs:group ref="xlink:element.plcxlink"/>
+                <xs:group ref="xlink:element.simpleplcxlink"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="contributor" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="country" substitutionGroup="postaladdress.elements" type="xs:string"/>
+    <xs:element name="countrycode" type="xs:string"/>
+    <!-- coversheet structure CB edited June 2003 -->
+    <xs:element name="coversheet">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="title"/>
+                <xs:choice>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" ref="subjectintro"/>
+                        <xs:element minOccurs="0" ref="subjects"/>
+                        <xs:element minOccurs="0" ref="coverparties"/>
+                    </xs:sequence>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                        <xs:element ref="para"/>
+                        <xs:element ref="title"/>
+                        <xs:element ref="itemizedlist"/>
+                    </xs:choice>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="showdated">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="yes"/>
+                        <xs:enumeration value="no"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attributeGroup ref="outputtype"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="subjectintro" type="xs:string"/>
+    <xs:element name="subjects">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="subjecttext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="subjecttext" type="xs:string"/>
+    <xs:element name="coverparties">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="title"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- end of coversheet edits -->
+    <xs:element name="cpd" type="xs:string"/>
+    <xs:element name="creator" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="name.informal"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### D ### -->
+    <xs:element name="dateamended" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="datecreated" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="dateexpiry" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="datevalid" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="date" type="xs:string"/>
+    <xs:element name="def">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="para.level"/>
+                <xs:element ref="subclause2"/>
+                <xs:element ref="clause"/>
+                <xs:element ref="clausegroup"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="defitem">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="defterm"/>
+                <xs:element ref="def"/>
+                <xs:element ref="draftingnote"/>
+            </xs:choice>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="defitems">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="defitem"/>
+                <xs:element ref="draftingnote"/>
+            </xs:choice>
+            <xs:attribute name="sort" default="false">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="true"/>
+                        <xs:enumeration value="false"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="defterm">
+        <xs:complexType mixed="true">
+            <xs:attributeGroup ref="deftype"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="deliveryaddress" substitutionGroup="postaladdress.elements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="addressline"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="disclosureschedule" substitutionGroup="closing.elements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="coversheet"/>
+                <xs:element ref="toc"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="schedule"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="displayname" type="xs:string"/>
+    <xs:element name="documentdate" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="miscdocument">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="coversheet"/>
+                <xs:element minOccurs="0" ref="toc"/>
+                <xs:element minOccurs="0" ref="heading"/>
+                <xs:element minOccurs="0" ref="preamble"/>
+                <xs:choice minOccurs="0">
+                    <xs:element ref="operative"/>
+                    <xs:element ref="operativeinformal"/>
+                    <xs:element ref="clauseholder"/>
+                </xs:choice>
+                <xs:element minOccurs="0" ref="closing"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="draftingarticle" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="draftingguide">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="speedread"/>
+                <xs:element minOccurs="0" ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="draftingnote" substitutionGroup="closing.elements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="section1"/>
+                    <xs:element ref="bridgehead"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### E ### -->
+    <xs:element name="edition" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="editor" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="name.informal"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="editorial">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="section1"/>
+            </xs:sequence>
+            <xs:attribute name="type">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="corporate"/>
+                        <xs:enumeration value="ipandit"/>
+                        <xs:enumeration value="ldglobal"/>
+                        <xs:enumeration value="lduk"/>
+                        <xs:enumeration value="plcglobal"/>
+                        <xs:enumeration value="practicallaw"/>
+                        <xs:enumeration value="property"/>
+                        <xs:enumeration value="competition"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="emphasis">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="emphasis"/>
+                <xs:group ref="xlink:element.plcxlink"/>
+                <xs:group ref="xlink:element.simpleplcxlink"/>
+            </xs:choice>
+            <xs:attribute name="id" type="xs:NMTOKEN"/>
+            <xs:attribute name="role" default="bold">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="bold"/>
+                        <xs:enumeration value="italic"/>
+                        <xs:enumeration value="bold-italic"/>
+                        <xs:enumeration value="underline"/>
+                        <xs:enumeration value="amend"/>
+                        <xs:enumeration value="smallcaps"/>
+                        <xs:enumeration value="doubleunderline"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="event">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="speaker"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="organiser"/>
+                <xs:element minOccurs="0" ref="price"/>
+                <xs:element minOccurs="0" ref="cpd"/>
+                <xs:element minOccurs="0" ref="location"/>
+                <xs:element minOccurs="0" ref="speedread"/>
+                <xs:element minOccurs="0" ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="exhibit" substitutionGroup="closing.elements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="part"/>
+                    <xs:element ref="letter"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="pagebreak"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### F ### -->
+    <xs:element name="familyname">
+        <xs:complexType mixed="true">
+            <xs:attribute name="primary"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="faq">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="qandaset"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="figure">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="graphic"/>
+                <xs:element minOccurs="0" ref="title"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="financial">
+        <xs:complexType mixed="true">
+            <xs:attribute name="type">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="turnover"/>
+                        <xs:enumeration value="sales"/>
+                        <xs:enumeration value="profit"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="coverage">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="global"/>
+                        <xs:enumeration value="region"/>
+                        <xs:enumeration value="jurisdiction"/>
+                        <xs:enumeration value="country"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="currency">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="USD"/>
+                        <xs:enumeration value="GBP"/>
+                        <xs:enumeration value="FFR"/>
+                        <xs:enumeration value="DM"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="unit">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="thousand"/>
+                        <xs:enumeration value="million"/>
+                        <xs:enumeration value="billion"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="value"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="flowchart">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="graphic"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="figure"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="foreignphrase" type="xs:string"/>
+    <xs:element name="format" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="formattedname" type="xs:string"/>
+    <xs:element name="fulltext">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="section1"/>
+                <xs:element ref="qandaset"/>
+                <xs:element ref="bridgehead"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### G ### -->
+    <xs:element name="givenname" type="xs:string"/>
+    <xs:element name="glossary">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="glossitem"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="glossdef">
+        <xs:complexType>
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="glossitem">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="metadata"/>
+                <xs:sequence maxOccurs="unbounded">
+                    <xs:sequence>
+                        <xs:element ref="glossterm"/>
+                        <xs:element ref="glossdef"/>
+                    </xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" ref="altterm"/>
+                </xs:sequence>
+                <xs:element minOccurs="0" ref="metadata"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="glossref" type="xs:string"/>
+    <xs:element name="glossterm">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="graphic">
+        <xs:complexType>
+            <xs:attribute name="entityref"/>
+            <xs:attribute name="fileref"/>
+            <xs:attribute name="format"/>
+            <xs:attribute name="srccredit"/>
+            <xs:attribute name="width"/>
+            <xs:attribute name="depth"/>
+            <xs:attribute name="align"/>
+            <xs:attribute name="scale"/>
+            <xs:attribute name="scalefit"/>
+            <xs:attribute name="id"/>
+            <xs:attribute name="role"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### H ### -->
+    <xs:element name="headcount">
+        <xs:complexType mixed="true">
+            <xs:attribute name="type">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="employees"/>
+                        <xs:enumeration value="partners"/>
+                        <xs:enumeration value="lawyers"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="coverage">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="global"/>
+                        <xs:enumeration value="region"/>
+                        <xs:enumeration value="jurisdiction"/>
+                        <xs:enumeration value="country"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="heading">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="letterhead"/>
+                <xs:choice>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" ref="privacystatus"/>
+                        <xs:element minOccurs="0" ref="addressees"/>
+                        <xs:element minOccurs="0" ref="date"/>
+                        <xs:element minOccurs="0" ref="salutation"/>
+                    </xs:sequence>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" ref="minuteheader"/>
+                        <xs:element minOccurs="0" ref="attendance"/>
+                    </xs:sequence>
+                    <xs:element ref="memorandumheader"/>
+                </xs:choice>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### I ### -->
+    <xs:element name="identifier" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="individual">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element ref="personname"/>
+                <xs:element ref="primarylocation"/>
+                <xs:element minOccurs="0" ref="secondarylocation"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="indvprofile">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="qualificationdate"/>
+                <xs:element minOccurs="0" ref="university"/>
+                <xs:element minOccurs="0" ref="career"/>
+                <xs:element minOccurs="0" ref="practice"/>
+                <xs:element minOccurs="0" ref="associations"/>
+                <xs:element minOccurs="0" ref="publications"/>
+                <xs:element minOccurs="0" ref="additional"/>
+            </xs:sequence>
+            <xs:attribute name="type" type="xs:NMTOKEN"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="inlinetitle" type="xs:string"/>
+    <xs:element name="instructor">
+        <xs:complexType>
+            <xs:group maxOccurs="unbounded" ref="xlink:element.plcxlink"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="instructornote">
+        <xs:complexType>
+            <xs:group maxOccurs="unbounded" ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="intro">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="isbn" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="itemizedlist" substitutionGroup="para.level.abstract">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="listitem"/>
+            </xs:sequence>
+            <xs:attribute name="mark">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="bullet"/>
+                        <xs:enumeration value="checkbox"/>
+                        <xs:enumeration value="dash"/>
+                        <xs:enumeration value="none"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="role"/>
+            <xs:attribute name="spacing" default="normal">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="compact"/>
+                        <xs:enumeration value="normal"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### J ### -->
+    <xs:element name="jurisdiction" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### K ### -->
+    <xs:element name="keywords" substitutionGroup="meta.data">
+        <xs:complexType>
+            <xs:group maxOccurs="unbounded" ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### L ### -->
+    <xs:element name="language" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="lastupdate_user" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="legalupdate">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="speedread"/>
+                <xs:element ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="legislation">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="clause"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="letter">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="metadata"/>
+                <xs:element minOccurs="0" ref="coversheet"/>
+                <xs:element minOccurs="0" ref="heading"/>
+                <xs:element minOccurs="0" ref="draftingnote"/>
+                <xs:element minOccurs="0" ref="preamble"/>
+                <xs:element minOccurs="0" ref="recitals"/>
+                <xs:choice minOccurs="0">
+                    <xs:element ref="operative"/>
+                    <xs:element ref="operativeinformal"/>
+                </xs:choice>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="schedule"/>
+                <xs:element minOccurs="0" ref="closing"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="appendix"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="letterhead">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+            <xs:attribute name="partyhead"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="listitem">
+        <xs:complexType>
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="location">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="postaladdress.elements"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### M ### -->
+    <xs:element name="member">
+        <xs:complexType>
+            <xs:sequence minOccurs="0">
+                <xs:element minOccurs="0" ref="col1"/>
+                <xs:element minOccurs="0" ref="col2"/>
+                <xs:element minOccurs="0" ref="col3"/>
+                <xs:element minOccurs="0" ref="col4"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="metadata">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="meta.data"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="memorandumheader">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="middlename" type="xs:string"/>
+    <xs:element name="minutes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="heading"/>
+                <xs:element minOccurs="0" ref="preamble"/>
+                <xs:choice minOccurs="0">
+                    <xs:element ref="operative"/>
+                    <xs:element ref="operativeinformal"/>
+                </xs:choice>
+                <xs:element minOccurs="0" ref="closing"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="minuteheader">
+        <xs:complexType>
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="multiplechoice">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="choice"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="municipality" substitutionGroup="postaladdress.elements" type="xs:string"/>
+    <!-- ### N ### -->
+    <xs:element name="numberingtitle" type="xs:string"/>
+    <!-- ### O ### -->
+    <xs:element name="offices">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="officegroup"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="officegroup">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="office"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="office">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:element ref="officedetail"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="officedetail">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="para"/>
+                <xs:group ref="xlink:element.plcxlink"/>
+                <xs:group ref="xlink:element.simpleplcxlink"/>
+                <xs:element ref="primarylocation"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="operative">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element ref="draftingnote"/>
+                    <xs:element ref="clause"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="xrefname">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="paragraph"/>
+                        <xs:enumeration value="clause"/>
+                        <xs:enumeration value="condition"/>
+                        <xs:enumeration value="article"/>
+                        <xs:enumeration value="rule"/>
+                        <xs:enumeration value="section"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="xrefname2">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="paragraph"/>
+                        <xs:enumeration value="clause"/>
+                        <xs:enumeration value="condition"/>
+                        <xs:enumeration value="article"/>
+                        <xs:enumeration value="rule"/>
+                        <xs:enumeration value="section"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attributeGroup ref="properties"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="operativeinformal">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+            <xs:attribute name="numbering" default="none">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="none"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="orderedlist" substitutionGroup="para.level.abstract">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="listitem"/>
+            </xs:sequence>
+            <xs:attribute name="numeration">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="arabic"/>
+                        <xs:enumeration value="upperroman"/>
+                        <xs:enumeration value="lowerroman"/>
+                        <xs:enumeration value="upperalpha"/>
+                        <xs:enumeration value="loweralpha"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="role"/>
+            <xs:attribute name="spacing" default="normal">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="compact"/>
+                        <xs:enumeration value="normal"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="organisation">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="headcount"/>
+                <xs:element minOccurs="0" ref="financial"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="relatedcompany"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="sector"/>
+                <xs:element minOccurs="0" ref="primarylocation"/>
+                <xs:element minOccurs="0" ref="secondarylocation"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="organiser">
+        <xs:complexType>
+            <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="xlink:element.plcxlink"/>
+                <xs:choice>
+                    <xs:element ref="postaladdress.elements"/>
+                    <xs:element ref="phone"/>
+                    <xs:element ref="email"/>
+                    <xs:element ref="url"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### ELEMENT orgprofile (metadata, strapline?, contacts*, offices*, affiliations?, structure?, practice?, service?, additional?) ### -->
+    <xs:element name="orgprofile">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="strapline"/>
+                <xs:element minOccurs="0" ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### P ### -->
+    <xs:element name="para" substitutionGroup="para.level.abstract">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+            <xs:attribute ref="xml:space" default="default"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="parameter" type="xs:string"/>
+    <xs:element name="part">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice>
+                    <xs:group ref="para.level"/>
+                    <xs:element ref="clause"/>
+                    <xs:element ref="draftingnote"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="numbering"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="party">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" ref="para.level"/>
+                <xs:element ref="subclause1"/>
+                <xs:element minOccurs="0" ref="draftingnote"/>
+            </xs:choice>
+            <xs:attributeGroup ref="status"/>
+            <xs:attributeGroup ref="executionmethod"/>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="signatureformat"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="parties">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element ref="draftingnote"/>
+                    <xs:element ref="party"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="preamble">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="draftingnote"/>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:group ref="para.level"/>
+                    <xs:element ref="draftingnote"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attributeGroup ref="outputtype"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="precedenttype" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="primarysource">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="privacystatus" type="xs:string"/>
+    <xs:element name="personname">
+        <xs:complexType>
+            <xs:group ref="name.elements"/>
+            <xs:attributeGroup ref="xlink:xlink.locator.attributes"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="phone">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="countrycode"/>
+                <xs:element ref="areacode"/>
+                <xs:element ref="basephone"/>
+            </xs:sequence>
+            <xs:attribute name="toll" default="toll">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="toll"/>
+                        <xs:enumeration value="toolfree"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="type" default="voice">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="voice"/>
+                        <xs:enumeration value="fax"/>
+                        <xs:enumeration value="pager"/>
+                        <xs:enumeration value="cell"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="pagertype" default="voice">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="voice"/>
+                        <xs:enumeration value="data"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="postcode" substitutionGroup="postaladdress.elements" type="xs:string"/>
+    <xs:element name="postaladdress">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="postaladdress.elements"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="practice">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="practicenote">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="speedread"/>
+                <xs:element ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="precedent">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="draftingnote"/>
+                <xs:element minOccurs="0" ref="coversheet"/>
+                <xs:element minOccurs="0" ref="toc"/>
+                <xs:element minOccurs="0" ref="heading"/>
+                <xs:element minOccurs="0" ref="intro"/>
+                <xs:element minOccurs="0" ref="parties"/>
+                <xs:element minOccurs="0" ref="preamble"/>
+                <xs:element minOccurs="0" ref="recitals"/>
+                <xs:element ref="operative"/>
+                <xs:element minOccurs="0" ref="testimonium"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="closing.elements"/>
+            </xs:sequence>
+            <xs:attribute name="jurisdiction">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="US"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attributeGroup ref="precedenttype"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="precedentform">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="intro"/>
+                <xs:element ref="parties"/>
+                <xs:element minOccurs="0" ref="recitals"/>
+                <xs:element ref="operative"/>
+                <xs:element minOccurs="0" ref="testimonium"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="schedule"/>
+                <xs:element ref="signature"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="appendix"/>
+            </xs:sequence>
+            <xs:attributeGroup ref="precedenttype"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="preferredgivenname" type="xs:string"/>
+    <xs:element name="price">
+        <xs:complexType mixed="true">
+            <xs:attributeGroup ref="currency"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="primarylocation">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="location"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="phone"/>
+                    <xs:element ref="email"/>
+                    <xs:element ref="url"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="preface" type="xs:string"/>
+    <xs:element name="profupdate">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element ref="metadata"/>
+                <xs:element ref="standfirst"/>
+                <xs:element ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="publications">
+        <xs:complexType>
+            <xs:group ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="publication_status" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="publisher" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### Q ### -->
+    <xs:element name="qandaset">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="section1"/>
+            </xs:sequence>
+            <xs:attribute name="jurisdiction"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="qandaentry">
+        <xs:complexType>
+            <xs:sequence minOccurs="0">
+                <xs:element ref="question"/>
+                <xs:element minOccurs="0" ref="shortquestion"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="answer"/>
+            </xs:sequence>
+            <xs:attribute name="jurisdiction"/>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attribute name="label"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="qualificationdate" type="any"/>
+    <xs:element name="question">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="section2"/>
+            </xs:sequence>
+            <xs:attribute name="jurisdiction"/>
+            <xs:attribute name="type" default="single">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="single"/>
+                        <xs:enumeration value="multichoice"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attribute name="label"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### R ### -->
+    <xs:element name="recitals">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element ref="clause"/>
+                    <xs:element ref="draftingnote"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="reason">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="section2"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="recarea">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="in.lines"/>
+            <xs:attribute name="multi" default="yes">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="yes"/>
+                        <xs:enumeration value="no"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="region" substitutionGroup="postaladdress.elements" type="xs:string"/>
+    <xs:element name="relatedcompany">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+            <xs:attribute name="type">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="parent"/>
+                        <xs:enumeration value="subsidiary"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="relation" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="report">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="draftingnote"/>
+                <xs:element minOccurs="0" ref="coversheet"/>
+                <xs:element minOccurs="0" ref="toc"/>
+                <xs:element minOccurs="0" ref="reportpreamble"/>
+                <xs:element ref="operative"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="schedule"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="appendix"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="reportpreamble">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="section1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="resourceid" substitutionGroup="meta.data" type="xs:string"/>
+    <xs:element name="revdescription">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="section1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="review">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="revhistory" substitutionGroup="meta.data">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="revision"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="revision">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="revtitle"/>
+                <xs:element minOccurs="0" ref="revnumber"/>
+                <xs:element ref="date"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="author"/>
+                <xs:element minOccurs="0" ref="revdescription"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="revnumber" type="xs:string"/>
+    <xs:element name="revtitle" type="xs:string"/>
+    <xs:element name="rights" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### S ### -->
+    <xs:element name="salutation" type="xs:string"/>
+    <xs:element name="schedule" substitutionGroup="closing.elements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="metadata"/>
+                <xs:element minOccurs="0" ref="numberingtitle"/>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="part"/>
+                    <xs:element ref="clause"/>
+                    <xs:element ref="precedentform"/>
+                    <xs:element ref="letter"/>
+                    <xs:element ref="minutes"/>
+                    <xs:element ref="miscdocument"/>
+                    <xs:element ref="precedent"/>
+                    <xs:element ref="parties"/>
+                    <xs:element ref="draftingnote"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="properties"/>
+            <xs:attributeGroup ref="derivednumber"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="secondarylocation">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="location"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="phone"/>
+                    <xs:element ref="email"/>
+                    <xs:element ref="url"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="section1">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="section2"/>
+                    <xs:element ref="qandaentry"/>
+                    <xs:element ref="trainingquestion"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attributeGroup ref="layout"/>
+            <xs:attributeGroup ref="pagebreak"/>
+            <xs:attributeGroup ref="gc3kformat"/>
+            <xs:attributeGroup ref="outputtype"/>
+            <xs:attribute name="id" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="section2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="section3"/>
+            </xs:sequence>
+            <xs:attributeGroup ref="layout"/>
+            <xs:attributeGroup ref="pagebreak"/>
+            <xs:attributeGroup ref="gc3kformat"/>
+            <xs:attribute name="id" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="section3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="section4"/>
+            </xs:sequence>
+            <xs:attributeGroup ref="layout"/>
+            <xs:attributeGroup ref="pagebreak"/>
+            <xs:attribute name="id" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="section4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+            <xs:attributeGroup ref="layout"/>
+            <xs:attribute name="id" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="sector">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="service">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="structure">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="shortquestion" type="xs:string"/>
+    <xs:element name="sincerely" type="xs:string"/>
+    <xs:element name="signature" substitutionGroup="closing.elements">
+        <xs:complexType>
+            <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="clause"/>
+                    <xs:element ref="draftingnote"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attributeGroup ref="pagebreak"/>
+            <xs:attribute name="signaturemessage">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="yes"/>
+                        <xs:enumeration value="no"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="sortname" type="xs:string"/>
+    <xs:element name="source" substitutionGroup="meta.data">
+        <xs:complexType>
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="speaker">
+        <xs:complexType>
+            <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="xlink:element.plcxlink"/>
+                <xs:group ref="name.elements"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="speedread">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="standfirst">
+        <xs:complexType>
+            <xs:group maxOccurs="unbounded" ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="strapline" type="xs:string"/>
+    <xs:element name="subclause1">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:group ref="para.level"/>
+                    <xs:element ref="subclause2"/>
+                    <xs:element ref="clausegroup"/>
+                    <xs:element ref="draftingnote"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="numbering"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="subclause2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:group ref="para.level"/>
+                    <xs:element ref="subclause3"/>
+                    <xs:element ref="clausegroup"/>
+                    <xs:element ref="draftingnote"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="numbering"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="subclause3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:group ref="para.level"/>
+                    <xs:element ref="subclause4"/>
+                    <xs:element ref="clausegroup"/>
+                    <xs:element ref="draftingnote"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="numbering"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="subclause4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:group ref="para.level"/>
+                    <xs:element ref="subclause5"/>
+                    <xs:element ref="clausegroup"/>
+                    <xs:element ref="draftingnote"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="numbering"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="subclause5">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:group ref="para.level"/>
+                <xs:element ref="draftingnote"/>
+            </xs:choice>
+            <xs:attribute name="id" type="xs:ID"/>
+            <xs:attributeGroup ref="condition"/>
+            <xs:attributeGroup ref="numbering"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="subject" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="subscript" type="xs:string"/>
+    <xs:element name="subtitle" type="xs:string"/>
+    <xs:element name="subtitleright" type="xs:string"/>
+    <xs:element name="superscript" type="xs:string"/>
+    <!-- ### T ### -->
+    <!-- ELEMENT Table Defined in Entity Reference Section -->
+    <xs:element name="term" type="xs:string"/>
+    <xs:element name="testimonium">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:element minOccurs="0" ref="section1"/>
+            </xs:sequence>
+            <xs:attributeGroup ref="wording"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="title" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="foreignphrase"/>
+            </xs:sequence>
+            <xs:attribute name="case"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="titlepg">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" ref="title"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="para.level"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="topic">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="basename"/>
+                <xs:element minOccurs="0" ref="sortname"/>
+                <xs:element minOccurs="0" ref="displayname"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="editorial"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="toc">
+        <xs:complexType>
+            <xs:sequence minOccurs="0">
+                <xs:element ref="title"/>
+                <xs:element ref="subtitle"/>
+                <xs:element ref="subtitleright"/>
+                <xs:element ref="toccontents"/>
+                <xs:element ref="subtitle"/>
+                <xs:element ref="toccontents"/>
+            </xs:sequence>
+            <xs:attribute name="levels">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="subclause1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="toccontents">
+        <xs:complexType mixed="true">
+            <xs:attributeGroup ref="consistsof"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="training">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element minOccurs="0" ref="speedread"/>
+                <xs:element minOccurs="0" ref="instructornote"/>
+                <xs:choice minOccurs="0">
+                    <xs:element ref="fulltext"/>
+                    <xs:element ref="trainingmodule"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="trainingmodule">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="section1"/>
+                <xs:element ref="qandaset"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="trainingquestion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="question"/>
+                <xs:element minOccurs="0" ref="source"/>
+                <xs:choice>
+                    <xs:element ref="answer"/>
+                    <xs:element ref="multiplechoice"/>
+                </xs:choice>
+                <xs:element minOccurs="0" ref="reason"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="type" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="metadata.content"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### U ### -->
+    <xs:element name="university">
+        <xs:complexType>
+            <xs:group ref="para.level"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="url" substitutionGroup="meta.data">
+        <xs:complexType mixed="true">
+            <xs:attribute name="type"/>
+            <xs:attribute name="url" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### V ### -->
+    <xs:element name="volume">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="metadata"/>
+                <xs:group ref="high.level"/>
+                <xs:element ref="appendix"/>
+                <xs:element ref="bibliography"/>
+                <xs:element ref="coversheet"/>
+                <xs:element ref="toc"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <!-- ### W ### -->
+    <xs:element name="website">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="any" mixed="true">
+        <xs:sequence>
+            <xs:any minOccurs="0" maxOccurs="unbounded" processContents="strict"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
+        <!-- ### X ### -->
+        <!-- ### Y ### -->
+        <!-- ### Z ### -->

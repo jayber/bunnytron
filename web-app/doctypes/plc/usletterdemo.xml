@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2004, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent>
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Resource created</revtitle>
+                <date>[Insert date (eg 30 Sep 2006)]</date>
+                <author>[Insert author name]</author>
+                <revdescription>
+                    <section1>
+                        <para>[Insert details of change]</para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <heading>
+        <letterhead>
+            <title>[LETTERHEAD]</title>
+        </letterhead>
+        <para>[DATE]</para>
+        <para>[METHOD OF DELIVERY]</para>
+        <para>[NAME AND ADDRESS]</para>
+        <para></para>
+        <para>Dear Sirs:</para>
+        <para>[Re: XXXXXX]</para>
+    </heading>
+    <preamble>
+        <para>[LEGAL NAME OF BUYER] ("Buyer") sets out in this letter agreement (the "Agreement") certain
+            representations, warranties and agreements relating to the proposed purchase by Buyer, subject to the terms
+            and conditions set forth below, from [LEGAL NAME OF SELLER] ("Seller" and, together with Buyer, the
+            "Parties") of [QUANTITY] shares of [DESCRIPTION OF SECURITIES, INCLUDING NAME OF ISSUER AND CLASS], par
+            value $[x] per share (the "Securities") in a transaction subject to the terms and conditions set forth below
+            (hereinafter referred to as the "Transaction").
+        </para>
+    </preamble>
+    <operative properties="ussfawithtitles" xrefname="section">
+        <clause>
+            <title>Purchase Price</title>
+            <para>The Buyer and Seller agree that the consideration payable for the Securities is $[x], payable [in the
+                manner agreed by the Parties]. The Seller will deliver the Securities to the Buyer [in the manner agreed
+                by the Parties]. The Transaction will close as soon as practicable after the full execution of this
+                letter agreement by the Parties, but not later than [NUMBER OF DAYS] business days after the full
+                execution of this letter agreement.
+            </para>
+        </clause>
+        <clause>
+            <title>Seller Acknowledgments and Agreements</title>
+            <para>Seller acknowledges and agrees as follows:</para>
+            <subclause1>
+                <subclause2>
+                    <para>Seller has received and carefully reviewed the Annual Report of the [Issuer] ("Issuer") on
+                        Form 10-K for the fiscal year ended [20XX] and all subsequent public filings of the Issuer with
+                        the Securities and Exchange Commission, other publicly available information regarding the
+                        Issuer, and such other information that it and its advisers deem necessary to make its decision
+                        to enter into the Transaction;
+                    </para>
+                </subclause2>
+                <subclause2>
+                    <para>Seller has made its own decision to consummate the Transaction based on its own independent
+                        review and consultations with such investment, legal, tax, accounting and other advisers as it
+                        deemed necessary. Seller has made its own decision concerning the Transaction without reliance
+                        on any representation or warranty of, or advice from, the Buyer;
+                    </para>
+                </subclause2>
+                <subclause2>
+                    <para>Seller acknowledges and understands that Buyer [and its officers and affiliates] possess[es]
+                        material nonpublic information not known to Seller that may impact the value of the Securities
+                        (the<defterm>Information</defterm>), that Buyer is unable to disclose to Seller [, including
+                        without limitation, (i) information received by principals and employees of the Buyer in their
+                        capacities as directors, officers, significant stockholders and/or affiliates of Issuer, (ii)
+                        information otherwise received from the Issuer on a confidential basis, and (iii) information
+                        received on a privileged basis from the attorneys and financial advisers representing the Issuer
+                        and its Board of Directors]. Seller understands, based on its experience, the disadvantage to
+                        which Seller is subject due to the disparity of information between the Buyer and the Seller.
+                        Notwithstanding this, Seller has deemed it appropriate to engage in the Transaction;
+                    </para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Notice Requirements</title>
+            <para>All notices, requests, consents, claims, demands, waivers and other communications hereunder shall be
+                in writing and shall be deemed to have been given (a) when delivered by hand (with written confirmation
+                of receipt); (b) when received by the addressee if sent by a nationally recognized overnight courier
+                (receipt requested); (c) on the date sent by facsimile or e-mail of a PDF document (with confirmation of
+                transmission) if sent during normal business hours of the recipient, and on the next Business Day if
+                sent after normal business hours of the recipient; or (d) on the [third] day after the date mailed, by
+                certified or registered mail, return receipt requested, postage prepaid. Such communications must be
+                sent to the respective parties at the addresses indicated below (or at such other address for a party as
+                shall be specified in a notice given in accordance with this Section [??]).
+            </para>
+            <table>
+                <tgroup cols="2">
+                    <colspec colname="col1"/>
+                    <colspec colname="col2"/>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <para>If to the Company:</para>
+                            </entry>
+                            <entry>
+                                <para>[COMPANY ADDRESS]</para>
+                                <para>Facsimile: [FAX NUMBER]</para>
+                                <para>E-mail: [E-MAIL ADDRESS]</para>
+                                <para>Attention: [TITLE OF OFFICER TO RECEIVE NOTICES]</para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>with a copy to:</para>
+                            </entry>
+                            <entry>
+                                <para>[COMPANY LAW FIRM]</para>
+                                <para>Facsimile: [FAX NUMBER]</para>
+                                <para>E-mail: [E-MAIL ADDRESS]</para>
+                                <para>Attention: [ATTORNEY NAME]</para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </clause>
+        <clause>
+            <title>Other Agreements of the Parties</title>
+            <para>This letter agreement (i) shall constitute the binding agreement of the Parties with respect to the
+                subject matter hereof and shall constitute the entire agreement of the parties with respect to the
+                subject matter hereof, and (ii) may be executed by facsimile transmission of executed counterparts,
+                which together shall constitute one and the same agreement. The Transaction shall be subject to the laws
+                of the State of [NAME OF STATE], without reference to conflict of laws principles.
+            </para>
+            <para>Please sign a copy of this letter agreement and return a copy by facsimile and the original by
+                [mail/courier] to the undersigned. If we do not receive your signed counterpart of this letter agreement
+                by the close of business [MONTH][DAY],[YEAR], Buyer's offer shall be rescinded and this letter agreement
+                shall immediately terminate and be of no further effect.
+            </para>
+        </clause>
+    </operative>
+    <signature pagebreak="true" signaturemessage="yes">
+        <clause>
+            <para>IN WITNESS WHEREOF, the parties hereto have executed this Agreement as of the date first above
+                written.
+            </para>
+            <table frame="none" pgwide="1">
+                <tgroup cols="2">
+                    <colspec colname="col1" colwidth="50%"/>
+                    <colspec colname="col2" colwidth="50%"/>
+                    <tbody>
+                        <row>
+                            <entry></entry>
+                            <entry>
+                                <para>Very truly yours,</para>
+                                <para></para>
+                                <para>[BUYER]</para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry></entry>
+                            <entry>
+                                <para></para>
+                                <para>By:___________________________</para>
+                                <para>[Name:]</para>
+                                <para>[Title:]</para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table frame="none" pgwide="1">
+                <tgroup cols="2">
+                    <colspec colname="col1"/>
+                    <colspec colname="col2"/>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <para>[Agreed to and accepted: - Optional]</para>
+                                <para>[SELLER]</para>
+                            </entry>
+                            <entry></entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>By:_______________________________</para>
+                                <para>[Name:]</para>
+                                <para>[Title:]</para>
+                            </entry>
+                            <entry></entry>
+                        </row>
+                        <row>
+                            <entry nameend="col2" namest="col1">
+                                <para>cc [ALTERNATE PAYEE NAME], Alternate Payee</para>
+                                <para>[PARTICIPANT NAME], Participant</para>
+                                <para>[ATTORNEY], for Alternate Payee</para>
+                                <para>[ATTORNEY], for Participant</para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </clause>
+    </signature>
+    <appendix>
+        <para>[[Schedule/Exhibit/attachments title]</para>
+        <para>[text/tables for schedule]]</para>
+        <table>
+            <tgroup cols="2">
+                <colspec colname="col1"/>
+                <colspec colname="col2"/>
+                <tbody>
+                    <row>
+                        <entry>
+                            <para>Trademark licence table</para>
+                        </entry>
+                        <entry></entry>
+                    </row>
+                    <row>
+                        <entry></entry>
+                        <entry></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </appendix>
+</precedent>

@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2005, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">--><?Pub Inc?>
+<schedule id="a88888" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>The properties</title>
+    <part>
+        <title>Freehold properties</title>
+        <para>[COMPLETE IN RESPECT OF EACH OF THE PROPERTIES TO WHICH TITLE IS FREEHOLD]</para>
+        <para>
+            <table frame="all" pgwide="1">
+                <tgroup cols="3">
+                    <colspec colname="col1" colwidth="33.3%"/>
+                    <colspec colname="col2" colwidth="33.3%"/>
+                    <colspec colname="col3" colwidth="33.3%"/>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <para>[Short address of property:]</para>
+                            </entry>
+                            <entry nameend="col3" namest="col2">
+                                <para>&#xa0;</para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>Description of property:</para>
+                            </entry>
+                            <entry nameend="col3" namest="col2">
+                                <para>[DESCRIPTION BY REFERENCE TO TITLE NUMBER OR CONVEYANCE UNDER WHICH TITLE IS HELD]&#xa0;</para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>Rights benefiting the property:</para>
+                            </entry>
+                            <entry nameend="col3" namest="col2">
+                                <para>&#xa0;</para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>Current Use of the property:</para>
+                            </entry>
+                            <entry nameend="col3" namest="col2">
+                                <para>[MAIN USE AND ANCILLARY USE]</para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>Price:</para>
+                            </entry>
+                            <entry nameend="col3" namest="col2">
+                                <para>&#xa3;[AMOUNT]</para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry nameend="col3" namest="col1">
+                                <para>
+                                    <emphasis role="bold">Deeds and documents to be handed over on the Transfer Date
+                                    </emphasis>
+                                </para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>Date</para>
+                            </entry>
+                            <entry>
+                                <para>Parties</para>
+                            </entry>
+                            <entry>
+                                <para>Description</para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>&#xa0;</para>
+                            </entry>
+                            <entry>
+                                <para>&#xa0;</para>
+                            </entry>
+                            <entry>
+                                <para>&#xa0;</para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </para>
+    </part>
+    <part>
+        <title>Leasehold properties</title>
+        <para>[COMPLETE IN RESPECT OF EACH OF THE PROPERTIES TO WHICH TITLE IS LEASEHOLD]</para>
+        <table frame="all" pgwide="1">
+            <tgroup cols="3">
+                <colspec colname="col1" colwidth="33.3%"/>
+                <colspec colname="col2" colwidth="33.3%"/>
+                <colspec colname="col3" colwidth="33.3%"/>
+                <tbody>
+                    <row>
+                        <entry>
+                            <para>[Short address of property:]</para>
+                        </entry>
+                        <entry nameend="col3" namest="col2">
+                            <para>&#xa0;</para>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <para>Description of property:</para>
+                        </entry>
+                        <entry nameend="col3" namest="col2">
+                            <para>[DESCRIPTION BY REFERENCE TO TITLE NUMBER OR CONVEYANCE UNDER WHICH TITLE IS HELD]&#xa0;</para>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <para>Rights benefiting the property:</para>
+                        </entry>
+                        <entry nameend="col3" namest="col2">
+                            <para>&#xa0;</para>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <para>Current Use of the property:</para>
+                        </entry>
+                        <entry nameend="col3" namest="col2">
+                            <para>[MAIN USE AND ANCILLARY USE]</para>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <para>Price:</para>
+                        </entry>
+                        <entry nameend="col3" namest="col2">
+                            <para>&#xa3;[AMOUNT]</para>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry nameend="col3" namest="col1">
+                            <para>
+                                <emphasis role="bold">Deeds and documents to be handed over on the Transfer Date
+                                </emphasis>
+                            </para>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <para>Date</para>
+                        </entry>
+                        <entry>
+                            <para>Parties</para>
+                        </entry>
+                        <entry>
+                            <para>Description</para>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <para>&#xa0;</para>
+                        </entry>
+                        <entry>
+                            <para>&#xa0;</para>
+                        </entry>
+                        <entry>
+                            <para>&#xa0;</para>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </part>
+    <part>
+        <title>Conditions of sale: freehold properties</title>
+        <clause id="a682725"><?Pub Caret1?>
+            <title>Definitions</title>
+            <para>The definitions in this paragraph apply in this Part 3 of Schedule [NUMBER].</para>
+            <defitem id="a462462">
+                <defterm>Charges</defterm>
+                <def>
+                    <para>the charges affecting each of the Freehold Properties as identified in Part 1 of Schedule
+                        [NUMBER] (Freehold properties).
+                    </para>
+                </def>
+            </defitem>
+            <defitem id="a857671">
+                <defterm>Part 1 Conditions</defterm>
+                <def>
+                    <para>the conditions in Part 1 of the Standard Commercial Property Conditions (Second Edition) and
+                        <defterm>Standard Condition</defterm>
+                        means any one of them.
+                    </para>
+                </def>
+            </defitem>
+            <defitem id="a672043">
+                <defterm>Part 2 Conditions</defterm>
+                <def>
+                    <para>the conditions in Part 2 of the Standard Commercial Property Conditions (Second Edition).
+                    </para>
+                </def>
+            </defitem>
+            <defitem id="a681457">
+                <defterm>Rights</defterm>
+                <def>
+                    <para>the rights benefiting each of the Freehold Properties as identified in Part 1 of Schedule
+                        [NUMBER] (Freehold properties).
+                    </para>
+                </def>
+            </defitem>
+        </clause>
+        <clause id="a948490">
+            <title>Standard commercial property conditions</title>
+            <subclause1 id="a147390">
+                <para>The Part 1 Conditions are incorporated in this Part 3 of Schedule [NUMBER] so far as they:</para>
+                <subclause2 id="a816269">
+                    <para>apply to a sale by private treaty;</para>
+                </subclause2>
+                <subclause2 id="a809632">
+                    <para>relate to freehold land;</para>
+                </subclause2>
+                <subclause2 id="a563962">
+                    <para>are not inconsistent with the other clauses in this agreement or paragraphs in this Part 3 of
+                        Schedule [NUMBER]; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a300974">
+                    <para>have not been modified or excluded by the other clauses in this agreement or paragraphs in
+                        this Part 3 of Schedule [NUMBER].
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a824359">
+                <para>The Part 2 Conditions are not incorporated into this Part 3 of Schedule [NUMBER].</para>
+            </subclause1>
+            <subclause1 id="a254204">
+                <para>The following Standard Conditions shall not apply:</para>
+                <subclause2 id="a433512">
+                    <para>Standard Condition 1.1.4(a);</para>
+                </subclause2>
+                <subclause2 id="a708635">
+                    <para>Standard Condition 2;</para>
+                </subclause2>
+                <subclause2 id="a352107">
+                    <para>Standard Conditions 3.1, 3.2.1 and 3.3;</para>
+                </subclause2>
+                <subclause2 id="a687273">
+                    <para>Standard Conditions 6.1 to 6.3;</para>
+                </subclause2>
+                <subclause2 id="a416195">
+                    <para>Standard Condition 6.6.2 to 6.6.4;</para>
+                </subclause2>
+                <subclause2 id="a495009">
+                    <para>Standard Conditions 7.1.1 to 7.1.4;</para>
+                </subclause2>
+                <subclause2 id="a992986">
+                    <para>Standard Condition 10; and</para>
+                </subclause2>
+                <subclause2 id="a764633">
+                    <para>Standard Condition 11.</para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a715272">
+                <para>The Standard Conditions shall be amended as follows:</para>
+                <subclause2 id="a597777">
+                    <para>the definition of "conveyancer" in Standard Condition 1.1.1(f) shall be construed as referring
+                        to the Buyer&#x2019;s Solicitors and/or the Seller&#x2019;s Solicitors, as the context requires;
+                    </para>
+                </subclause2>
+                <subclause2 id="a950261">
+                    <para>the definition of "completion date" in Standard Condition 1.1.1(d) shall be construed as a
+                        reference to the Completion Date; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a892809">
+                    <para>[OTHERS].</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a1019159">
+            <title>Sale and purchase</title>
+            <subclause1 id="a439776">
+                <para>The Seller shall sell or procure the sale to the Buyer of each of the Freehold Properties, with
+                    the benefit of the Rights.
+                </para>
+            </subclause1>
+            <subclause1 id="a912346">
+                <para>In respect of each of the Freehold Properties, the Buyer cannot require the Seller to:</para>
+                <subclause2 id="a1025795">
+                    <para>transfer it or any part of it to any person other than the Buyer; or</para>
+                </subclause2>
+                <subclause2 id="a951026">
+                    <para>transfer it in more than one parcel or by more than one transfer; or</para>
+                </subclause2>
+                <subclause2 id="a175335">
+                    <para>apportion the Purchase Price between different parts of it.</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a236831">
+            <title>Completion and vacant possession</title>
+            <subclause1 id="a521182">
+                <para>Completion of the sale and purchase of the Freehold Properties shall take place on the Completion
+                    Date, and the Seller shall sell or procure the sale of each of the Freehold Properties with vacant
+                    possession on that date.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a933708">
+            <title>Deducing title</title>
+            <subclause1 id="a961707">
+                <para>Title to each of the Freehold Properties has been deduced to the Buyer&#x2019;s Solicitors before
+                    the date of this agreement.
+                </para>
+            </subclause1>
+            <subclause1 id="a143291">
+                <para>The deeds and documents of title for each of the Freehold Properties are listed in Part 1 of
+                    Schedule [NUMBER] (Freehold properties) and copies of those documents have been given to the Buyer&#x2019;s
+                    Solicitors.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a332963">
+            <title>Title guarantee</title>
+            <subclause1 id="a170469">
+                <para>On the Completion Date, the Seller shall transfer or procure the transfer of each Freehold
+                    Property with full title guarantee.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a736579">
+            <title>Matters affecting the property</title>
+            <subclause1 id="a1038247">
+                <para>Each of the Freehold Properties is sold free from encumbrances other than:</para>
+                <subclause2 id="a398822">
+                    <para>any Disclosed matters, except the Charges;</para>
+                </subclause2>
+                <subclause2 id="a785941">
+                    <para>any matters discoverable by inspection of it before the date of this agreement; and</para>
+                </subclause2>
+                <subclause2 id="a155743">
+                    <para>any matters that the Seller does not and could not reasonably know about.</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a1046338">
+            <title>Transfer</title>
+            <subclause1 id="a843393">
+                <para>The transfers of each of the Freehold Properties shall be:</para>
+                <subclause2 id="a452229">
+                    <para>in the form set out in Part 5 of Schedule [NUMBER] (Transfer of freehold properties); and
+                    </para>
+                </subclause2>
+                <subclause2 id="a625721">
+                    <para>prepared and executed in duplicate, the duplicate to be retained by the Seller.</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+    </part>
+    <part>
+        <title>Conditions of sale: Leasehold properties</title>
+        <clause id="a636402">
+            <title>Definitions</title>
+            <subclause1>
+                <para>The definitions in this paragraph apply in this Part 4 of Schedule [NUMBER].</para>
+                <defitem id="a791309">
+                    <defterm>Charges</defterm>
+                    <def>
+                        <para>the charges affecting each of the Leasehold Properties as identified in Part 2 of Schedule
+                            [NUMBER] (Leasehold properties).
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a887441">
+                    <defterm>Landlord</defterm>
+                    <def>
+                        <para>in respect of each Leasehold Property, the person or persons from time to time entitled to
+                            the reversion (whether immediate or not) expectant upon the termination of a Lease.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a599045">
+                    <defterm>Licence</defterm>
+                    <def>
+                        <para>the consent of the Landlord authorising a transfer or an assignment of the residue of the
+                            term of a Leasehold Property to the Buyer in accordance with and pursuant to the terms of
+                            the Lease, such consent being evidenced in a written, formal licence to assign, dated and
+                            being obtained [on reasonable terms] [free from unreasonable conditions], signed or executed
+                            by or on behalf of all of the parties to it.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a464233">
+                    <defterm>Longstop Date</defterm>
+                    <def>
+                        <para>[[DATE]
+                            <emphasis role="bold">OR</emphasis>
+                            the date being six calendar months less two days from and including the [Completion Date].
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a603090">
+                    <defterm>Part 1 Conditions</defterm>
+                    <def>
+                        <para>the conditions in Part 1 of the Standard Commercial Property Conditions (Second Edition)
+                            and
+                            <defterm>Standard Condition</defterm>
+                            means any one of them.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a186519">
+                    <defterm>Part 2 Conditions</defterm>
+                    <def>
+                        <para>the conditions in Part 2 of the Standard Commercial Property Conditions (Second
+                            Edition).
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a436234">
+                    <defterm>Rights</defterm>
+                    <def>
+                        <para>the rights benefiting each of the Leasehold Properties as identified in Part 2 of Schedule
+                            [NUMBER] (Leasehold properties).
+                        </para>
+                    </def>
+                </defitem>
+            </subclause1>
+        </clause>
+        <clause id="a421508">
+            <title>Standard commercial property conditions</title>
+            <subclause1 id="a357365">
+                <para>The Part 1 Conditions are incorporated in this Part 4 of Schedule [NUMBER] so far as they:</para>
+                <subclause2 id="a428089">
+                    <para>apply to a sale by private treaty;</para>
+                </subclause2>
+                <subclause2 id="a481496">
+                    <para>are applicable to leasehold land;</para>
+                </subclause2>
+                <subclause2 id="a258959">
+                    <para>are not inconsistent with the other clauses in this agreement or paragraphs in this Part 4 of
+                        Schedule [NUMBER]; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a739619">
+                    <para>have not been modified by the other clauses in this agreement or paragraphs in this Part 4 of
+                        Schedule [NUMBER].
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a1032059">
+                <para>The Part 2 Conditions are not incorporated into this Part 4 of Schedule [NUMBER].</para>
+            </subclause1>
+            <subclause1 id="a889157">
+                <para>The following Standard Conditions shall not apply:</para>
+                <subclause2 id="a708078">
+                    <para>Standard Condition 1.1.4(a);</para>
+                </subclause2>
+                <subclause2 id="a359639">
+                    <para>Standard Condition 2;</para>
+                </subclause2>
+                <subclause2 id="a404956">
+                    <para>Standard Conditions 3.1, 3.2.1 and 3.3;</para>
+                </subclause2>
+                <subclause2 id="a800164">
+                    <para>Standard Conditions 6.1 to 6.3;</para>
+                </subclause2>
+                <subclause2 id="a348958">
+                    <para>Standard Conditions 6.6.2 to 6.6.4;</para>
+                </subclause2>
+                <subclause2 id="a437000">
+                    <para>Standard Conditions 7.1.2 and 7.1.3;</para>
+                </subclause2>
+                <subclause2 id="a330132">
+                    <para>Standard Condition 10.3; and</para>
+                </subclause2>
+                <subclause2 id="a715982">
+                    <para>Standard Condition 11.</para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a1056964">
+                <para>The Standard Conditions shall be amended as follows:</para>
+                <subclause2 id="a1004323">
+                    <para>the definition of "conveyancer" in Standard Condition 1.1.1(f) shall be construed as referring
+                        to the Buyer&#x2019;s Solicitors and/or the Seller&#x2019;s Solicitors, as the context requires;
+                    </para>
+                </subclause2>
+                <subclause2 id="a696336">
+                    <para>the definition of "completion date" in Standard Condition 1.1.1(d) shall be construed as a
+                        reference to the Lease Transfer Date; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a620298">
+                    <para>[OTHERS].</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a143684">
+            <title>Sale and purchase</title>
+            <subclause1 id="a573528">
+                <para>Subject to
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a190717" xlink:role="xref"
+                                       xlink:title="paragraph 9 - LANDLORD&#8217;S CONSENT TO A TRANSFER OF THE LEASEHOLD PROPERTIES">
+                            paragraph 9
+                            <xref link="a190717"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    of this Part 4 of Schedule [NUMBER], the Seller shall sell or procure the sale to the Buyer of the
+                    Leasehold Properties, with the benefit of the Rights.
+                </para>
+            </subclause1>
+            <subclause1 id="a487257">
+                <para>In respect of each of the Leasehold Properties, the Buyer cannot require the Seller to:</para>
+                <subclause2 id="a1027960">
+                    <para>transfer or assign it or any part of it to any person other than the Buyer; or</para>
+                </subclause2>
+                <subclause2 id="a359847">
+                    <para>transfer or assign it in more than one parcel or by more than one transfer; or</para>
+                </subclause2>
+                <subclause2 id="a695013">
+                    <para>apportion the Purchase Price between different parts of it.</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a423935">
+            <title>Completion and vacant possession</title>
+            <subclause1 id="a502749">
+                <para>Completion of the sale and purchase of each Leasehold Property shall take place on the Lease
+                    Transfer Date, and the Seller shall sell or procure the sale of the Leasehold Properties with vacant
+                    possession on that date.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a1000726">
+            <title>Deducing title</title>
+            <subclause1 id="a506794">
+                <para>Title to each of the Leasehold Properties has been deduced to the Buyer&#x2019;s Solicitors before
+                    the date of this agreement.
+                </para>
+            </subclause1>
+            <subclause1 id="a723012">
+                <para>The deeds and documents of title for each of the Leasehold Properties are listed in Part 2 of
+                    Schedule [NUMBER] (Leasehold properties) and copies have been given to the Buyer&#x2019;s
+                    Solicitors.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a605517">
+            <title>Title guarantee</title>
+            <subclause1 id="a958001">
+                <para>On the Lease Transfer Date, the Seller shall transfer or assign, or procure the transfer or
+                    assignment of, each of the Leasehold Properties with full title guarantee.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a900549">
+            <title>Matters affecting the property</title>
+            <subclause1 id="a338484">
+                <para>Each of the Leasehold Properties is sold free from encumbrances other than:</para>
+                <subclause2 id="a759101">
+                    <para>any Disclosed matters, except the Charges;</para>
+                </subclause2>
+                <subclause2 id="a231671">
+                    <para>any matters discoverable by inspection of it before the date of this agreement; and</para>
+                </subclause2>
+                <subclause2 id="a79541">
+                    <para>any matters that the Seller does not and could not reasonably know about.</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a1004771">
+            <title>Transfer</title>
+            <subclause1 id="a229080">
+                <para>The transfers or assignments of the Leasehold Properties shall be:</para>
+                <subclause2 id="a556156">
+                    <para>in the form set out in Part 6 of Schedule [NUMBER] (Transfer or assignments of leasehold
+                        properties); and
+                    </para>
+                </subclause2>
+                <subclause2 id="a840506">
+                    <para>prepared and executed in duplicate, the duplicate to be retained by the Seller.</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a190717">
+            <title>Landlord&#x2019;s consent to a transfer of the leasehold properties</title>
+            <subclause1 id="a953136">
+                <para>The provisions of this paragraph 9 of Part 4 of Schedule [NUMBER] apply in respect of each
+                    Leasehold Property.
+                </para>
+            </subclause1>
+            <subclause1 id="a134719">
+                <para>Completion of the transfer or assignment of a Leasehold Property is conditional on every Licence
+                    required under the relevant Lease.
+                </para>
+            </subclause1>
+            <subclause1 id="a589971">
+                <para>[On or before
+                    <emphasis role="bold">OR</emphasis>
+                    Immediately following] the Completion Date, the Seller shall apply for and use all reasonable
+                    endeavours to obtain every Licence as required by each Lease. The Seller shall pay all costs
+                    associated with obtaining, or seeking to obtain, each Licence.
+                </para>
+            </subclause1>
+            <subclause1 id="a489794">
+                <para>The Buyer shall, without delay:</para>
+                <subclause2 id="a1055904">
+                    <para>supply all information, accounts and references as the Landlord or the Seller may reasonably
+                        require in connection with an application for or consideration of any Licence;
+                    </para>
+                </subclause2>
+                <subclause2 id="a91994">
+                    <para>ensure that any amendments that the Buyer proposes to make to any form of Licence or to any
+                        document mentioned in
+                        <plcxlink>
+                            <xlink:locator xlink:href="#a718146" xlink:role="xref"
+                                           xlink:title="paragraph 9.4 (c) - supply, procure or enter ">paragraph 9.4(c)
+                                <xref link="a718146"></xref>
+                            </xlink:locator>
+                        </plcxlink>
+                        that has been submitted to the Buyer or to the Buyer's Solicitors, are communicated promptly to
+                        the Seller's Solicitors;
+                    </para>
+                </subclause2>
+                <subclause2 id="a718146">
+                    <para>supply, procure or enter into any guarantees, rental or other deposits, direct covenants or
+                        other security for the performance of the tenant covenants of the Lease as may be lawfully
+                        required under each Lease; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a105266">
+                    <para>execute the documents containing a Licence and execute or procure the execution of the
+                        documents (if any) required to be entered into pursuant to
+                        <plcxlink>
+                            <xlink:locator xlink:href="#a718146" xlink:role="xref"
+                                           xlink:title="paragraph 9.4 (c) - supply, procure or enter ">paragraph 9.4(c)
+                                <xref link="a718146"></xref>
+                            </xlink:locator>
+                        </plcxlink>
+                        , each in the form reasonably required by the Landlord. The Buyer shall return all such
+                        documents duly executed to the Seller's Solicitors within [ten] Business Days after each
+                        engrossment has been submitted to the Buyer's Solicitors.
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a209488">
+                <para>If any Licence required in respect of a Leasehold Property has not been obtained by the Longstop
+                    Date, then this agreement shall automatically rescind in relation to that Leasehold Property and the
+                    provisions of paragraph 11 of Part 4 of Schedule [NUMBER] (Relocation indemnity) shall apply.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a365663">
+            <title>Occupation pending grant of licence</title>
+            <subclause1 id="a162718">
+                <para>The Buyer shall be entitled to occupy each Leasehold Property as bare licensee only, on a
+                    non-exclusive basis, from the Completion Date until the earlier of:
+                </para>
+                <subclause2 id="a771553">
+                    <para>the Longstop Date; or</para>
+                </subclause2>
+                <subclause2 id="a945045">
+                    <para>the Lease Transfer Date; or</para>
+                </subclause2>
+                <subclause2 id="a955727">
+                    <para>the date upon which this agreement is rescinded in relation to that Leasehold Property.</para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a923683">
+                <para>Whilst occupying the Leasehold Property as bare licensee, the Buyer shall be responsible for, and
+                    shall indemnify the Seller against, all sums payable by the tenant under the Lease, other than the
+                    payment of rent.
+                </para>
+            </subclause1>
+            <subclause1 id="a1019815">
+                <para>Whilst occupying the Leasehold Property as bare licensee, the Buyer shall pay to the Seller a
+                    licence fee equal to all rents payable by the tenant under the Lease, such licence fee to be paid:
+                </para>
+                <subclause2 id="a465840">
+                    <para>in respect of rents payable on a specified date in the Lease, [ten] Business Days before the
+                        date they fall due for payment under the Lease; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a596607">
+                    <para>in respect of rents payable on demand in the Lease, within [five] Business Days of written
+                        demand from the Seller.
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a735464">
+                <para>Whilst occupying the Leasehold Property as bare licensee, the Buyer covenants with the Seller that
+                    it shall observe and perform all the tenant covenants in the Lease (other than the covenants
+                    relating to payment of the rents and alienation) and shall indemnify the Seller against all costs,
+                    expenses, damages, proceedings and losses suffered or incurred by the Seller arising from any
+                    breach, non-observance or non-performance of the tenant covenants in the Lease (other than the
+                    covenants relating to payment of the rents and alienation).
+                </para>
+            </subclause1>
+            <subclause1 id="a318892">
+                <para>This licence to occupy does not create, and is not intended to create, a demise and is personal to
+                    the Buyer. This licence cannot be assigned and the Buyer shall not be entitled to share occupation
+                    of a Leasehold Property with any other person, nor hold the Leasehold Property on trust for a third
+                    party.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a568608">
+            <title>Relocation indemnity</title>
+            <subclause1 id="a553882">
+                <para>Within [five] Business Days after the later of:</para>
+                <subclause2 id="a863640">
+                    <para>the Buyer vacating the Leasehold Property; and</para>
+                </subclause2>
+                <subclause2 id="a934364">
+                    <para>the date upon which this agreement is rescinded in relation to that Leasehold Property,</para>
+                </subclause2>
+                <para>the Seller shall pay to the Buyer:</para>
+                <subclause2>
+                    <subclause3 id="a987771">
+                        <para>That part of the Final Purchase Price apportioned to the relevant Leasehold Property
+                            together with interest at the Interest Rate. Such interest shall be calculated from the
+                            Completion Date until the date that repayment is actually made; and
+                        </para>
+                    </subclause3>
+                    <subclause3 id="a827551">
+                        <para>On demand and keep the Buyer indemnified against all damages, costs and expenses
+                            (including without limitation all costs, expenses and disbursements payable to solicitors,
+                            surveyors, engineers and other professional advisors) incurred by the Buyer resulting from
+                            its vacation of the Leasehold Property to include without limitation all relocation costs
+                            associated with securing an alternative suitable leasehold property similar to the Leasehold
+                            Property for the purposes of conducting the Business.
+                        </para>
+                    </subclause3>
+                </subclause2>
+            </subclause1>
+        </clause>
+    </part>
+    <part>
+        <title>Transfer of freehold properties</title>
+    </part>
+    <part>
+        <title>Transfer and assignments of leasehold properties</title>
+    </part>
+</schedule><?Pub *0000023400 0?>

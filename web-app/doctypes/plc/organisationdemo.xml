@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset:
+ArborText, Inc., 1988-2001, v.4002
+<!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN"
+ "plc.dtd">
+-->
+<?Pub Inc?>
+<?Pub CX plc(?>
+<organisation>
+    <metadata>
+        <title>Atlas Copco AB</title>
+        <identifier>http://www.lawdepartment.net/scripts/organisation.asp?Organisation_ID=4</identifier>
+    </metadata>
+    <headcount type="employees" coverage="global">24,000</headcount>
+    <financial
+            type="turnover" coverage="global" currency="USD" unit="million" value="4">approximately
+    </financial>
+    <relatedcompany type="parent">Atlas Copco Inc.or
+        <plcxlink></plcxlink>
+    </relatedcompany>
+    <relatedcompany type="subsidiary">Atlas Copco SA.</relatedcompany>
+    <sector>Mechanical
+        Enginnering or
+        <plcxlink></plcxlink>
+    </sector>
+    <primarylocation><?Pub Caret1?>
+        <location>
+            <addressline>Sickla Industriv&auml;g 3</addressline>
+            <postcode>S-105 23</postcode>
+            <municipality>Stockholm</municipality>
+            <country>Sweden</country>
+        </location>
+        <phone>
+            <countrycode>46</countrycode>
+            <areacode>8</areacode>
+            <basephone>743 8000</basephone>
+        </phone>
+        <phone type="fax">
+            <countrycode>46</countrycode>
+            <areacode>8</areacode>
+            <basephone>743 8037</basephone>
+        </phone>
+    </primarylocation>
+</organisation>
+        <?Pub *0000001253 0?>

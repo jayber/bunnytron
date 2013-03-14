@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset:
+ArborText, Inc., 1988-2001, v.4002
+<!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN"
+ "plc.dtd">
+-->
+<?Pub Inc?>
+<?Pub CX plc(?>
+<article>
+<metadata>
+<title>International acquisition structures 3</title>
+<resourceid>14873</resourceid><identifier>http://www.lawdepartment.net/scripts/article.asp?Article_ID=14873</identifier>
+</metadata>
+<fulltext>
+<section1>
+<qandaset>
+<question>
+<para>What are the most common corporate entities? Is a formal offer procedure
+required for the acquisition of any of these? </para>
+</question>
+<answer jurisdiction="UK">
+<para>The limited liability company (either a private limited company (Ltd)
+or a public limited company (plc) (which can offer shares to the public and
+have its shares listed on a stock exchange) ), A plc must have a minimum share
+capital of &pound;50,000 (US$75,000),  </para>
+</answer>
+<answer jurisdiction="USA">
+<para>The most common form of corporate entity is the corporation. There is
+no minimum share capital. Generally speaking, corporations are either public
+or closely-held, in which case different tax and corporate law provisions
+may apply. </para>
+</answer>
+</qandaset>
+</section1>
+<section1 layout="box"><?Pub Caret?>
+<!--Add format attribute to section1, section2, section3 elements ? In this instance format="box"-->
+<title>Box title</title>
+<para>This is some text that the editor wants to appear in a &ldquo;box&rdquo;.</para>
+</section1>
+</fulltext></article>
+<?Pub *0000001556 0?>

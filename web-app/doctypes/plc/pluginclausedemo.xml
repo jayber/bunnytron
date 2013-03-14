@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2004, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:atict="http://www.arbortext.com/namespace/atict"><?Pub Caret1?>
+    <atict:info tracking="off" ref="0"/>
+    <atict:user user="Hannah" fullname="Hannah Boothby"/>
+    <atict:user user="newmant" fullname="Teresa Newman"/>
+    <atict:user user="boothbh" fullname="Hannah Boothby"/>
+    <atict:user user="owens" fullname="Sarah Owens"/>
+    <metadata></metadata>
+    <operative>
+        <clause numbering="none">
+            <title>DEFINITIONS</title>
+            <para>
+                <emphasis role="italic">Insert definitions</emphasis>
+            </para>
+            <defitems>
+                <defitem id="a619067">
+                    <defterm>Completion Payment</defterm>
+                    <def>
+                        <para>has the meaning given in clause [PURCHASE PRICE CLAUSE NUMBER].</para>
+                    </def>
+                </defitem>
+                <defitem id="a162306">
+                    <defterm>Deferred Payment</defterm>
+                    <def>
+                        <para>has the meaning given in clause [PURCHASE PRICE CLAUSE NUMBER].</para>
+                    </def>
+                </defitem>
+                <defitem id="a942043">
+                    <defterm>Financial Year</defterm>
+                    <def>
+                        <para>in relation to a company, has the meaning given in section 223 of the Companies Act
+                            1985.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a524203">
+                    <defterm>Relevant Profits</defterm>
+                    <def>
+                        <para>has the meaning given in
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a718238" xlink:role="xref"
+                                               xlink:title="paragraph 1 - Interpretation">paragraph 1
+                                    <xref link="a718238"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            of Schedule [EARN-OUT SCHEDULE NUMBER].
+                        </para>
+                    </def>
+                </defitem>
+            </defitems>
+        </clause>
+        <clause numbering="none">
+            <title>CLAUSES</title>
+            <para>
+                <emphasis role="italic">Insert sub-clauses in purchase price clause (and re-number appropriately).
+                </emphasis>
+            </para>
+        </clause>
+        <clause id="a338576">
+            <title>Purchase price</title>
+            <subclause1 id="a161038">
+                <para>The
+                    <defterm>Purchase Price</defterm>
+                    for the Sale Shares is:
+                </para>
+                <subclause2 id="a365754">
+                    <para>&#xa3;[AMOUNT], payable in cash at Completion to the [Seller
+                        <emphasis role="bold">OR</emphasis>
+                        Seller's Solicitors
+                        <emphasis role="bold">OR</emphasis>
+                        Sellers
+                        <emphasis role="bold">OR</emphasis>
+                        Sellers' Solicitors] (<defterm>Completion Payment</defterm>); and
+                    </para>
+                </subclause2>
+                <subclause2 id="a564654">
+                    <para>an amount in cash for each of the Financial Years specified in this clause 1.1(b) which is
+                        equal to the percentage of Relevant Profits specified for that year (each a<defterm>Deferred
+                            Payment</defterm>and together the<defterm>Deferred Payments</defterm>):
+                    </para>
+                    <subclause3>
+                        <para>[PERCENTAGE]% of the Relevant Profits for the Financial Year ended [DATE];</para>
+                    </subclause3>
+                    <subclause3>
+                        <para>[PERCENTAGE]% of the Relevant Profits for the Financial Year ended [DATE]; and</para>
+                    </subclause3>
+                    <subclause3>
+                        <para>[PERCENTAGE]% of the Relevant Profits for the Financial Year ended [DATE].</para>
+                    </subclause3>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a233533">
+                <para>The Completion Payment and Deferred Payments shall be paid to the [Seller
+                    <emphasis role="bold">OR</emphasis>
+                    Seller's Solicitors
+                    <emphasis role="bold">OR</emphasis>
+                    Sellers
+                    <emphasis role="bold">OR</emphasis>
+                    Sellers' Solicitors in the proportions set out opposite the Sellers' names in Schedule 1].
+                </para>
+            </subclause1>
+            <subclause1 id="a226897">
+                <para>The procedure and other terms for making Deferred Payments are set out in Schedule [EARN-OUT
+                    SCHEDULE NUMBER].
+                </para>
+            </subclause1>
+        </clause>
+        <clause numbering="none">
+            <title>SCHEDULES</title>
+            <para>
+                <emphasis role="italic">Insert new schedule</emphasis>
+            </para>
+        </clause>
+    </operative>
+    <schedule id="a981226">
+        <title>Earn-out</title>
+        <clause id="a718238">
+            <title>Interpretation</title>
+            <subclause1 id="a241624">
+                <para>The definitions in this paragraph apply in this agreement.</para>
+                <defitem id="a671468">
+                    <defterm>Earn-out Period</defterm>
+                    <def>
+                        <para>the period of [NUMBER] Financial Years commencing on [the day following the Accounts Date
+                            <emphasis role="bold">OR</emphasis>
+                            [OTHER DATE]] and ending on [the Accounts Date
+                            <emphasis role="bold">OR</emphasis>
+                            [OTHER DATE]].
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a913093">
+                    <defterm>Expert</defterm>
+                    <def>
+                        <para>a person appointed in accordance with
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a312348" xlink:role="xref"
+                                               xlink:title="paragraph 3 - Expert ">paragraph 3
+                                    <xref link="a312348"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            of this
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a981226" xlink:role="xref"
+                                               xlink:title="schedule 1 - Earn-out">Schedule
+                                    <xref link="a981226"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            to resolve a dispute arising in relation to the calculation of Relevant Profits and any
+                            Deferred Payment.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a188217">
+                    <defterm>Relevant Profits</defterm>
+                    <def>
+                        <para>in relation to any Financial Year within the Earn-out Period, the aggregate profits (less
+                            any losses) of the Company and its Subsidiaries as shown in the audited accounts of the
+                            Company and its Subsidiaries for that period:
+                        </para>
+                        <subclause2 id="a831687">
+                            <para>before deducting Taxation on profit;</para>
+                        </subclause2>
+                        <subclause2 id="a166854">
+                            <para>after deducting profits or adding back losses of a capital nature arising on the
+                                disposal of, or on the revaluation of, assets or investments of the Company or its
+                                Subsidiaries; and
+                            </para>
+                        </subclause2>
+                        <subclause2 id="a895775">
+                            <para>excluding the effect of any transactions after Completion that are not in the ordinary
+                                course of business of the Company and its Subsidiaries, or that are not made at arm's
+                                length and on market terms.
+                            </para>
+                        </subclause2>
+                    </def>
+                </defitem>
+            </subclause1>
+        </clause>
+        <clause id="a974590">
+            <title>Procedure for making deferred payments</title>
+            <subclause1 id="a472568">
+                <para>The Buyer shall use its reasonable endeavours to ensure that the accounts of the Company and each
+                    of its Subsidiaries are audited within [NUMBER] months of the last day of each Financial Year within
+                    the Earn-out Period.
+                </para>
+            </subclause1>
+            <subclause1 id="a244215">
+                <para>The Buyer shall, within [NUMBER] days of receiving the audited accounts of the Company and each of
+                    its Subsidiaries for each Financial Year within the Earn-out Period, send to the Seller[s]:
+                </para>
+                <subclause2 id="a194853">
+                    <para>a copy of the audited accounts of the Company and each of its Subsidiaries; and</para>
+                </subclause2>
+                <subclause2 id="a77359">
+                    <para>a certificate issued by the Buyer's accountants stating:</para>
+                    <subclause3>
+                        <para>the Relevant Profits for the relevant Financial Year;</para>
+                    </subclause3>
+                    <subclause3>
+                        <para>any adjustments made to the audited accounts in arriving at the Relevant Profits; and
+                        </para>
+                    </subclause3>
+                    <subclause3>
+                        <para>the amount of the Deferred Payment (if any) payable in respect of that year (subject to
+                            any deduction made in accordance with
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a966499" xlink:role="xref"
+                                               xlink:title="paragraph 2.7 - The Buyer can deduct">paragraph 2.7
+                                    <xref link="a966499"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            of this
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a981226" xlink:role="xref"
+                                               xlink:title="schedule 1 - Earn-out">Schedule
+                                    <xref link="a981226"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            ).
+                        </para>
+                    </subclause3>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a429842">
+                <para>The [Seller has
+                    <emphasis role="bold">OR</emphasis>
+                    Sellers have] [NUMBER] days, starting with the day on which [it receives
+                    <emphasis role="bold">OR</emphasis>
+                    they receive] the audited accounts and certificate referred to in
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a244215" xlink:role="xref"
+                                       xlink:title="paragraph 2.2 - The Buyer shall">paragraph 2.2
+                            <xref link="a244215"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    of this
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a981226" xlink:role="xref" xlink:title="schedule 1 - Earn-out">
+                            Schedule
+                            <xref link="a981226"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    , within which [jointly] to give notice to the Buyer that [it does
+                    <emphasis role="bold">OR</emphasis>
+                    they do] not accept the accuracy of the certificate. [If the [Sellers do
+                    <emphasis role="bold">OR</emphasis>
+                    Seller does] not jointly give notice under this
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a429842" xlink:role="xref"
+                                       xlink:title="paragraph 2.3 - The [Seller has ">paragraph 2.3
+                            <xref link="a429842"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    , [it is
+                    <emphasis role="bold">OR</emphasis>
+                    they are all] deemed to have accepted the certificate as accurate at the expiry of the [NUMBER] day
+                    period.]
+                </para>
+            </subclause1>
+            <subclause1 id="a372391">
+                <para>Where the [Seller gives
+                    <emphasis role="bold">OR</emphasis>
+                    Sellers jointly give] notice that [it does
+                    <emphasis role="bold">OR</emphasis>
+                    they do] not accept the accuracy of the certificate, the parties have [NUMBER] days, starting with
+                    the day on which the Buyer receives the notice, within which to resolve any disagreement relating to
+                    the certificate. The parties shall use their best endeavours to resolve the disagreement within that
+                    period.
+                </para>
+            </subclause1>
+            <subclause1 id="a810325">
+                <para>Where the parties are unable to resolve their disagreement within the [NUMBER] day period, the
+                    calculation of the Relevant Profits and Deferred Payment for the relevant Financial Year shall be
+                    referred to an Expert.
+                </para>
+            </subclause1>
+            <subclause1 id="a230942">
+                <para>Subject to
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a966499" xlink:role="xref"
+                                       xlink:title="paragraph 2.7 - The Buyer can deduct">paragraph 2.7
+                            <xref link="a966499"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    , in relation to each Financial Year within the Earn-out Period, the Buyer shall make the Deferred
+                    Payment due to [the Seller
+                    <emphasis role="bold">OR</emphasis>
+                    the Sellers in the proportions set opposite the Sellers' names in Schedule 1] for that year within a
+                    period of [NUMBER] days starting with the day on which:
+                </para>
+                <subclause2 id="a703512">
+                    <para>the [Seller accepts or is
+                        <emphasis role="bold">OR</emphasis>
+                        Sellers accept or are] deemed to have accepted the certificate relating to the Deferred Payment
+                        for that year as accurate in accordance with
+                        <plcxlink>
+                            <xlink:locator xlink:href="#a429842" xlink:role="xref"
+                                           xlink:title="paragraph 2.3 - The Sellers have [NU">paragraph 2.3
+                                <xref link="a429842"></xref>
+                            </xlink:locator>
+                        </plcxlink>
+                        of this
+                        <plcxlink>
+                            <xlink:locator xlink:href="#a981226" xlink:role="xref" xlink:title="schedule 1 - Earn-out">
+                                Schedule
+                                <xref link="a981226"></xref>
+                            </xlink:locator>
+                        </plcxlink>
+                        ; or
+                    </para>
+                </subclause2>
+                <subclause2 id="a816961">
+                    <para>the parties have resolved all disagreements on that certificate; or</para>
+                </subclause2>
+                <subclause2 id="a742192">
+                    <para>the parties receive notice of the Expert's decision on the Deferred Payment for that year.
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a966499">
+                <para>The Buyer may deduct from any Deferred Payment an amount in respect and satisfaction of any Claim,
+                    claim under the Tax Covenant or claim under [SPECIFY INDEMNITY] which is subsisting and has not been
+                    settled in full by the Seller[s] at the time that the Deferred Payment is due to be paid.
+                </para>
+            </subclause1>
+            <subclause1 id="a1027996">
+                <para>Save as otherwise provided in this
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a981226" xlink:role="xref" xlink:title="schedule 1 - Earn-out">
+                            Schedule
+                            <xref link="a981226"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    , the parties shall each bear their own costs incurred in the preparation of the certificate and the
+                    agreement of the Relevant Profits and Deferred Payments.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a312348">
+            <title>Expert</title>
+            <subclause1 id="a724874">
+                <para>An Expert is a person appointed in accordance with this
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a312348" xlink:role="xref" xlink:title="paragraph 3 - Expert ">
+                            paragraph 3
+                            <xref link="a312348"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    to resolve a dispute arising in relation to the calculation of Relevant Profits and any Deferred
+                    Payment.
+                </para>
+            </subclause1>
+            <subclause1 id="a752873">
+                <para>The parties shall agree on the appointment of an independent Expert.</para>
+            </subclause1>
+            <subclause1 id="a934455">
+                <para>If the parties are unable to agree on an Expert within seven days of either party serving details
+                    of a suggested expert on the other, either party may request [NAME OF BODY ENTITLED TO MAKE
+                    NOMINATION] to appoint an Expert [PROFESSIONAL QUALIFICATION] of repute with experience in [TYPE OF
+                    MATTER].
+                </para>
+            </subclause1>
+            <subclause1 id="a124129">
+                <para>The Expert is required to prepare a written decision and give notice (including a copy) of the
+                    decision to the parties within a maximum of three months of the matter being referred to the Expert.
+                </para>
+            </subclause1>
+            <subclause1 id="a1023951">
+                <para>If the Expert dies or becomes unwilling or incapable of acting, or does not deliver the decision
+                    within the time required by
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a124129" xlink:role="xref"
+                                       xlink:title="paragraph 3.4 - The Expert is requir">paragraph 3.4
+                            <xref link="a124129"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    , then:
+                </para>
+                <subclause2 id="a590062">
+                    <para>either party may apply to [NAME OF BODY ENTITLED TO MAKE NOMINATION] to discharge the Expert
+                        and to appoint a replacement Expert with the required expertise; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a891730">
+                    <para>this
+                        <plcxlink>
+                            <xlink:locator xlink:href="#a312348" xlink:role="xref" xlink:title="paragraph 3 - Expert ">
+                                paragraph 3
+                                <xref link="a312348"></xref>
+                            </xlink:locator>
+                        </plcxlink>
+                        applies in relation to the new Expert as if he were the first Expert appointed.
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a252305">
+                <para>All matters under this
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a312348" xlink:role="xref" xlink:title="paragraph 3 - Expert ">
+                            paragraph 3
+                            <xref link="a312348"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    shall be conducted, and the Expert's decision shall be written, in the English language.
+                </para>
+            </subclause1>
+            <subclause1 id="a639424">
+                <para>The parties are entitled to make submissions to the Expert [including oral submissions] and shall
+                    provide (or procure that others provide) the Expert with such assistance and documents as the Expert
+                    reasonably requires for the purpose of reaching a decision.
+                </para>
+            </subclause1>
+            <subclause1 id="a1009225">
+                <para>To the extent not provided for by this paragraph, the Expert may, in his reasonable discretion,
+                    determine such other procedures to assist with the conduct of the determination as he considers just
+                    or appropriate[, including (to the extent he considers necessary) instructing professional advisers
+                    to assist him in reaching his determination].
+                </para>
+            </subclause1>
+            <subclause1 id="a899820">
+                <para>Each party shall, with reasonable promptness, supply each other party with all information and
+                    give each other party access to all documentation and personnel as each other party reasonably
+                    requires to make a submission under this
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a312348" xlink:role="xref" xlink:title="paragraph 3 - Expert ">
+                            paragraph 3
+                            <xref link="a312348"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    .
+                </para>
+            </subclause1>
+            <subclause1 id="a696875">
+                <para>The Expert shall act as an expert and not as an arbitrator. The Expert shall determine the amount
+                    of Relevant Profits and any Deferred Payment, which may include any issue involving the
+                    interpretation of any provision of this agreement, his jurisdiction to determine the matters and
+                    issues referred to him or his terms of reference. The Expert's written decision on the matters
+                    referred to him shall be final and binding on the parties in the absence of manifest error or fraud.
+                </para>
+            </subclause1>
+            <subclause1 id="a305712">
+                <para>Each party shall bear its own costs in relation to the Expert. The Expert's fees and any costs
+                    properly incurred by him in arriving at his determination (including any fees and costs of any
+                    advisers appointed by the Expert) shall be borne by the parties [equally or in such other
+                    proportions as the Expert directs].
+                </para>
+            </subclause1>
+        </clause>
+    </schedule>
+</precedent><?Pub *0000015745 0?>

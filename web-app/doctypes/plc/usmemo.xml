@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2011, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent jurisdiction="US">
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Changes made to this resource</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <revdescription>
+                    <section1>
+                        <para>We will record here any changes to this resource as a result of developments in the law or
+                            practice.
+                        </para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <?Pub Caret -1?>
+    <heading>
+        <memorandumheader>
+            <title>MEMORANDUM</title>
+            <table frame="bottom" pgwide="1">
+                <tgroup cols="2">
+                    <colspec colname="col1" colwidth="15%"/>
+                    <colspec colname="col2" colwidth="85%"/>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <para>
+                                    <emphasis role="bold">To:</emphasis>
+                                </para>
+                            </entry>
+                            <entry>
+                                <para>[Insert Relevant Text eg The Board of Directors [and Officers] of [Company
+                                    Name]].
+                                </para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>
+                                    <emphasis role="bold">From:</emphasis>
+                                </para>
+                            </entry>
+                            <entry>
+                                <para>[Insert Law Firm Name (external counsel) or Name and Title of the person(s)
+                                    authoring the memo (in-house counsel)]
+                                </para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>
+                                    <emphasis role="bold">Date:</emphasis>
+                                </para>
+                            </entry>
+                            <entry>
+                                <para>[Insert Date of Memo eg November 1, 2009]</para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>
+                                    <emphasis role="bold">Re:</emphasis>
+                                </para>
+                            </entry>
+                            <entry>
+                                <para>[Insert Subject eg Directors' Fiduciary Duties]</para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </memorandumheader>
+    </heading>
+    <operative properties="usmemo" xrefname="paragraph">
+        <clause numbering="none">
+            <para>[The first paragraph after the above section will introduce the memo. Editors need the ability to
+                delete this if not applicable. This will be known as the introductory paragraph eg This memo provides
+                guidelines to directors on fiduciary duties.]
+            </para>
+        </clause>
+        <clause numbering="none">
+            <title>[Title]</title>
+            <para>[Text of memo]</para>
+            <itemizedlist>
+                <listitem>
+                    <para>[Text.]</para>
+                </listitem>
+                <listitem>
+                    <para>[Text.]</para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>[Text;]</para>
+                        </listitem>
+                    </itemizedlist>
+                </listitem>
+            </itemizedlist>
+        </clause>
+        <clause numbering="none">
+            <title>[Title]</title>
+            <subclause1>
+                <title>[Heading 2 Title]</title>
+                <para>Section 2 text here.</para>
+            </subclause1>
+            <para>Editor can add Defined Terms
+                <defterm>Defined Term</defterm>
+                [Text of Definition]
+            </para>
+            <subclause1>
+                <title>[Heading 2 Title]</title>
+                <para>Section 2 text here.</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Test</para>
+                    </listitem>
+                </itemizedlist>
+            </subclause1>
+        </clause>
+        <clause numbering="none">
+            <title>[Summary/Conclusion]</title>
+            <para>[Typically the final paragraph is a summary/conclusion of the memo findings. You can delete this if it
+                is not applicable.]
+            </para>
+        </clause>
+    </operative>
+</precedent>

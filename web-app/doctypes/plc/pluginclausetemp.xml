@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2011, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent
+        >
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Changes made to this resource</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <revdescription>
+                    <section1>
+                        <para>We will record here any changes to this resource as a result of developments in the law or
+                            practice.
+                        </para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <?Pub Caret -1?>
+    <operative>
+        <clause numbering="none">
+            <title>Definitions</title>
+            <para>
+                <emphasis role="italic">Insert definitions</emphasis>
+            </para>
+            <defitems sort="true">
+                <defitem>
+                    <defterm>Defined Term</defterm>
+                    <def>
+                        <para>definition text.</para>
+                    </def>
+                </defitem>
+                <defitem>
+                    <defterm>Defined Term</defterm>
+                    <def>
+                        <para>this sample definition demonstrates that it is possible to:</para>
+                        <subclause2>
+                            <para>use subclause2 tags in definitions; and</para>
+                        </subclause2>
+                        <subclause2>
+                            <para>follow them with other defined terms,</para>
+                        </subclause2>
+                        <para>such as<defterm>This</defterm>, which will occasionally be necessary.
+                        </para>
+                    </def>
+                </defitem>
+            </defitems>
+        </clause>
+        <clause numbering="none">
+            <title>Clauses</title>
+            <para>
+                <emphasis role="italic">Insert new clause after xyz clause (and re-number appropriately).</emphasis>
+            </para>
+        </clause>
+        <clause>
+            <title>Using clauses</title>
+            <subclause1>
+                <para>Give each clause a title using sentence case (that is, only the first letter of the title should
+                    be capitalised).
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>This clause 2.3 illustrates the different sub-clauses that can be used in a standard document.
+                    This text may go to:
+                </para>
+                <subclause2>
+                    <para>subclause2 level; and</para>
+                </subclause2>
+                <subclause2>
+                    <para>that subclause2 can in turn go to:</para>
+                    <subclause3>
+                        <para>subclause3 level and stay at that level; or</para>
+                    </subclause3>
+                    <subclause3>
+                        <para>go to subclause4 level:</para>
+                        <subclause4>
+                            <para>like this; and</para>
+                        </subclause4>
+                        <subclause4>
+                            <para>this.</para>
+                        </subclause4>
+                    </subclause3>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause numbering="none">
+            <title>SCHEDULES</title>
+            <para>
+                <emphasis role="italic">Insert new schedule.</emphasis>
+            </para>
+        </clause>
+    </operative>
+    <schedule>
+        <title>Document structure</title>
+        <clause>
+            <subclause1>
+                <para>Each type of standard document is designed to allow different combinations of sections to be used.
+                    The following sections can be used in a plug-in clause:
+                </para>
+                <para>
+                    <table frame="all">
+                        <tgroup cols="3">
+                            <colspec colname="col1"/>
+                            <colspec colname="col2"/>
+                            <colspec colname="col3"/>
+                            <tbody>
+                                <row>
+                                    <entry>
+                                        <para>Sections you
+                                            <emphasis role="bold">must use</emphasis>
+                                        </para>
+                                    </entry>
+                                    <entry>
+                                        <para>Sections you<emphasis role="bold">can use</emphasis>, but don't have to
+                                            use
+                                        </para>
+                                    </entry>
+                                    <entry>
+                                        <para>Sections you
+                                            <emphasis role="bold">can't use</emphasis>
+                                        </para>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <para>Title</para>
+                                        <para>Operative</para>
+                                    </entry>
+                                    <entry>
+                                        <para xml:space="preserve">Coversheet,
+Clause(s),
+Subclause(s),
+Schedule(s),
+Recitals
+Defined terms,
+Annex,
+Parties</para>
+                                    </entry>
+                                    <entry>
+                                        <para xml:space="preserve">Closing,
+Heading,
+Preamble,
+Signature,
+Table of contents,
+Testimonium</para>
+                                    </entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </para>
+            </subclause1>
+        </clause>
+    </schedule>
+</precedent>

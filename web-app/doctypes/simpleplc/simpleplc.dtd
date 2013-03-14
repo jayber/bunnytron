@@ -1,0 +1,26 @@
+<!-- 
+This will normally be included in another dtd as an external entity
+-->
+
+        <!-- wrapper -->
+
+        <!ELEMENT structuredtext  (title?,(para|itemizedlist|orderedlist)*)>
+
+        <!ELEMENT itemizedlist (listitem)+>
+
+        <!ELEMENT orderedlist (listitem)+>
+
+        <!ELEMENT listitem  (para)+ >
+
+
+        <!-- block level -->
+
+        <!ELEMENT para  (#PCDATA | emphasis)*>
+
+        <!ELEMENT title  (#PCDATA)*>
+
+        <!-- in-line -->
+
+        <!ELEMENT emphasis (#PCDATA)>
+
+        <!ATTLIST emphasis  role (bold|italic|bold-italic|underline) "bold" >

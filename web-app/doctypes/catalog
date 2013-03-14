@@ -1,0 +1,21 @@
+--========================================================================--
+-- Distributed HTML doctypes. --
+--========================================================================--
+<!-- XHTML doctype with plclink definition -->
+PUBLIC  "-//W3C//DTD XHTML 1.0 Transitional//EN" "xhtml/xhtml.dtd"
+
+<!-- DTDDECL "-//W3C//DTD XHTML 1.0 Transitional//EN" "../entities/ati-xml.dcl" -->
+
+<!-- Practical Law Company Custom Catalog -->
+PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc/plc.dtd"
+PUBLIC "-//PLC//ELEMENTS PLC Xlink Structures//EN" "entities/xlink.ent"
+PUBLIC "-//ArborText//ELEMENTS XML Math Equation Structures//EN" "entities/atimathx.dtd"
+PUBLIC "-//OASIS//DTD XML Exchange Table Model 19990315//EN" "entities/soextblx.dtd"
+
+PUBLIC "Practical Law Company//DTD ParamSetter Doctype//EN" "pas/pas.dtd"
+PUBLIC "Practical Law Company//DTD Question Session Resources Doctype//EN" "qs/qs.dtd"
+PUBLIC "Practical Law Company//DTD Question Session Response Doctype//EN" "qsr/qsr.dtd"
+PUBLIC "Practical Law Company//DTD Deal Type Doctype//EN" "pot/pot.dtd"
+
+<!-- docbook -->
+PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "c:\\epic5\\doctypes\\axdocbook\\axdocbook.dtd"

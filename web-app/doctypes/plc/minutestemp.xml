@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2011, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent xmlns:xlink="http://www.w3.org/1999/xlink">
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Changes made to this resource</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <revdescription>
+                    <section1>
+                        <para>We will record here any changes to this resource as a result of developments in the law or
+                            practice.
+                        </para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <heading>
+        <letterhead></letterhead>
+        <minuteheader>
+            <para>Minutes of a meeting of the board of directors of [NAME OF COMPANY] (<defterm>Company</defterm>) held
+                at [PLACE] on [DATE] at [TIME].
+            </para>
+        </minuteheader>
+        <attendance>
+            <table frame="none" pgwide="1" tabstyle="tableShade">
+                <tgroup cols="3">
+                    <colspec colname="c1"/>
+                    <colspec colname="c2"/>
+                    <colspec colname="c3"/>
+                    <tbody>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">PRESENT:</emphasis>
+                                </para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">NAME</emphasis>
+                                </para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">POSITION</emphasis>
+                                </para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">IN ATTENDANCE:</emphasis>
+                                </para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">NAME</emphasis>
+                                </para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">POSITION</emphasis>
+                                </para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">[APOLOGIES FOR ABSENCE RECEIVED FROM:</emphasis>
+                                </para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................
+                                    <emphasis role="bold">]</emphasis>
+                                </para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </attendance>
+    </heading>
+    <operative xrefname="paragraph">
+        <title></title>
+        <clause>
+            <title>Chairperson</title>
+            <draftingnote>
+                <title>Chairperson</title>
+                <section1>
+                    <para>This wording may not be necessary if the chairman of the company is present at the meeting and
+                        is also to chair it. However, it is often included in board minutes for the sake of clarity. In
+                        addition, if the chairman of the company is interested in the business to be conducted at the
+                        meeting, it may be appropriate for another member of the board to either chair the entire
+                        meeting or the part of the meeting in which the chairman is interested. In such circumstances,
+                        the minutes should make it clear whether that person is to chair the entire meeting or only a
+                        portion of it.
+                    </para>
+                </section1>
+            </draftingnote>
+            <para>[NAME] was appointed chairperson of the meeting [and chaired the meeting throughout].</para>
+        </clause>
+        <clause>
+            <title>Notice and quorum</title>
+            <para>The chairperson reported that due notice of the meeting had been given and that a quorum was present.
+                Accordingly, the chairperson declared the meeting open.
+            </para>
+        </clause>
+        <clause>
+            <title>Interests in proposed transactions and/or arrangements with the Company</title>
+            <draftingnote>
+                <title>Interests in proposed transactions and/or arrangements with the Company</title>
+                <section1>
+                    <para>When preparing board minutes for a meeting to approve a proposed transaction or arrangement
+                        with the Company, select those paragraphs below that reflect the declarations of interest made
+                        by the directors at the meeting. If the board meeting has been convened solely to approve a
+                        particular corporate transaction, it may not always be the appropriate place at which to record
+                        a director's interest in an existing transaction or arrangement under
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="5-505-5216" xlink:provider="justcite"
+                                               xlink:role="PrimarySource" xlink:title="Section 182, Companies Act 2006">
+                                    section 182
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        of the Companies Act 2006. Accordingly, specimen wording for a director to declare an interest
+                        in an existing transaction or arrangement has been provided separately in
+                        <plcxlink>
+                            <xlink:locator xlink:href="#a129811" xlink:role="xref"
+                                           xlink:title="clause 4 - Interests in existing transactions and/or arrangements with the Company">
+                                clause 4
+                                <xref link="a129811"></xref>
+                            </xlink:locator>
+                        </plcxlink>
+                        below.
+                    </para>
+                </section1>
+            </draftingnote>
+            <subclause1 id="a1034307">
+                <para>[[The following directors
+                    <emphasis role="bold">OR</emphasis>
+                    Each director present] declared the nature and extent of their interest in the proposed transaction
+                    [and other arrangements] to be considered at the meeting in accordance with the requirements of
+                    section 177 of the Companies Act 2006 and the Company&#x2019;s articles of association, as follows:
+                </para>
+                <para>
+                    <table frame="none" pgwide="1">
+                        <tgroup cols="2">
+                            <colspec colname="col1" colwidth="30%"/>
+                            <colspec colname="col2" colwidth="70%"/>
+                            <tbody>
+                                <row>
+                                    <entry colsep="0" rowsep="0">
+                                        <para>[NAME]</para>
+                                    </entry>
+                                    <entry colsep="0" rowsep="0">
+                                        <para>[NATURE AND EXTENT OF INTEREST]]</para>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry colsep="0" rowsep="0">
+                                        <para></para>
+                                    </entry>
+                                    <entry colsep="0" rowsep="0">
+                                        <para></para>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry colsep="0" rowsep="0">
+                                        <para></para>
+                                    </entry>
+                                    <entry colsep="0" rowsep="0">
+                                        <para></para>
+                                    </entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </para>
+                <para>
+                    <emphasis role="bold">AND/OR</emphasis>
+                </para>
+            </subclause1>
+            <draftingnote id="a848160">
+                <title>Declaring the nature and extent of the interest</title>
+                <section1 id="a640667">
+                    <para>Although it is not essential to include a table in the board minutes setting out each
+                        director's interests, as
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="7-505-5215" xlink:provider="justcite"
+                                               xlink:role="PrimarySource" xlink:title="Section 177, Companies Act 2006">
+                                    section 177
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        of the
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="3-503-8567" xlink:provider="justcite"
+                                               xlink:role="PrimarySource" xlink:title="Companies Act 2006">Companies Act
+                                    2006
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        requires the director to declare both the nature and extent of his interest, including such a
+                        table may be helpful in showing that the interests have been properly considered and declared.
+                    </para>
+                    <para>Note that a director is also required to make a further declaration of interest to correct an
+                        inaccuracy in an earlier declaration of interest, or to correct an incomplete earlier
+                        declaration (
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="7-505-5215" xlink:provider="justcite"
+                                               xlink:role="PrimarySource" xlink:title="Section 177, Companies Act 2006">
+                                    section 177(3)
+                                </xlink:locator>
+                            </plcxlink>
+                            , Companies Act 2006
+                        </emphasis>
+                        ).
+                    </para>
+                </section1>
+            </draftingnote>
+            <subclause1 condition="optional" id="a973313">
+                <para>[[NAMES]
+                    <emphasis role="bold">OR</emphasis>
+                    Each director present] confirmed that they had no direct or indirect interest in any way in the
+                    proposed transaction [and other arrangements] to be considered at the meeting which they were
+                    required by section 177 of the Companies Act 2006 and the Company&#x2019;s articles of association
+                    to disclose.
+                </para>
+            </subclause1>
+            <para>
+                <emphasis role="bold">AND/OR</emphasis>
+            </para>
+            <subclause1 condition="optional" id="a398416">
+                <para>There was/were produced to the meeting:</para>
+                <subclause2 id="a979695">
+                    <para>[a notice of declaration of interest by [NAME] dated [DATE] sent to the other directors of the
+                        Company under section 184 of the Companies Act 2006;
+                        <emphasis role="bold">AND/OR</emphasis>
+                    </para>
+                </subclause2>
+                <subclause2 id="a1013517">
+                    <para>a general notice of declaration of interest by [NAME] dated [DATE] given under section 185 of
+                        the Companies Act 2006 to the effect that he [DESCRIBE INTEREST IN SPECIFIED BODY CORPORATE OR
+                        CONNECTION WITH SPECIFIED PERSON UNDER S.185(2) COMPANIES ACT 2006] and is to be regarded as
+                        interested in any transaction or arrangement that may be made with that [body corporate
+                        <emphasis role="bold">OR</emphasis>
+                        person] (<emphasis role="bold">Declaration of Interest</emphasis>). The Declaration of Interest
+                        was read out to the meeting and its contents duly noted.]
+                    </para>
+                </subclause2>
+            </subclause1>
+            <draftingnote id="a979840">
+                <title>Declaration by notice in writing</title>
+                <section1 id="a333199">
+                    <para>
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="7-505-7691" xlink:provider="justcite"
+                                               xlink:role="PrimarySource" xlink:title="Section 184, Companies Act 2006">
+                                    Section 184(5)(a)
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        of the Companies Act 2006 provides that the making of a declaration by written notice under
+                        section 184 is deemed to form part of the proceedings at the next meeting of the directors after
+                        the notice is given, however, it may be good practice to draw the notice to the attention of
+                        those directors present at the meeting to ensure that they are all aware of the relevant
+                        director's interests.
+                    </para>
+                </section1>
+            </draftingnote>
+            <subclause1 id="a208335">
+                <para>It was noted that pursuant to article [NUMBER] of the Company's articles of association, [a
+                    director may vote and form part of the quorum in relation to any proposed transaction or arrangement
+                    in which they are interested[, subject to any restrictions imposed under article [NUMBER] of the
+                    Company&#x2019;s articles of association.]
+                    <emphasis role="bold">OR</emphasis>
+                    the director[s] so interested would not vote or count as part of a quorum on any of the matters in
+                    which they were [respectively] interested and that, nevertheless, there would be a quorum for all
+                    items of business to be transacted by the meeting.]
+                </para>
+            </subclause1>
+            <draftingnote id="a637430">
+                <title>Restrictions on the ability of a director to count towards the quorum and vote</title>
+                <section1 id="a106633">
+                    <para>It may be the case, where the Company has provisions in its articles of association for
+                        dealing with the management of directors' conflict situations, including the terms on which the
+                        board may authorise a conflict, that the board has imposed particular restrictions on a director
+                        as part of its authorisation of a director's potential conflict. For example, under
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="0-505-5167" xlink:provider="justcite"
+                                               xlink:role="PrimarySource" xlink:title="Section 175, Companies Act 2006">
+                                    section 175
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        of the Companies Act 2006, the independent directors may decide to authorise a situation whereby
+                        a director is also a director of another company if that other interest may be in conflict with
+                        the interests of the Company. However, the terms of their authorisation may include a
+                        prohibition on the director in question from voting on decisions relating to proposed
+                        transactions between the Company and that other company.
+                    </para>
+                    <para>The wording in square brackets in the third line of
+                        <plcxlink>
+                            <xlink:locator xlink:href="#a208335" xlink:role="xref"
+                                           xlink:title="clause 3.4 - It was noted that pu">paragraph 3.4
+                                <xref link="a208335"></xref>
+                            </xlink:locator>
+                        </plcxlink>
+                        highlights that it may not always be the case that a director can vote and form part of the
+                        quorum, even where that is provided for under the articles. Consider, in each particular case,
+                        whether there are any restrictions that would prevent any of the directors from counting in the
+                        quorum or voting on any of the business to be considered at the meeting.
+                    </para>
+                    <para>See further
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="7-376-3200#a721372" xlink:role="Article"
+                                               xlink:title="Skeleton board minutes: drafting note: 1 October 2008: Paragraph 3: Interests in proposed transactions and/or arrangements with the Company">
+                                    Drafting note, Skeleton board minutes: Paragraph 3: Interests in proposed
+                                    transactions and/or arrangements with the Company
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        .
+                    </para>
+                </section1>
+            </draftingnote>
+        </clause>
+        <clause condition="optional" id="a129811">
+            <title>Interests in existing transactions and/or arrangements with the Company</title>
+            <draftingnote>
+                <title>Interests in existing transactions and/or arrangements with the Company</title>
+                <section1>
+                    <para>Include this paragraph if any of the directors are directly or indirectly interested in any
+                        existing transaction or arrangement with the Company.
+                    </para>
+                    <para>Under
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="5-505-5216" xlink:provider="justcite"
+                                               xlink:role="PrimarySource" xlink:title="Section 182, Companies Act 2006">
+                                    section 182
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        , a director must declare to the other directors the nature and extent of his direct or indirect
+                        interest in an existing transaction or arrangement entered into by the Company. Where an earlier
+                        declaration becomes inaccurate or incomplete, a further declaration must be made. Section 182
+                        does not apply to the extent that the interest has been declared under
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="7-505-5215" xlink:provider="justcite"
+                                               xlink:role="PrimarySource" xlink:title="Section 177, Companies Act 2006">
+                                    section 177
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        (duty to declare interest in proposed transaction or arrangement). The section also does not
+                        apply to transactions or arrangements entered into before 1 October 2008: such interests should
+                        instead be declared under section 317 of the
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="2-505-5086" xlink:provider="justcite"
+                                               xlink:role="PrimarySource" xlink:title="Companies Act 1985">1985 Act
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        : see
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="5-202-4474" xlink:role="Article"
+                                               xlink:title="Declaration of directors' interests: Companies Act 2006">
+                                    Declaration of directors' interests: Companies Act 2006: Transitional provisions and
+                                    savings
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        and
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="1-383-5040" xlink:role="Article"
+                                               xlink:title="Skeleton board minutes: prior to 1 October 2008">Skeleton
+                                    board minutes: prior to 1 October 2008: 3. DECLARATIONS OF INTEREST
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        .)
+                    </para>
+                    <para>For information that must be included in the declaration, see
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="5-202-4474" xlink:role="Article"
+                                               xlink:title="Declaration of directors' interests: Companies Act 2006">
+                                    Practice note, Declaration of directors' interests: Companies Act 2006
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        .
+                    </para>
+                </section1>
+            </draftingnote>
+            <subclause1 id="a555238">
+                <para>[The following director[s] declared the nature and extent of [his
+                    <emphasis role="bold">OR</emphasis>
+                    their] interest(s) in [DESCRIBE EXISTING TRANSACTION AND/OR ARRANGEMENTS] in accordance with the
+                    requirements of section 182 of the Companies Act 2006 and the Company&#x2019;s articles of
+                    association, as follows:
+                </para>
+                <para>
+                    <table frame="none" pgwide="1">
+                        <tgroup cols="2">
+                            <colspec colname="col1" colwidth="30%"/>
+                            <colspec colname="col2" colwidth="70%"/>
+                            <tbody>
+                                <row>
+                                    <entry colsep="0" rowsep="0">
+                                        <para>[NAME]</para>
+                                    </entry>
+                                    <entry colsep="0" rowsep="0">
+                                        <para>[NATURE AND EXTENT OF INTEREST]</para>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry colsep="0" rowsep="0">
+                                        <para></para>
+                                    </entry>
+                                    <entry colsep="0" rowsep="0">
+                                        <para></para>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry colsep="0" rowsep="0">
+                                        <para></para>
+                                    </entry>
+                                    <entry colsep="0" rowsep="0">
+                                        <para></para>
+                                    </entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </para>
+                <para>
+                    <emphasis role="bold">AND/OR</emphasis>
+                </para>
+                <para></para>
+            </subclause1>
+            <subclause1 id="a78623">
+                <para>[There was/were produced to the meeting:</para>
+                <subclause2 id="a570784">
+                    <para>[a notice of declaration of interest by [NAME] dated [DATE] sent to the other directors of the
+                        Company under section 184 of the Companies Act 2006;
+                        <emphasis role="bold">AND/OR</emphasis>
+                    </para>
+                </subclause2>
+                <subclause2 id="a812409">
+                    <para>a general notice of declaration of interest by [NAME] dated [DATE] given under section 185 of
+                        the Companies Act 2006 to the effect that he [DESCRIBE NATURE AND EXTENT OF INTEREST IN
+                        SPECIFIED BODY CORPORATE OR FIRM, OR NATURE OF CONNECTION WITH SPECIFIED PERSON UNDER S.185(2)
+                        COMPANIES ACT 2006] and is to be regarded as interested in any transaction or arrangement that
+                        may be made with that [body corporate
+                        <emphasis role="bold">OR</emphasis>
+                        firm
+                        <emphasis role="bold">OR</emphasis>
+                        person] (<emphasis role="bold">Declaration of Interest</emphasis>). The Declaration of Interest
+                        was read out to the meeting and its contents duly noted.]
+                    </para>
+                </subclause2>
+                <draftingnote>
+                    <title>General notices</title>
+                    <?Pub Caret -1?>
+                    <section1>
+                        <para>Although section 182(2) of the Companies Act 2006 provides that the declaration must be
+                            made at a meeting of the directors, or by notice in writing (under
+                            <emphasis role="italic">
+                                <plcxlink>
+                                    <xlink:locator xlink:href="7-505-7691" xlink:provider="justcite"
+                                                   xlink:role="PrimarySource"
+                                                   xlink:title="Section 184, Companies Act 2006">section 184
+                                    </xlink:locator>
+                                </plcxlink>
+                            </emphasis>
+                            ), or by general notice (under
+                            <emphasis role="italic">
+                                <plcxlink>
+                                    <xlink:locator xlink:href="8-505-5234" xlink:provider="justcite"
+                                                   xlink:role="PrimarySource"
+                                                   xlink:title="Section 185, Companies Act 2006">section 185
+                                    </xlink:locator>
+                                </plcxlink>
+                            </emphasis>
+                            ), a general notice given under section 185 is only taken to be notice of interests in
+                            transactions or arrangements entered into by the Company after the date of the general
+                            notice and not notice of an interest existing at the time the notice is given (section
+                            185(2)(a) and (b)). However, if a general notice under section 185 is used to declare an
+                            interest in an existing transaction as well as future transactions and arrangements with the
+                            same company, the directors are likely to be taken to be aware of the director's interest in
+                            the existing transaction by virtue of section 182(6)(b) of the Companies Act 2006.
+                        </para>
+                    </section1>
+                </draftingnote>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Filing</title>
+            <subclause1>
+                <para>The chairperson instructed the company secretary to:</para>
+                <subclause2>
+                    <para>make all necessary and appropriate entries in the books and registers of the company; and
+                    </para>
+                </subclause2>
+                <subclause2>
+                    <para>arrange for the following forms and documents to be filed at Companies House:</para>
+                    <subclause3>
+                        <para>text; and</para>
+                    </subclause3>
+                    <subclause3>
+                        <para>text.</para>
+                    </subclause3>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Close</title>
+            <subclause1>
+                <para>There was no further business and the chairperson declared the meeting closed.</para>
+            </subclause1>
+        </clause>
+    </operative>
+    <signature pagebreak="false">
+        <clause>
+            <para>.............................................</para>
+            <para>Chairperson</para>
+            <para></para>
+            <para>..................................................</para>
+            <para>(Date)</para>
+        </clause>
+    </signature>
+</precedent>

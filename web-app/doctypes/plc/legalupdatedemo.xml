@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset:
+ArborText, Inc., 1988-2001, v.4002
+<!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN"
+ "plc.dtd">
+-->
+<?Pub Inc?>
+<?Pub CX plc(?>
+<legalupdate>
+    <metadata>
+        <title>Right of subrogation</title>
+        <abstract>
+            <para>The High Court has held that clear words are required to exclude, reduce
+                or postpone the right of subrogation.
+            </para>
+        </abstract>
+    </metadata>
+    <fulltext>
+        <section1>
+            <title>Summary</title>
+            <para>The High Court has held that clear words are required to exclude, reduce
+                or postpone the right of subrogation.
+            </para>
+        </section1>
+        <section1>
+            <title>Facts</title>
+            <para>OMNIA provided mutual marine insurance to its members. It arranged for
+                a bank to guarantee a member's liability to third parties, secured by bonds
+                from the claimants for a fee. OMNIA subsequently granted the bank a fixed
+                charge over its book debts as a continuing security for its liabilities to
+                the bank, until provisional liquidators of OMNIA were appointed. The bank
+                appointed receivers under its charge.
+            </para>
+            <para>Each bond stated that it was "separate from any other security or right
+                of indemnity taken in respect of the guarantee from any person, including
+                your above named customer". The claimants argued that on payment in full of
+                any particular bond, they were entitled to be subrogated to the rights of
+                the bank to the security from OMNIA. The bank argued that even assuming that
+                such a right would normally arise, it was excluded in this case by the terms
+                of the bond.
+            </para>
+        </section1>
+        <section1>
+            <title>Decision</title>
+            <para>The court held that clear words were required to exclude, reduce or
+                postpone the right of subrogation. The requirement to keep the bond separate
+                from any other security appeared to be sufficient to cover the position before
+                it had been discharged but not to rights arising after and in consequence
+                of its payment in full. The Vice Chancellor accepted that it was not clear
+                what the draftsman had in mind when inserting the provision, but that the
+                uncertainty could not be converted into the clear words which, in his view,
+                were required to give rise to the exclusion of postponement.
+            </para>
+        </section1>
+        <section1>
+            <title>Case</title>
+            <para>
+                <emphasis role="italic">L<?Pub Caret1?>iberty Mutual Insurance Co (UK)
+                    Limited v HSBC Bank PLC [2001] ALL ER (D) 72.
+                </emphasis>
+            </para>
+        </section1>
+    </fulltext>
+</legalupdate>
+        <?Pub *0000002456 0?>

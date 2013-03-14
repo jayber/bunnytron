@@ -1,0 +1,2668 @@
+<!DOCTYPE OUTSPEC PUBLIC "-//ArborText//DTD OUTPUT SPEC MIL-PRF-28001 REV B AMEND 1 19961231//EN">
+<!--ArborText, Inc., 1988-2001, v.4002-->
+<outspec><?Pub Lcl _id="418" _label="Adept v8.0">
+<rsrcdesc><?Pub Lcl _id="f1"><?Pub Dtl>
+<charfill literal="." padding="1pt" align="1" cfid="tocfill"><?Pub Lcl _id="f2">
+<counter initial="0" style="arabic" enumid="numlist1.ct"><?Pub Lcl _id="f3">
+<counter initial="0" style="alphalc" enumid="numlist2.ct"><?Pub Lcl _id="f4">
+<counter initial="0" style="romanlc" enumid="numlist3.ct"><?Pub Lcl _id="f5">
+<counter initial="0" style="arabic" enumid="numlist4.ct"><?Pub Lcl _id="f6">
+<counter initial="0" style="arabic" enumid="div1.ct"><?Pub Lcl _id="f7">
+<counter initial="0" style="arabic" enumid="div2.ct"><?Pub Lcl _id="f8">
+<counter initial="0" style="arabic" enumid="div3.ct"><?Pub Lcl _id="f9">
+<counter initial="0" style="arabic" enumid="div4.ct"><?Pub Lcl _id="f10">
+<counter initial="0" style="arabic" enumid="div5.ct"><?Pub Lcl _id="f11">
+<counter initial="0" style="arabic" enumid="div6.ct"><?Pub Lcl _id="f12">
+<counter initial="0" style="arabic" enumid="div7.ct"><?Pub Lcl _id="f13">
+<counter initial="0" style="arabic" enumid="div8.ct"><?Pub Lcl _id="f14">
+<counter initial="0" style="arabic" enumid="div9.ct"><?Pub Lcl _id="f15">
+<counter initial="0" style="arabic" enumid="folioct"><?Pub Lcl _id="f16">
+<!-- Counters for precedents -->
+<counter initial="0" style="arabic" enumid="parties1.ct">
+<counter initial="0" style="alpha" enumid="recitals1.ct">
+<counter initial="0" style="arabic" enumid="party1.ct">
+<counter initial="0" style="arabic" enumid="clause1.ct">
+<counter initial="0" style="arabic" enumid="subclause1.ct">
+<counter initial="0" style="alphalc" enumid="subclause2.ct">
+<counter initial="0" style="romanlc" enumid="subclause3.ct">
+<counter initial="0" style="alphauc" enumid="subclause4.ct">
+<counter initial="0" style="alphauc" enumid="subclause5.ct">
+<counter initial="0" style="arabic" enumid="para.ct">
+<!-- Counters for schedules in precedents -->
+<counter initial="0" style="arabic" enumid="schedule1.ct">
+<counter initial="0" style="arabic" enumid="schedulepart1.ct">
+<!-- Counters for training modules and questions -->
+<counter initial="0" style="arabic" enumid="tquestion.ct">
+<counter initial="0" style="alpha" enumid="tchoice.ct">
+<!-- division counters converted to string variable -->
+<!-- will be set to empty string for unnumbered levels -->
+<stringdecl textid="div1ct.txt"><?Pub Lcl _id="f17">
+<stringdecl textid="div2ct.txt"><?Pub Lcl _id="f18">
+<stringdecl textid="div3ct.txt"><?Pub Lcl _id="f19">
+<stringdecl textid="div4ct.txt"><?Pub Lcl _id="f20">
+<stringdecl textid="div5ct.txt"><?Pub Lcl _id="f21">
+<stringdecl textid="div6ct.txt"><?Pub Lcl _id="f22">
+<stringdecl textid="div7ct.txt"><?Pub Lcl _id="f23">
+<stringdecl textid="div8ct.txt"><?Pub Lcl _id="f24">
+<stringdecl textid="div9ct.txt"><?Pub Lcl _id="f25">
+<!-- separator for levels w/i compound div numbers -->
+<!-- will be set to empty string for unnumbered levels -->
+<stringdecl textid="div1dot.txt"><?Pub Lcl _id="f26">
+<stringdecl textid="div2dot.txt"><?Pub Lcl _id="f27">
+<stringdecl textid="div3dot.txt"><?Pub Lcl _id="f28">
+<stringdecl textid="div4dot.txt"><?Pub Lcl _id="f29">
+<stringdecl textid="div5dot.txt"><?Pub Lcl _id="f30">
+<stringdecl textid="div6dot.txt"><?Pub Lcl _id="f31">
+<stringdecl textid="div7dot.txt"><?Pub Lcl _id="f32">
+<stringdecl textid="div8dot.txt"><?Pub Lcl _id="f33">
+<!-- compound (concatenated) division number for each level  -->
+<stringdecl textid="div1catct.txt"><?Pub Lcl _id="f34">
+<stringdecl textid="div2catct.txt"><?Pub Lcl _id="f35">
+<stringdecl textid="div3catct.txt"><?Pub Lcl _id="f36">
+<stringdecl textid="div4catct.txt"><?Pub Lcl _id="f37">
+<stringdecl textid="div5catct.txt"><?Pub Lcl _id="f38">
+<stringdecl textid="div6catct.txt"><?Pub Lcl _id="f39">
+<stringdecl textid="div7catct.txt"><?Pub Lcl _id="f40">
+<stringdecl textid="div8catct.txt"><?Pub Lcl _id="f41">
+<stringdecl textid="div9catct.txt"><?Pub Lcl _id="f42">
+<!-- string to use for division number at each level -->
+<!-- will be set to empty string for unnumbered levels -->
+<stringdecl textid="div1usect.txt"><?Pub Lcl _id="f43">
+<stringdecl textid="div2usect.txt"><?Pub Lcl _id="f44">
+<stringdecl textid="div3usect.txt"><?Pub Lcl _id="f45">
+<stringdecl textid="div4usect.txt"><?Pub Lcl _id="f46">
+<stringdecl textid="div5usect.txt"><?Pub Lcl _id="f47">
+<stringdecl textid="div6usect.txt"><?Pub Lcl _id="f48">
+<stringdecl textid="div7usect.txt"><?Pub Lcl _id="f49">
+<stringdecl textid="div8usect.txt"><?Pub Lcl _id="f50">
+<stringdecl textid="div9usect.txt"><?Pub Lcl _id="f51">
+<!-- separator for levels within compound division numbers -->
+<stringdecl textid="dot" literal="."><?Pub Lcl _id="f52">
+<!-- space to put between division numbers and division titles -->
+<stringdecl textid="divctspace.txt" literal="  "><?Pub Lcl _id="f53">
+<stringdecl textid="toc.txt" status="1" hotlink="1"><?Pub Lcl _id="f54">
+<!-- string to use for question numbers -->
+<stringdecl textid="questno-label.txt" literal="">
+<stringdecl textid="questno.txt" literal="">
+<!-- time independent variable for parties -->
+<stringdecl textid="lastparty.tiv" status="1" scope="parties">
+</rsrcdesc>
+<pagedesc><?Pub Dtl>
+<pageset id="docpageset"><?Pub Lcl _id="f55">
+<rectopg width="8.5in" nomdepth="11.4in"><?Pub Dtl>
+<pageres>
+<enumerat increm="1" enumid="folioct">
+<savetext textid="foliostr" conrule="folioct"></pageres>
+<pagespec>
+<topmarg nomdepth="0.67in">
+<botmarg nomdepth="1.00in">
+<leftmarg width="1.00in">
+<rtmarg width="1.0in">
+<header></header>
+<footer><?Pub Dtl>
+<usetext source="foliostr" placemnt="before">
+<subchars>
+<font style="sanserif" size="10pt" posture="upright">
+<quadding quad="center" lastquad="relative">
+<textbrk startln="1" endln="1"></subchars>
+</usetext>
+</footer>
+<flowtext numcols="1">
+<column width="6.5in"></flowtext>
+</pagespec>
+</rectopg>
+<versopg width="8.5in" nomdepth="11.4in"><?Pub Dtl>
+<pageres>
+<enumerat increm="1" enumid="folioct">
+<savetext textid="foliostr" conrule="folioct"></pageres>
+<pagespec>
+<topmarg nomdepth="0.67in">
+<botmarg nomdepth="1.00in">
+<leftmarg width="1.00in">
+<rtmarg width="1.0in">
+<header></header>
+<footer>
+<usetext source="foliostr" placemnt="before">
+<subchars>
+<font style="sanserif" size="10pt" posture="upright">
+<quadding quad="center" lastquad="relative">
+<textbrk startln="1" endln="1"></subchars>
+</usetext>
+</footer>
+<flowtext numcols="1">
+<column width="6.5in"></flowtext>
+</pagespec>
+</versopg>
+</pageset>
+</pagedesc>
+<styldesc>
+<!--
+
+NOTE - there are these types of charsubsets:
+1. those that are used to define a type:
+	TypeInline, TypeUnstyled, TypeHidden, TypePreformatted,
+	TypeBasic, TypeDocument ...
+2. those that define an option setting:
+	AlignRight, AlignLeft etc., IndentBlock, ...
+3. primitive base styles that the above two types are built on:
+	Block, IndentList, KeepWithNext ...
+4. "DefaultXXX" - used by UI code to know what the initial 
+	settings should be for a type; must match
+	the templates in _turbotype.cmd
+
+Special cases:
+1. divisions, where we combine a type and an option setting:
+	Div1Numbered, TypeDiv1Unnumbered
+2. paragraphs - has eic's for other contexts:
+	TypeParagraph, FirstParagraphInItem, NonFirstParagraphInItem
+3. title - has eic's for other contexts:
+	TypeTitle, TitleDocument, TitleToc, etc.
+-->
+<!-- charsubsets used with the charlist of the eic for the TOC
+element; for now these don't do anything - controlling TOC level
+is done with a different mechanism, but these charsubsets are
+used by the UI to easily determine what the current TOC level is -->
+<charsubset charsubsetid="TocShow0"><?Pub Lcl _id="f56"></charsubset>
+<charsubset charsubsetid="TocShow1"><?Pub Lcl _id="f57"></charsubset>
+<charsubset charsubsetid="TocShow2"><?Pub Lcl _id="f58"></charsubset>
+<charsubset charsubsetid="TocShow3"><?Pub Lcl _id="f59"></charsubset>
+<charsubset charsubsetid="TocShow4"><?Pub Lcl _id="f60"></charsubset>
+<charsubset charsubsetid="TocShow5"><?Pub Lcl _id="f61"></charsubset>
+<charsubset charsubsetid="TocShow6"><?Pub Lcl _id="f62"></charsubset>
+<charsubset charsubsetid="TocShow7"><?Pub Lcl _id="f63"></charsubset>
+<charsubset charsubsetid="TocShow8"><?Pub Lcl _id="f64"></charsubset>
+<charsubset charsubsetid="TocShow9"><?Pub Lcl _id="f65"></charsubset>
+<charsubset charsubsetid="TypeInline"><?Pub Lcl _id="f66">
+<textbrk startln="0" endln="0"></charsubset>
+<charsubset charsubsetid="Block"><?Pub Lcl _id="f67">
+<textbrk startln="1" endln="1"></charsubset>
+<charsubset charsubsetid="TypeHidden"><?Pub Lcl _id="f68">
+<suppress sup="1"></charsubset>
+<charsubset charsubsetid="TypeUnstyled"><?Pub Lcl _id="f69">
+<quadding quad="asis">
+<textbrk startln="1" endln="1"></charsubset>
+<charsubset charsubsetid="AlignLeft" charsubsetref="Block"><?Pub Lcl _id="f70">
+<quadding quad="left" lastquad="relative"></charsubset>
+<charsubset charsubsetid="AlignCentered" charsubsetref="Block"><?Pub Lcl _id="f71">
+<quadding quad="center" lastquad="relative"></charsubset>
+<charsubset charsubsetid="AlignRight" charsubsetref="Block"><?Pub Lcl _id="f72">
+<quadding quad="right" lastquad="relative"></charsubset>
+<charsubset charsubsetid="AlignJustified" charsubsetref="Block"><?Pub Lcl _id="f73">
+<quadding quad="justify" lastquad="relative"></charsubset>
+<charsubset charsubsetid="IndentBlock" charsubsetref="Block"><?Pub Lcl _id="f74">
+<indent leftind="@+2pi" rightind="@+2pi" firstln="*"></charsubset>
+<charsubset charsubsetid="KeepWithNext" charsubsetref="Block"><?Pub Lcl _id="f75">
+<keeps keep="1" next="1"></charsubset>
+<charsubset charsubsetid="ListIndent" charsubsetref="Block"><?Pub Lcl _id="f76">
+<indent leftind="@+2.0pi" rightind="@" firstln="*-2.0pi"></charsubset>
+<charsubset charsubsetid="SpaceBeforeSmall" charsubsetref="Block"><?Pub Lcl _id="f77">
+<presp minimum="2pt" nominal="3pt" maximum="4pt" priority="medium"></charsubset>
+<charsubset charsubsetid="SpaceBeforeMedium" charsubsetref="Block"><?Pub Lcl _id="f78">
+<presp minimum="6pt" nominal="7pt" maximum="8pt" priority="medium"></charsubset>
+<charsubset charsubsetid="SpaceBeforeLarge" charsubsetref="Block"><?Pub Lcl _id="f79">
+<presp minimum="1pi" nominal="1.5pi" maximum="2pi" priority="medium"></charsubset>
+<charsubset charsubsetid="SpaceBeforeList" charsubsetref="SpaceBeforeSmall"><?Pub Lcl _id="f80"></charsubset>
+<charsubset charsubsetid="SpaceAfterSmall" charsubsetref="Block"><?Pub Lcl _id="f81">
+<postsp minimum="2pt" nominal="3pt" maximum="4pt" priority="medium"></charsubset>
+<charsubset charsubsetid="SpaceAfterMedium" charsubsetref="Block"><?Pub Lcl _id="f82">
+<postsp minimum="6pt" nominal="7pt" maximum="8pt" priority="medium"></charsubset>
+<charsubset charsubsetid="SpaceAfterLarge" charsubsetref="Block"><?Pub Lcl _id="f83">
+<postsp minimum="1pi" nominal="1.5pi" maximum="2pi" priority="medium"></charsubset>
+<charsubset charsubsetid="TypeBasic" charsubsetref="Block"><?Pub Lcl _id="f84"></charsubset>
+<charsubset charsubsetid="TypeDocument" charsubsetref="Block"><?Pub Lcl _id="f85">
+<font style="serif" size="10pt" posture="upright" weight="medium">
+<highlt scoring="0" fontclr="black">
+<textbrk startpg="recto" pageid="docpageset"></charsubset>
+<charsubset charsubsetid="Div" charsubsetref="Block SpaceBeforeMedium"><?Pub Lcl _id="f86">
+</charsubset>
+<charsubset charsubsetid="TypeDiv1Numbered" charsubsetref="Div"><?Pub Lcl _id="f87">
+<reset resetlist="div2.ct div3.ct div4.ct div5.ct div6.ct div7.ct div8.ct div9.ct">
+<enumerat increm="1" enumid="div1.ct">
+<savetext textid="div1ct.txt" conrule="div1.ct">
+<savetext textid="div1dot.txt" conrule="dot">
+<savetext textid="div1catct.txt" conrule="div1ct.txt">
+<savetext textid="div1usect.txt" conrule="div1catct.txt, divctspace.txt"></charsubset>
+<charsubset charsubsetid="TypeDiv1NotNumbered" charsubsetref="Div"><?Pub Lcl _id="f88">
+<reset resetlist="div2.ct div3.ct div4.ct div5.ct div6.ct div7.ct div8.ct div9.ct">
+<savetext textid="div1ct.txt" conrule="">
+<savetext textid="div1dot.txt" conrule="">
+<savetext textid="div1catct.txt" conrule="div1ct.txt">
+<savetext textid="div1usect.txt" conrule=""></charsubset>
+<charsubset charsubsetid="TypeDiv2Numbered" charsubsetref="Div"><?Pub Lcl _id="f89">
+<reset resetlist="div3.ct div4.ct div5.ct div6.ct div7.ct div8.ct div9.ct">
+<enumerat increm="1" enumid="div2.ct">
+<savetext textid="div2ct.txt" conrule="div2.ct">
+<savetext textid="div2dot.txt" conrule="dot">
+<savetext textid="div2catct.txt" conrule="div1catct.txt, div1dot.txt, div2ct.txt">
+<savetext textid="div2usect.txt" conrule="div2catct.txt, divctspace.txt"></charsubset>
+<charsubset charsubsetid="TypeDiv2NotNumbered" charsubsetref="Div"><?Pub Lcl _id="f90">
+<reset resetlist="div3.ct div4.ct div5.ct div6.ct div7.ct div8.ct div9.ct">
+<savetext textid="div2ct.txt" conrule="">
+<savetext textid="div2dot.txt" conrule="">
+<savetext textid="div2catct.txt" conrule="div1catct.txt, div1dot.txt, div2ct.txt">
+<savetext textid="div2usect.txt" conrule=""></charsubset>
+<charsubset charsubsetid="TypeDiv3Numbered" charsubsetref="Div"><?Pub Lcl _id="f91">
+<reset resetlist="div4.ct div5.ct div6.ct div7.ct div8.ct div9.ct">
+<enumerat increm="1" enumid="div3.ct">
+<savetext textid="div3ct.txt" conrule="div3.ct">
+<savetext textid="div3dot.txt" conrule="dot">
+<savetext textid="div3catct.txt" conrule="div2catct.txt, div2dot.txt, div3ct.txt">
+<savetext textid="div3usect.txt" conrule="div3catct.txt, divctspace.txt"></charsubset>
+<charsubset charsubsetid="TypeDiv3NotNumbered" charsubsetref="Div"><?Pub Lcl _id="f92">
+<reset resetlist="div4.ct div5.ct div6.ct div7.ct div8.ct div9.ct">
+<savetext textid="div3ct.txt" conrule="">
+<savetext textid="div3dot.txt" conrule="">
+<savetext textid="div3catct.txt" conrule="div2catct.txt, div2dot.txt, div3ct.txt">
+<savetext textid="div3usect.txt" conrule=""></charsubset>
+<charsubset charsubsetid="TypeDiv4Numbered" charsubsetref="Div"><?Pub Lcl _id="f93">
+<reset resetlist="div5.ct div6.ct div7.ct div8.ct div9.ct">
+<enumerat increm="1" enumid="div4.ct">
+<savetext textid="div4ct.txt" conrule="div4.ct">
+<savetext textid="div4dot.txt" conrule="dot">
+<savetext textid="div4catct.txt" conrule="div3catct.txt, div3dot.txt, div4ct.txt">
+<savetext textid="div4usect.txt" conrule="div4catct.txt, divctspace.txt"></charsubset>
+<charsubset charsubsetid="TypeDiv4NotNumbered" charsubsetref="Div"><?Pub Lcl _id="f94">
+<reset resetlist="div5.ct div6.ct div7.ct div8.ct div9.ct">
+<savetext textid="div4ct.txt" conrule="">
+<savetext textid="div4dot.txt" conrule="">
+<savetext textid="div4catct.txt" conrule="div3catct.txt, div3dot.txt, div4ct.txt">
+<savetext textid="div4usect.txt" conrule=""></charsubset>
+<charsubset charsubsetid="TypeDiv5Numbered" charsubsetref="Div"><?Pub Lcl _id="f95">
+<reset resetlist="div6.ct div7.ct div8.ct div9.ct">
+<enumerat increm="1" enumid="div5.ct">
+<savetext textid="div5ct.txt" conrule="div5.ct">
+<savetext textid="div5dot.txt" conrule="dot">
+<savetext textid="div5catct.txt" conrule="div4catct.txt, div4dot.txt, div5ct.txt">
+<savetext textid="div5usect.txt" conrule="div5catct.txt, divctspace.txt"></charsubset>
+<charsubset charsubsetid="TypeDiv5NotNumbered" charsubsetref="Div"><?Pub Lcl _id="f96">
+<reset resetlist="div6.ct div7.ct div8.ct div9.ct">
+<savetext textid="div5ct.txt" conrule="">
+<savetext textid="div5dot.txt" conrule="">
+<savetext textid="div5catct.txt" conrule="div4catct.txt, div4dot.txt, div5ct.txt">
+<savetext textid="div5usect.txt" conrule=""></charsubset>
+<charsubset charsubsetid="TypeDiv6Numbered" charsubsetref="Div"><?Pub Lcl _id="f97">
+<reset resetlist="div7.ct div8.ct div9.ct">
+<enumerat increm="1" enumid="div6.ct">
+<savetext textid="div6ct.txt" conrule="div6.ct">
+<savetext textid="div6dot.txt" conrule="dot">
+<savetext textid="div6catct.txt" conrule="div5catct.txt, div5dot.txt, div6ct.txt">
+<savetext textid="div6usect.txt" conrule="div6catct.txt, divctspace.txt"></charsubset>
+<charsubset charsubsetid="TypeDiv6NotNumbered" charsubsetref="Div"><?Pub Lcl _id="f98">
+<reset resetlist="div7.ct div8.ct div9.ct">
+<savetext textid="div6ct.txt" conrule="">
+<savetext textid="div6dot.txt" conrule="">
+<savetext textid="div6catct.txt" conrule="div5catct.txt, div5dot.txt, div6ct.txt">
+<savetext textid="div6usect.txt" conrule=""></charsubset>
+<charsubset charsubsetid="TypeDiv7Numbered" charsubsetref="Div"><?Pub Lcl _id="f99">
+<reset resetlist="div8.ct div9.ct">
+<enumerat increm="1" enumid="div7.ct">
+<savetext textid="div7ct.txt" conrule="div7.ct">
+<savetext textid="div7dot.txt" conrule="dot">
+<savetext textid="div7catct.txt" conrule="div6catct.txt, div6dot.txt, div7ct.txt">
+<savetext textid="div7usect.txt" conrule="div7catct.txt, divctspace.txt"></charsubset>
+<charsubset charsubsetid="TypeDiv7NotNumbered" charsubsetref="Div"><?Pub Lcl _id="f100">
+<reset resetlist="div8.ct div9.ct">
+<savetext textid="div7ct.txt" conrule="">
+<savetext textid="div7dot.txt" conrule="">
+<savetext textid="div7catct.txt" conrule="div6catct.txt, div6dot.txt, div7ct.txt">
+<savetext textid="div7usect.txt" conrule=""></charsubset>
+<charsubset charsubsetid="TypeDiv8Numbered" charsubsetref="Div"><?Pub Lcl _id="f101">
+<reset resetlist="div9.ct">
+<enumerat increm="1" enumid="div8.ct">
+<savetext textid="div8ct.txt" conrule="div8.ct">
+<savetext textid="div8dot.txt" conrule="dot">
+<savetext textid="div8catct.txt" conrule="div7catct.txt, div7dot.txt, div8ct.txt">
+<savetext textid="div8usect.txt" conrule="div8catct.txt, divctspace.txt"></charsubset>
+<charsubset charsubsetid="TypeDiv8NotNumbered" charsubsetref="Div"><?Pub Lcl _id="f102">
+<reset resetlist="div9.ct">
+<savetext textid="div8ct.txt" conrule="">
+<savetext textid="div8dot.txt" conrule="">
+<savetext textid="div8catct.txt" conrule="div7catct.txt, div7dot.txt, div8ct.txt">
+<savetext textid="div8usect.txt" conrule=""></charsubset>
+<charsubset charsubsetid="TypeDiv9Numbered" charsubsetref="Div"><?Pub Lcl _id="f103">
+<enumerat increm="1" enumid="div9.ct">
+<savetext textid="div9ct.txt" conrule="div9.ct">
+<savetext textid="div9dot.txt" conrule="dot">
+<savetext textid="div9catct.txt" conrule="div8catct.txt, div8dot.txt, div9ct.txt">
+<savetext textid="div9usect.txt" conrule="div9catct.txt, divctspace.txt"></charsubset>
+<charsubset charsubsetid="TypeDiv9NotNumbered" charsubsetref="Div"><?Pub Lcl _id="f104">
+<savetext textid="div9ct.txt" conrule="">
+<savetext textid="div9dot.txt" conrule="">
+<savetext textid="div9catct.txt" conrule="div8catct.txt, div8dot.txt, div9ct.txt">
+<savetext textid="div9usect.txt" conrule=""></charsubset>
+<charsubset charsubsetid="StartNewPage"><?Pub Lcl _id="f105">
+<textbrk startpg="next"></charsubset>
+<charsubset charsubsetid="TitleSpace"><?Pub Lcl _id="f106">
+<presp minimum=".5em" nominal=".75em" maximum="1em" priority="high">
+<postsp minimum=".25em" nominal=".5em" maximum=".75em" priority="medium"></charsubset>
+<charsubset charsubsetid="Title" charsubsetref="Block KeepWithNext TitleSpace"><?Pub Lcl _id="f107"></charsubset>
+<charsubset charsubsetid="TitleDocument" charsubsetref="Title"><?Pub Lcl _id="f108"></charsubset>
+<charsubset charsubsetid="TitleToc" charsubsetref="Title"><?Pub Lcl _id="f109"></charsubset>
+<charsubset charsubsetid="TitleDiv1" charsubsetref="Title"><?Pub Lcl _id="f110">
+<usetext source="div1usect.txt"></usetext>
+</charsubset>
+<charsubset charsubsetid="TitleDiv2" charsubsetref="Title"><?Pub Lcl _id="f111">
+<usetext source="div2usect.txt"></usetext>
+</charsubset>
+<charsubset charsubsetid="TitleDiv3" charsubsetref="Title"><?Pub Lcl _id="f112">
+<usetext source="div3usect.txt"></usetext>
+</charsubset>
+<charsubset charsubsetid="TitleDiv4" charsubsetref="Title"><?Pub Lcl _id="f113">
+<usetext source="div4usect.txt"></usetext>
+</charsubset>
+<charsubset charsubsetid="TitleDiv5" charsubsetref="Title"><?Pub Lcl _id="f114">
+<usetext source="div5usect.txt"></usetext>
+</charsubset>
+<charsubset charsubsetid="TitleDiv6" charsubsetref="Title"><?Pub Lcl _id="f115">
+<usetext source="div6usect.txt"></usetext>
+</charsubset>
+<charsubset charsubsetid="TitleDiv7" charsubsetref="Title"><?Pub Lcl _id="f116">
+<usetext source="div7usect.txt"></usetext>
+</charsubset>
+<charsubset charsubsetid="TitleDiv8" charsubsetref="Title"><?Pub Lcl _id="f117">
+<usetext source="div8usect.txt"></usetext>
+</charsubset>
+<charsubset charsubsetid="TitleDiv9" charsubsetref="Title"><?Pub Lcl _id="f118">
+<usetext source="div9usect.txt"></usetext>
+</charsubset>
+<charsubset charsubsetid="TypeTitle" charsubsetref="Title"><?Pub Lcl _id="f119"></charsubset>
+<charsubset charsubsetid="TypeParagraph" charsubsetref="Block SpaceBeforeMedium"><?Pub Lcl _id="f120">
+<font inherit="yes" famname="Verdana">
+</charsubset>
+<charsubset charsubsetid="FirstParagraphInItem"><?Pub Lcl _id="f121">
+<font inherit="yes" famname="Verdana">
+</charsubset>
+<charsubset charsubsetid="NonFirstParagraphInItem" charsubsetref="Block SpaceBeforeSmall"><?Pub Lcl _id="f122">
+<font inherit="yes" famname="Verdana">
+</charsubset>
+<charsubset charsubsetid="List" charsubsetref="Block ListIndent"><?Pub Lcl _id="f123"></charsubset>
+<charsubset charsubsetid="TypeListNum1" charsubsetref="List"><?Pub Lcl _id="f124">
+<reset resetlist="numlist1.ct"></charsubset>
+<charsubset charsubsetid="TypeListNum2" charsubsetref="List"><?Pub Lcl _id="f125">
+<reset resetlist="numlist2.ct"></charsubset>
+<charsubset charsubsetid="TypeListNum3" charsubsetref="List"><?Pub Lcl _id="f126">
+<reset resetlist="numlist3.ct"></charsubset>
+<charsubset charsubsetid="TypeListNum4" charsubsetref="List"><?Pub Lcl _id="f127">
+<reset resetlist="numlist4.ct"></charsubset>
+<charsubset charsubsetid="TypeListBull1" charsubsetref="List"><?Pub Lcl _id="f128"></charsubset>
+<charsubset charsubsetid="TypeListBull2" charsubsetref="List"><?Pub Lcl _id="f129"></charsubset>
+<charsubset charsubsetid="TypeListBull3" charsubsetref="List"><?Pub Lcl _id="f130"></charsubset>
+<charsubset charsubsetid="TypeListBull4" charsubsetref="List"><?Pub Lcl _id="f131"></charsubset>
+<charsubset charsubsetid="ListItem" charsubsetref="Block SpaceBeforeList"><?Pub Lcl _id="f132"></charsubset>
+<charsubset charsubsetid="ListItemNum1" charsubsetref="ListItem"><?Pub Lcl _id="f133">
+<enumerat increm="1" enumid="numlist1.ct">
+<usetext source="numlist1.ct,\.\,0.25pi,@2pi"></usetext>
+</charsubset>
+<charsubset charsubsetid="ListItemNum2" charsubsetref="ListItem"><?Pub Lcl _id="f134">
+<enumerat increm="1" enumid="numlist2.ct">
+<usetext source="numlist2.ct,\.\,0.25pi,@2pi"></usetext>
+</charsubset>
+<charsubset charsubsetid="ListItemNum3" charsubsetref="ListItem"><?Pub Lcl _id="f135">
+<enumerat increm="1" enumid="numlist3.ct">
+<usetext source="numlist3.ct,\.\,0.25pi,@2pi"></usetext>
+</charsubset>
+<charsubset charsubsetid="ListItemNum4" charsubsetref="ListItem"><?Pub Lcl _id="f136">
+<enumerat increm="1" enumid="numlist4.ct">
+<usetext source="numlist4.ct,\.\,0.25pi,@2pi"></usetext>
+</charsubset>
+<charsubset charsubsetid="ListItemBull1" charsubsetref="ListItem"><?Pub Lcl _id="f137">
+<usetext source="\&bull;\,0.25pi,@2pi"></usetext>
+</charsubset>
+<charsubset charsubsetid="ListItemBull2" charsubsetref="ListItem"><?Pub Lcl _id="f138">
+<usetext source="\o\,@2pi">
+<subchars>
+<font style="monoser" size="0.7pi" weight="bold" offset="0.1pi"></subchars>
+</usetext>
+</charsubset>
+<charsubset charsubsetid="ListItemBull3" charsubsetref="ListItem"><?Pub Lcl _id="f139">
+<usetext source="\&diams;\,0.25pi,@2pi">
+<subchars>
+<font inherit="yes" size="0.9em"></subchars>
+</usetext>
+</charsubset>
+<charsubset charsubsetid="ListItemBull4" charsubsetref="ListItem"><?Pub Lcl _id="f140">
+<usetext source="\-\,@2pi">
+<subchars>
+<font inherit="yes" style="monoser" weight="bold"></subchars>
+</usetext>
+</charsubset>
+<charsubset charsubsetid="TypeListItem" charsubsetref="Block SpaceBeforeMedium"><?Pub Lcl _id="f141"></charsubset>
+<charsubset charsubsetid="TypeToc" charsubsetref="Block SpaceBeforeLarge SpaceAfterLarge"><?Pub Lcl _id="f142">
+<usetext source="toc.txt" placemnt="after"></usetext>
+</charsubset>
+<charsubset charsubsetid="TypePreformatted" charsubsetref="Block SpaceBeforeMedium"><?Pub Lcl _id="f143">
+<quadding inherit="yes" quad="asis" lastquad="relative"></charsubset>
+<charsubset charsubsetid="TypeGraphic"><?Pub Lcl _id="f144"></charsubset>
+<charsubset charsubsetid="LinkSource"><?Pub Lcl _id="f145">
+<highlt scoring="1" scorewt=".5pt" fontclr="blue" scorespc="1"></charsubset>
+<charsubset charsubsetid="LinkTarget"><?Pub Lcl _id="f146"></charsubset>
+<charsubset charsubsetid="TypeLink"><?Pub Lcl _id="f147"></charsubset>
+<charsubset charsubsetid="TypeTable"><?Pub Lcl _id="f148"></charsubset>
+<!-- DefaultXxx charsubsets are used by the UI code to look up what
+ the defaults should be for an element newly typed as Xxx; settings
+ here must match the templates in _turbotype.cmd -->
+<charsubset charsubsetid="DefaultInline" charsubsetref="TypeInline"><?Pub Lcl _id="f149"></charsubset>
+<charsubset charsubsetid="DefaultUnstyled" charsubsetref="TypeUnstyled"><?Pub Lcl _id="f150">
+<font inherit="yes" style="monosans"></charsubset>
+<charsubset charsubsetid="DefaultHidden" charsubsetref="TypeHidden"><?Pub Lcl _id="f151"></charsubset>
+<charsubset charsubsetid="DefaultBasic" charsubsetref="TypeBasic SpaceBeforeMedium"><?Pub Lcl _id="f152"></charsubset>
+<charsubset charsubsetid="DefaultDocument" charsubsetref="TypeDocument"><?Pub Lcl _id="f153"></charsubset>
+<charsubset charsubsetid="DefaultToc" charsubsetref="TypeToc TocShow5"><?Pub Lcl _id="f154"></charsubset>
+<charsubset charsubsetid="DefaultPreformatted" charsubsetref="TypePreformatted"><?Pub Lcl _id="f155">
+<font inherit="yes" style="monosans"></charsubset>
+<charsubset charsubsetid="DefaultDiv1" charsubsetref="TypeDiv1Numbered"><?Pub Lcl _id="f156"></charsubset>
+<charsubset charsubsetid="DefaultDiv2" charsubsetref="TypeDiv2Numbered"><?Pub Lcl _id="f157"></charsubset>
+<charsubset charsubsetid="DefaultDiv3" charsubsetref="TypeDiv3Numbered"><?Pub Lcl _id="f158"></charsubset>
+<charsubset charsubsetid="DefaultDiv4" charsubsetref="TypeDiv4Numbered"><?Pub Lcl _id="f159"></charsubset>
+<charsubset charsubsetid="DefaultDiv5" charsubsetref="TypeDiv5Numbered"><?Pub Lcl _id="f160"></charsubset>
+<charsubset charsubsetid="DefaultDiv6" charsubsetref="TypeDiv6Numbered"><?Pub Lcl _id="f161"></charsubset>
+<charsubset charsubsetid="DefaultDiv7" charsubsetref="TypeDiv7Numbered"><?Pub Lcl _id="f162"></charsubset>
+<charsubset charsubsetid="DefaultDiv8" charsubsetref="TypeDiv8Numbered"><?Pub Lcl _id="f163"></charsubset>
+<charsubset charsubsetid="DefaultDiv9" charsubsetref="TypeDiv9Numbered"><?Pub Lcl _id="f164"></charsubset>
+<charsubset charsubsetid="DefaultTitleDocument" charsubsetref="TitleDocument AlignLeft"><?Pub Lcl _id="f165">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitleToc" charsubsetref="TitleToc AlignLeft"><?Pub Lcl _id="f166">
+<font inherit="yes" style="sanserif" size="18pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitleDiv1" charsubsetref="TitleDiv1 AlignLeft"><?Pub Lcl _id="f167">
+<font inherit="yes" style="sanserif" size="20pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitleDiv2" charsubsetref="TitleDiv2 AlignLeft"><?Pub Lcl _id="f168">
+<font inherit="yes" style="sanserif" size="18pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitleDiv3" charsubsetref="TitleDiv3 AlignLeft"><?Pub Lcl _id="f169">
+<font inherit="yes" style="sanserif" size="16pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitleDiv4" charsubsetref="TitleDiv4 AlignLeft"><?Pub Lcl _id="f170">
+<font inherit="yes" style="sanserif" size="14pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitleDiv5" charsubsetref="TitleDiv5 AlignLeft"><?Pub Lcl _id="f171">
+<font inherit="yes" style="sanserif" size="13pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitleDiv6" charsubsetref="TitleDiv6 AlignLeft"><?Pub Lcl _id="f172">
+<font inherit="yes" style="sanserif" size="12pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitleDiv7" charsubsetref="TitleDiv7 AlignLeft"><?Pub Lcl _id="f173">
+<font inherit="yes" style="sanserif" size="12pt" posture="italic" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitleDiv8" charsubsetref="TitleDiv8 AlignLeft"><?Pub Lcl _id="f174">
+<font inherit="yes" style="sanserif" size="11pt" posture="italic" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitleDiv9" charsubsetref="TitleDiv9 AlignLeft"><?Pub Lcl _id="f175">
+<font inherit="yes" style="sanserif" size="10pt" posture="italic" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultTitle" charsubsetref="TypeTitle AlignLeft"><?Pub Lcl _id="f176">
+<font inherit="yes" style="sanserif" size="12pt" posture="italic" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charsubset>
+<charsubset charsubsetid="DefaultParagraph" charsubsetref="TypeParagraph"><?Pub Lcl _id="f177"></charsubset>
+<charsubset charsubsetid="DefaultListNum" charsubsetref="TypeListNum1"><?Pub Lcl _id="f178"></charsubset>
+<charsubset charsubsetid="DefaultListBull" charsubsetref="TypeListBull1"><?Pub Lcl _id="f179"></charsubset>
+<charsubset charsubsetid="DefaultListItem" charsubsetref="TypeListItem"><?Pub Lcl _id="f180"></charsubset>
+<charsubset charsubsetid="DefaultGraphic" charsubsetref="TypeGraphic Block SpaceBeforeMedium"><?Pub Lcl _id="f181"></charsubset>
+<charsubset charsubsetid="DefaultLink" charsubsetref="TypeLink LinkSource"><?Pub Lcl _id="f182"></charsubset>
+<charsubset charsubsetid="DefaultTable" charsubsetref="TypeTable"><?Pub Lcl _id="f183"></charsubset>
+<docdesc><?Pub Lcl _id="f184">
+<charlist>
+<font style="serif" size="12pt" posture="upright" weight="medium" width="regular" offset="0pt">
+<leading lead="1.15em">
+<indent leftind="@" rightind="@" firstln="*">
+<quadding quad="justify" lastquad="relative">
+<highlt scorewt="1pt" scoreoff="0.15em" scorespc="1">
+<presp minimum="0pt" nominal="0pt" maximum="0pt" condit="discard" priority="medium">
+<postsp minimum="0pt" nominal="0pt" maximum="0pt" condit="discard" priority="medium">
+<keeps scope="col" keep="0" widowct="2" orphanct="2" next="0" prev="0">
+<textbrk startcol="0" startpg="off" newpgmdl="global" startln="1" endln="1"></charlist>
+</docdesc>
+<e-i-c gi="div1-toc.fmt"><?Pub Lcl _id="f185">
+<charlist inherit="yes" charsubsetref="Block">
+<indent leftind="@+1pi" rightind="@" firstln="*"></charlist>
+</e-i-c>
+<e-i-c gi="keywords"><?Pub Lcl _id="f186">
+<charlist inherit="yes" charsubsetref="TypeParagraph"></charlist>
+</e-i-c>
+<e-i-c gi="keywords" context="listitem" occur="first"><?Pub Lcl _id="f187">
+<charlist inherit="yes" charsubsetref="FirstParagraphInItem"></charlist>
+</e-i-c>
+<e-i-c gi="keywords" context="listitem" occur="notfirst"><?Pub Lcl _id="f188">
+<charlist inherit="yes" charsubsetref="NonFirstParagraphInItem"></charlist>
+</e-i-c>
+<e-i-c gi="editorial"><?Pub Lcl _id="f189">
+<charlist inherit="yes" charsubsetref="TypeDiv1NotNumbered"></charlist>
+</e-i-c>
+<e-i-c gi="div2-toc.fmt"><?Pub Lcl _id="f190">
+<charlist inherit="yes" charsubsetref="Block">
+<indent leftind="@+2pi" rightind="@" firstln="*"></charlist>
+</e-i-c>
+<e-i-c gi="div3-toc.fmt"><?Pub Lcl _id="f191">
+<charlist inherit="yes" charsubsetref="Block">
+<indent leftind="@+3pi" rightind="@" firstln="*"></charlist>
+</e-i-c>
+<e-i-c gi="div4-toc.fmt"><?Pub Lcl _id="f192">
+<charlist inherit="yes" charsubsetref="Block">
+<indent leftind="@+4pi" rightind="@" firstln="*"></charlist>
+</e-i-c>
+<e-i-c gi="div5-toc.fmt"><?Pub Lcl _id="f193">
+<charlist inherit="yes" charsubsetref="Block">
+<indent leftind="@+5pi" rightind="@" firstln="*"></charlist>
+</e-i-c>
+<e-i-c gi="div6-toc.fmt"><?Pub Lcl _id="f194">
+<charlist inherit="yes" charsubsetref="Block">
+<indent leftind="@+6pi" rightind="@" firstln="*"></charlist>
+</e-i-c>
+<e-i-c gi="div7-toc.fmt"><?Pub Lcl _id="f195">
+<charlist inherit="yes" charsubsetref="Block">
+<indent leftind="@+7pi" rightind="@" firstln="*"></charlist>
+</e-i-c>
+<e-i-c gi="div8-toc.fmt"><?Pub Lcl _id="f196">
+<charlist inherit="yes" charsubsetref="Block">
+<indent leftind="@+8pi" rightind="@" firstln="*"></charlist>
+</e-i-c>
+<e-i-c gi="div9-toc.fmt"><?Pub Lcl _id="f197">
+<charlist inherit="yes" charsubsetref="Block">
+<indent leftind="@+9pi" rightind="@" firstln="*"></charlist>
+</e-i-c>
+<e-i-c gi="abstract"><?Pub Lcl _id="f198">
+<charlist inherit="yes" charsubsetref="TypeDiv2NotNumbered">
+<font style="sanserif"></charlist>
+</e-i-c>
+<e-i-c gi="access"><?Pub Lcl _id="f199">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="additional"><?Pub Lcl _id="f200">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="addressline"><?Pub Lcl _id="f201">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="affiliations"><?Pub Lcl _id="f202">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="affix"><?Pub Lcl _id="f203">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="altterm"><?Pub Lcl _id="f204">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="answer"><?Pub Lcl _id="f205">
+<charlist inherit="yes" charsubsetref="Div"></charlist>
+</e-i-c>
+<e-i-c gi="appendix"><?Pub Lcl _id="f206">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="areacode"><?Pub Lcl _id="f207">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="article"><?Pub Lcl _id="f208">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="associations"><?Pub Lcl _id="f209">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="attachment" occur="first">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\Please include an attachment name by modifying the attributes\" placemnt="before">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="attendance">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\PRESENT:	NAME:	POSITION etc \" placemnt="after">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="author"><?Pub Lcl _id="f210">
+<charlist inherit="yes" charsubsetref="TypeBasic SpaceBeforeMedium"></charlist>
+</e-i-c>
+<e-i-c gi="authorblurb"><?Pub Lcl _id="f211">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="basename"><?Pub Lcl _id="f212">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="basephone"><?Pub Lcl _id="f213">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="bibliography"><?Pub Lcl _id="f214">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="blockquote"><?Pub Lcl _id="f215">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="book"><?Pub Lcl _id="f216">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="bridgehead" context="fulltext">
+<charlist inherit="yes" charsubsetref="TitleDiv2 AlignLeft">
+<font inherit="yes" famname="Verdana" size="14" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+</e-i-c>
+<e-i-c gi="career"><?Pub Lcl _id="f217">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="case"><?Pub Lcl _id="f218">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="checklist"><?Pub Lcl _id="f219">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="choice">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<enumerat increm="1" enumid="tchoice.ct">
+</charlist>
+<att>
+<charsubset>
+<usetext source="tchoice.ct[AU],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+</e-i-c>
+
+<e-i-c gi="clause">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+</charlist>
+<att>
+<specval attloc="precedent" attname="jurisdiction" attval="US">
+<specval attloc="operative" attname="properties" attval="uslfa">
+<charsubset>
+<usetext source="\ARTICLE \" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="numbering" attval="#NONE">
+<specval attname="id" attloc="clause" attval="#ANY">
+<fillval attname="id" attloc="clause" fillcat="savetext" fillchar="textid">
+<charsubset>
+<enumerat increm="1" enumid="clause1.ct">
+<savetext conrule="clause1.ct[AR]">
+<usetext source="clause1.ct[AR],\.\,0.25pi,@3pi" placemnt="before"></usetext>
+<reset resetlist="subclause1.ct subclause2.ct subclause3.ct subclause4.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="id" attloc="clause" attval="#NONE">
+<specval attname="numbering" attval="#NONE">
+<charsubset>
+<enumerat increm="1" enumid="clause1.ct">
+<usetext source="clause1.ct[AR],\.\,0.25pi,@3pi" placemnt="before"></usetext>
+<reset resetlist="subclause1.ct subclause2.ct subclause3.ct subclause4.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="da:draftTemplate" attval="#ANY">
+<charsubset>
+<highlt inherit="yes" bckclr="#dddddd"></charsubset>
+</att>
+<att>
+<specval attname="condition" attval="optional">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#8899aa"></charsubset>
+</att>
+</e-i-c>
+
+<!-- parties.clause -->
+<!-- CB Modified June 2003 
+child of parties is party
+Dec 2008 exclude where we have a jurisdiction attribute of precedent-->
+<e-i-c gi="clause" context="parties">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<enumerat increm="1" enumid="clause1.ct">
+</charlist>
+<att>
+<specval attname="id" attloc="clause" attval="#ANY">
+<specval attloc="precedent" attname="jurisdiction" attval="#NONE">
+<fillval attname="id" attloc="clause" fillcat="savetext" fillchar="textid">
+<charsubset>
+<savetext conrule="clause1.ct[AR]">
+<usetext source="\(\,clause1.ct[AR],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="id" attloc="clause" attval="#NONE">
+<specval attloc="precedent" attname="jurisdiction" attval="#NONE">
+<charsubset>
+<usetext source="\(\,clause1.ct[AR],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<!-- where there is more than one clause element, output ", and" for each clause except the last one -->
+<att>
+<charsubset>
+<usetext source="\, and\" placemnt="after"></usetext>
+</charsubset>
+</att>
+</e-i-c>
+
+<e-i-c gi="party">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<enumerat increm="1" enumid="party1.ct">
+</charlist>
+<att>
+<specval attname="id" attloc="party" attval="#ANY">
+<specval attloc="precedent" attname="jurisdiction" attval="#NONE">
+<fillval attname="id" attloc="party" fillcat="savetext" fillchar="textid">
+<charsubset>
+<savetext conrule="party1.ct[AR]">
+<usetext source="\(\,party1.ct[AR],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<reset resetlist="subclause1.ct subclause2.ct subclause3.ct subclause4.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="id" attloc="party" attval="#NONE">
+<specval attloc="precedent" attname="jurisdiction" attval="#NONE">
+<charsubset>
+<usetext source="\(\,party1.ct[AR],\)\,0.25pi,@3pi" placemnt="before"></usetext>
+<reset resetlist="subclause1.ct subclause2.ct subclause3.ct subclause4.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="da:draftTemplate" attval="#ANY">
+<charsubset>
+<highlt inherit="yes" bckclr="#dddddd"></charsubset>
+</att>
+<att>
+<specval attname="condition" attval="optional">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#8899aa"></charsubset>
+</att>
+</e-i-c>
+<!-- end of parties clause -->
+
+<!--
+<e-i-c gi="clause" context="parties" occur="last">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<enumerat increm="1" enumid="clause1.ct">
+</charlist>
+<att>
+<specval attname="id" attloc="clause" attval="#ANY">
+<fillval attname="id" attloc="clause" fillcat="savetext" fillchar="textid">
+<charsubset>
+<savetext conrule="clause1.ct[AR]">
+<usetext source="\(\,clause1.ct[AR],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="id" attloc="clause" attval="#NONE">
+<charsubset>
+<usetext source="\(\,clause1.ct[AR],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+</e-i-c>
+-->
+<e-i-c gi="clause" context="recitals">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<enumerat increm="1" enumid="recitals1.ct"></charlist>
+<att>
+<specval attname="id" attloc="clause" attval="#ANY">
+<specval attloc="precedent" attname="jurisdiction" attval="#NONE">
+<fillval attname="id" attloc="clause" fillcat="savetext" fillchar="textid">
+<charsubset>
+<savetext conrule="recitals1.ct[AU]">
+<usetext source="\(\,recitals1.ct[AU],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="id" attloc="clause" attval="#NONE">
+<specval attloc="precedent" attname="jurisdiction" attval="#NONE">
+<charsubset>
+<usetext source="\(\,recitals1.ct[AU],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="condition" attval="optional">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#8899aa"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="clause" context="signature">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+</charlist>
+</e-i-c>
+
+<e-i-c gi="clausegroup">
+<charlist inherit="yes" charsubsetref="TypeParagraph"></charlist>
+</e-i-c>
+<e-i-c gi="closing">
+<charlist inherit="yes" charsubsetref="TypeParagraph"></charlist>
+</e-i-c>
+<e-i-c gi="col1"><?Pub Lcl _id="f221">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="col2"><?Pub Lcl _id="f222">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="col3"><?Pub Lcl _id="f223">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="col4"><?Pub Lcl _id="f224">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="colspec"><?Pub Lcl _id="f225">
+<charlist inherit="yes" charsubsetref="TypeTable"></charlist>
+</e-i-c>
+<e-i-c gi="columnlist"><?Pub Lcl _id="f226">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="contact"><?Pub Lcl _id="f227">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="contactdetail"><?Pub Lcl _id="f228">
+<charlist inherit="yes" charsubsetref="TypeBasic SpaceBeforeMedium"></charlist>
+</e-i-c>
+<e-i-c gi="contactgroup"><?Pub Lcl _id="f229">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="contacts"><?Pub Lcl _id="f230">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="contributor"><?Pub Lcl _id="f231">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="country"><?Pub Lcl _id="f232">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="countrycode"><?Pub Lcl _id="f233">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="coversheet"><?Pub Lcl _id="f234">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="coverparties"><?Pub Lcl _id="f234">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\Between\" placemnt="before">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="cpd"><?Pub Lcl _id="f235">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="creator"><?Pub Lcl _id="f236">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="dateamended"><?Pub Lcl _id="f237">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="datecreated"><?Pub Lcl _id="f238">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="dateexpiry"><?Pub Lcl _id="f239">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="datevalid"><?Pub Lcl _id="f240">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="date">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="def"><?Pub Lcl _id="f241">
+<charlist inherit="yes" charsubsetref="TypeInline">
+<reset resetlist="subclause2.ct subclause3.ct subclause4.ct subclause5.ct">
+</charlist>
+</e-i-c>
+<e-i-c gi="defitem"><?Pub Lcl _id="f242">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+</charlist>
+<att>
+<specval attname="condition" attval="optional">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#8899aa"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="defitems">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+<textbrk startln="0" endln="0">
+</charlist>
+</e-i-c>
+<e-i-c gi="defitem" context="clause * parties">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+<textbrk startln="0" endln="0">
+</charlist>
+</e-i-c>
+<e-i-c gi="defterm" context="defitem * party"><?Pub Lcl _id="f244">
+<charlist inherit="yes" charsubsetref="TypeInline">
+</charlist>
+<att>
+<charsubset><font weight="bold"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="defterm" context="defitem"><?Pub Lcl _id="f244">
+<charlist inherit="yes" charsubsetref="TypeInline">
+<usetext source="\:  \" placemnt="after">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+<att>
+<charsubset><font weight="bold"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="defterm"><?Pub Lcl _id="f244">
+<charlist inherit="yes" charsubsetref="TypeInline">
+</charlist>
+<att>
+<charsubset><font weight="bold"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="deliveryaddress"><?Pub Lcl _id="f245">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="displayname"><?Pub Lcl _id="f246">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="draftingguide"><?Pub Lcl _id="f247">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="draftingnote">
+<charlist inherit="yes" charsubsetref="TypeParagraph"><highlt inherit="yes" fontclr="purple"></charlist>
+</e-i-c>
+<e-i-c gi="edition"><?Pub Lcl _id="f248">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="editor"><?Pub Lcl _id="f249">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="email"><?Pub Lcl _id="f250">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="emphasis"><?Pub Lcl _id="f251">
+<charlist inherit="yes" charsubsetref="TypeInline"></charlist>
+<att>
+<specval attname="role" attval="#ITEM#bold">
+<charsubset>
+<font weight="bold"></charsubset>
+</att>
+<att>
+<specval attname="role" attval="#ITEM#italic">
+<charsubset>
+<font posture="italic"></charsubset>
+</att>
+<att>
+<specval attname="role" attval="#ITEM#amend">
+<charsubset>
+<highlt inherit="yes" bckclr="#ffff33"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="entry"><?Pub Lcl _id="f252">
+<charlist inherit="yes" charsubsetref="TypeTable">
+<indent inherit="no" leftind="0pt" rightind="0pt" firstln="*0pt">
+<presp minimum="0pt" nominal="0pt" maximum="0pt" priority="force">
+<textbrk startln="1" endln="1"></charlist>
+<att>
+<specval attname="entrystyle" attloc="entry" attval="#ITEM#headblue">
+<charsubset>
+<font inherit="yes" weight="bold">
+<highlt inherit="yes" bckclr="#333366" fontclr="#ffffff">
+</charsubset>
+</att>
+<att>
+<specval attname="entrystyle" attloc="entry" attval="#ITEM#headred">
+<charsubset>
+<font inherit="yes" weight="bold">
+<highlt inherit="yes" bckclr="#990033" fontclr="#ffffff">
+</charsubset>
+</att>
+<att>
+<specval attname="entrystyle" attloc="entry" attval="#ITEM#headgreen">
+<charsubset>
+<font inherit="yes" weight="bold">
+<highlt inherit="yes" bckclr="#336633" fontclr="#ffffff">
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="event"><?Pub Lcl _id="f253">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="familyname"><?Pub Lcl _id="f254">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="faq"><?Pub Lcl _id="f255">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="figure"><?Pub Lcl _id="f256">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="financial"><?Pub Lcl _id="f257">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="flowchart"><?Pub Lcl _id="f258">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="foreignphrase">
+<charlist inherit="yes" charsubsetref="TypeInline"></charlist>
+<att>
+<charsubset><font posture="italic" weight="bold"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="format"><?Pub Lcl _id="f259">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="formattedname"><?Pub Lcl _id="f260">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="fulltext"><?Pub Lcl _id="f261">
+<charlist inherit="yes" charsubsetref="TypeDiv1NotNumbered"></charlist>
+</e-i-c>
+<e-i-c gi="givenname"><?Pub Lcl _id="f262">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="glossary"><?Pub Lcl _id="f263">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="glossdef"><?Pub Lcl _id="f264">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="glossitem"><?Pub Lcl _id="f265">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="glossref"><?Pub Lcl _id="f266">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="glossterm"><?Pub Lcl _id="f267">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="graphic"><?Pub Lcl _id="f268">
+<charlist inherit="yes" charsubsetref="TypeGraphic Block SpaceBeforeMedium"></charlist>
+</e-i-c>
+<e-i-c gi="headcount"><?Pub Lcl _id="f269">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="identifier"><?Pub Lcl _id="f270">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="individual"><?Pub Lcl _id="f271">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="indvprofile"><?Pub Lcl _id="f272">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="instructor"><?Pub Lcl _id="f273">
+<charlist inherit="yes" charsubsetref="TypeBasic SpaceBeforeMedium"></charlist>
+</e-i-c>
+<e-i-c gi="instructornote"><?Pub Lcl _id="f274">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="intro"><?Pub Lcl _id="f275">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\This [document type] is dated [DATE](NB: document type here is determined by the precedent type coding which is set via plcfiles)\" placemnt="after">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="isbn"><?Pub Lcl _id="f276">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="itemizedlist"><?Pub Lcl _id="f277">
+<charlist inherit="yes" charsubsetref="TypeListBull1"></charlist>
+</e-i-c>
+<e-i-c gi="itemizedlist" context="* itemizedlist"><?Pub Lcl _id="f278">
+<charlist inherit="yes" charsubsetref="TypeListBull2"></charlist>
+</e-i-c>
+<e-i-c gi="itemizedlist" context="* itemizedlist * itemizedlist"><?Pub Lcl _id="f279">
+<charlist inherit="yes" charsubsetref="TypeListBull3"></charlist>
+</e-i-c>
+<e-i-c gi="itemizedlist" context="* itemizedlist * itemizedlist * itemizedlist"><?Pub Lcl _id="f280">
+<charlist inherit="yes" charsubsetref="TypeListBull4"></charlist>
+</e-i-c>
+<e-i-c gi="jurisdiction"><?Pub Lcl _id="f281">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="language"><?Pub Lcl _id="f282">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="lastupdate_user"><?Pub Lcl _id="f283">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="legalupdate"><?Pub Lcl _id="f284">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="legislation"><?Pub Lcl _id="f285">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="letter">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="letterhead" context="heading minutes">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\ [NAME OF COMPANY] LIMITED/PLC \" placemnt="after">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="letterhead" context="heading letter">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\Letterhead of \,#CONTENT(partyhead)" placemnt="after">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="listitem"><?Pub Lcl _id="f286">
+<charlist inherit="yes" charsubsetref="TypeListItem"></charlist>
+</e-i-c>
+<e-i-c gi="listitem" context="* orderedlist"><?Pub Lcl _id="f287" _comment="">
+<charlist inherit="yes" charsubsetref="TypeListItem">
+<enumerat increm="1" enumid="numlist1.ct"></charlist>
+<att>
+<specval attname="numeration" attloc="orderedlist" attval="#NONE">
+<charsubset>
+<usetext source="numlist1.ct[AR],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="arabic">
+<charsubset>
+<usetext source="numlist1.ct[AR],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="upperroman">
+<charsubset>
+<usetext source="numlist1.ct[RU],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="lowerroman">
+<charsubset>
+<usetext source="numlist1.ct[RL],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="upperalpha">
+<charsubset>
+<usetext source="numlist1.ct[AU],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="loweralpha">
+<charsubset>
+<usetext source="numlist1.ct[AL],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="listitem" context="* orderedlist * orderedlist"><?Pub Lcl _id="f288" _comment="">
+<charlist inherit="yes" charsubsetref="TypeListItem">
+<enumerat increm="1" enumid="numlist2.ct"></charlist>
+<att>
+<specval attname="numeration" attloc="orderedlist" attval="#NONE">
+<charsubset>
+<usetext source="numlist2.ct[AR],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="arabic">
+<charsubset>
+<usetext source="numlist2.ct[AR],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="upperroman">
+<charsubset>
+<usetext source="numlist2.ct[RU],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="lowerroman">
+<charsubset>
+<usetext source="numlist2.ct[RL],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="upperalpha">
+<charsubset>
+<usetext source="numlist2.ct[AU],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="loweralpha">
+<charsubset>
+<usetext source="numlist2.ct[AL],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="listitem" context="* orderedlist * orderedlist * orderedlist"><?Pub Lcl _id="f289" _comment="">
+<charlist inherit="yes" charsubsetref="TypeListItem">
+<enumerat increm="1" enumid="numlist3.ct"></charlist>
+<att>
+<specval attname="numeration" attloc="orderedlist" attval="#NONE">
+<charsubset>
+<usetext source="numlist3.ct[AR],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="arabic">
+<charsubset>
+<usetext source="numlist3.ct[AR],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="upperroman">
+<charsubset>
+<usetext source="numlist3.ct[RU],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="lowerroman">
+<charsubset>
+<usetext source="numlist3.ct[RL],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="upperalpha">
+<charsubset>
+<usetext source="numlist3.ct[AU],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="loweralpha">
+<charsubset>
+<usetext source="numlist3.ct[AL],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="listitem" context="* orderedlist * orderedlist * orderedlist * orderedlist"><?Pub Lcl _id="f290" _comment="">
+<charlist inherit="yes" charsubsetref="TypeListItem">
+<enumerat increm="1" enumid="numlist4.ct"></charlist>
+<att>
+<specval attname="numeration" attloc="orderedlist" attval="#NONE">
+<charsubset>
+<usetext source="numlist4.ct[AR],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="arabic">
+<charsubset>
+<usetext source="numlist4.ct[AR],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="upperroman">
+<charsubset>
+<usetext source="numlist4.ct[RU],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="lowerroman">
+<charsubset>
+<usetext source="numlist4.ct[RL],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="upperalpha">
+<charsubset>
+<usetext source="numlist4.ct[AU],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att><?Pub Lcl _comment="">
+<specval attname="numeration" attloc="orderedlist" attval="loweralpha"><?Pub Caret1>
+<charsubset>
+<usetext source="numlist4.ct[AL],\.\,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="listitem" context="itemizedlist * section1 * draftingnote"><?Pub Lcl _id="f291">
+<charlist inherit="yes" charsubsetref="ListItemBull1">
+	<highlt fontclr="#dd6600">
+</charlist>
+</e-i-c>
+<e-i-c gi="listitem" context="itemizedlist * itemizedlist * section1 * draftingnote"><?Pub Lcl _id="f292">
+<charlist inherit="yes" charsubsetref="ListItemBull2">
+	<highlt fontclr="#dd6600">
+</charlist>
+</e-i-c>
+<e-i-c gi="listitem" context="itemizedlist"><?Pub Lcl _id="f291">
+<charlist inherit="yes" charsubsetref="ListItemBull1"></charlist>
+</e-i-c>
+<e-i-c gi="listitem" context="itemizedlist * itemizedlist"><?Pub Lcl _id="f292">
+<charlist inherit="yes" charsubsetref="ListItemBull2"></charlist>
+</e-i-c>
+<e-i-c gi="listitem" context="itemizedlist * itemizedlist * itemizedlist"><?Pub Lcl _id="f293">
+<charlist inherit="yes" charsubsetref="ListItemBull3"></charlist>
+</e-i-c>
+<e-i-c gi="listitem" context="itemizedlist * itemizedlist * itemizedlist * itemizedlist"><?Pub Lcl _id="f294">
+<charlist inherit="yes" charsubsetref="ListItemBull4"></charlist>
+</e-i-c>
+<e-i-c gi="location"><?Pub Lcl _id="f295">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="member"><?Pub Lcl _id="f296">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="metadata"><?Pub Lcl _id="f297">
+<charlist inherit="yes" charsubsetref="TypeDiv1NotNumbered"></charlist>
+</e-i-c>
+<e-i-c gi="metadata" context="orgprofile">
+<charlist inherit="yes" charsubsetref="TypeDiv1NotNumbered">
+<highlt inherit="yes" bckclr="aqua"><usetext source="\Read only information from database\" placemnt="before">
+</usetext></charlist>
+</e-i-c>
+<e-i-c gi="metadata" context="precedent">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\NB: The blue text in epic is for guidance only (ie. it doesn't appear in the document. Since some of the precedent content is auto-generated (e.g. the contents of the intro), you need to cross-refer to the way the document appears on plcfiles\" placemnt="before">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="middlename"><?Pub Lcl _id="f298">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="minuteheader">
+<charlist inherit="yes" charsubsetref="TypeParagraph"></charlist>
+</e-i-c>
+<e-i-c gi="municipality"><?Pub Lcl _id="f299">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="multiplechoice">
+<charlist inherit="yes" charsubsetref="Div">
+<usetext source="\Answers\" placemnt="before">
+<subchars>
+<font famname="Verdana" size="12" weight="bold" posture="italic">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="office"><?Pub Lcl _id="f300">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="officedetail"><?Pub Lcl _id="f301">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="officegroup"><?Pub Lcl _id="f302">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="offices"><?Pub Lcl _id="f303">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="operative"><?Pub Lcl _id="f304">
+<charlist inherit="yes" charsubsetref="TypeDiv1NotNumbered">
+<reset resetlist="clause1.ct subclause1.ct subclause2.ct subclause3.ct subclause4.ct">
+</charlist>
+</e-i-c>
+<e-i-c gi="orderedlist"><?Pub Lcl _id="f305">
+<charlist inherit="yes" charsubsetref="TypeListNum1"></charlist>
+</e-i-c>
+<e-i-c gi="orderedlist" context="* orderedlist"><?Pub Lcl _id="f306">
+<charlist inherit="yes" charsubsetref="TypeListNum2"></charlist>
+</e-i-c>
+<e-i-c gi="orderedlist" context="* orderedlist * orderedlist"><?Pub Lcl _id="f307">
+<charlist inherit="yes" charsubsetref="TypeListNum3"></charlist>
+</e-i-c>
+<e-i-c gi="orderedlist" context="* orderedlist * orderedlist * orderedlist"><?Pub Lcl _id="f308">
+<charlist inherit="yes" charsubsetref="TypeListNum4"></charlist>
+</e-i-c>
+<e-i-c gi="organisation"><?Pub Lcl _id="f309">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="organiser"><?Pub Lcl _id="f310">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="orgprofile"><?Pub Lcl _id="f311">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<!-- added CB Jan 2004 -->      
+<e-i-c gi="para" context="operativeinformal">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<enumerat increm="1" enumid="para.ct">
+</charlist>
+<att>
+<charsubset>
+<usetext source="para.ct[AR],\.\,0.25pi,@3pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="para"><?Pub Lcl _id="f312">
+<charlist inherit="yes" charsubsetref="TypeParagraph"></charlist>
+</e-i-c>
+<e-i-c gi="para" context="def" occur="first">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<font inherit="yes">
+<textbrk startln="0" endln="0">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="def" occur="notfirst">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="glossdef">
+<charlist><quadding inherit="yes" quad="justify" lastquad="relative">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="listitem" occur="first"><?Pub Lcl _id="f313">
+<charlist inherit="yes" charsubsetref="FirstParagraphInItem"></charlist>
+</e-i-c>
+<e-i-c gi="para" context="listitem" occur="notfirst"><?Pub Lcl _id="f314">
+<charlist inherit="yes" charsubsetref="NonFirstParagraphInItem"></charlist>
+</e-i-c>
+<e-i-c gi="para" context="clause" occur="first">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="clause" occur="notfirst">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="clause * parties" occur="first">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+<textbrk startln="0" endln="0">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="clause * parties" occur="notfirst">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="clause * recitals" occur="first">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+<textbrk startln="0" endln="0">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="clause * recitals" occur="notfirst">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="subclause1" occur="first">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+<textbrk startln="0" endln="0">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="subclause1" occur="notfirst">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="subclause2" occur="first">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+<textbrk startln="0" endln="0"></charlist>
+</e-i-c>
+<e-i-c gi="para" context="subclause2" occur="notfirst">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="subclause3" occur="first">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+<textbrk startln="0" endln="0"></charlist>
+</e-i-c>
+<e-i-c gi="para" context="subclause3" occur="notfirst">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+</charlist>
+</e-i-c>
+<e-i-c gi="para" context="subclause4" occur="first">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+<textbrk startln="0" endln="0"></charlist>
+</e-i-c>
+<e-i-c gi="para" context="subclause4" occur="notfirst">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent inherit="yes" leftind="@+3.25pi" rightind="@" firstln="*">
+</charlist>
+</e-i-c> 
+<e-i-c gi="part"><?Pub Lcl _id="f315">
+<charlist inherit="yes" charsubsetref="Div">
+<enumerat increm="1" enumid="schedulepart1.ct">
+<reset resetlist="clause1.ct subclause1.ct subclause2.ct subclause3.ct subclause4.ct">
+<usetext source="\Part \,schedulepart1.ct[AR],0.25pi,@2pi" placemnt="before">
+<subchars>
+<font famname="Verdana" size="12" weight="bold">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="parties"><?Pub Lcl _id="f316">
+<charlist inherit="yes" charsubsetref="TypeDiv1NotNumbered">
+<savetext textid="lastparty.tiv" conrule="clause1.ct" placemnt="after" append="0">
+<reset resetlist="clause1.ct subclause1.ct subclause2.ct subclause3.ct subclause4.ct">
+</charlist>
+</e-i-c>
+<e-i-c gi="personname"><?Pub Lcl _id="f317">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="phone"><?Pub Lcl _id="f318">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="plc"><?Pub Lcl _id="f319">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="plcxlink"><?Pub Lcl _id="f320">
+<charlist inherit="yes" charsubsetref="TypeInline"></charlist>
+</e-i-c>
+<e-i-c gi="postaladdress"><?Pub Lcl _id="f321">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="postcode"><?Pub Lcl _id="f322">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="practice"><?Pub Lcl _id="f323">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="practicenote"><?Pub Lcl _id="f324">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="precedent"><?Pub Lcl _id="f325">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="preface"><?Pub Lcl _id="f326">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="preferredgivenname"><?Pub Lcl _id="f327">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="price"><?Pub Lcl _id="f328">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="primarylocation"><?Pub Lcl _id="f329">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="primarysource">
+<charlist inherit="yes" charsubsetref="TypeUnstyled">
+<usetext source="\[The primarysource doctype is used for linking between plc resources and external resources only. It should follow the example structure below, with each logical link group in a separate section and simpleplcxlinks grouped in a para]\" placemnt="before">
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="profupdate"><?Pub Lcl _id="f330">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="publication_status"><?Pub Lcl _id="f331">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="publications"><?Pub Lcl _id="f332">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="publisher"><?Pub Lcl _id="f333">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="qandaentry">
+<charlist inherit="yes" charsubsetref="Div"></charlist>
+</e-i-c>
+<e-i-c gi="qandaset"><?Pub Lcl _id="f334">
+<charlist inherit="yes" charsubsetref="Div"></charlist>
+</e-i-c>
+<e-i-c gi="qualificationdate"><?Pub Lcl _id="f335">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="question"><?Pub Lcl _id="f336">
+<charlist inherit="yes" charsubsetref="Div">
+</charlist>
+<att>
+<specval attname="label" attloc="question" attval="#ANY">
+<fillval attname="label" attloc="question" fillcat="savetext" fillchar="conrule">
+<charsubset>
+<savetext textid="questno-label.txt">
+<savetext textid="questno.txt" conrule="\Question \,questno-label.txt" placemnt="before" append="0">
+<usetext source="questno.txt,0.25pi,@2pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="question" context="trainingquestion">
+<charlist inherit="yes" charsubsetref="Div">
+<usetext source="\Question\" placemnt="before">
+<subchars>
+<font famname="Verdana" size="12" weight="bold" posture="italic">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="reason">
+<charlist inherit="yes" charsubsetref="Div">
+<usetext source="\Reason\" placemnt="before">
+<subchars>
+<font famname="Verdana" size="12" weight="bold" posture="italic">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="recitals"><?Pub Lcl _id="f337">
+<charlist inherit="yes" charsubsetref="TypeDiv1NotNumbered">
+<reset resetlist="clause1.ct subclause1.ct subclause2.ct subclause3.ct subclause4.ct">
+</charlist>
+</e-i-c>
+<e-i-c gi="region"><?Pub Lcl _id="f338">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="relatedcompany"><?Pub Lcl _id="f339">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="resourceid"><?Pub Lcl _id="f340">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="review"><?Pub Lcl _id="f341">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="rights"><?Pub Lcl _id="f342">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="row"><?Pub Lcl _id="f343">
+<charlist inherit="yes" charsubsetref="TypeTable">
+<textbrk startln="1" endln="1"></charlist>
+<att>
+<specval attname="rowstyle" attloc="row" attval="#ITEM#headblue">
+<charsubset>
+<font inherit="yes" weight="bold">
+<highlt inherit="yes" bckclr="#333366" fontclr="#ffffff">
+</charsubset>
+</att>
+<att>
+<specval attname="rowstyle" attloc="row" attval="#ITEM#headred">
+<charsubset>
+<font inherit="yes" weight="bold">
+<highlt inherit="yes" bckclr="#990033" fontclr="#ffffff">
+</charsubset>
+</att>
+<att>
+<specval attname="rowstyle" attloc="row" attval="#ITEM#headgreen">
+<charsubset>
+<font inherit="yes" weight="bold">
+<highlt inherit="yes" bckclr="#336633" fontclr="#ffffff">
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="schedule"><?Pub Lcl _id="f344">
+<charlist inherit="yes" charsubsetref="Div">
+<enumerat increm="1" enumid="schedule1.ct">
+<reset resetlist="schedulepart1.ct clause1.ct subclause1.ct subclause2.ct subclause3.ct subclause4.ct">
+<usetext source="\Schedule \,schedule1.ct[AR],0.25pi,@2pi" placemnt="before">
+<subchars>
+<font famname="Verdana" size="14" weight="bold">
+</subchars>
+</usetext>
+</charlist>
+<!-- added CB August 2003 - grey background for da:included schedule -->
+<att>
+<specval attname="da:draftTemplate" attval="#ANY">
+<charsubset>
+<highlt inherit="yes" bckclr="#dddddd"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="secondarylocation"><?Pub Lcl _id="f345">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="section1"><?Pub Lcl _id="f347">
+<charlist inherit="yes" charsubsetref="TypeDiv2NotNumbered"></charlist>
+<att>
+<specval attname="outputtype" attval="printonly">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#aa51ee"></charsubset>
+</att>
+<att>
+<specval attname="outputtype" attval="webonly">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#aaddaa"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="section2"><?Pub Lcl _id="f348">
+<charlist inherit="yes" charsubsetref="TypeDiv3NotNumbered"></charlist>
+</e-i-c>
+<e-i-c gi="section2" context="choice">
+<charlist inherit="yes" charsubsetref="TypeDiv3NotNumbered"></charlist>
+<att>
+<specval attname="correct" attloc="choice" attval="#ITEM#0">
+<charsubset>
+<highlt inherit="yes" bckclr="red">
+</charsubset>
+</att>
+<att>
+<specval attname="correct" attloc="choice" attval="#ITEM#1">
+<charsubset>
+<highlt inherit="yes" bckclr="green">
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="section3"><?Pub Lcl _id="f349">
+<charlist inherit="yes" charsubsetref="TypeDiv4NotNumbered"></charlist>
+</e-i-c>
+<e-i-c gi="sector"><?Pub Lcl _id="f350">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="service"><?Pub Lcl _id="f351">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="signature" context="closing minutes">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\....... Chairman \" placemnt="after">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="signature"><?Pub Lcl _id="f352">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\[The exact text here is determined from the respective party attribute settings for status and execution method]\" placemnt="after">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="simpleplcxlink"><?Pub Lcl _id="f353">
+<charlist inherit="yes" charsubsetref="TypeLink LinkSource"></charlist>
+</e-i-c>
+<e-i-c gi="sortname"><?Pub Lcl _id="f354">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="source"><?Pub Lcl _id="f355">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="source" context="trainingquestion">
+<charlist inherit="yes" charsubsetref="Div">
+<usetext source="\Source\" placemnt="before">
+<subchars>
+<font famname="Verdana" size="12" weight="bold" posture="italic">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="speaker"><?Pub Lcl _id="f356">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="speedread"><?Pub Lcl _id="f357">
+<charlist inherit="yes" charsubsetref="TypeDiv1NotNumbered"></charlist>
+</e-i-c>
+<e-i-c gi="standfirst"><?Pub Lcl _id="f358">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="strapline"><?Pub Lcl _id="f359">
+<charlist inherit="yes" charsubsetref="TitleDiv3 AlignLeft">
+<font inherit="yes" famname="Verdana" size="12" weight="bold" posture="italic">
+<highlt inherit="yes" fontclr="black"></charlist>
+</e-i-c>
+<e-i-c gi="structure"><?Pub Lcl _id="f360">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="subclause1" context="clause recitals"><?Pub Lcl _id="f361">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent leftind="@+3pi" rightind="@" firstln="*">
+<enumerat increm="1" enumid="subclause1.ct">
+</charlist>
+<att>
+<specval attname="id" attloc="subclause1" attval="#ANY"> 
+<fillval attname="id" attloc="subclause1" fillcat="savetext" fillchar="textid">
+<charsubset>
+<savetext conrule="subclause1.ct[RL]">
+<usetext source="\(\,subclause1.ct[RL],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<reset resetlist="subclause2.ct subclause3.ct subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="condition" attval="optional">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#8899aa"></charsubset>
+</att>
+<att>
+<specval attname="id" attloc="subclause1" attval="#NONE"> 
+<charsubset>
+<usetext source="\(\,subclause1.ct[RL],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<reset resetlist="subclause2.ct subclause3.ct subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="subclause1" context="clause"><?Pub Lcl _id="f361">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent leftind="@+3pi" rightind="@" firstln="*">
+<enumerat increm="1" enumid="subclause1.ct">
+</charlist>
+<att>
+<specval attloc="operative" attname="properties" attval="uslfa">
+<charsubset>
+<usetext source="\Section \" placemnt="before"></usetext>
+</charsubset>
+</att>
+<att>
+<specval attname="id" attloc="subclause1" attval="#ANY"> 
+<fillval attname="id" attloc="subclause1" fillcat="savetext" fillchar="textid">
+<charsubset>
+<savetext conrule="clause1.ct[AR],\.\,subclause1.ct[AR]">
+<usetext source="clause1.ct[AR],\.\,subclause1.ct[AR],0.25pi,@3.25pi" placemnt="before"></usetext>
+<reset resetlist="subclause2.ct subclause3.ct subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="condition" attval="optional">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#8899aa"></charsubset>
+</att>
+<att>
+<specval attname="id" attloc="subclause1" attval="#NONE"> 
+<charsubset>
+<usetext source="clause1.ct[AR],\.\,subclause1.ct[AR],0.25pi,@3.25pi" placemnt="before"></usetext>
+<reset resetlist="subclause2.ct subclause3.ct subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="subclause2" context="subclause1"><?Pub Lcl _id="f362">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent leftind="@+3.25pi" rightind="@" firstln="*">
+<enumerat increm="1" enumid="subclause2.ct">
+</charlist>
+<att>
+<specval attname="id" attloc="subclause2" attval="#ANY"> 
+<fillval attname="id" attloc="subclause2" fillcat="savetext" fillchar="textid">
+<charsubset>
+<savetext conrule="clause1.ct[AR],\.\,subclause1.ct[AR],\.\,subclause2.ct[AL]">
+<usetext source="\(\,subclause2.ct[AL],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<reset resetlist="subclause3.ct subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="id" attloc="subclause2" attval="#NONE"> 
+<charsubset>
+<usetext source="\(\,subclause2.ct[AL],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<reset resetlist="subclause3.ct subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="condition" attval="optional">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#8899aa"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="subclause2" context="def">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent leftind="@+3.25pi" rightind="@" firstln="*">
+<enumerat increm="1" enumid="subclause2.ct">
+</charlist>
+<att>
+<specval attname="id" attloc="subclause2" attval="#ANY"> 
+<fillval attname="id" attloc="subclause2" fillcat="savetext" fillchar="textid">
+<charsubset>
+<savetext conrule="clause1.ct[AR],\.\,subclause1.ct[AR],\.\,subclause2.ct[AL]">
+<usetext source="\(\,subclause2.ct[AL],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<usetext source="\ and/or \" placemnt="after"></usetext>
+<reset resetlist="subclause3.ct subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="id" attloc="subclause2" attval="#NONE"> 
+<charsubset>
+<usetext source="\(\,subclause2.ct[AL],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<reset resetlist="subclause3.ct subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="condition" attval="optional">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#8899aa"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="subclause2" context="clausegroup"><?Pub Lcl _id="f362">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent leftind="@+3.25pi" rightind="@" firstln="*">
+<enumerat increm="1" enumid="subclause2.ct">
+</charlist>
+<att>
+<specval attname="id" attloc="subclause2" attval="#ANY"> 
+<fillval attname="id" attloc="subclause2" fillcat="savetext" fillchar="textid">
+<charsubset>
+<savetext conrule="clause1.ct[AR],\.\,subclause1.ct[AR],\.\,subclause2.ct[AL]">
+<usetext source="\(\,subclause2.ct[AL],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<usetext source="\ and/or \" placemnt="after"></usetext>
+<reset resetlist="subclause3.ct subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="id" attloc="subclause2" attval="#NONE"> 
+<charsubset>
+<usetext source="\(\,subclause2.ct[AL],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<usetext source="\and/or \" placemnt="after"></usetext>
+<reset resetlist="subclause3.ct subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="condition" attval="optional">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#8899aa"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="subclause3" context="subclause2"><?Pub Lcl _id="f363">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent leftind="@+3.25pi" rightind="@" firstln="*">
+<enumerat increm="1" enumid="subclause3.ct">
+</charlist>
+<att>
+<charsubset>
+<usetext source="\(\,subclause3.ct[RL],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<reset resetlist="subclause4.ct subclause5.ct">
+</charsubset>
+</att>
+<att>
+<specval attname="condition" attval="optional">
+<charsubset>
+<font inherit="yes">
+<highlt inherit="yes" fontclr="#8899aa"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="subclause4" context="subclause3"><?Pub Lcl _id="f364">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent leftind="@+3.25pi" rightind="@" firstln="*">
+<enumerat increm="1" enumid="subclause4.ct">
+</charlist>
+<att>
+<charsubset>
+<usetext source="\(x\,subclause4.ct[AU],\x)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+<reset resetlist="subclause5.ct">
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="subclause5" context="subclause4"><?Pub Lcl _id="f365">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<indent leftind="@+3.25pi" rightind="@" firstln="*">
+<enumerat increm="1" enumid="subclause5.ct">
+</charlist>
+<att>
+<charsubset>
+<usetext source="\(\,subclause5.ct[AU],\)\,0.25pi,@3.25pi" placemnt="before"></usetext>
+</charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="subject"><?Pub Lcl _id="f366">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="subscript"><?Pub Lcl _id="f367">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="superscript"><?Pub Lcl _id="f368">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="table"><?Pub Lcl _id="f369">
+<charlist inherit="yes" charsubsetref="TypeTable">
+</charlist>
+<att>
+<specval attname="tabstyle" attloc="table" attval="#ITEM#TableShade">
+<charsubset>
+<highlt inherit="yes" bckclr="#f0f0f0"></charsubset>
+</att>
+<att>
+<specval attname="tabstyle" attloc="table" attval="#ITEM#TableShadeBox">
+<charsubset>
+<highlt inherit="yes" bckclr="#f0ffff"></charsubset>
+</att>
+<att>
+<specval attname="tabstyle" attloc="table" attval="#ITEM#bgyellow">
+<charsubset>
+<highlt inherit="yes" bckclr="#ffffcc"></charsubset>
+</att>
+<att>
+<specval attname="tabstyle" attloc="table" attval="#ITEM#TableSmall">
+<charsubset>
+<font inherit="yes" size="8pt"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="tbody"><?Pub Lcl _id="f370">
+<charlist inherit="yes" charsubsetref="TypeTable">
+<textbrk startln="1" endln="1"></charlist>
+</e-i-c>
+<e-i-c gi="term"><?Pub Lcl _id="f371">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="testimonium"><?Pub Lcl _id="f372">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\[The exact text here is determined from the wording attribute]\" placemnt="after">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="tgroup" occur="first"><?Pub Lcl _id="f373">
+<charlist inherit="yes" charsubsetref="TypeTable">
+<presp minimum="1.2em" nominal="1.2em" maximum="1.2em" priority="low">
+<textbrk startln="1" endln="1"></charlist>
+</e-i-c>
+<e-i-c gi="tgroup" occur="notfirst"><?Pub Lcl _id="f374">
+<charlist inherit="yes" charsubsetref="TypeTable">
+<textbrk startln="1" endln="1"></charlist>
+</e-i-c>
+<e-i-c gi="thead"><?Pub Lcl _id="f375">
+<charlist inherit="yes" charsubsetref="TypeTable">
+<textbrk startln="1" endln="1"></charlist>
+</e-i-c>
+<e-i-c gi="title"><?Pub Lcl _id="f376">
+<charlist inherit="yes" charsubsetref="TypeTitle AlignLeft">
+<font inherit="yes" style="sanserif" size="12pt" posture="italic" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="website"><?Pub Lcl _id="f377">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="coversheet"><?Pub Lcl _id="f377">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="12pt" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="coverparties"><?Pub Lcl _id="f377">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="12pt" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="training"><?Pub Lcl _id="f378">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="review"><?Pub Lcl _id="f379">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="revtitle" context="revision">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="12pt" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="profupdate"><?Pub Lcl _id="f380">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="precedent"><?Pub Lcl _id="f381">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<!-- added by CB August 2003 -->
+<e-i-c gi="title" context="precedentform"><?Pub Lcl _id="f381">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="orgprofile"><?Pub Lcl _id="f382">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="organisation"><?Pub Lcl _id="f383">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="legislation"><?Pub Lcl _id="f384">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="indvprofile"><?Pub Lcl _id="f385">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="individual"><?Pub Lcl _id="f386">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="glossary"><?Pub Lcl _id="f387">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="flowchart"><?Pub Lcl _id="f388">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="faq"><?Pub Lcl _id="f389">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="event"><?Pub Lcl _id="f390">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="draftingguide"><?Pub Lcl _id="f391">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="checklist"><?Pub Lcl _id="f392">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="case"><?Pub Lcl _id="f393">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="book"><?Pub Lcl _id="f394">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="article"><?Pub Lcl _id="f395">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="editorial"><?Pub Lcl _id="f396">
+<charlist inherit="yes" charsubsetref="TitleDiv1 AlignLeft">
+<font inherit="yes" style="sanserif" size="20pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#ANY">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div1-toc.fmt>,div1usect.txt,#CONTENT,tocfill,foliostr[BO],</div1-toc.fmt>" append="1"></charsubset>
+</att>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#NONE">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div1-toc.fmt>,div1usect.txt,#CONTENT,</div1-toc.fmt>" append="1"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="title" context="topic"><?Pub Lcl _id="f397">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="practicenote"><?Pub Lcl _id="f398">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="section3"><?Pub Lcl _id="f399">
+<charlist inherit="yes" charsubsetref="TitleDiv4 AlignLeft">
+<font inherit="yes" famname="Verdana" size="10" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#ANY">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div4-toc.fmt>,div4usect.txt,#CONTENT,tocfill,foliostr[BO],</div4-toc.fmt>" append="1"></charsubset>
+</att>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#NONE">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div4-toc.fmt>,div4usect.txt,#CONTENT,</div4-toc.fmt>" append="1"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="title" context="abstract"><?Pub Lcl _id="f400">
+<charlist inherit="yes" charsubsetref="TitleDiv2 AlignLeft">
+<font inherit="yes" style="sanserif" size="18pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#ANY">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div2-toc.fmt>,div2usect.txt,#CONTENT,tocfill,foliostr[BO],</div2-toc.fmt>" append="1"></charsubset>
+</att>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#NONE">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div2-toc.fmt>,div2usect.txt,#CONTENT,</div2-toc.fmt>" append="1"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="title" context="section2"><?Pub Lcl _id="f401">
+<charlist inherit="yes" charsubsetref="TitleDiv3 AlignLeft">
+<font inherit="yes" famname="Verdana" size="12" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#ANY">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div3-toc.fmt>,div3usect.txt,#CONTENT,tocfill,foliostr[BO],</div3-toc.fmt>" append="1"></charsubset>
+</att>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#NONE">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div3-toc.fmt>,div3usect.txt,#CONTENT,</div3-toc.fmt>" append="1"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="title" context="fulltext"><?Pub Lcl _id="f402">
+<charlist inherit="yes" charsubsetref="TitleDiv1 AlignLeft">
+<font inherit="yes" style="sanserif" size="20pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#ANY">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div1-toc.fmt>,div1usect.txt,#CONTENT,tocfill,foliostr[BO],</div1-toc.fmt>" append="1"></charsubset>
+</att>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#NONE">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div1-toc.fmt>,div1usect.txt,#CONTENT,</div1-toc.fmt>" append="1"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="title" context="section1"><?Pub Lcl _id="f403">
+<charlist inherit="yes" charsubsetref="TitleDiv2 AlignLeft">
+<font inherit="yes" famname="Verdana" size="14" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#ANY">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div2-toc.fmt>,div2usect.txt,#CONTENT,tocfill,foliostr[BO],</div2-toc.fmt>" append="1"></charsubset>
+</att>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#NONE">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div2-toc.fmt>,div2usect.txt,#CONTENT,</div2-toc.fmt>" append="1"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="title" context="parties">
+<charlist inherit="yes" charsubsetref="TitleDiv2 AlignLeft">
+<font inherit="yes" famname="Verdana" size="14" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="recitals">
+<charlist inherit="yes" charsubsetref="TitleDiv2 AlignLeft">
+<font inherit="yes" famname="Verdana" size="14" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="schedule">
+<charlist inherit="yes" charsubsetref="TitleDiv2 AlignLeft">
+<font inherit="yes" famname="Verdana" size="14" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="operative">
+<charlist inherit="yes" charsubsetref="TitleDiv2 AlignLeft">
+<font inherit="yes" famname="Verdana" size="14" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="clause">
+<charlist inherit="yes" charsubsetref="TitleDiv2 AlignLeft">
+<font inherit="yes" famname="Verdana" size="12" weight="bold">
+<highlt inherit="yes" fontclr="black">
+<textbrk startln="0" endln="0"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="subclause1">
+<charlist inherit="yes" charsubsetref="TitleDiv2 AlignLeft">
+<font inherit="yes" famname="Verdana" size="12" weight="bold">
+<highlt inherit="yes" fontclr="black">
+<textbrk startln="0"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="part">
+<charlist inherit="yes" charsubsetref="TitleDiv2 AlignLeft">
+<font inherit="yes" famname="Verdana" size="12" weight="bold">
+<highlt inherit="yes" fontclr="black">
+</charlist>
+</e-i-c>
+<e-i-c gi="title" context="legalupdate"><?Pub Lcl _id="f404">
+<charlist inherit="yes" charsubsetref="TitleDocument AlignLeft">
+<font inherit="yes" style="sanserif" size="24pt" weight="bold">
+<highlt inherit="yes" fontclr="blue"></charlist>
+</e-i-c>
+<e-i-c gi="title" context="metadata"><?Pub Lcl _id="f405">
+<charlist inherit="yes" charsubsetref="TitleDiv1 AlignLeft">
+<font inherit="yes" famname="Verdana" size="18" weight="bold">
+<highlt inherit="yes" fontclr="black"></charlist>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#ANY">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div1-toc.fmt>,div1usect.txt,#CONTENT,tocfill,foliostr[BO],</div1-toc.fmt>" append="1"></charsubset>
+</att>
+<att>
+<specval attname="print-only" attloc="system-var" attval="#NONE">
+<charsubset>
+<savetext textid="toc.txt" conrule="<div1-toc.fmt>,div1usect.txt,#CONTENT,</div1-toc.fmt>" append="1"></charsubset>
+</att>
+</e-i-c>
+<e-i-c gi="titlepg"><?Pub Lcl _id="f406">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="toc"><?Pub Lcl _id="f407">
+<charlist inherit="yes" charsubsetref="TypeParagraph">
+<usetext source="\This is a placeholder for the table of contents. You should leave this.\" placemnt="before">
+<subchars>
+<font famname="Verdana">
+</subchars>
+</usetext>
+</charlist>
+</e-i-c>
+<e-i-c gi="topic"><?Pub Lcl _id="f408">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="training"><?Pub Lcl _id="f409">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="trainingquestion">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="type"><?Pub Lcl _id="f410">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="university"><?Pub Lcl _id="f411">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="url"><?Pub Lcl _id="f412">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="volume"><?Pub Lcl _id="f413">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="website"><?Pub Lcl _id="f414">
+<charlist inherit="yes" charsubsetref="TypeDocument"></charlist>
+</e-i-c>
+<e-i-c gi="xlink:arc"><?Pub Lcl _id="f415">
+<charlist inherit="yes" charsubsetref="TypeUnstyled"></charlist>
+</e-i-c>
+<e-i-c gi="xlink:locator"><?Pub Lcl _id="f416">
+<charlist inherit="yes" charsubsetref="TypeLink LinkSource"></charlist>
+</e-i-c>
+<e-i-c gi="xlink:resource"><?Pub Lcl _id="f417">
+<charlist inherit="yes" charsubsetref="TypeInline"></charlist>
+</e-i-c>
+<e-i-c gi="xlink:title"><?Pub Lcl _id="f418">
+<charlist inherit="yes" charsubsetref="TypeInline"></charlist>
+</e-i-c>
+<e-i-c gi="xref">
+<charlist inherit="yes">
+<textbrk startln="0" endln="0">
+</charlist>
+<att>
+<fillval attname="link" fillcat="usetext" fillchar="source">
+<charsubset>
+<usetext></usetext>
+</charsubset>
+</att>
+</e-i-c>
+
+<!-- ------------------------------------------------------------------------- added May 2006 by Edin for da -->
+
+<!-- ---------------------------------------------------------------------- conditional and related elements -->
+
+<e-i-c gi="da:if" context="*">
+	<charlist inherit="yes" charsubsetref="IndentBlock">
+		<!--<font famname="Courier" size="9pt">-->
+		<font famname="Courier" size="10pt">
+		<!--<highlt fontclr="red">-->
+		<highlt fontclr="#993300">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:select">
+	<charlist charsubsetref="IndentBlock">
+		<font famname="Arial" size="12pt">
+		<highlt fontclr="green">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:choice">
+	<charlist charsubsetref="IndentBlock">
+		<font famname="Arial" size="12pt">
+		<highlt fontclr="green">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:options">
+	<charlist charsubsetref="IndentBlock">
+		<font famname="Arial" size="12pt">
+		<!--<highlt fontclr="#996633">-->
+		<highlt fontclr="#CC6600">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:option">
+	<charlist charsubsetref="IndentBlock">
+		<font famname="Arial" size="12pt">
+		<!--<highlt fontclr="#996633">-->
+		<highlt fontclr="#CC6600">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:default" context="*">
+	<charlist inherit="yes" charsubsetref="IndentBlock">
+		<!--<highlt fontclr="orange">-->
+		<highlt fontclr="#006666">
+	</charlist>
+</e-i-c>
+
+<!-- --------------------------------------------------------------------------------------- clause contexts -->
+
+<e-i-c gi="clause" context="clause * precedent">
+	<charlist inherit="yes" charsubsetref="TypeBasic">
+		<usetext source="\NOT ALLOWED>>>\" placemnt="before">
+			<subchars>
+				<font weight="bold">
+				<highlt fontclr="red">
+			</subchars>
+		</usetext>
+		<usetext source="\<<<NOT ALLOWED\" placemnt="after">
+			<subchars>
+				<font weight="bold">
+				<highlt fontclr="red">
+			</subchars>
+		</usetext>
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="clause" context="clause * precedent * da:template">
+	<charlist inherit="yes" charsubsetref="TypeBasic">
+		<usetext source="\N.N.\" placemnt="before"></usetext>
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="clause" context="clause * clause * da:template">
+	<charlist inherit="yes" charsubsetref="TypeParagraph">
+		<usetext source="\N.N.N.\" placemnt="before"></usetext>
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="clause" context="clause * clause * clause * da:template">
+	<charlist inherit="yes" charsubsetref="TypeParagraph">
+		<usetext source="\N.N.N.N.\" placemnt="before"></usetext>
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="clause" context="clause * clause * clause * clause * da:template">
+	<charlist inherit="yes" charsubsetref="TypeParagraph">
+		<usetext source="\N.N.N.N.N.\" placemnt="before"></usetext>
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="clause" context="clause * clause * clause * clause * clause * da:template">
+	<charlist inherit="yes" charsubsetref="TypeParagraph">
+		<usetext source="\N.N.N.N.N.N.\" placemnt="before"></usetext>
+	</charlist>
+</e-i-c>
+
+<!-- -------------------------------------------------------------------------------- draftingnote contexts -->
+
+<e-i-c gi="title" context="section2 * section1 * draftingnote">
+	<charlist inherit="no" charsubsetref="TypeParagraph">
+		<font famname="Arial" size="12pt" weight="bold">
+		<highlt fontclr="#dd6600">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="section2" context="* draftingnote">
+	<charlist charsubsetref="TypeParagraph">
+		<highlt fontclr="#dd6600">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="simpleplcxlink" context="* draftingnote">
+	<charlist charsubsetref="TypeParagraph">
+		<highlt fontclr="#dd6600">
+    </charlist>
+</e-i-c>
+
+<e-i-c gi="para" context="* draftingnote">
+	<charlist charsubsetref="TypeParagraph">
+		<highlt fontclr="#dd6600">
+	</charlist>
+</e-i-c>
+
+<!-- ---------------------------------------------------------------------------------------- para contexts -->
+
+<e-i-c gi="para">
+	<charlist charsubsetref="TypeParagraph">
+		<font famname="Arial" size="12pt">
+		<highlt fontclr="black">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="para" context="clause">
+	<charlist charsubsetref="TypeParagraph">
+		<font famname="Arial" size="12pt">
+		<highlt fontclr="black">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="para" context="* da:default">
+	<charlist charsubsetref="TypeParagraph">
+		<font famname="Arial" size="12pt">
+		<!--<highlt fontclr="orange">-->
+		<highlt fontclr="#006666">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="para" context="* da:select">
+	<charlist charsubsetref="TypeParagraph">
+		<font famname="Arial" size="12pt">
+		<highlt fontclr="996633">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="para" context="* da:choice">
+	<charlist charsubsetref="TypeParagraph">
+		<font famname="Arial" size="12pt">
+		<highlt fontclr="996633">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="para" context="clause * da:option">
+	<charlist charsubsetref="TypeParagraph">
+		<font famname="Arial" size="12pt">
+		<highlt fontclr="#CC6600">
+	</charlist>
+</e-i-c>
+
+<!-- ---------------------------------------------------------------------------------------- da:ex contexts -->
+
+<e-i-c gi="da:ex">
+	<charlist inherit="yes">
+		<!--<font famname="Courier" size="9pt" offset="+0.15em">-->
+		<font famname="Courier" size="10pt" offset="+0.15em">
+		<!--<highlt fontclr="blue">-->
+		<highlt fontclr="#990066">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:ex" context="da:default">
+	<charlist inherit="yes">
+		<!--<font famname="Courier" size="9pt" offset="+0.15em">-->
+		<font famname="Courier" size="10pt" offset="+0.15em">
+		<!--<highlt fontclr="orange">-->
+		<highlt fontclr="#990066">
+	</charlist>
+</e-i-c>
+
+<!-- ------------------------------------------------ plclink, xlink:locator, xref and da:attribute contexts -->
+
+<e-i-c gi="xlink:locator">
+	<charlist inherit="yes">
+		<highlt fontclr="violet">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:attribute">
+	<charlist inherit="yes">
+		<!--<highlt fontclr="gray5">-->
+		<highlt fontclr="#666666">
+	</charlist>
+</e-i-c>
+
+<!-- ---------------------------------------------------------------------------------------------- unsorted -->
+
+<e-i-c gi="da:include">
+	<charlist inherit="yes">
+		<highlt fontclr="#666666">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:withParam" context="da:include">
+	<charlist inherit="yes" >
+		<highlt fontclr="#666666">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:def">
+	<charlist inherit="yes">
+		<!--<font famname="Courier" size="9pt" offset="+0.15em">-->
+		<font famname="Courier" size="10pt" offset="+0.15em">
+		<!--<highlt fontclr="blue">-->
+		<highlt fontclr="#990066">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:arg">
+	<charlist>
+		<!--<font famname="Courier" size="9pt">-->
+		<font famname="Courier" size="10pt">
+		<highlt fontclr="brown">
+	</charlist>
+</e-i-c>
+
+<e-i-c gi="da:provenance">
+	<charlist inherit="yes" charsubsetref="IndentBlock">
+		<!--<font size="8pt">-->
+		<font size="9pt">
+		<!--<highlt fontclr="#999966">-->
+		<highlt fontclr="#996666">
+	</charlist>
+</e-i-c>
+
+<!--
+have taken this out - now allowed for US letters
+<e-i-c gi="orderedlist" context="clause * precedent">
+	<charlist inherit="yes" charsubsetref="TypeBasic">
+		<usetext source="\NOT ALLOWED>>>\" placemnt="before">
+			<subchars>
+				<font weight="bold">
+				<highlt fontclr="red">
+			</subchars>
+		</usetext>
+		<usetext source="\<<<NOT ALLOWED\" placemnt="after">
+			<subchars>
+				<font weight="bold">
+				<highlt fontclr="red">
+			</subchars>
+		</usetext>
+	</charlist>
+</e-i-c>
+-->
+
+<e-i-c gi="orderedlist" context="clause * precedent * da:template">
+	<charlist inherit="yes" charsubsetref="TypeBasic">
+		<usetext source="\N.N.\" placemnt="before"></usetext>
+	</charlist>
+</e-i-c>
+
+</styldesc>
+</outspec>
+<?Pub *0000072415>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2005, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent>
+    <atict:info tracking="off" ref="1" xmlns:atict="http://www.arbortext.com/namespace/atict"/>
+    <atict:user user="newmant" fullname="Teresa Newman" xmlns:atict="http://www.arbortext.com/namespace/atict"/>
+    <atict:user user="Sam" fullname="Sam Cotton" xmlns:atict="http://www.arbortext.com/namespace/atict"/>
+    <metadata></metadata>
+    <heading>
+        <letterhead></letterhead>
+        <minuteheader>
+            <para>Minutes of a meeting of the board of directors of [NAME OF COMPANY] (<defterm>Company</defterm>) held
+                at [PLACE] on [DATE] at [TIME].
+            </para>
+        </minuteheader>
+        <attendance>
+            <table frame="none" pgwide="1" tabstyle="tableShade"><?Pub Caret1?>
+                <tgroup cols="3">
+                    <colspec colname="c1"/>
+                    <colspec colname="c2"/>
+                    <colspec colname="c3"/>
+                    <tbody>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">PRESENT:</emphasis>
+                                </para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">NAME</emphasis>
+                                </para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">POSITION</emphasis>
+                                </para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">IN ATTENDANCE:</emphasis>
+                                </para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">NAME</emphasis>
+                                </para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">POSITION</emphasis>
+                                </para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para></para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                        </row>
+                        <row rowsep="0">
+                            <entry colsep="0" rowsep="0">
+                                <para>
+                                    <emphasis role="bold">[APOLOGIES FOR ABSENCE RECEIVED FROM:</emphasis>
+                                </para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................</para>
+                            </entry>
+                            <entry colsep="0" rowsep="0">
+                                <para>................................
+                                    <emphasis role="bold">]</emphasis>
+                                </para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </attendance>
+    </heading>
+    <operative>
+        <clause>
+            <title>[Chairperson</title>
+            <para>[NAME] was appointed chairperson of the meeting [and chaired the meeting throughout].]</para>
+            <para>
+                <emphasis role="italic">Note. This wording may not be necessary if the chairman of the company is
+                    present at the meeting and is also to chair it. However, it is often included in board minutes for
+                    the sake of clarity. In addition, if the chairman of the company is interested in the business to be
+                    conducted at the meeting, it may be appropriate for another member of the board to either chair the
+                    entire meeting or the relevant part of the meeting in which the chairman is interested. In such
+                    circumstances, the minutes should make it clear whether that person is to chair the entire meeting
+                    or only a portion of it.
+                </emphasis>
+            </para>
+        </clause>
+        <clause>
+            <title>Notice and quorum</title>
+            <subclause1>
+                <para>The chairperson reported that due notice of the committee meeting had been given and that a quorum
+                    was present. Accordingly, the chairperson declared the meeting open.
+                </para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Declarations of interest</title>
+            <subclause1>
+                <para>Each director present [declared their interest in the business to be transacted at the meeting in
+                    accordance with the requirements of section 317 of the Companies Act 1985 and the Company's articles
+                    of association
+                    <emphasis role="bold">OR</emphasis>
+                    confirmed that they had no interest, direct or indirect in any way in the business to be discussed
+                    at the meeting which they were required by the articles of association of the Company or by section
+                    317 of the Companies Act 1985 or otherwise to disclose [other than those matters which had already
+                    been disclosed]].
+                </para>
+            </subclause1>
+            <para>
+                <emphasis role="italic">An interest for the purposes of section 317 of the Companies Act 1985 is very
+                    widely drawn and includes the interests of any family member and contracts by the company with any
+                    other company of which the director is a director. Non-compliance is an offence which is liable to a
+                    fine.
+                </emphasis>
+            </para>
+            <subclause1 condition="optional">
+                <para>It was noted that pursuant to article [NUMBER] of the Company's articles of association, a
+                    director may vote and form part of the quorum in relation to any matter in which they are
+                    interested.
+                </para>
+            </subclause1>
+            <para>
+                <emphasis role="italic">Examine the company's articles of association for provisions relating to
+                    directors' interests which may prohibit them from voting. See, for example, Regulation 94 of Table A
+                    (Companies (Tables A-F) Regulations 1985, SI 1985/805, as amended).
+                </emphasis>
+            </para>
+        </clause>
+        <clause>
+            <title>Business of the meeting</title>
+            <subclause1>
+                <para>The chairperson reported that the committee had been constituted pursuant to a resolution of the
+                    board of directors passed on [DATE] to deal with the remaining formalities for completion of the
+                    Company's acquisition as a going concern of the business and assets of [FULL NAME OF COMPANY] (
+                    <defterm>Target Business</defterm>) on the terms set out in an agreement (<defterm>
+                        Agreement</defterm>) between the Company and [FULL NAME OF SELLER] (<defterm>Seller</defterm>).
+                </para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Documents produced to the meeting</title>
+            <subclause1>
+                <para>The following documents were produced to the meeting:</para>
+                <subclause2 condition="optional">
+                    <para>Minutes of an extraordinary general meeting of the Company at which the resolution(s)
+                        [approving the Agreement] and [ADD ANY OTHER RESOLUTIONS] as set out in the circular to
+                        shareholders dated [DATE] [was
+                        <emphasis role="bold">OR</emphasis>
+                        were] passed;
+                    </para>
+                </subclause2>
+                <subclause2>
+                    <para>[LIST DOCUMENTS PROVIDING EVIDENCE OF SATISFACTION OF THE CONDITIONS OF THE AGREEMENT;]</para>
+                </subclause2>
+                <subclause2>
+                    <para>[LIST COUNTERPART TRANSFERS AND ASSIGNMENTS OF SPECIFIC ASSETS REQUIRED AT COMPLETION].</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Resolutions</title>
+            <subclause1>
+                <para>Having carefully considered each of the documents produced, the meeting confirmed that the
+                    conditions [set out in Schedule [NUMBER]] of the Agreement were satisfied and resolved that the
+                    Agreement could proceed to completion.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>The meeting resolved in consideration of the sale to the Company of the Target Business to deliver
+                    to the [Seller
+                    <emphasis role="bold">OR</emphasis>
+                    Seller's solicitors] a banker's draft for &#xa3;[AMOUNT] in favour of the [Seller
+                    <emphasis role="bold">OR</emphasis>
+                    Seller's solicitors] for the amount specified in the Agreement.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>The meeting further resolved to authorise any director and in the case of any document requiring
+                    execution as a deed any two directors or any one director and the Company secretary to execute and
+                    deliver to the [Seller
+                    <emphasis role="bold">OR</emphasis>
+                    Seller's solicitors] at completion the following documents as required by the Agreement:
+                </para>
+                <para>[LIST DOCUMENTS]</para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Filing</title>
+            <subclause1>
+                <para>The chairperson instructed the Company Secretary to make all necessary and appropriate entries in
+                    the books and registers of the Company and to arrange for the necessary forms and documents to be
+                    filed.
+                </para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Close</title>
+            <subclause1>
+                <para>There was no further business and the chairperson declared the meeting closed.</para>
+            </subclause1>
+        </clause>
+    </operative>
+    <closing></closing>
+    <signature>
+        <clause>
+            <para>.............................................</para>
+            <para>Chairperson</para>
+            <para></para>
+            <para>..................................................</para>
+            <para>(Date)</para>
+        </clause>
+    </signature>
+</precedent><?Pub *0000009016 0?>

@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2005, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">--><?Pub Inc?>
+<precedent xmlns:xlink="http://www.w3.org/1999/xlink">
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>R<?Pub Caret1?>esource created</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <author>PLC Service</author>
+                <revdescription>
+                    <section1>
+                        <para>Amendments to this resource will be tracked here from XX-XXX-XXXX.</para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+        <title>Website content licence (pro-licensor)(UK)</title>
+    </metadata>
+    <coversheet>
+        <title>Website content licence</title>
+        <coverparties>
+            <title>[Party 1]</title>
+            <title>[Party 2]</title>
+        </coverparties>
+    </coversheet>
+    <toc></toc>
+    <intro></intro>
+    <parties>
+        <title>Parties</title>
+        <party executionmethod="contract" status="company">
+            <defitem id="a873492">
+                <def>
+                    <para>[FULL COMPANY NAME] incorporated and registered in [COUNTRY OF INCORPORATION] with company
+                        number [NUMBER] whose registered office is at [REGISTERED OFFICE ADDRESS]
+                    </para>
+                </def>
+                <defterm>Licensor</defterm>
+            </defitem>
+        </party>
+        <party executionmethod="contract" status="company">
+            <defitem id="a728316">
+                <def>
+                    <para>[FULL COMPANY NAME] incorporated and registered in [COUNTRY OF INCORPORATION] with company
+                        number [NUMBER] whose registered office is at [REGISTERED OFFICE ADDRESS]
+                    </para>
+                </def>
+                <defterm>Customer</defterm>
+            </defitem>
+        </party>
+    </parties>
+    <recitals>
+        <title>Background</title>
+        <clause id="a445736">
+            <para>The Customer operates the Site (defined below).</para>
+        </clause>
+        <clause id="a840945">
+            <para>The Licensor [is the proprietor of the Intellectual Property Rights (defined below) in the Content
+                (defined below) and the Customer wishes to use the Content on the Site
+                <emphasis role="bold">OR</emphasis>
+                operates a number of websites on different distribution channels offering [DESCRIBE CONTENT] (<defterm>
+                    Content</defterm>) and wishes to allow the Customer to use the Content on the Site].
+            </para>
+        </clause>
+        <clause id="a655318">
+            <para>The parties have agreed that the Licensor shall provide the Content to the Customer and allow the
+                Customer to use the Content on the Site subject to the terms and conditions set out in this licence.
+            </para>
+        </clause>
+    </recitals>
+    <operative>
+        <title>Agreed terms</title>
+        <clause id="a477780">
+            <title>Interpretation</title>
+            <subclause1 id="a744813">
+                <para>The definitions and rules of interpretation in this clause apply in this licence.</para>
+                <defitem id="a943713">
+                    <defterm>Above the Fold</defterm>
+                    <def>
+                        <para>situated within the portion of a web page that is designed to be visible on a computer
+                            screen with a resolution of 640 pixels by 480 pixels without the need for the user to scroll
+                            horizontally or vertically through the page.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a612592">
+                    <defterm>Advertisement</defterm>
+                    <def>
+                        <para>any Banner Advertisements, site sponsorship arrangements, performance-based advertising,
+                            referrals, click-throughs, leads and bounties and all other similar activities which do not
+                            produce revenues through direct selling.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a605956">
+                    <defterm>Banner Advertisement</defterm>
+                    <def>
+                        <para>an advertisement in the form of a banner appearing Above the Fold and containing a
+                            hypertext link to another website.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a360286">
+                    <defterm>Business Day</defterm>
+                    <def>
+                        <para>any day (other than a Saturday or Sunday) when banks are generally open for normal
+                            business in London.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a97298">
+                    <defterm>Change Control Procedure</defterm>
+                    <def>
+                        <para>the change control procedures set out in
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a848849" xlink:role="xref"
+                                               xlink:title="schedule 4 - Change control procedure">Schedule 4
+                                    <xref link="a848849"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            .
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a620682">
+                    <defterm>Competitor</defterm>
+                    <def>
+                        <para>in relation to:</para>
+                        <subclause2 id="a504591">
+                            <para>the Customer, [APPROPRIATE DEFINITION]; or</para>
+                        </subclause2>
+                        <subclause2 id="a234781">
+                            <para>the Licensor, [APPROPRIATE DEFINITION].</para>
+                        </subclause2>
+                    </def>
+                </defitem>
+                <defitem id="a1050526">
+                    <defterm>Confidential information</defterm>
+                    <def>
+                        <para>has the meaning given in
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a210244" xlink:role="xref"
+                                               xlink:title="clause 12.1 - The definition in th">clause 12.1
+                                    <xref link="a210244"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            .
+                        </para>
+                    </def>
+                </defitem>
+                <defitem condition="optional" id="a292153">
+                    <defterm>Content</defterm>
+                    <def>
+                        <para>all text, information, data, software, executable code, images, audio or video material in
+                            whatever medium or form provided by the Licensor to the Customer for incorporation in the
+                            Site.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a567276">
+                    <defterm>Delivery Date(s)</defterm>
+                    <def>
+                        <para>the date(s) specified in
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a915211" xlink:role="xref"
+                                               xlink:title="part 1 - Delivery dates">Part 1
+                                    <xref link="a915211"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            of
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a588136" xlink:role="xref"
+                                               xlink:title="schedule 1 - Delivery ">Schedule 1
+                                    <xref link="a588136"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            .
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a210747">
+                    <defterm>Delivery Materials</defterm>
+                    <def>
+                        <para>the materials comprising the Content in any electronic or physical form to be delivered by
+                            the Licensor to the Customer as more particularly set out in
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a199563" xlink:role="xref"
+                                               xlink:title="part 2 - Delivery materials">Part 2
+                                    <xref link="a199563"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            of
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a588136" xlink:role="xref"
+                                               xlink:title="schedule 1 - Delivery ">Schedule 1
+                                    <xref link="a588136"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            .
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a545913">
+                    <defterm>Effective Date</defterm>
+                    <def>
+                        <para>[DATE].</para>
+                    </def>
+                </defitem>
+                <defitem id="a274835">
+                    <defterm>Fees</defterm>
+                    <def>
+                        <para>the fees payable in respect of the licence of the Content [as set out in
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a949026" xlink:role="xref" xlink:title="schedule 3 - Fees">
+                                    Schedule 3
+                                    <xref link="a949026"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            <emphasis>OR</emphasis>
+                            as set out in
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a586365" xlink:role="xref"
+                                               xlink:title="clause 5.1 - The Licensor shall i">clause 5.1
+                                    <xref link="a586365"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            ] together with any charges arising from the Change Control Procedures.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a353649">
+                    <defterm>Force Majeure Event</defterm>
+                    <def>
+                        <para>has the meaning given in
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a657089" xlink:role="xref"
+                                               xlink:title="clause 11.1 - The definition in th">clause 11.1
+                                    <xref link="a657089"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            .
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a851626">
+                    <defterm>Intellectual Property Rights</defterm>
+                    <def>
+                        <para>all intellectual property rights wherever in the world arising, whether registered or
+                            unregistered (and including any application), including copyright, know-how, confidential
+                            information, trade secrets, business names and domain names, Marks, patents, petty patents,
+                            utility models, design rights, semi-conductor topography rights, database rights and all
+                            rights in the nature of unfair competition rights or rights to sue for passing off.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a623274">
+                    <defterm>Marks</defterm>
+                    <def>
+                        <para>any and all trade marks, trade names, service marks, trade dress, logos, URLs or
+                            identifying slogans of a party to this licence, whether or not registered.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a573912">
+                    <defterm>Net Advertising Revenues</defterm>
+                    <def>
+                        <para>the gross revenues recognised by the Customer from the sale of Advertisements on the Site,
+                            less reasonable agency fees, commissions, credits due to cancellations and provision for bad
+                            debt.
+                        </para>
+                    </def>
+                </defitem>
+                <defitem id="a456418">
+                    <defterm>Site</defterm>
+                    <def>
+                        <para>the website at [CUSTOMER&#x2019;S URL].</para>
+                    </def>
+                </defitem>
+                <defitem id="a808901">
+                    <defterm>Territory</defterm>
+                    <def>
+                        <para>[SPECIFY TERRITORY].</para>
+                    </def>
+                </defitem>
+                <defitem id="a751449">
+                    <defterm>Visitor</defterm>
+                    <def>
+                        <para>a visitor to the Site.</para>
+                    </def>
+                </defitem>
+                <defitem id="a189385">
+                    <defterm>Visitor Data</defterm>
+                    <def>
+                        <para>all information provided by Visitors when visiting the Site.</para>
+                    </def>
+                </defitem>
+            </subclause1>
+            <subclause1 id="a610001">
+                <para>Clause and schedule headings do not affect the interpretation of this licence.</para>
+            </subclause1>
+            <subclause1 id="a82571">
+                <para>References to clauses and schedules are (unless otherwise provided) references to the clauses and
+                    schedules of this licence.
+                </para>
+            </subclause1>
+            <subclause1 id="a196021">
+                <para>In the event and to the extent only of any conflict between the clauses and the schedules, the
+                    clauses shall prevail.
+                </para>
+            </subclause1>
+            <subclause1 id="a121252">
+                <para>Words in the singular include the plural and those in the plural include the singular.</para>
+            </subclause1>
+            <subclause1 id="a345559">
+                <para>A reference to a particular law is a reference to it as it is in force for the time being taking
+                    account of any amendment, extension, application or re-enactment and includes any subordinate
+                    legislation for the time being in force made under it.
+                </para>
+            </subclause1>
+            <subclause1 id="a407056">
+                <para>References to
+                    <emphasis role="bold">including</emphasis>
+                    and
+                    <emphasis role="bold">include(s)</emphasis>
+                    mean respectively including without limitation and include(s) without limitation.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>A
+                    <emphasis role="bold">person</emphasis>
+                    includes a corporate or unincorporated body.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>
+                    <emphasis role="bold">Writing</emphasis>
+                    or
+                    <emphasis role="bold">written</emphasis>
+                    includes faxes and email.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a691407">
+            <title>Grant of licence</title>
+            <subclause1 id="a103934">
+                <para>Subject to
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a131933" xlink:role="xref"
+                                       xlink:title="clause 2.2 - The licence granted ">clause 2.2
+                            <xref link="a131933"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    , during the term of this licence, the Licensor grants to the Customer a [non-exclusive] licence to
+                    distribute the Content in the Territory on the Site in return for the payment by the Customer of the
+                    Fees as set out in
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a447507" xlink:role="xref"
+                                       xlink:title="clause 5 - Fees and payment">clause 5
+                            <xref link="a447507"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    . [For the purposes of this licence, the Customer shall only be taken to have used the Content in a
+                    particular jurisdiction where the Content or the Site are directed at that country. Access by a
+                    Visitor outside the Territory shall not constitute a breach of the licence terms in this licence.]
+                </para>
+            </subclause1>
+            <subclause1 id="a131933">
+                <para>The licence granted under
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a103934" xlink:role="xref" xlink:title="clause 2.1 - Subject to ">
+                            clause 2.1
+                            <xref link="a103934"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    permits the Customer to:
+                </para>
+                <subclause2 id="a313515">
+                    <para>electronically reproduce and distribute, and publicly perform and display, the Content on the
+                        Site; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a503188">
+                    <para>reproduce and distribute through any media now known, or hereafter developed, excerpts of the
+                        Content in Advertisements for, and in marketing and promotional materials related to, the Site.
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a403011">
+                <para>The rights granted pursuant to
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a131933" xlink:role="xref"
+                                       xlink:title="clause 2.2 - The licence granted ">clause 2.2
+                            <xref link="a131933"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    are subject to any guidelines that may from time to time be established by the Licensor with respect
+                    to the Content.
+                </para>
+            </subclause1>
+            <subclause1 id="a969121">
+                <para>The Licensor may request, based on reasonable objections, the removal of, or editorial revisions
+                    to, any of the Content that is published on the Site. The Customer agrees to take appropriate
+                    remedial action with respect to any such request within 72 hours of receipt of such request.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a270790">
+            <title>Parties&#x2019; responsibilities</title>
+            <subclause1 id="a631364">
+                <para>The Licensor shall deliver the Delivery Materials to the Customer on or before the Delivery
+                    Date(s).
+                </para>
+            </subclause1>
+            <subclause1 id="a1018482">
+                <para>The Customer shall include the Content on the Site [and shall use its best endeavours to sell
+                    Advertisements on the Site].
+                </para>
+            </subclause1>
+            <subclause1 id="a388285">
+                <para>The Customer shall not include all or any part of the Content on the Site without proper
+                    attribution to the Licensor, or without including the Licensor&#x2019;s copyright notice or any
+                    other notices the Licensor may require, as described in the Delivery Materials from time to time.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a278880">
+            <title>Marks</title>
+            <subclause1 id="a75935">
+                <para>Each party acknowledges and agrees for all purposes that all Marks associated with the other party
+                    or the other party&#x2019;s services, products, literature, promotional materials or otherwise,
+                    whether or not registered, constitute the other party&#x2019;s exclusive property.
+                </para>
+            </subclause1>
+            <subclause1 id="a684770">
+                <para>Subject to
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a795946" xlink:role="xref"
+                                       xlink:title="clause 4.3 - All uses by the Lice">clause 4.3
+                            <xref link="a795946"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    to
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a582319" xlink:role="xref"
+                                       xlink:title="clause 4.7 - At no time during th">clause 4.7
+                            <xref link="a582319"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    , each party (<defterm>Proprietor</defterm>) grants to the other party (<defterm>Licensee</defterm>)
+                    a non-exclusive, non-transferable, non-assignable, royalty-free licence to use those Marks of the
+                    Proprietor set out in
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a346510" xlink:role="xref" xlink:title="schedule 2 - Marks">Schedule
+                            2
+                            <xref link="a346510"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    . The Licensee shall use such Marks solely for purposes of performing its obligations under this
+                    licence, including in connection with any advertising, marketing and promotional activities
+                    undertaken and materials developed pursuant to this licence.
+                </para>
+            </subclause1>
+            <subclause1 id="a795946">
+                <para>All uses by the Licensee of the Proprietor&#x2019;s Marks shall be Above the Fold and in
+                    accordance with such quality control standards as the Proprietor may promulgate from time to time.
+                    The Licensee shall refrain from all uses of the Proprietor&#x2019;s Marks to which the Proprietor
+                    objects.
+                </para>
+            </subclause1>
+            <subclause1 id="a806627">
+                <para>All uses of the Proprietor&#x2019;s Marks by the Licensee, including all goodwill arising, shall
+                    accrue solely to the benefit of the Proprietor.
+                </para>
+            </subclause1>
+            <subclause1 id="a774583">
+                <para>All promotional literature and other materials prepared by either party in connection with its
+                    promotional obligations under this licence shall bear appropriate copyright and/or trade mark
+                    notices as prescribed by the party whose content or branding is included therein.
+                </para>
+            </subclause1>
+            <subclause1 id="a870715">
+                <para>The Licensee shall not use, register or attempt to register in any jurisdiction, or otherwise
+                    appropriate or adopt, any name, mark or logo that is confusingly similar to the Proprietor&#x2019;s
+                    Marks.
+                </para>
+            </subclause1>
+            <subclause1 id="a582319">
+                <para>At no time during the term of this licence or thereafter shall the Licensee attack, challenge or
+                    file any application with respect to any Proprietor Mark.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a447507">
+            <title>Fees and payment</title>
+            <subclause1 id="a586365">
+                <para>[The Licensor shall issue a monthly VAT invoice in respect of the Fees, and the Customer shall pay
+                    to the Licensor the Fees set out in the Licensor&#x2019;s invoice within 30 days of the date of the
+                    Licensor&#x2019;s invoice.
+                </para>
+                <para>
+                    <emphasis role="bold">OR</emphasis>
+                </para>
+                <para>No later than 45 days following the end of each calendar quarter, the Customer shall pay to the
+                    Licensor a revenue share (<defterm>Fees</defterm>) computed on Net Advertising Revenues from the
+                    preceding calendar quarter. The Fees payable to the Licensor shall be equal to [PERCENTAGE]% of the
+                    aggregate Net Advertising Revenues from the applicable quarter.]
+                </para>
+            </subclause1>
+            <subclause1 id="a169793">
+                <para>All Fees are [exclusive] of VAT.</para>
+            </subclause1>
+            <subclause1 id="a419508">
+                <para>If the Customer fails to pay any amount payable by it under this licence, the Licensor shall be
+                    entitled, but not obliged, to charge the Customer interest on the overdue amount. Such interest
+                    shall be payable by the Customer forthwith on demand, from the due date up to the date of actual
+                    payment, after as well as before judgment, at the rate of [PERCENTAGE]% per annum above the base
+                    rate for the time being of [FULL NAME OF BANK]. Such interest shall accrue on a daily basis and be
+                    compounded quarterly. The Licensor reserves the right to claim interest under the Late Payment of
+                    Commercial Debts (Interest) Act 1998.
+                </para>
+            </subclause1>
+            <subclause1 condition="optional" id="a404782">
+                <para>The Customer shall keep proper and accurate records of traffic statistics and [SPECIFY ANY OTHER
+                    RELEVANT STATISTICAL INFORMATION] for the Site and payments which relate to this licence, and the
+                    Licensor has the right to audit those records on giving seven days written notice to the Customer.
+                    At the Licensor&#x2019;s option, this audit may cover documents only or may include onsite audit,
+                    subject to the Licensor notifying the Customer of the identity of any onsite auditors and giving
+                    confirmation that any external auditors have entered into appropriate confidentiality agreements.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a714540">
+            <title>Warranties</title>
+            <subclause1 id="a785264">
+                <para>Each of the parties warrants to the other that it has full power and authority to enter into and
+                    perform this licence.
+                </para>
+            </subclause1>
+            <subclause1 id="a838671">
+                <para>The Licensor warrants to the Customer that the Content, the Licensor&#x2019;s Marks and the
+                    Delivery Materials:
+                </para>
+                <subclause2 id="a678451">
+                    <para>do not infringe in the UK any third party's Intellectual Property Rights, other proprietary
+                        rights or rights of privacy;
+                    </para>
+                </subclause2>
+                <subclause2 id="a159112">
+                    <para>do not violate any law, statute, ordinance or regulation in the UK (including the laws and
+                        regulations governing export control);
+                    </para>
+                </subclause2>
+                <subclause2 id="a451552">
+                    <para>are not defamatory, trade libellous, unlawfully threatening or unlawfully harassing;</para>
+                </subclause2>
+                <subclause2 id="a308650">
+                    <para>are not obscene or pornographic and do not contain child pornography;</para>
+                </subclause2>
+                <subclause2 id="a1002936">
+                    <para>do not violate any UK laws regarding unfair competition, anti-discrimination or false
+                        advertising; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a654498">
+                    <para>do not, to the best of the Licensor's knowledge, contain any viruses or other computer
+                        programming routines that are intended to damage, detrimentally interfere with, surreptitiously
+                        intercept or expropriate any system, data or personal information.
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a699814">
+                <para>This licence sets out the full extent of the Licensor&#x2019;s obligations and liabilities in
+                    respect of the supply of the Licensor&#x2019;s Marks, the Content and the Delivery Materials. All
+                    conditions, warranties or other terms concerning the supply, purported supply or non-supply of the
+                    Licensor&#x2019;s Marks, the Content or Delivery Materials which might otherwise be implied into
+                    this licence or any collateral contract (whether by statute or otherwise) are hereby expressly
+                    excluded.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a95024">
+            <title>Limitation of remedies and liability</title>
+            <subclause1 id="a643816">
+                <para>Nothing in this licence shall operate to exclude or limit the Licensor&#x2019;s liability for:
+                </para>
+                <subclause2 id="a731858">
+                    <para>death or personal injury caused by its negligence; or</para>
+                </subclause2>
+                <subclause2 id="a998891">
+                    <para>any breach of the terms implied by section 12 of the Sale of Goods Act 1979 or section 2 of
+                        the Supply of Goods and Services Act 1982; or
+                    </para>
+                </subclause2>
+                <subclause2 id="a197792">
+                    <para>fraud; or</para>
+                </subclause2>
+                <subclause2 id="a601091">
+                    <para>any other liability which cannot be excluded or limited under applicable law.</para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a860034">
+                <para>The Licensor shall not be liable to the Customer for any damage to software, damage to or loss of
+                    data, loss of profit, anticipated profits, revenues, anticipated savings, goodwill or business
+                    opportunity, or for any indirect or consequential loss or damage.
+                </para>
+            </subclause1>
+            <subclause1 id="a614363">
+                <para>Subject to
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a643816" xlink:role="xref"
+                                       xlink:title="clause 7.1 - Nothing in this agre">clause 7.1
+                            <xref link="a643816"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    , the Licensor&#x2019;s aggregate liability in respect of claims based on events in any calendar
+                    year arising out of or in connection with this licence or any collateral contract, whether in
+                    contract or tort (including negligence) or otherwise, shall in no circumstances exceed [PERCENTAGE]%
+                    of the total Fees payable by the Customer to the Licensor under this licence in that calendar year.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a351375">
+            <title>Intellectual property rights</title>
+            <subclause1 id="a874760">
+                <para>The Customer retains all Intellectual Property Rights in the Site and its Marks, and nothing in
+                    this licence shall be taken to grant any rights to the Licensor in respect of such Intellectual
+                    Property Rights.
+                </para>
+            </subclause1>
+            <subclause1 id="a304605">
+                <para>Title to and ownership of all Intellectual Property Rights embodied by or otherwise incorporated
+                    into the Content shall remain with the Licensor. Except as expressly provided in this licence,
+                    nothing shall be construed to grant to the Customer any right, title or interest in or to the
+                    Content.
+                </para>
+            </subclause1>
+            <subclause1 id="a280651">
+                <para>Any and all Visitor Data (such as name, address and e-mail address) that is collected through any
+                    user registration process or otherwise shall be owned by the Customer.
+                </para>
+            </subclause1>
+            <subclause1 id="a821354">
+                <para>The Customer shall indemnify the Licensor against all costs, claims, damages, losses and expenses
+                    arising as a result of any claim or action that the Customer&#x2019;s Marks infringe any UK
+                    Intellectual Property Rights belonging to a third party.
+                </para>
+            </subclause1>
+            <subclause1 id="a464825">
+                <para>The Licensor shall indemnify the Customer against all costs, claims, damages, losses and expenses
+                    arising as a result of any claim or action that the Content or the Delivery Materials infringe any
+                    UK Intellectual Property Rights belonging to a third party.
+                </para>
+            </subclause1>
+            <subclause1 id="a799991">
+                <para>The indemnity in
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a464825" xlink:role="xref"
+                                       xlink:title="clause 8.5 - The Licensor shall i">clause 8.5
+                            <xref link="a464825"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    is subject to the following conditions:
+                </para>
+                <subclause2 id="a528913">
+                    <para>the Customer promptly notifies the Licensor in writing of the claim or action;</para>
+                </subclause2>
+                <subclause2 id="a607727">
+                    <para>the Customer makes no admissions or settlements without the Licensor&#x2019;s prior written
+                        consent;
+                    </para>
+                </subclause2>
+                <subclause2 id="a105705">
+                    <para>the Customer gives the Licensor all information and assistance that the Licensor may
+                        reasonably require; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a611772">
+                    <para>the Customer allows the Licensor complete control over any negotiations, litigation and the
+                        settlement of any claim or action.
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a827990">
+                <para>The indemnity in
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a464825" xlink:role="xref"
+                                       xlink:title="clause 8.5 - The Licensor shall i">clause 8.5
+                            <xref link="a464825"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    may not be invoked to the extent that the action or claim arises out of the Licensor&#x2019;s
+                    compliance with any designs, specifications, materials or instructions of the Customer.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a710495">
+            <title>Term and termination</title>
+            <subclause1 id="a1062979">
+                <para>This licence shall commence on the Effective Date and shall (subject to earlier termination
+                    pursuant to this
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a710495" xlink:role="xref"
+                                       xlink:title="clause 9 - Term and termination">clause 9
+                            <xref link="a710495"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    ) continue from year to year indefinitely, unless terminated by either party by notice in writing to
+                    the other party at least one month prior to any anniversary of the Effective Date.
+                </para>
+            </subclause1>
+            <subclause1 id="a1005527">
+                <para>Either party may terminate this licence immediately at any time by written notice to the other
+                    party if:
+                </para>
+                <subclause2 id="a443462">
+                    <para>that other party commits any material breach of its obligations under this licence which (if
+                        remediable) is not remedied within 14 days after the service of written notice specifying the
+                        breach and requiring it to be remedied;
+                    </para>
+                </subclause2>
+                <subclause2 id="a864079">
+                    <para>that other party:</para>
+                    <subclause3 id="a336649">
+                        <para>ceases to trade (either in whole, or as to any part or division involved in the
+                            performance of this licence); or
+                        </para>
+                    </subclause3>
+                    <subclause3>
+                        <para>becomes insolvent or unable to pay its debts within the meaning of the insolvency
+                            legislation applicable to that party; or
+                        </para>
+                    </subclause3>
+                    <subclause3 id="a184519">
+                        <para>a person (including the holder of a charge or other security interest) is appointed to
+                            manage or take control of the whole or part of the business or assets of that party, or
+                            notice of an intention to appoint such a person is given or documents relating to such an
+                            appointment are filed with any court; or
+                        </para>
+                    </subclause3>
+                    <subclause3 id="a109750">
+                        <para>the ability of that party&#x2019;s creditors to take any action to enforce their debts is
+                            suspended, restricted or prevented or some or all of that party&#x2019;s creditors accept,
+                            by agreement or pursuant to a court order, an amount of less than the sums owing to them in
+                            satisfaction of those sums; or
+                        </para>
+                    </subclause3>
+                    <subclause3 id="a334058">
+                        <para>any process is instituted which could lead to that party being dissolved and its assets
+                            being distributed to its creditors, shareholders or other contributors (other than for the
+                            purpose of solvent amalgamation or reconstruction).
+                        </para>
+                    </subclause3>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a661134">
+                <para>On expiry or termination of this licence:</para>
+                <subclause2 id="a945484">
+                    <para>all provisions of this licence shall cease to have effect, except that any provision which can
+                        reasonably inferred as continuing, or is expressly stated to continue, shall continue in full
+                        force and effect; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a358012">
+                    <para>the Customer shall promptly return to the Licensor, or certify the destruction of, the Content
+                        and all Delivery Materials.
+                    </para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a120432">
+            <title>Change control</title>
+            <subclause1 id="a302014">
+                <para>Any request to change the nature or quality of the Content shall be processed in accordance with
+                    the Change Control Procedure set out in
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a848849" xlink:role="xref"
+                                       xlink:title="schedule 4 - Change control procedure">Schedule 4
+                            <xref link="a848849"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    .
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a757266">
+            <title>Force majeure</title>
+            <subclause1 id="a657089">
+                <para>The definition in this clause applies in this licence.</para>
+                <defitem id="a223200">
+                    <defterm>Force Majeure Event</defterm>
+                    <def>
+                        <para>any event arising that is beyond the reasonable control of the affected party (including
+                            any industrial dispute affecting any third party, governmental regulations, fire, flood,
+                            disaster, civil riot or war).
+                        </para>
+                    </def>
+                </defitem>
+            </subclause1>
+            <subclause1 id="a259289">
+                <para>A party who becomes aware of a Force Majeure Event which gives rise to, or which is likely to give
+                    rise to, any failure or delay to perform its obligations under this licence shall forthwith notify
+                    the other and shall inform the other of the period for which it is estimated that such failure or
+                    delay shall continue. The affected party shall take reasonable steps to mitigate the effect of the
+                    Force Majeure Event.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a823125">
+            <title>Confidentiality</title>
+            <subclause1 id="a210244">
+                <para>The definition in this clause applies in this licence.</para>
+                <defitem id="a314466">
+                    <defterm>Confidential Information</defterm>
+                    <def>
+                        <para>all information, whether technical or commercial (including all specifications, drawings
+                            and designs disclosed in writing, on disc, orally or by inspection of documents or pursuant
+                            to discussions between the parties), where the information is:
+                        </para>
+                        <subclause2 id="a470641">
+                            <para>identified at the time of disclosure as confidential; or</para>
+                        </subclause2>
+                        <subclause2 id="a267696">
+                            <para>ought reasonably to be considered confidential given the nature of the information or
+                                the circumstances of disclosure.
+                            </para>
+                        </subclause2>
+                    </def>
+                </defitem>
+            </subclause1>
+            <subclause1 id="a876531">
+                <para>Each party shall protect the Confidential Information of the other party against unauthorised
+                    disclosure by using the same degree of care as it takes to preserve and safeguard its own
+                    confidential information of a similar nature, being at least a reasonable degree of care.
+                </para>
+            </subclause1>
+            <subclause1 id="a1050023">
+                <para>Confidential Information may be disclosed by the receiving party to its employees, affiliates and
+                    professional advisers, provided that the recipient is bound in writing to maintain the
+                    confidentiality of the Confidential Information received.
+                </para>
+            </subclause1>
+            <subclause1 id="a1060705">
+                <para>The obligations set out in this clause 12 shall not apply to Confidential Information which the
+                    receiving party can demonstrate:
+                </para>
+                <subclause2 id="a1028661">
+                    <para>is or has become publicly known other than through breach of this clause 12; or</para>
+                </subclause2>
+                <subclause2 id="a124794">
+                    <para>was in possession of the receiving party prior to disclosure by the other party; or</para>
+                </subclause2>
+                <subclause2 id="a570818">
+                    <para>was received by the receiving party from an independent third party who has full right of
+                        disclosure; or
+                    </para>
+                </subclause2>
+                <subclause2 id="a701585">
+                    <para>was independently developed by the receiving party; or</para>
+                </subclause2>
+                <subclause2 id="a840442">
+                    <para>was required to be disclosed by a governmental authority, provided that the party subject to
+                        such requirement to disclose gives the other prompt written notice of the requirement.
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a423871">
+                <para>The obligations of confidentiality in this clause 12 shall not be affected by the expiry or
+                    termination of this licence.
+                </para>
+            </subclause1>
+            <subclause1 condition="optional" id="a673586">
+                <para>This clause 12 supersedes the terms of the non-disclosure agreement between the Licensor and the
+                    Customer dated [DATE], which is hereby terminated.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a658860">
+            <title>Notices</title>
+            <subclause1 id="a968618">
+                <para>A notice given under this licence:</para>
+                <subclause2 id="a1039342">
+                    <para>shall be in writing in the English language (or be accompanied by a properly prepared
+                        translation into English);
+                    </para>
+                </subclause2>
+                <subclause2 id="a92750">
+                    <para>shall be sent for the attention of the person, and to the address, fax number or e-mail
+                        address given in this clause 13 (or such other person, address, fax number or e-mail address as
+                        the receiving party may have notified to the other, such notice to take effect five days from
+                        the notice being received); and
+                    </para>
+                </subclause2>
+                <subclause2 id="a932529">
+                    <para>shall be:</para>
+                    <subclause3 id="a413189">
+                        <para>delivered personally; or</para>
+                    </subclause3>
+                    <subclause3 id="a705630">
+                        <para>sent by fax or e-mail; or</para>
+                    </subclause3>
+                    <subclause3 id="a562728">
+                        <para>sent by pre-paid first class post, recorded delivery or registered post; or</para>
+                    </subclause3>
+                    <subclause3 id="a257015">
+                        <para>(if the notice is to be served by post outside the country from which it is sent) sent by
+                            registered airmail.
+                        </para>
+                    </subclause3>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a908575">
+                <para>The addresses for the service of notice are:</para>
+                <subclause2 id="a953892">
+                    <para>for the Customer:</para>
+                    <para xml:space="preserve">Address:
+For&#xa0;the&#xa0;attention&#xa0;of:
+Fax&#xa0;number:
+E-mail:</para>
+                </subclause2>
+                <subclause2 id="a349101">
+                    <para>for the Licensor:</para>
+                    <para xml:space="preserve">Address:
+For&#xa0;the&#xa0;attention&#xa0;of:
+Fax&#xa0;number:
+E-mail:</para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a897894">
+                <para>A notice is deemed to have been received:</para>
+                <subclause2 id="a985936">
+                    <para>if delivered personally, at the time of delivery; or</para>
+                </subclause2>
+                <subclause2 id="a252970">
+                    <para>in the case of fax or e-mail, at the time of transmission, provided a confirmatory copy is
+                        sent by pre-paid first-class post or by personal delivery before the end of the next Business
+                        Day; or
+                    </para>
+                </subclause2>
+                <subclause2 id="a186291">
+                    <para>in the case of pre-paid first class post, recorded delivery or registered post, 48 hours from
+                        the date of posting; or
+                    </para>
+                </subclause2>
+                <subclause2 id="a855169">
+                    <para>in the case of registered airmail, five days from the date of posting; or</para>
+                </subclause2>
+                <subclause2 id="a114112">
+                    <para>if deemed receipt under the previous paragraphs of this clause 13.3 is not within business
+                        hours (meaning 9.00 am to 5.30 pm Monday to Friday on a day that is not a public holiday in the
+                        place of receipt), when business next starts in the place of receipt.
+                    </para>
+                </subclause2>
+            </subclause1>
+            <subclause1 id="a602862">
+                <para>To prove service, it is sufficient to prove that the notice was transmitted by fax to the correct
+                    fax number or e-mail address of the relevant party or, in the case of post, that the envelope
+                    containing the notice was properly addressed and posted.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a605453">
+            <title>Publicity</title>
+            <subclause1 id="a128839">
+                <para>All media releases, public announcements and public disclosures by either party relating to this
+                    licence or its subject matter, including promotional or marketing material, shall be co-ordinated
+                    with and approved jointly by both parties prior to release.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a293104">
+            <title>Assignment</title>
+            <subclause1 id="a534729">
+                <para>The Customer may not assign or transfer any of its rights or obligations under this licence
+                    without the prior written consent of the Licensor, [such consent not to be unreasonably withheld or
+                    delayed]. The Licensor may assign or transfer its rights under this licence without consent,
+                    provided that it gives advance notice to the Customer.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a75432">
+            <title>Entire agreement</title>
+            <subclause1 id="a453324">
+                <para>Except as set out in this clause 16, neither party shall have any remedy in respect of any untrue
+                    statement (whether written or oral) made to it upon which it relied in entering into this licence (
+                    <defterm>Misrepresentation</defterm>), and neither party shall have any liability other than
+                    pursuant to the express terms of this licence. Nothing in this licence shall exclude or limit either
+                    party's liability for any Misrepresentation made knowing that it was untrue. Each party's liability
+                    for Misrepresentation as to a fundamental matter, including as to a matter fundamental to that
+                    party's ability to perform its obligations under this licence, shall be subject to the limit set out
+                    in
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a614363" xlink:role="xref" xlink:title="clause 7.3 - Subject to ">
+                            clause 7.3
+                            <xref link="a614363"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    .
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a1054069">
+            <title>Third party rights</title>
+            <subclause1 id="a517411">
+                <para>[This licence is made solely for the benefit of the parties to it and is not intended to benefit,
+                    or be enforceable by, any other person.]
+                </para>
+                <para>
+                    <emphasis role="bold">OR</emphasis>
+                </para>
+                <para>[Subject to
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a861805" xlink:role="xref"
+                                       xlink:title="clause 17.2 - Clauses [CLAUSES] ar">clause 17.2
+                            <xref link="a861805"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    , this licence is made solely for the benefit of the parties to it and is not intended to benefit,
+                    or be enforceable by, anyone else.
+                </para>
+            </subclause1>
+            <subclause1 id="a861805">
+                <para>Clauses [CLAUSES] are also intended to benefit [THIRD PARTIES].</para>
+            </subclause1>
+            <subclause1 id="a359783">
+                <para>The right of the parties to terminate, rescind or agree any amendment, variation, waiver or
+                    settlement under this licence is not subject to the consent of any person who is not a party to this
+                    licence.]
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a865850">
+            <title>Variation and waiver</title>
+            <subclause1 id="a82068">
+                <para>A variation of this licence shall be in writing and signed by or on behalf of both parties.</para>
+            </subclause1>
+            <subclause1 id="a964573">
+                <para>A waiver of any right under this licence is only effective if it is in writing and applies only to
+                    the party to whom the waiver is addressed and the circumstances for which it is given. No waiver
+                    shall be implied by taking or failing to take any other action.
+                </para>
+            </subclause1>
+            <subclause1 id="a317057">
+                <para>Unless specifically provided otherwise, rights arising under this licence are cumulative and do
+                    not exclude rights provided by law.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a994026">
+            <title>Severance</title>
+            <subclause1 id="a431961">
+                <para>If any provision (or part of a provision) of this licence is found by any court or administrative
+                    body of competent jurisdiction to be invalid, unenforceable or illegal, the other provisions shall
+                    remain in force.
+                </para>
+            </subclause1>
+            <subclause1 id="a118157">
+                <para>If any invalid, unenforceable or illegal provision would be valid, enforceable or legal if some
+                    part of it were deleted, the provision shall apply with whatever modification is necessary to give
+                    effect to the commercial intention of the parties.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a325148">
+            <title>Governing law and jurisdiction</title>
+            <subclause1 id="a438597">
+                <para>This licence and any disputes or claims arising out of or in connection with its subject matter
+                    are governed by and construed in accordance with the law of England.
+                </para>
+            </subclause1>
+            <subclause1 id="a363828">
+                <para>The parties irrevocably agree that the courts of England have exclusive jurisdiction to settle any
+                    dispute or claim that arises out of or in connection with this licence.
+                </para>
+            </subclause1>
+        </clause>
+    </operative>
+    <testimonium wording="contract"></testimonium>
+    <schedule id="a588136">
+        <title>Delivery</title>
+        <part id="a915211">
+            <title>Delivery dates</title>
+        </part>
+        <part id="a199563">
+            <title>Delivery materials</title>
+        </part>
+    </schedule>
+    <schedule id="a346510">
+        <title>Marks</title>
+        <part id="a374509">
+            <title>Licensor&#x2019;s marks</title>
+            <para>[DETAILS]</para>
+        </part>
+        <part id="a556092">
+            <title>Customer&#x2019;s marks</title>
+            <para>[DETAILS]</para>
+        </part>
+    </schedule>
+    <schedule id="a949026">
+        <title>Fees</title>
+    </schedule>
+    <schedule id="a848849">
+        <title>Change control procedure</title>
+        <clause id="a414960">
+            <para>The Licensor and the Customer shall discuss any change to this licence (<defterm>Change</defterm>)
+                proposed by either and such discussion shall result in either:
+            </para>
+            <subclause1 id="a451050">
+                <subclause2 id="a77203">
+                    <para>a written request for a Change by the Customer; or</para>
+                </subclause2>
+                <subclause2 id="a198743">
+                    <para>a written recommendation for a Change by the Licensor,</para>
+                </subclause2>
+                <para>or, if neither the Customer nor the Licensor wishes to submit a request or recommendation, the
+                    proposal for the Change shall not proceed.
+                </para>
+            </subclause1>
+        </clause>
+        <clause id="a568544">
+            <para>Where a written request for a Change is received from the Customer, the Licensor shall, unless
+                otherwise agreed, submit a Change control note (<emphasis role="bold">CCN</emphasis>) to the Customer
+                within the period agreed between them or, if no such period is agreed, within five Business Days from
+                the date of receipt of such request for a Change[, or inform the Customer that the Licensor is not able
+                to comply with such written request for a Change].
+            </para>
+        </clause>
+        <clause id="a724719">
+            <para>A written recommendation for a Change by the Licensor shall be submitted as a CCN directly to the
+                Customer at the time of such recommendation.
+            </para>
+        </clause>
+        <clause id="a521774">
+            <para>Each CCN shall contain:</para>
+            <subclause1 id="a130610">
+                <subclause2 id="a1038522">
+                    <para>the title of the Change;</para>
+                </subclause2>
+                <subclause2 id="a1049203">
+                    <para>the originator and the date of the request or recommendation for the Change;</para>
+                </subclause2>
+                <subclause2 id="a1017160">
+                    <para>the reason for the Change;</para>
+                </subclause2>
+                <subclause2 id="a113292">
+                    <para>the full details of the Change, including any specifications and user facilities;</para>
+                </subclause2>
+                <subclause2 id="a824896">
+                    <para>the price, if any, of or associated with the Change;</para>
+                </subclause2>
+                <subclause2 id="a955663">
+                    <para>a timetable for implementation, together with any proposals for acceptance of the Change;
+                    </para>
+                </subclause2>
+                <subclause2 id="a94521">
+                    <para>the impact, if any, of the Change on other aspects of this licence, including:</para>
+                    <subclause3 id="a412369">
+                        <para>the Fees;</para>
+                    </subclause3>
+                    <subclause3 id="a927664">
+                        <para>the contractual documentation; and</para>
+                    </subclause3>
+                    <subclause3 id="a912937">
+                        <para>staff resources;</para>
+                    </subclause3>
+                </subclause2>
+                <subclause2 id="a222697">
+                    <para>the date of expiry of validity of the CCN (which shall not be less than [NUMBER] working
+                        days); and
+                    </para>
+                </subclause2>
+                <subclause2 id="a1027841">
+                    <para>provision for signature of the CCN by the Customer and the Licensor.</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a81248">
+            <para>For each CCN submitted, the Customer shall, within the period of validity of the CCN as set out in
+                <plcxlink>
+                    <xlink:locator xlink:href="#a222697" xlink:role="xref"
+                                   xlink:title="paragraph 4.1 (h) - the date of expiry of val">paragraph 4.1(h)
+                        <xref link="a222697"></xref>
+                    </xlink:locator>
+                </plcxlink>
+                of this Schedule 4:
+            </para>
+            <subclause1 id="a921028">
+                <subclause2 id="a401688">
+                    <para>allocate a sequential number to the CCN;</para>
+                </subclause2>
+                <subclause2 id="a959708">
+                    <para>evaluate the CCN, and as appropriate either:</para>
+                    <subclause3 id="a551227">
+                        <para>request further information; or</para>
+                    </subclause3>
+                    <subclause3 id="a511092">
+                        <para>approve the CCN; or</para>
+                    </subclause3>
+                    <subclause3 id="a162654">
+                        <para>notify the Licensor of the rejection of the CCN; and</para>
+                    </subclause3>
+                </subclause2>
+                <subclause2 id="a942390">
+                    <para>if the CCN is approved, arrange for two copies of the approved CCN to be signed for or on
+                        behalf of the Customer and the Licensor. The signing of the CCN will signify acceptance of a
+                        Change by both the Customer and the Licensor.
+                    </para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a337600">
+            <para>Once signed by the Customer and the Licensor in accordance with
+                <plcxlink>
+                    <xlink:locator xlink:href="#a81248" xlink:role="xref"
+                                   xlink:title="paragraph 5 - For each CCN submitted, t">paragraph 5
+                        <xref link="a81248"></xref>
+                    </xlink:locator>
+                </plcxlink>
+                of this Schedule 4, the Change shall be immediately effective and the Customer and the Licensor shall
+                perform their respective obligations on the basis of the agreed amendment.
+            </para>
+        </clause>
+    </schedule>
+    <signature></signature>
+</precedent><?Pub *0000043636 0?>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2005, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent xmlns:xlink="http://www.w3.org/1999/xlink">
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Resource created</revtitle>
+                <date>[Insert date (eg 30 Sep 2006)]</date>
+                <author>[Insert author name]</author>
+                <revdescription>
+                    <section1>
+                        <para>[Insert details of change]</para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <preamble>
+        <title>Nondisclosure Agreement</title>
+        <para>This Nondisclosure Agreement (<defterm>Agreement</defterm>) effective _________________, 2007 (<defterm>
+            Effective Date</defterm>), is by and between XXXXXX, LLC, a Delaware limited liability company (<defterm>
+            Disclosing Party</defterm>), and _________________, a ____________________ (<defterm>Receiving
+            Party</defterm>). Disclosing Party and Receiving Party may be referred to herein individually as a
+            <defterm>Party</defterm>
+            or collectively as the<defterm>Parties</defterm>.
+        </para>
+        <para>WHEREAS, the Parties desire to enter into discussions regarding certain business opportunities and such
+            discussions may involve the exchange of data, financial information, trade secrets, or other information or
+            intellectual property considered confidential or proprietary by Disclosing Party or its Affiliates (defined
+            herein) which Disclosing Party desires to protect as confidential information (<defterm>Potential
+                Transaction</defterm>); and
+        </para>
+        <para>WHEREAS, Disclosing Party wishes to protect its respective proprietary and confidential information and
+            trade secrets.
+        </para>
+        <para>NOW, THEREFORE, in consideration of the mutual covenants, terms and conditions set forth herein, and for
+            other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the
+            parties agree as follows:
+        </para>
+    </preamble>
+    <operative xrefname="section"><?Pub Caret?>
+        <clause id="a315425">
+            <para>Disclosing Party may disclose to Receiving Party non-public verbal, written, electronic or graphic
+                data and information which the Disclosing Party considers proprietary and confidential, which may
+                contain trade secrets, and which may include the information or data of an Affiliate of the Disclosing
+                Party that is considered proprietary and confidential or may contain trade secrets (<defterm>
+                    Confidential Information</defterm>). The Parties agree that all Confidential Information provided by
+                or on behalf of Disclosing Party to Receiving Party, or to which Receiving Party is given access by or
+                on behalf of Disclosing Party, whether in correspondence or other exchange of documents, during any
+                interviews, discussions, meetings, and other interactions involving Disclosing Party, Receiving Party,
+                their respective directors, officers, employees or agents, regardless of the form in which it is
+                provided or exists, is considered by the Disclosing Party to be proprietary, confidential and to contain
+                trade secrets and that such Confidential Information has economic value to the Disclosing Party.
+                Accordingly, the Parties agree that all such Confidential Information shall be treated by the Receiving
+                Party as confidential.
+            </para>
+        </clause>
+        <clause id="a517038">
+            <para>With respect to Confidential Information:</para>
+            <subclause1 id="a501515">
+                <subclause2 id="a721451">
+                    <para>The Receiving Party shall use the Confidential Information only for the purpose of discussing
+                        and negotiating the Potential Transaction with the Disclosing Party (<defterm>Authorized
+                            Purpose</defterm>);
+                    </para>
+                </subclause2>
+                <subclause2 id="a750456">
+                    <para>The Receiving Party shall not disclose the Confidential Information to any other Person
+                        (except to the Receiving Party&#x2019;s employees, including employees of its Affiliates, and
+                        advisors, counsel or contractors (collectively, the Receiving Party&#x2019;s "Representatives")
+                        who have a need to know such Confidential Information in connection with the Authorized Purpose,
+                        and in accordance with this Agreement) without the prior written consent of the Disclosing
+                        Party; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a210912">
+                    <para>The Receiving Party shall safeguard the Confidential Information with the same degree of care
+                        to avoid unauthorized disclosure as it uses to protect its own confidential and proprietary
+                        information and trade secrets, but in no case less than a reasonable degree of care.
+                    </para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a336868">
+            <para>The following information shall not constitute Confidential Information hereunder:</para>
+            <subclause1 id="a221648">
+                <subclause2 id="a740878">
+                    <para>Information that is or becomes available to the public through no breach of this Agreement;
+                    </para>
+                </subclause2>
+                <subclause2 id="a251363">
+                    <para>Information that is received by the Receiving Party from a third party; provided that the
+                        source of such information was not known by the Receiving Party to be bound by a confidentiality
+                        agreement with, or other contractual, legal or fiduciary obligation of confidentiality to, the
+                        Disclosing Party with respect to such information;
+                    </para>
+                </subclause2>
+                <subclause2 id="a985488">
+                    <para>Information that was already in the Receiving Party&#x2019;s possession prior to its
+                        disclosure hereunder; provided that the source of such information was not known by the
+                        Receiving Party to be bound by a confidentiality agreement with, or other contractual, legal or
+                        fiduciary obligation of confidentiality to, the Disclosing Party with respect to such
+                        information;
+                    </para>
+                </subclause2>
+                <subclause2 id="a290437">
+                    <para>Information that is independently developed by the Receiving Party without the use of any
+                        Confidential Information of the Disclosing Party;
+                    </para>
+                </subclause2>
+                <subclause2 id="a308683">
+                    <para>Information that is approved for release by written authorization of the Disclosing Party, but
+                        only to the extent of and subject to such conditions as may be imposed in such written
+                        authorization;
+                    </para>
+                </subclause2>
+                <subclause2 id="a108012">
+                    <para>Information that is required by law or regulation to be disclosed, but only in accordance with
+                        <plcxlink>
+                            <xlink:locator xlink:href="#a625023" xlink:role="xref"
+                                           xlink:title="clause 5 - If the Receiving Party or">clause 5
+                                <xref link="a625023"></xref>
+                            </xlink:locator>
+                        </plcxlink>
+                        ; and
+                    </para>
+                </subclause2>
+                <subclause2 id="a942981">
+                    <para>Information that is disclosed in response to a valid order of a court or other governmental
+                        body of the United States or any political subdivisions thereof, but only in accordance with
+                        <plcxlink>
+                            <xlink:locator xlink:href="#a625023" xlink:role="xref"
+                                           xlink:title="clause 5 - If the Receiving Party or">clause 5
+                                <xref link="a625023"></xref>
+                            </xlink:locator>
+                        </plcxlink>
+                        .
+                    </para>
+                </subclause2>
+            </subclause1>
+        </clause>
+        <clause id="a625023">
+            <para>If the Receiving Party or any of its Representatives are requested or required (by oral questions,
+                interrogatories, requests for information or documents in legal proceedings or by the Securities and
+                Exchange Commission, subpoena, civil investigative demand or other similar process or pursuant to
+                applicable laws or regulations) to disclose any of the Disclosing Party&#x2019;s Confidential
+                Information, the Receiving Party shall provide the Disclosing Party with prompt written notice of any
+                such request or requirement so that the Disclosing Party may seek, at its sole expense, a protective
+                order or other appropriate remedy and/or waive compliance with the provisions of this Agreement. If, in
+                the absence of a protective order or other remedy or the receipt of a waiver by the Disclosing Party,
+                the Receiving Party or any of its Representatives are nonetheless legally compelled to make any such
+                disclosure of the Disclosing Party&#x2019;s Confidential Information to any Person, the Disclosing Party
+                or its Representative may, without liability hereunder, disclose to such Person only that portion of the
+                Disclosing Party&#x2019;s Confidential Information that on the advice of its counsel is legally required
+                to be disclosed, provided that the Receiving Party or its Representative making such disclosing will use
+                its reasonable efforts to assist the Disclosing Party, at the Disclosing Party&#x2019;s expense, in
+                obtaining an appropriate protective order or other reliable assurance that confidential treatment will
+                be accorded the Disclosing Party&#x2019;s Confidential Information by such Person to whom disclosure is
+                to be made.
+            </para>
+        </clause>
+        <clause>
+            <para>Confidential Information of the Disclosing Party, including all copies thereof, shall remain the
+                property of the Disclosing Party (or its applicable Affiliate). The Receiving Party shall either return
+                or destroy all Confidential Information of the Disclosing Party received in tangible form (including any
+                copies thereof), to the Disclosing Party within fifteen (15) business days following termination of this
+                Agreement, unless the Disclosing Party requests, in writing, the return or destruction of the
+                Confidential Information on an earlier date. The Receiving Party shall also, within five (5) business
+                days following its receipt of a written request from the Disclosing Party, certify in writing that it
+                has satisfied its obligations under
+                <plcxlink>
+                    <xlink:locator xlink:href="#a517038" xlink:role="xref"
+                                   xlink:title="clause 3 - 3.	With respect to Confid">clause 3
+                        <xref link="a517038"></xref>
+                    </xlink:locator>
+                </plcxlink>
+                of this Agreement with respect to the Disclosing Party&#x2019;s Confidential Information.
+            </para>
+        </clause>
+        <clause>
+            <para>Lots of other fun stuff</para>
+        </clause>
+    </operative>
+    <signature pagebreak="true" signaturemessage="yes">
+        <clause id="a254050">
+            <para>IN WITNESS WHEREOF, the Parties have executed this Agreement to be effective as of the date first
+                above written.
+            </para>
+            <table frame="none" pgwide="1">
+                <tgroup cols="2">
+                    <colspec colname="col1"/>
+                    <colspec colname="col2"/>
+                    <tbody>
+                        <row>
+                            <entry></entry>
+                            <entry>
+                                <para>Company Name</para>
+                                <para></para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry></entry>
+                            <entry>
+                                <para>By_____________________</para>
+                                <para></para>
+                                <para>Name:</para>
+                                <para>Title:</para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </clause>
+    </signature>
+</precedent><?Pub *0000010133 0?>

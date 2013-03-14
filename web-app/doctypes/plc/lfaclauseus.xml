@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2004, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent jurisdiction="US"
+        >
+    <metadata></metadata>
+    <operative properties="uslfanotitles">
+        <clause>
+            <title>Definitions</title>
+            <defitem>
+                <defterm>Defined term</defterm>
+                <def>
+                    <para>[TEXT OF DEFINITION].</para>
+                </def>
+            </defitem>
+            <defitem>
+                <defterm>Defined term</defterm>
+                <def>
+                    <para>[TEXT OF DEFINITION].</para>
+                </def>
+            </defitem>
+        </clause>
+        <clause>
+            <title>[TITLE]</title>
+            <subclause1>
+                <title>[TITLE]</title>
+                <subclause2>
+                    <para>Insert text here</para>
+                    <subclause3>
+                        <para>text here;</para>
+                    </subclause3>
+                    <subclause3>
+                        <para>text here</para>
+                    </subclause3>
+                </subclause2>
+            </subclause1>
+            <subclause1>
+                <title>[TITLE]</title>
+                <para>[TEXT]</para>
+            </subclause1>
+        </clause>
+    </operative>
+</precedent>

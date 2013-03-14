@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2011, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent jurisdiction="US"
+        >
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Changes made to this resource</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <revdescription>
+                    <section1>
+                        <para>We will record here any changes to this resource as a result of developments in the law or
+                            practice.
+                        </para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <?Pub Caret -1?>
+    <operative properties="uslfa">
+        <clause>
+            <title>Definitions</title>
+            <defitem>
+                <defterm>Defined Term</defterm>
+                <def>
+                    <para>[TEXT OF DEFINITION].</para>
+                </def>
+            </defitem>
+            <defitem>
+                <defterm>Defined Term</defterm>
+                <def>
+                    <para>[TEXT OF DEFINITION].</para>
+                </def>
+            </defitem>
+        </clause>
+        <clause>
+            <title>[Title]</title>
+            <subclause1>
+                <title>[Title].</title>
+                <subclause2>
+                    <para>Insert text here</para>
+                    <subclause3>
+                        <para>text here;</para>
+                    </subclause3>
+                    <subclause3>
+                        <para>text here</para>
+                    </subclause3>
+                </subclause2>
+            </subclause1>
+            <subclause1>
+                <title>[Title].</title>
+                <para>[TEXT]</para>
+            </subclause1>
+        </clause>
+    </operative>
+</precedent>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2011, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent jurisdiction="US">
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Changes made to this resource</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <revdescription>
+                    <section1>
+                        <para>We will record here any changes to this resource as a result of developments in the law or
+                            practice.
+                        </para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <?Pub Caret -1?>
+    <heading>
+        <letterhead>
+            <title>[LETTERHEAD]</title>
+        </letterhead>
+        <para xml:space="preserve">[DATE]
+
+[METHOD OF DELIVERY]
+
+[NAME AND ADDRESS]
+
+[Re: XXXXXX]
+
+Dear Sirs:</para>
+    </heading>
+    <preamble>
+        <para>[LEGAL NAME OF Party] (<defterm>Party</defterm>) sets out in this letter agreement (the<defterm>
+            Agreement</defterm>) certain representations, warranties and agreements etc.
+        </para>
+    </preamble>
+    <operative properties="ussfawithtitles" xrefname="section">
+        <clause>
+            <title>[Title]</title>
+            <para>[Text of provision]</para>
+        </clause>
+        <clause>
+            <title>[Title]</title>
+            <para>[Text of provision:]</para>
+            <subclause1>
+                <subclause2>
+                    <para>[Text of provision;]</para>
+                </subclause2>
+                <subclause2>
+                    <para>[Text of provision;]</para>
+                </subclause2>
+            </subclause1>
+        </clause>
+    </operative>
+    <signature pagebreak="true" signaturemessage="yes">
+        <clause>
+            <para>IN WITNESS WHEREOF, the parties hereto have executed this Agreement as of the date first above
+                written.
+            </para>
+            <table frame="none" pgwide="1">
+                <tgroup cols="2">
+                    <colspec colname="col1" colwidth="50%"/>
+                    <colspec colname="col2" colwidth="50%"/>
+                    <tbody>
+                        <row>
+                            <entry></entry>
+                            <entry>
+                                <para>Very truly yours,</para>
+                                <para></para>
+                                <para>[PARTY]</para>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry></entry>
+                            <entry>
+                                <para></para>
+                                <para>By:________________</para>
+                                <para>[Name:]</para>
+                                <para>[Title:]</para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table frame="none" pgwide="1">
+                <tgroup cols="2">
+                    <colspec colname="col1" colwidth="50%"/>
+                    <colspec colname="col2" colwidth="50%"/>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <para>[Agreed to and accepted:]</para>
+                                <para>[PARTY]</para>
+                                <para></para>
+                            </entry>
+                            <entry></entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <para>By:_____________</para>
+                                <para>[Name:]</para>
+                                <para>[Title:]</para>
+                            </entry>
+                            <entry></entry>
+                        </row>
+                        <row>
+                            <entry nameend="col2" namest="col1">
+                                <para></para>
+                                <para>cc [Insert party name and add/delete paragraphs as required]</para>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </clause>
+    </signature>
+    <attachments>
+        <title>[Attachments title]</title>
+        <attachment attachmentname="Attachment name">
+            <title>[Attachment title]</title>
+        </attachment>
+        <attachment attachmentname="Attachment name">
+            <title>[Attachment title]</title>
+        </attachment>
+    </attachments>
+</precedent>

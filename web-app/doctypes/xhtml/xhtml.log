@@ -1,0 +1,39 @@
+Log filename: "C:\epic4.3\custom\doctypes\xhtml\xhtml.log"
+Document type compile date: Fri Oct 04 17:06:04 2002
+Version "Epic Editor 4.3 August 12, 2002"   Build JUN-1218
+Platform: Windows NT 4.0
+
+Host: Kensal   Login: Niels
+
+Catalog path: "C:\epic4.3\custom\doctypes;\\city\epic\4.3\doctypes;\\city\epic\4.3\doctypes;"
+
+
+Update (.ptd file written) or Validate (.ptd file not written): Update
+XML or SGML Application: XML
+Force Compile: Yes
+Top level element: html
+Public ID: (not specified)
+DTD Path: "C:\epic4.3\custom\doctypes\xhtml\xhtml.dtd"
+PTD Path: "C:\epic4.3\custom\doctypes\xhtml\xhtml.ptd"
+ATI Tag Path: "\\city\epic\4.3\lib\dtgen\atitag.cf"
+Message File Path: (not specified)
+SGML Declaration Path: (not specified) using "\\city\epic\4.3\entities\ati-gxml.dcl"
+
+Entity Name: %HTMLlat1
+Public Identifier: "-//W3C//ENTITIES Latin 1 for XHTML//EN"
+System Identifier: http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent
+Resolved Path: "\\city\epic\4.3\entities\HTMLlat1x.ent"
+Catalog File: "\\city\epic\4.3\doctypes\catalog"
+
+Entity Name: %HTMLsymbol
+Public Identifier: "-//W3C//ENTITIES Symbols for XHTML//EN"
+System Identifier: http://www.w3.org/TR/xhtml1/DTD/xhtml-symbol.ent
+Resolved Path: "\\city\epic\4.3\entities\HTMLsymbolx.ent"
+Catalog File: "\\city\epic\4.3\doctypes\catalog"
+
+Entity Name: %HTMLspecial
+Public Identifier: "-//W3C//ENTITIES Special for XHTML//EN"
+System Identifier: http://www.w3.org/TR/xhtml1/DTD/xhtml-special.ent
+Resolved Path: "\\city\epic\4.3\entities\HTMLspecialx.ent"
+Catalog File: "\\city\epic\4.3\doctypes\catalog"
+

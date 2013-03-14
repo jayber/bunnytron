@@ -1,0 +1,139 @@
+<!-- Public document type declaration subset. Typical invocation:
+<!ENTITY % atimath PUBLIC "-//ArborText//ELEMENTS XML Math Equation Structures//EN" "atimathx.elm">
+%atimath;
+-->
+
+        <!-- Declarations for ArborText Equations (based on AAP math)
+
+        XML Conversion NOTES:
+         - Converted to XML by nwalsh, 24 Dec 1998.
+         - Removal of exclusions allows structures that the equation editor may
+           not properly handle and that may make no logicl sense.
+
+        NOTE: Dtgen excludes ati-math tags from the <docname>.menu and
+        <docname>.tags files it builds since the user cannot manipulate
+        these tags directly.  The tag exclusion algorithm requires that
+        the first and last math elements (in the order they are defined
+        in this file) be named <fd> and <rm> respectively.
+
+        If these assumptions are invalidated, then some math elements may
+        be included into the menus, or some of the DTD's elements might be
+        excluded from the menus.
+        -->
+
+        <!-- This version of ati-math.elm has changed the name of what was
+        the "p.em.ph" parameter entity to "p.emph" to avoid conflict
+        with the use of "p.em.ph" as a parameter entity name in ISO 12083. -->
+
+        <!ENTITY % p.emph    "b|it|rm">
+        <!ENTITY % p.fnt.ph    "blkbd|ig|sc|ge|ty|mit">
+        <!ENTITY % sp.pos    "vmk|vmkr|vsp|hsp|tu">
+        <!ENTITY % f-cs        "a|%p.emph;|%p.fnt.ph;|g|bg|%sp.pos;">
+        <!ENTITY % f-cstxt    "%f-cs;">
+        <!ENTITY % f-scs    "rf|inc|v|dy|fi">
+        <!ENTITY % limits    "pr|in|sum">
+        <!ENTITY % f-bu        "fr|rad|lim|ar|stk|cases|eqaln|fen">
+        <!ENTITY % f-ph        "unl|ovl|unb|ovb|sup|inf">
+        <!ENTITY % f-butxt    "#PCDATA|%f-bu;|%limits;|%f-cstxt;|%f-scs;|%f-ph;|phr">
+        <!ENTITY % f-phtxt    "#PCDATA|%p.emph;">
+        <!ENTITY % f-post       "par|sqb|llsqb|rrsqb|cub|ceil|fl|ang
+                            |sol|vb|uc|dc">
+        <!ENTITY % f-style      "s|d|t|da|dot|b|bl|n">
+
+        <!ELEMENT fd        (fl)*>
+        <!ELEMENT fl        (%f-butxt;)*>
+
+        <!ELEMENT f        (%f-butxt;)*>
+
+        <!ELEMENT fr        (nu,de)>
+        <!ATTLIST fr        shape        CDATA    #IMPLIED
+                align        CDATA    #IMPLIED
+                style        CDATA    #IMPLIED>
+        <!ELEMENT nu        (%f-butxt;)*>
+        <!ELEMENT de        (%f-butxt;)*>
+        <!ELEMENT lim        (op,ll?,ul?,opd?)>
+        <!ATTLIST lim        align        (r|c)    #IMPLIED>
+        <!ELEMENT op        (#PCDATA|%f-cstxt;|rf|%f-ph;)*>
+        <!ELEMENT ll        (%f-butxt;)*>
+        <!ELEMENT ul        (%f-butxt;)*>
+        <!ELEMENT opd        (%f-butxt;)*>
+
+        <!ELEMENT pr        (ll?,ul?,opd?)>
+        <!ATTLIST pr        align        CDATA    #IMPLIED>
+
+        <!ELEMENT in        (ll?,ul?,opd?)>
+        <!ATTLIST in        align        CDATA    #IMPLIED>
+
+        <!ELEMENT sum        (ll?,ul?,opd?)>
+        <!ATTLIST sum        align        CDATA    #IMPLIED>
+
+        <!ELEMENT rad        (rcd,rdx?)>
+        <!ELEMENT rcd        (%f-butxt;)*>
+        <!ELEMENT rdx        (%f-butxt;)*>
+        <!ELEMENT fen        (%f-butxt;|cp|rp)*>
+        <!ATTLIST fen        lp        (%f-post;)    "vb"
+                style        (%f-style;)     "s">
+        <!ELEMENT cp        EMPTY>
+        <!ATTLIST cp        post        (%f-post;)      "vb"
+                style        (%f-style;)    "s">
+        <!ELEMENT rp        EMPTY>
+        <!ATTLIST rp        post        (%f-post;)      "vb"
+                style        (%f-style;)    "s">
+        <!ELEMENT ar        (arr+)>
+        <!ATTLIST ar        cs        CDATA    #IMPLIED
+                rs        CDATA    #IMPLIED
+                ca        CDATA    #IMPLIED>
+        <!ELEMENT arr        (arc+)>
+        <!ELEMENT arc        (%f-butxt;)*>
+        <!ATTLIST arc        align        CDATA    #IMPLIED>
+        <!ELEMENT cases        (arr+)>
+        <!ELEMENT eqaln        (eqline+)>
+        <!ELEMENT eqline    (%f-butxt;)*>
+        <!ELEMENT stk        (lyr+)>
+        <!ELEMENT lyr        (%f-butxt;)*>
+        <!ATTLIST lyr        align        CDATA    #IMPLIED>
+        <!ELEMENT ach        (%f-butxt;)*>
+        <!ATTLIST ach        atom        CDATA    #IMPLIED>
+        <!ELEMENT sup        (%f-butxt;)*>
+        <!ATTLIST sup        loc        CDATA    #IMPLIED>
+        <!ELEMENT inf        (%f-butxt;)*>
+        <!ATTLIST inf        loc        CDATA    #IMPLIED>
+        <!ELEMENT unl        (%f-butxt;)*>
+        <!ATTLIST unl        style        CDATA    #IMPLIED>
+        <!ELEMENT ovl        (%f-butxt;)*>
+        <!ATTLIST ovl        style        CDATA    #IMPLIED>
+        <!ELEMENT unb        (%f-butxt;)*>
+        <!ELEMENT ovb        (%f-butxt;)*>
+        <!ELEMENT a        (ac,ac)>
+        <!ATTLIST a        valign        CDATA    #IMPLIED>
+        <!ELEMENT ac        (%f-butxt;)*>
+
+        <!ELEMENT rf        (#PCDATA|%f-cstxt;|sup|inf)*>
+        <!ELEMENT inc        (#PCDATA|%f-cstxt;|sup|inf)*>
+        <!ELEMENT v        (#PCDATA|%f-cstxt;|sup|inf)*>
+        <!ELEMENT dy        (#PCDATA|%f-cstxt;|sup|inf)*>
+        <!ELEMENT fi        (#PCDATA|%f-cstxt;|sup|inf)*>
+
+        <!ELEMENT phr        (%f-phtxt;)*>
+        <!ELEMENT vmk        EMPTY>
+        <!ATTLIST vmk        id        CDATA    #IMPLIED>
+        <!ELEMENT vmkr        EMPTY>
+        <!ATTLIST vmkr        rid        CDATA    #IMPLIED>
+        <!ELEMENT hsp        EMPTY>
+        <!ATTLIST hsp        sp        CDATA    #IMPLIED>
+        <!ELEMENT vsp        EMPTY>
+        <!ATTLIST vsp        sp        CDATA    #IMPLIED>
+        <!ELEMENT tu        EMPTY>
+        <!ELEMENT g        (#PCDATA)>
+        <!ELEMENT bg        (#PCDATA)>
+
+        <!ELEMENT blkbd        (%f-butxt;)*>
+        <!ELEMENT ig        (%f-butxt;)*>
+        <!ELEMENT sc        (%f-butxt;)*>
+        <!ELEMENT ge        (%f-butxt;)*>
+        <!ELEMENT ty        (%f-butxt;)*>
+        <!ELEMENT mit        (%f-butxt;)*>
+
+        <!ELEMENT b        (%f-butxt;)*>
+        <!ELEMENT it        (%f-butxt;)*>
+        <!ELEMENT rm        (%f-butxt;)*>

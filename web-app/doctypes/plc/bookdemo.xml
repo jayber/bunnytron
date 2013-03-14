@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset:
+ArborText, Inc., 1988-2001, v.4002
+<!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN"
+ "plc.dtd">
+-->
+<?Pub Inc?>
+<?Pub CX plc(?>
+<book>
+    <metadata>
+        <title>Regulation and Markets Beyond 2000</title>
+        <publisher>
+            <plcxlink>
+                <xlink:locator xlink:href="http://www.butterworths.com"
+                               xlink:role="organisation" xlink:title="Butterworths">Butterworths
+                </xlink:locator>
+                <xlink:arc xlink:arcrole="publisher" xlink:show="other" xlink:actuate="other"
+                           xlink:from="source" xlink:to="target"/>
+            </plcxlink>
+        </publisher>
+        <author>
+            <plcxlink>
+                <xlink:locator xlink:href="http://www.plcinfo.com/scripts/contact.asp" xlink:role="individual"
+                               xlink:title="Laura MacGregor">Laura MacGregor
+                </xlink:locator>
+                <xlink:arc xlink:arcrole="author"
+                           xlink:show="other" xlink:actuate="other" xlink:from="source" xlink:to="target"/>
+            </plcxlink>
+        </author>
+        <author>
+            <plcxlink>
+                <xlink:locator xlink:href="http://www.plcinfo.com/scripts/contact.asp"
+                               xlink:role="individual" xlink:title="Anthony Prosser">Tony Prosser
+                </xlink:locator>
+                <xlink:arc xlink:arcrole="author" xlink:show="other" xlink:actuate="other"
+                           xlink:from="source" xlink:to="target"/>
+            </plcxlink>
+        </author>
+        <author>Charlotte
+            Villiers
+        </author>
+        <abstract>
+            <para>This book covers regulation in the context of recent developments and
+                the move from deregulation to better regulation and integrates theoretical
+                analysis with practical problems.
+            </para>
+        </abstract>
+    </metadata>
+    <!--Add currency attribute to price element-->
+    <?Pub Caret?>
+    <price currency="pounds">&pound;65</price>
+</book>
+        <?Pub *0000001614 0?>

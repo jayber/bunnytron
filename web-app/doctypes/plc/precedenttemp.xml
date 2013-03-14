@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Fragment document type declaration subset: Arbortext, Inc., 1988-2011, v.4002 <!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">-->
+<precedent xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+    <metadata>
+        <revhistory>
+            <revision>
+                <revtitle>Changes made to this resource</revtitle>
+                <date>XX-XXX-XXXX</date>
+                <revdescription>
+                    <section1>
+                        <para>We will record here any changes to this resource as a result of developments in the law or
+                            practice.
+                        </para>
+                    </section1>
+                </revdescription>
+            </revision>
+        </revhistory>
+    </metadata>
+    <?Pub Caret -1?>
+    <coversheet>
+        <title>Insert title</title>
+        <subjectintro></subjectintro>
+        <subjects>
+            <subjecttext></subjecttext>
+        </subjects>
+        <coverparties>
+            <title>Party 1</title>
+            <title>Party 2</title>
+            <title>Party 3</title>
+        </coverparties>
+    </coversheet>
+    <toc></toc>
+    <intro></intro>
+    <parties>
+        <title>Parties</title>
+        <party executionmethod="contract" status="company">
+            <defitem>
+                <def>
+                    <para>[FULL COMPANY NAME] incorporated and registered in England and Wales with company number
+                        [NUMBER] whose registered office is at [REGISTERED OFFICE ADDRESS]
+                    </para>
+                </def>
+                <defterm>Defined Term For Party</defterm>
+            </defitem>
+        </party>
+        <party executionmethod="contract" status="company">
+            <defitem>
+                <def>
+                    <para>[FULL COMPANY NAME] incorporated and registered in England and Wales with company number
+                        [NUMBER] whose registered office is at [REGISTERED OFFICE ADDRESS]
+                    </para>
+                </def>
+                <defterm>Defined Term For Party</defterm>
+            </defitem>
+        </party>
+        <party executionmethod="contract" status="individual">
+            <defitem>
+                <def>
+                    <para>[INDIVIDUAL NAME] of [INDIVIDUAL ADDRESS]</para>
+                </def>
+                <defterm>Defined Term For Party</defterm>
+            </defitem>
+        </party>
+    </parties>
+    <recitals>
+        <title>Background</title>
+        <clause>
+            <para>Describe key drafting assumptions in this clause.</para>
+        </clause>
+        <clause>
+            <para>Background text.</para>
+        </clause>
+    </recitals>
+    <operative>
+        <title>Agreed terms</title>
+        <draftingnote>
+            <title>Interpretation</title>
+            <section1>
+                <para>For information on interpretation clauses generally, see
+                    <emphasis role="italic">
+                        <plcxlink>
+                            <xlink:locator xlink:href="3-107-3796" xlink:role="Article"
+                                           xlink:title="Interpretation: drafting note">Interpretation: drafting note
+                            </xlink:locator>
+                        </plcxlink>
+                    </emphasis>
+                    .
+                </para>
+            </section1>
+        </draftingnote>
+        <clause>
+            <title>Interpretation</title>
+            <para>The following definitions and rules of interpretation apply in this agreement.</para>
+            <subclause1><!--NOTE TO EDITORS: check against the standalone interpretation clause to make sure you have the latest drafting.-->
+                <defitems>
+                    <defitem>
+                        <defterm>Defined Term</defterm>
+                        <def>
+                            <para>definition text.</para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Defined Term</defterm>
+                        <def>
+                            <para>this example definition demonstrates that it is possible to:</para>
+                            <subclause2>
+                                <para>use subclause2 tags in definitions; and</para>
+                            </subclause2>
+                            <subclause2>
+                                <para>follow them with other defined terms,</para>
+                            </subclause2>
+                            <para>such as<defterm>This</defterm>, which will occasionally be necessary.
+                            </para>
+                        </def>
+                    </defitem>
+                </defitems>
+            </subclause1>
+            <subclause1>
+                <title>Definitions</title>
+                <defitems>
+                    <defitem>
+                        <defterm>Business Day</defterm>
+                        <def>
+                            <para>a day other than a Saturday, Sunday or public holiday in England when banks in
+                                [London] are open for business.
+                            </para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Business Hours</defterm>
+                        <def>
+                            <para>the period from [0900 to 1700] on any Business Day.</para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Commencement Date</defterm>
+                        <def>
+                            <para>[means [DATE] OR has the meaning given in [INSERT TERM CLAUSE NUMBER]].</para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Confidential Information</defterm>
+                        <def>
+                            <para>has the meaning given in [INSERT CONFIDENTIALITY CLAUSE NUMBER].</para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Contract Year</defterm>
+                        <def>
+                            <para>the 12 month period following the Commencement Date and each succeeding 12 month
+                                period.
+                            </para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Day</defterm>
+                        <def>
+                            <para>a period of 24 consecutive hours [ending at 12 midnight OR starting at [INSERT
+                                TIME]].
+                            </para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Control</defterm>
+                        <def>
+                            <para>shall be as defined in section 1124 of the Corporation Tax Act 2010, and the
+                                expression
+                                <defterm>change in control</defterm>
+                                shall be construed accordingly.
+                            </para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Force Majeure Event</defterm>
+                        <def>
+                            <para>has the meaning given in [INSERT FORCE MAJEURE CLAUSE NUMBER].</para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Group</defterm>
+                        <def>
+                            <para>in relation to a company, that company, any subsidiary or holding company [from time
+                                to time
+                                <emphasis role="bold">OR</emphasis>
+                                at the date of this agreement] of that company[, and any subsidiary [from time to time
+                                <emphasis role="bold">OR</emphasis>
+                                at the date of this agreement] of a holding company of that company].
+                            </para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Group Company</defterm>
+                        <def>
+                            <para>in relation to a company, any member of its Group.</para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <def>
+                            <para>
+                                <defterm>holding company</defterm>
+                                and<defterm>subsidiary</defterm>: mean a "holding company" and "subsidiary" as defined
+                                in section 1159 of the Companies Act 2006 [and a company shall be treated, for the
+                                purposes only of the membership requirement contained in subsections 1159(1)(b) and (c),
+                                as a member of another company even if its shares in that other company are registered
+                                in the name of (a) another person (or its nominee), by way of security or in connection
+                                with the taking of security, or (b) its nominee]. In the case of a limited liability
+                                partnership which is a subsidiary of a company or another limited liability partnership,
+                                section 1159 of the Companies Act 2006 shall be amended so that: (a) references in sub
+                                sections 1159(1)(a) and (c) to voting rights are to the members' rights to vote on all
+                                or substantially all matters which are decided by a vote of the members of the limited
+                                liability partnership; and (b) the reference in section 1159(1)(b) to the right to
+                                appoint or remove a majority of its board of directors is to the right to appoint or
+                                remove members holding a majority of the voting rights.
+                            </para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Intellectual Property Rights</defterm>
+                        <def>
+                            <para>all patents, rights to inventions, utility models, copyright and related rights, trade
+                                marks, service marks, trade, business and domain names, rights in trade dress or get-up,
+                                rights in goodwill or to sue for passing off, unfair competition rights, rights in
+                                designs, rights in computer software, database rights, semi-conductor topography rights,
+                                moral rights, rights in confidential information (including know-how and trade secrets)
+                                and any other intellectual property rights, in each case whether registered or
+                                unregistered and including all applications for and renewals or extensions of such
+                                rights, and all similar or equivalent rights or forms of protection in any part of the
+                                world.
+                                <defterm>Intellectual Property Right</defterm>
+                                means any one of the Intellectual Property Rights.
+                            </para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>LIBOR</defterm>
+                        <def>
+                            <para>the London Inter-Bank Offered Rate, being the index compiled for the British Banker&#x2019;s
+                                Association giving an average rate at which a leading bank can obtain unsecured funding
+                                for a given period in a given currency in the London market.
+                            </para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Month</defterm>
+                        <def>
+                            <para>a calendar month.</para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>VAT</defterm>
+                        <def>
+                            <para>value added tax chargeable under the Value Added Tax Act 1994.</para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Week</defterm>
+                        <def>
+                            <para>any period of seven consecutive Days.</para>
+                        </def>
+                    </defitem>
+                    <defitem>
+                        <defterm>Year</defterm>
+                        <def>
+                            <para>any period of 12 consecutive Months [from DATE][from 1 January to the following 31
+                                December].
+                            </para>
+                        </def>
+                    </defitem>
+                </defitems>
+            </subclause1>
+            <subclause1>
+                <para>Clause [, Schedule and paragraph] headings shall not affect the interpretation of this
+                    agreement.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>A
+                    <emphasis role="bold">person</emphasis>
+                    includes a natural person, corporate or unincorporated body (whether or not having separate legal
+                    personality) [and that person's personal representatives, successors and permitted assigns].
+                </para>
+            </subclause1>
+            <subclause1 condition="optional">
+                <para>[The Schedules form part of this agreement and shall have effect as if set out in full in the body
+                    of this agreement. Any reference to this agreement includes the Schedules.]
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>A reference to a
+                    <emphasis role="bold">company</emphasis>
+                    shall include any company, corporation or other body corporate, wherever and however incorporated or
+                    established.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>Unless the context otherwise requires, words in the singular shall include the plural and in the
+                    plural shall include the singular.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>Unless the context otherwise requires, a reference to one gender shall include a reference to the
+                    other genders.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>A reference to any party shall include that party's personal representatives, successors and
+                    permitted assigns.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>A reference to a statute or statutory provision is a reference to it as [amended, extended or
+                    re-enacted from time to time
+                    <emphasis role="bold">OR</emphasis>
+                    it is in force as at the date of this agreement].
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>A reference to a statute or statutory provision shall include all subordinate legislation made
+                    [from time to time
+                    <emphasis role="bold">OR</emphasis>
+                    as at the date of this agreement] under that statute or statutory provision.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>A reference to
+                    <emphasis role="bold">writing</emphasis>
+                    or
+                    <emphasis role="bold">written</emphasis>
+                    includes faxes but not e-mail.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>Any obligation on a party not to do something includes an obligation not to allow that thing to be
+                    done.
+                </para>
+            </subclause1>
+            <subclause1 condition="optional">
+                <para>[References to a document in
+                    <emphasis role="bold">agreed form</emphasis>
+                    are to that document in the form agreed by the parties and initialled by or on behalf of them for
+                    identification.]
+                </para>
+            </subclause1>
+            <subclause1 condition="optional">
+                <para>[Any reference to an English legal term for any action, remedy, method of judicial proceeding,
+                    legal document, legal status, court, official or any legal concept or thing shall, in respect of any
+                    jurisdiction other than England, be deemed to include a reference to that which most nearly
+                    approximates to the English legal term in that jurisdiction.]
+                </para>
+            </subclause1>
+            <subclause1 condition="optional">
+                <para>[A reference to "this agreement" or to any other agreement or document referred to in this
+                    agreement is a reference to this agreement or such other document or agreement as varied or novated
+                    (in each case, other than in breach of the provisions of this agreement) from time to time.]
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>References to clauses [and Schedules] are to the clauses [and Schedules] of this agreement [and
+                    references to paragraphs are to paragraphs of the relevant Schedule].
+                </para>
+            </subclause1>
+            <subclause1 condition="optional">
+                <para>[Where any statement is qualified by the expression
+                    <emphasis role="bold">so far as [PARTY] is aware</emphasis>
+                    or
+                    <emphasis role="bold">to [PARTY]'s knowledge</emphasis>
+                    (or any similar expression), that statement shall be deemed to include an additional statement that
+                    it has been made after due and careful enquiry.]
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>Any words following the terms<emphasis role="bold">including</emphasis>,<emphasis role="bold">
+                    include</emphasis>,
+                    <emphasis role="bold">in particular</emphasis>
+                    or any similar expression shall be construed as illustrative and shall not limit the sense of the
+                    words, description, definition, phrase or term preceding those terms.
+                </para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Clause structure, layout and punctuation</title>
+            <subclause1>
+                <para>This
+                    <plcxlink>
+                        <xlink:locator xlink:href="#a436550" xlink:role="xref"
+                                       xlink:title="clause 3 - Clause structure, layout and puctuation">clause 3
+                            <xref link="a436550"></xref>
+                        </xlink:locator>
+                    </plcxlink>
+                    illustrates the different sub-clauses that can be used in a standard document, their layout and
+                    appropriate punctuation. This text may go to:
+                </para>
+                <subclause2>
+                    <para>subclause2 level; and</para>
+                </subclause2>
+                <subclause2>
+                    <para>that subclause2 can in turn go to:</para>
+                    <subclause3>
+                        <para>subclause3 level and stay at that level; or</para>
+                    </subclause3>
+                    <subclause3>
+                        <para>go to subclause4 level:</para>
+                        <subclause4>
+                            <para>like this; and</para>
+                        </subclause4>
+                        <subclause4>
+                            <para>this,</para>
+                        </subclause4>
+                    </subclause3>
+                </subclause2>
+                <para>but avoid using subclause4 wherever possible.</para>
+            </subclause1>
+            <subclause1>
+                <para>Do not use bullet points.</para>
+            </subclause1>
+            <subclause1>
+                <para>Where terms are defined later in the agreement, put the defterm in brackets after the definition (
+                    <defterm>Like This</defterm>).
+                </para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Optional and alternative words, phrases and clauses</title>
+            <subclause1 condition="optional">
+                <para>To indicate that a clause, schedule, part or paragraph of a schedule is optional, set the
+                    attribute for the clause, schedule, part or paragraph to<emphasis role="italic">optional</emphasis>.
+                    The text will turn grey in Epic, and square brackets will appear around it on the web and in the
+                    Word version.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>Indicate [optional] words by typing square brackets around them.</para>
+            </subclause1>
+            <subclause1>
+                <para>Indicate alternative words and phrases by typing "<emphasis role="bold">OR</emphasis>" between
+                    them and typing square brackets around that, for example, "[option one
+                    <emphasis role="bold">OR</emphasis>
+                    option two]".
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>[Indicate alternative paragraphs by providing for both, separated by "<emphasis role="bold">
+                    OR</emphasis>", as in this illustration.
+                </para>
+                <para>
+                    <emphasis role="bold">OR</emphasis>
+                </para>
+                <para>The alternative paragraph.]</para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Clause with no subclauses</title>
+            <subclause1>
+                <para>You might not want subclauses under all your clauses. If you only put one subclause within the
+                    clause tag, the subclause number won't show in Word or on the web - you'll only see it in Epic.
+                </para>
+            </subclause1>
+        </clause>
+        <clause>
+            <title>Governing law and jurisdiction</title>
+            <draftingnote>
+                <title>Governing law and jurisdiction</title>
+                <section1>
+                    <para>For more information on governing law and jurisdiction clauses, see
+                        <emphasis role="italic">
+                            <plcxlink>
+                                <xlink:locator xlink:href="4-107-3852" xlink:role="Article"
+                                               xlink:title="Governing law and jurisdiction: drafting note">Governing law
+                                    and jurisdiction: drafting note
+                                </xlink:locator>
+                            </plcxlink>
+                        </emphasis>
+                        .
+                    </para>
+                </section1>
+            </draftingnote>
+            <!--NOTE TO EDITORS: check against the standalone governing law and jurisdiction clause to make sure you have the latest drafting.-->
+            <subclause1>
+                <para>This [agreement
+                    <emphasis role="bold">OR</emphasis>
+                    deed] and any dispute or claim arising out of or in connection with it or its subject matter or
+                    formation (including non-contractual disputes or claims) shall be governed by and construed in
+                    accordance with the law of England and Wales.
+                </para>
+            </subclause1>
+            <subclause1>
+                <para>The parties irrevocably agree that the courts of England and Wales shall have [exclusive
+                    <emphasis role="bold">OR</emphasis>
+                    non-exclusive] jurisdiction to settle any dispute or claim that arises out of or in connection with
+                    this [agreement
+                    <emphasis role="bold">OR</emphasis>
+                    deed] or its subject matter or formation (including non-contractual disputes or claims).
+                </para>
+            </subclause1>
+        </clause>
+    </operative>
+    <testimonium wording="contract"></testimonium>
+    <schedule>
+        <title>Schedule styles and document sections</title>
+        <part>
+            <title>Different ways to number schedules</title>
+            <clause>
+                <title>Schedule 1 and schedule 2 style</title>
+                <subclause1>
+                    <para>There are two different styles for schedules:</para>
+                    <subclause2>
+                        <para>the first style uses numbered paragraphs with titles after each number (like this schedule
+                            - use this wherever possible, as it is more robust when outputting to Word;
+                        </para>
+                    </subclause2>
+                    <subclause2>
+                        <para>the second style uses numbered paragraphs without titles, typically a relatively short
+                            list of conditions or documents for production (for an example of this, see
+                            <plcxlink>
+                                <xlink:locator xlink:href="#a915274" xlink:role="xref"
+                                               xlink:title="schedule 2 - Schedule 2 style">Schedule 2
+                                    <xref link="a915274"></xref>
+                                </xlink:locator>
+                            </plcxlink>
+                            ).
+                        </para>
+                    </subclause2>
+                </subclause1>
+                <subclause1>
+                    <para>
+                        <emphasis role="bold">It is very important that these two styles are not mixed in the same
+                            schedule, as this causes the numbering in the Word version to corrupt.
+                        </emphasis>
+                    </para>
+                </subclause1>
+            </clause>
+        </part>
+        <part>
+            <title>Document sections</title>
+            <clause>
+                <para>Each type of standard document is designed to allow different combinations of sections to be used.
+                    The following sections can be used in a formal agreement:
+                </para>
+                <para>
+                    <table frame="all">
+                        <tgroup cols="3">
+                            <colspec colname="col1"/>
+                            <colspec colname="col2"/>
+                            <colspec colname="col3"/>
+                            <tbody>
+                                <row>
+                                    <entry>
+                                        <para>Sections you
+                                            <emphasis role="bold">must use</emphasis>
+                                        </para>
+                                    </entry>
+                                    <entry>
+                                        <para>Sections you<emphasis role="bold">can use</emphasis>, but don't have to
+                                            use
+                                        </para>
+                                    </entry>
+                                    <entry>
+                                        <para>Sections you
+                                            <emphasis role="bold">can't use</emphasis>
+                                        </para>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry>
+                                        <para xml:space="preserve">Coversheet,
+Table of contents,
+Operative,
+Signature</para>
+                                    </entry>
+                                    <entry>
+                                        <para xml:space="preserve">Introductory wording ("This agreement is dated [DATE]"),
+Parties clause,
+Background (recitals),
+Testimonium,
+Schedule(s),
+Annex</para>
+                                    </entry>
+                                    <entry>
+                                        <para xml:space="preserve">Heading,
+Preamble,
+Closing</para>
+                                    </entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </para>
+            </clause>
+        </part>
+    </schedule>
+    <schedule>
+        <title>Schedule 2 style</title>
+        <clause>
+            <para>Condition 1</para>
+        </clause>
+        <clause>
+            <para>Condition 2</para>
+        </clause>
+    </schedule>
+    <schedule>
+        <title>Troubleshooting tips</title>
+        <clause>
+            <title>The signature is not appearing.</title>
+            <para>Check that the parties clause and its attributes are set up correctly. Attributes are needed for the
+                execution method (choose from contract or deed) and status of the party (for example, individual or
+                company).
+            </para>
+        </clause>
+        <clause>
+            <title>The word "agreement" is missing from "this agreement is dated [DATE]".</title>
+            <para>This means that a precedent type code has not been added. Add a precedent type code in PLC Files. Do
+                this by dragging the title of the standard document onto the relevant precedent type folder on the topic
+                tree.
+            </para>
+        </clause>
+        <clause>
+            <title>The testimonium is missing.</title>
+            <para>Check that the &lt;testimonium&gt; tag is in the right place and that the attributes for the party
+                (see
+                <plcxlink>
+                    <xlink:locator xlink:href="#a485887" xlink:role="xref"
+                                   xlink:title="paragraph 1 - The signature is not appearing.">paragraph 1
+                        <xref link="a485887"></xref>
+                    </xlink:locator>
+                </plcxlink>
+                ) have been set correctly.
+            </para>
+        </clause>
+    </schedule>
+    <signature></signature>
+    <appendix>
+        <title>Title of appendix</title>
+        <para>Appendix text.</para>
+    </appendix>
+</precedent>

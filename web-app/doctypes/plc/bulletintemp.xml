@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fragment document type declaration subset:
+ArborText, Inc., 1988-2001, v.4002
+<!DOCTYPE plc PUBLIC "Practical Law Company//DTD PLC Doctype//EN" "plc.dtd">
+-->
+<legalupdate>
+    <metadata>
+        <!-- Leave blank -->
+    </metadata>
+    <fulltext>
+        <section1>
+            <title>Background</title>
+            <para></para>
+        </section1>
+        <section1>
+            <title>Facts</title>
+            <para></para>
+        </section1>
+        <section1>
+            <title>Decision</title>
+            <para></para>
+        </section1>
+        <section1>
+            <title>Comment</title>
+            <para></para>
+        </section1>
+        <section1>
+            <title>Case</title>
+            <para></para>
+        </section1>
+    </fulltext>
+</legalupdate>
