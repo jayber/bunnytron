@@ -22,9 +22,6 @@
                 <x:view name="XML View">
                     <x:treeTransform/>
                 </x:view>
-                <x:view name="Tags On View">
-                    <x:transform xsl="/xopus/examples/simple/xsl/tagson.xsl"/>
-                </x:view>
             </x:pipeline>
         </x:config>
     </xml>

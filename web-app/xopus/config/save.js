@@ -2,6 +2,7 @@
 // function is called on an XMLDocument.
 function mySaveFunction(uri, xmlDocument) {
     var result = HTTPTools.postXML("/ui/saveBody", xmlDocument, "UTF-8");
+    alert(window.parent.parent.document.title)
     // Show a dialog with the result.
     /*
      return confirm(
