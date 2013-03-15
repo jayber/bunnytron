@@ -7,7 +7,7 @@
     <script type="text/javascript" src="/xopus/xopus/xopus.js"></script>
 </head>
 
-<body>
+<body>image
 <!-- The Xopus Canvas -->
 <div xopus="true" autostart="true">
     <xml>
@@ -15,7 +15,7 @@
             <!-- Register the save.js script. -->
             <x:javascript src="/xopus/config/save.js"/>
 
-            <x:pipeline xml="/ws/article/${params.id}/body/" xsd="/xopus/examples/howto/SaveToJSP/schema.xsd">
+            <x:pipeline xml="/ws/article/${params.id}/body/" xsd="/uk.practicallaw.com.xsd">
                 <x:view name="WYSIWYG View">
                     <x:transform xsl="/xopus/examples/howto/SaveToJSP/stylesheet.xsl"/>
                 </x:view>

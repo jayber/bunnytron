@@ -4,8 +4,10 @@ import com.vaadin.data.fieldgroup.FieldGroup
 import com.vaadin.data.util.BeanItem
 import com.vaadin.data.util.BeanItemContainer
 import com.vaadin.event.ItemClickEvent
+import com.vaadin.event.LayoutEvents
 import com.vaadin.grails.Grails
-import com.vaadin.server.*
+import com.vaadin.server.ExternalResource
+import com.vaadin.server.Sizeable
 import com.vaadin.shared.ui.MarginInfo
 import com.vaadin.shared.ui.datefield.Resolution
 import com.vaadin.ui.*
@@ -14,6 +16,8 @@ import editor.Article
 import editor.EditorService
 import editor.Person
 import editor.TElement
+import org.json.JSONArray
+import org.json.JSONException
 
 /**
  * User: James
@@ -38,25 +42,51 @@ class EditorUI {
 
     private HorizontalLayout buttonLayout
 
+    private Embedded rightArrow = new Embedded("", new ExternalResource("/images/right_arrow.png"))
+
+    private Embedded downArrow = new Embedded("", new ExternalResource("/images/down_arrow.png"))
+
+    private HorizontalLayout titleLayout
+
     public Component createEditorBody() {
 
         VerticalLayout vlayout = new VerticalLayout()
         vlayout.setSizeFull()
         titleLabel = new Label()
         titleLabel.setStyleName(Reindeer.LABEL_H2)
-        VerticalLayout layout = new VerticalLayout(titleLabel)
-        layout.setMargin(true)
-        vlayout.addComponent(layout)
+
+        titleLayout = new HorizontalLayout(rightArrow, titleLabel)
+        titleLayout.setComponentAlignment(rightArrow, Alignment.BOTTOM_LEFT)
+        titleLayout.setComponentAlignment(titleLabel, Alignment.BOTTOM_LEFT)
+        titleLayout.setMargin(true)
+        titleLayout.addStyleName("homeLink")
+        titleLayout.setDescription("Click to edit details")
+        vlayout.addComponent(titleLayout)
+
+        final detailsLayout = createDetailsLayout()
+        vlayout.addComponent(detailsLayout)
+
+        titleLayout.addLayoutClickListener(new LayoutEvents.LayoutClickListener() {
+            @Override
+            void layoutClick(LayoutEvents.LayoutClickEvent event) {
+                detailsLayout.visible = !detailsLayout.visible
+                if (detailsLayout.visible) {
+                    titleLayout.replaceComponent(rightArrow, downArrow)
+                } else {
+                    titleLayout.replaceComponent(downArrow, rightArrow)
+                }
+            }
+        })
 
         TabSheet tabSheet = new TabSheet()
         tabSheet.setSizeFull()
         vlayout.addComponent(tabSheet)
-        vlayout.setExpandRatio(tabSheet, 100)
+        vlayout.setExpandRatio(tabSheet, 1)
 
-        Component componentTab = createContentTab()
+        Component componentTab = createEditorArea()
         tabSheet.addTab(componentTab, "Content")
 
-        tabSheet.addTab(createCodingTab(), "Coding")
+        tabSheet.addTab(createCodingTab(), "Classification")
         tabSheet.addSelectedTabChangeListener(new TabSheet.SelectedTabChangeListener() {
             void selectedTabChange(TabSheet.SelectedTabChangeEvent event) {
                 if (event.getTabSheet().getSelectedTab() == componentTab) {
@@ -70,17 +100,6 @@ class EditorUI {
         vlayout.setComponentAlignment(buttonLayout, Alignment.BOTTOM_LEFT)
 
         return vlayout;
-    }
-
-    def Component createContentTab() {
-        HorizontalLayout topLayout = new HorizontalLayout();
-        topLayout.setSizeFull()
-
-        VerticalLayout leftBodyLayout = createLeftBody()
-        leftBodyLayout.setSizeFull()
-        topLayout.addComponent(leftBodyLayout);
-
-        return topLayout
     }
 
     def Component createCodingTab() {
@@ -158,11 +177,12 @@ class EditorUI {
         keywordLayout.addComponent(new Label(element.name))
     }
 
-    private VerticalLayout createLeftBody() {
+    private VerticalLayout createDetailsLayout() {
         VerticalLayout bodyLayout = new VerticalLayout();
         bodyLayout.setSpacing(true)
-        bodyLayout.setMargin(true)
-        bodyLayout.setSizeFull()
+        bodyLayout.setMargin(new MarginInfo(false, true, true, true))
+        bodyLayout.setSizeUndefined()
+        bodyLayout.visible = false
 
         bodyLayout.addComponent(createForm());
 
@@ -171,8 +191,9 @@ class EditorUI {
 
     private HorizontalLayout createButtonLayout() {
         buttonLayout = new HorizontalLayout()
-        buttonLayout.setMargin(new MarginInfo(false, false, false, true))
+        buttonLayout.setMargin(new MarginInfo(false, true, false, true))
         buttonLayout.setSpacing(true)
+        buttonLayout.setWidth("100%")
 
         Button button = new Button("Save & close");
         button.addClickListener(new Button.ClickListener() {
@@ -182,12 +203,20 @@ class EditorUI {
             }
         });
         buttonLayout.addComponent(button);
+        buttonLayout.setExpandRatio(button, 0)
         buttonLayout.setComponentAlignment(button, Alignment.BOTTOM_LEFT)
 
         statusLabel = new Label("Opened...")
+        statusLabel.setSizeUndefined();
         buttonLayout.addComponent(statusLabel)
-        buttonLayout.setExpandRatio(statusLabel, 100)
-        buttonLayout.setComponentAlignment(statusLabel, Alignment.MIDDLE_LEFT)
+        buttonLayout.setExpandRatio(statusLabel, 0)
+        buttonLayout.setComponentAlignment(statusLabel, Alignment.MIDDLE_RIGHT)
+
+        JavaScript.getCurrent().addFunction("updateStatus", new JavaScriptFunction() {
+            public void call(JSONArray arguments) throws JSONException {
+                statusLabel.setValue(arguments.getString(0) + " at " + (new Date()).format("HH:mm:ss, dd/MM/yyyy"))
+            }
+        });
 
         return buttonLayout
     }
@@ -215,47 +244,13 @@ class EditorUI {
         fields.bind(author, "author")
         form.addComponent(author)
 
-        editorArea = createEditorArea2()
-
-        form.addComponent(editorArea)
-
-        handleDocSave()
         return form
     }
 
-    private void handleDocSave() {
-        VaadinSession.getCurrent().addRequestHandler(
-                new RequestHandler() {
-                    @Override
-                    public boolean handleRequest(VaadinSession session,
-                                                 VaadinRequest request,
-                                                 VaadinResponse response)
-                    throws IOException {
-                        synchronized (VaadinSession.getCurrent()) {
-                            if ("/saveBody".equals(request.getPathInfo())) {
-                                article.body = request.getInputStream().getText("UTF-8")
-                                saveArticle()
-                                Label label = new Label()
-                                label.value = "Saved " + (new Date()).format("HH:mm:ss")
-                                buttonLayout.replaceComponent(statusLabel, label)
-                                statusLabel = label
-                                buttonLayout.setComponentAlignment(statusLabel, Alignment.MIDDLE_LEFT)
-                                return true;
-                            } else {
-                                return false; // No response was written
-                            }
-                        }
-                    }
-                });
-    }
-
     private EditorArea createEditorArea() {
-        editorArea = new CodeMirrorArea(article)
-        return editorArea
-    }
-
-    private EditorArea createEditorArea2() {
         editorArea = new XopusArea(article)
+        editorArea.setWidth(100, Sizeable.Unit.PERCENTAGE)
+        editorArea.setHeight(99, Sizeable.Unit.PERCENTAGE)
         return editorArea
     }
 

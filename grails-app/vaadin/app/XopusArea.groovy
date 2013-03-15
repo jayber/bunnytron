@@ -1,16 +1,16 @@
 package app
 
-import com.vaadin.ui.CustomLayout
+import com.vaadin.server.ExternalResource
+import com.vaadin.ui.BrowserFrame
 import editor.Article
 
-class XopusArea extends CustomLayout implements EditorArea {
-    static String FRAME_START = "<iframe src=\"/frame/show?id="
-    static String FRAME_END = "\" width=\"100%\" height=\"1000\" frameborder=\"0\"></iframe>"
+class XopusArea extends BrowserFrame implements EditorArea {
+    private static String FRAME_URL = "/frame/show?id="
 
     private Article article
 
     XopusArea(Article article) {
-        super(new ByteArrayInputStream((FRAME_START + article.id + FRAME_END).getBytes()))
+        super("", new ExternalResource(FRAME_URL + article.id))
         this.article = article
     }
 
