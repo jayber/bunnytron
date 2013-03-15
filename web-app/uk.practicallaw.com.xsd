@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="revtitle" type="xs:string"/>
+    <xs:element name="resource" type="resourceType"/>
+    <xs:element name="date" type="xs:string"/>
+    <xs:element name="para" type="paraType"/>
+    <xs:element name="author" type="xs:string"/>
+    <xs:element name="title" type="xs:string"/>
+    <xs:element name="emphasis" type="emphasisType"/>
+    <xs:element name="revdescription" type="revdescriptionType"/>
+    <xs:complexType name="section3Type">
+        <xs:sequence>
+            <xs:element type="xs:string" name="title"/>
+            <xs:element type="paraType" name="para"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id"/>
+    </xs:complexType>
+    <xs:complexType name="resourceTypeType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="id"/>
+            <xs:element type="xs:string" name="name"/>
+            <xs:element type="xs:string" name="plcReference"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="abstractType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="p"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="practiceAreaType">
+        <xs:sequence>
+            <xs:element name="id">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1247242347750"/>
+                        <xs:enumeration value="1247242350508"/>
+                        <xs:enumeration value="1247242350250"/>
+                        <xs:enumeration value="1247242349993"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="name">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Lifetime Planning"/>
+                        <xs:enumeration value="Trusts"/>
+                        <xs:enumeration value="After Death"/>
+                        <xs:enumeration value="Wills"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="plcReference">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1-383-2273"/>
+                        <xs:enumeration value="0-383-2283"/>
+                        <xs:enumeration value="8-383-2284"/>
+                        <xs:enumeration value="6-383-2275"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="listitemType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="paraType" name="para"/>
+            <xs:element type="itemizedlistType" name="itemizedlist"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="productsType">
+        <xs:sequence>
+            <xs:element type="productType" name="product"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="productType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="id"/>
+            <xs:element type="xs:string" name="name"/>
+            <xs:element type="xs:string" name="plcReference"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="metadataType">
+        <xs:sequence>
+            <xs:element type="revhistoryType" name="revhistory"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="practiceAreasType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="practiceAreaType" name="practiceArea"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="section1Type">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element name="para">
+                <xs:complexType mixed="true">
+                    <xs:choice maxOccurs="unbounded" minOccurs="0">
+                        <xs:element type="emphasisType" name="emphasis"/>
+                        <xs:element type="listitemType" name="listitem"/>
+                        <xs:element type="tableType" name="table"/>
+                    </xs:choice>
+                    <xs:attribute ref="xml:space"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element type="xs:string" name="title"/>
+            <xs:element type="itemizedlistType" name="itemizedlist"/>
+            <xs:element type="section2Type" name="section2"/>
+        </xs:choice>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="revdescriptionType">
+        <xs:sequence>
+            <xs:element type="section1Type" name="section1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="xmlType">
+        <xs:sequence>
+            <xs:element type="practicenoteType" name="practicenote"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="revisionType" mixed="true">
+        <xs:sequence>
+            <xs:element type="xs:string" name="revtitle" minOccurs="0"/>
+            <xs:element type="xs:string" name="date" minOccurs="0"/>
+            <xs:element type="xs:string" name="author" minOccurs="0"/>
+            <xs:element type="revdescriptionType" name="revdescription" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="jurisdictionsType">
+        <xs:sequence>
+            <xs:element type="jurisdictionType" name="jurisdiction" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="rowType">
+        <xs:sequence>
+            <xs:element type="entryType" name="entry" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="revhistoryType">
+        <xs:sequence>
+            <xs:element type="revisionType" name="revision" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="itemizedlistType" mixed="true">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="listitemType" name="listitem"/>
+            <xs:element type="emphasisType" name="emphasis"/>
+            <xs:element type="tableType" name="table"/>
+        </xs:choice>
+        <xs:attribute ref="xml:space"/>
+    </xs:complexType>
+    <xs:complexType name="tgroupType">
+        <xs:sequence>
+            <xs:element type="colspecType" name="colspec" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="tbodyType" name="tbody"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="cols"/>
+    </xs:complexType>
+    <xs:complexType name="emphasisType" mixed="true">
+        <xs:sequence>
+            <xs:element type="plcxlinkType" name="plcxlink" minOccurs="0"/>
+            <xs:element type="emphasisType" name="emphasis" minOccurs="0"/>
+            <xs:element type="simpleplcxlinkType" name="simpleplcxlink" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="role" use="optional"/>
+        <xs:attribute type="xs:string" name="user" use="optional"/>
+        <xs:attribute type="xs:string" name="time" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="section2Type">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="paraType" name="para"/>
+            <xs:element type="xs:string" name="title"/>
+            <xs:element type="itemizedlistType" name="itemizedlist"/>
+            <xs:element type="section3Type" name="section3"/>
+        </xs:choice>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="resourceType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="id"/>
+            <xs:element type="xs:string" name="plcReference"/>
+            <xs:element type="xs:string" name="poid"/>
+            <xs:element type="xs:string" name="title"/>
+            <xs:element type="xs:string" name="author"/>
+            <xs:element type="resourceTypeType" name="resourceType"/>
+            <xs:element type="xs:string" name="pubdate"/>
+            <xs:element type="xs:string" name="lawdate"/>
+            <xs:element type="xs:string" name="isMaintained"/>
+            <xs:element type="xs:string" name="accessControl"/>
+            <xs:element type="xs:string" name="mimeType"/>
+            <xs:element type="xs:string" name="relatedDraftingNotes"/>
+            <xs:element type="abstractType" name="abstract"/>
+            <xs:element type="jurisdictionsType" name="jurisdictions"/>
+            <xs:element type="productsType" name="products"/>
+            <xs:element type="practiceAreasType" name="practiceAreas"/>
+            <xs:element type="xmlType" name="xml"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="fulltextType">
+        <xs:sequence>
+            <xs:element type="section1Type" name="section1" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="colspecType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="colname" use="optional"/>
+                <xs:attribute type="xs:string" name="colwidth" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="entryType">
+        <xs:sequence>
+            <xs:element type="paraType" name="para"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="simpleplcxlinkType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="practicenoteType">
+        <xs:sequence>
+            <xs:element type="metadataType" name="metadata"/>
+            <xs:element type="fulltextType" name="fulltext"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="tableType">
+        <xs:sequence>
+            <xs:element type="tgroupType" name="tgroup"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="frame"/>
+    </xs:complexType>
+    <xs:complexType name="tbodyType">
+        <xs:sequence>
+            <xs:element type="rowType" name="row" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="plcxlinkType">
+        <xs:sequence>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="jurisdictionType">
+        <xs:sequence>
+            <xs:element name="id">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="1247242354825"/>
+                        <xs:enumeration value="1247242355260"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="name">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="England"/>
+                        <xs:enumeration value="Wales"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="plcReference">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="9-103-0624"/>
+                        <xs:enumeration value="4-103-1070"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="paraType" mixed="true">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="emphasisType" name="emphasis"/>
+            <xs:element type="listitemType" name="listitem"/>
+            <xs:element type="tableType" name="table"/>
+        </xs:choice>
+        <xs:attribute ref="xml:space"/>
+    </xs:complexType>
+</xs:schema>
