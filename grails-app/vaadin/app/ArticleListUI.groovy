@@ -24,7 +24,7 @@ class ArticleListUI {
 
         @Override
         Collection<String> getContainerPropertyIds() {
-            return ["title", "author", "body", "createdDate"]
+            return ["title", "author", "createdDate"]
         }
     }
 
@@ -48,7 +48,7 @@ class ArticleListUI {
         List<Article> articles = editorService.listArticles()
         ArticleListContainer container = new ArticleListContainer(articles)
 
-        Table table = new Table("Articles (double-click to open)", container)
+        Table table = new Table("Articles (click to open)", container)
         table.setSizeFull()
         table.selectable = true
         table.addItemClickListener(new ItemClickEvent.ItemClickListener() {

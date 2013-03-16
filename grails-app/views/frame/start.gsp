@@ -17,7 +17,7 @@
 
             <x:pipeline xml="/ws/article/${params.id}/body/" xsd="/uk.practicallaw.com.xsd">
                 <x:view name="WYSIWYG View">
-                    <x:transform xsl="/xopus/examples/howto/SaveToJSP/stylesheet.xsl"/>
+                    <x:transform xsl="/stylesheet.xsl"/>
                 </x:view>
                 <x:view name="XML View">
                     <x:treeTransform/>
