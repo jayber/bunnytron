@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="title" type="xs:string"/>
+    <xs:element name="graphic">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute type="xs:string" name="fileref"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="article">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="metadata"/>
+                <xs:element ref="speedread"/>
+                <xs:element ref="fulltext"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="speedread">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="para" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="emphasis">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element ref="emphasis" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="role" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="listitem">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="para"/>
+                <xs:element ref="itemizedlist" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="section2">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded" minOccurs="0">
+                <xs:element ref="title"/>
+                <xs:element ref="para"/>
+                <xs:element ref="itemizedlist"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="section1">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title" minOccurs="0"/>
+                <xs:element ref="para" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element ref="section2" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element ref="itemizedlist" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="itemizedlist">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element ref="listitem" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element ref="emphasis" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="para">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element ref="emphasis" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element ref="graphic" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="fulltext">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="section1" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="metadata" type="xs:string"/>
+</xs:schema>

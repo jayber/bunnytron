@@ -1,26 +1,33 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>editor</title>
-    <meta name="ROBOTS" content="NOINDEX">
-    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="">
-    <script src="/xopus/xopus/xopus.js"></script>
+    <title>Xopus editor</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+
+    <link rel="stylesheet" type="text/css" href="/xopus/examples/simple/css/wysiwyg.css"/>
+
+    <!-- Start Xopus -->
+    <script type="text/javascript" src="/xopus/xopus/xopus.js"></script>
 </head>
 
-<div xopus="true">
-    Starting Xopus...
+<body>
+<!-- The Xopus Canvas -->
+<div xopus="true" autostart="true">
     <xml>
-        <config version="1.0" xmlns="http://www.xopus.com/xmlns/config">
-            %{--/article/${params.id}/body/--}%
-            <pipeline xsd="/doctypes/plc/plc.xsd">
-                <view name="WYSIWYG View">
-                    <transform xsl="/xsl/plcdtd/plcdtd2html.xsl"/>
-                </view>
-            </pipeline>
-        </config>
+        <x:config version="1.0" xmlns:x="http://www.xopus.com/xmlns/config">
+            <!-- Register the save.js script. -->
+            <x:javascript src="/xopus/config/save.js"/>
+
+            <x:pipeline xml="/ws/article/${params.id}/body/" xsd="/content.xsd">
+                <x:view name="WYSIWYG View">
+                    <x:transform xsl="/simpleplc.xsl"/>
+                </x:view>
+                <x:view name="XML View">
+                    <x:treeTransform/>
+                </x:view>
+            </x:pipeline>
+        </x:config>
     </xml>
 </div>
 
+</body>
 </html>
