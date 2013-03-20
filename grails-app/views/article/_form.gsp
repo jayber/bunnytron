@@ -24,19 +24,16 @@
         <g:message code="article.body.label" default="Body"/>
 
     </label>
-    <g:textArea id="body" name="body" cols="40" rows="5" value="${articleInstance?.body}"/>
-    <script type="text/javascript">
-        var myCodeMirror = CodeMirror.fromTextArea(document.getElementById('body'), {mode: 'xml',
-            theme: "neat",
-            extraKeys: {
-                "'>'": function (cm) {
-                    cm.closeTag(cm, '>');
-                },
-                "'/'": function (cm) {
-                    cm.closeTag(cm, '/');
-                }
-            }});
-    </script>
+    <g:textArea name="body" cols="40" rows="5" maxlength="1000000" value="${articleInstance?.body}"/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: articleInstance, field: 'service', 'error')} ">
+    <label for="service">
+        <g:message code="article.service.label" default="Service"/>
+
+    </label>
+    <g:select id="service" name="service.id" from="${editor.TElement.list()}" optionKey="id"
+              value="${articleInstance?.service?.id}" class="many-to-one" noSelection="['null': '']"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: articleInstance, field: 'createdDate', 'error')} required">
@@ -47,13 +44,11 @@
     <g:datePicker name="createdDate" precision="day" value="${articleInstance?.createdDate}"/>
 </div>
 
-<div id="editor">
-
+<div class="fieldcontain ${hasErrors(bean: articleInstance, field: 'maintainDate', 'error')} required">
+    <label for="maintainDate">
+        <g:message code="article.maintainDate.label" default="Maintain Date"/>
+        <span class="required-indicator">*</span>
+    </label>
+    <g:datePicker name="maintainDate" precision="day" value="${articleInstance?.maintainDate}"/>
 </div>
-<script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" type="text/javascript"
-        charset="utf-8"></script>
-<script>
-    var editor = ace.edit("editor");
-    editor.setTheme("ace/theme/monokai");
-    editor.getSession().setMode("ace/mode/xml");
-</script>
+
