@@ -9,6 +9,7 @@ import com.vaadin.server.Sizeable
 import com.vaadin.ui.*
 import editor.Article
 import editor.EditorService
+import editor.Person
 
 /**
  * User: James
@@ -32,6 +33,8 @@ class ArticleListUI {
 
     private Table table = new Table()
 
+    private Table mostRecentTable
+
     Component showBody() {
 
         HorizontalLayout topLayout = new HorizontalLayout()
@@ -54,14 +57,46 @@ class ArticleListUI {
         Accordion accordion = new Accordion()
         accordion.setSizeFull()
 
-        HorizontalLayout myContentTabLayout = new HorizontalLayout()
+        Layout myContentTabLayout = createMyContentTab()
         accordion.addTab(myContentTabLayout, "My content")
 
         VerticalLayout contentTabLayout = createContentTabLayout()
 
-        TabSheet.Tab tab = accordion.addTab(contentTabLayout, "Content")
+        TabSheet.Tab tab = accordion.addTab(contentTabLayout, "All content")
         accordion.setSelectedTab(tab)
         return accordion
+    }
+
+    private Layout createMyContentTab() {
+        ComboBox author = new ComboBox("Author", new BeanItemContainer<Person>(Person.list()))
+        author.setNullSelectionAllowed(false)
+        author.setImmediate(true)
+        author.addValueChangeListener(new Property.ValueChangeListener() {
+            @Override
+            void valueChange(Property.ValueChangeEvent valueChangeEvent) {
+                EditorService editorService = Grails.get(EditorService)
+                List<Article> articles = editorService.listArticlesForAuthor(author.value)
+                mostRecentTable.setContainerDataSource(new ArticleListContainer(articles))
+            }
+        })
+
+        HorizontalLayout myContentTabLayout = new HorizontalLayout()
+        myContentTabLayout.setSizeFull()
+        myContentTabLayout.setSpacing(true)
+
+        mostRecentTable = createListAllContentTable("Most recent")
+        final mostRecentLayout = new VerticalLayout()
+        mostRecentLayout.addComponent(author)
+        mostRecentLayout.addComponent(mostRecentTable)
+
+        myContentTabLayout.addComponent(mostRecentLayout)
+
+        final VerticalLayout maintainLayout = new VerticalLayout(createListAllContentTable("Maintenance"))
+        maintainLayout.setMargin(true)
+        myContentTabLayout.addComponent(maintainLayout)
+        myContentTabLayout.addComponent(createListAllContentTable("Service"))
+
+        return myContentTabLayout
     }
 
     private VerticalLayout createContentTabLayout() {
@@ -72,9 +107,21 @@ class ArticleListUI {
         contentTabLayout.addComponent(search)
         contentTabLayout.setExpandRatio(search, 0)
 
-        EditorService editorService = Grails.get(EditorService)
-        List<Article> articles = editorService.listArticles()
+        table = createListAllContentTable(null)
+        contentTabLayout.addComponent(table)
+        contentTabLayout.setExpandRatio(table, 1)
+        return contentTabLayout
+    }
+
+    private Table createListAllContentTable(String caption) {
+        List<Article> articles = listAllArticles()
+        return createArticleTable(articles, caption)
+    }
+
+    private Table createArticleTable(List<Article> articles, String caption) {
         ArticleListContainer container = new ArticleListContainer(articles)
+        Table table = new Table(caption)
+        table.setSizeFull()
 
         table.setContainerDataSource(container)
         table.selectable = true
@@ -88,9 +135,13 @@ class ArticleListUI {
         })
 
         table.setSizeFull()
-        contentTabLayout.addComponent(table)
-        contentTabLayout.setExpandRatio(table, 1)
-        return contentTabLayout
+        return table
+    }
+
+    private List<Article> listAllArticles() {
+        EditorService editorService = Grails.get(EditorService)
+        List<Article> articles = editorService.listArticles()
+        return articles
     }
 
     private TextField createSearchField() {

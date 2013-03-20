@@ -8,12 +8,14 @@
 </head>
 
 <body>
-<a href="#list-article" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
+<a href="#list-article" class="skip" tabindex="-1"><g:message code="default.link.skip.label"
+                                                              default="Skip to content&hellip;"/></a>
 
 <div class="nav" role="navigation">
     <ul>
         <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-        <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]"/></g:link></li>
+        <li><g:link class="create" action="create"><g:message code="default.new.label"
+                                                              args="[entityName]"/></g:link></li>
     </ul>
 </div>
 
@@ -32,7 +34,13 @@
 
             <g:sortableColumn property="body" title="${message(code: 'article.body.label', default: 'Body')}"/>
 
-            <g:sortableColumn property="createdDate" title="${message(code: 'article.createdDate.label', default: 'Created Date')}"/>
+            <th><g:message code="article.service.label" default="Service"/></th>
+
+            <g:sortableColumn property="createdDate"
+                              title="${message(code: 'article.createdDate.label', default: 'Created Date')}"/>
+
+            <g:sortableColumn property="maintainDate"
+                              title="${message(code: 'article.maintainDate.label', default: 'Maintain Date')}"/>
 
         </tr>
         </thead>
@@ -40,13 +48,18 @@
         <g:each in="${articleInstanceList}" status="i" var="articleInstance">
             <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 
-                <td><g:link action="show" id="${articleInstance.id}">${fieldValue(bean: articleInstance, field: "title")}</g:link></td>
+                <td><g:link action="show"
+                            id="${articleInstance.id}">${fieldValue(bean: articleInstance, field: "title")}</g:link></td>
 
                 <td>${fieldValue(bean: articleInstance, field: "author")}</td>
 
                 <td>${fieldValue(bean: articleInstance, field: "body")}</td>
 
+                <td>${fieldValue(bean: articleInstance, field: "service")}</td>
+
                 <td><g:formatDate date="${articleInstance.createdDate}"/></td>
+
+                <td><g:formatDate date="${articleInstance.maintainDate}"/></td>
 
             </tr>
         </g:each>
