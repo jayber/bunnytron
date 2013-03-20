@@ -4,9 +4,11 @@ class Person {
 
     static constraints = {
         name blank: false
+        service nullable: true, blank: true
     }
 
     String name
+    TElement service
 
     @Override
     String toString() {

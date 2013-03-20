@@ -15,8 +15,7 @@
         <g:message code="article.author.label" default="Author"/>
         <span class="required-indicator">*</span>
     </label>
-    <g:select id="author" name="author.id" from="${editor.Person.list()}" optionKey="id" required=""
-              value="${articleInstance?.author?.id}" class="many-to-one"/>
+    <g:select id="author" name="author.id" from="${editor.Person.list()}" optionKey="id" required="" value="${articleInstance?.author?.id}" class="many-to-one"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: articleInstance, field: 'body', 'error')} ">
@@ -32,8 +31,23 @@
         <g:message code="article.service.label" default="Service"/>
 
     </label>
-    <g:select id="service" name="service.id" from="${editor.TElement.list()}" optionKey="id"
-              value="${articleInstance?.service?.id}" class="many-to-one" noSelection="['null': '']"/>
+    <g:select id="service" name="service.id" from="${editor.TElement.list()}" optionKey="id" value="${articleInstance?.service?.id}" class="many-to-one" noSelection="['null': '']"/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: articleInstance, field: 'maintained', 'error')} ">
+    <label for="maintained">
+        <g:message code="article.maintained.label" default="Maintained"/>
+
+    </label>
+    <g:checkBox name="maintained" value="${articleInstance?.maintained}"/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: articleInstance, field: 'maintainDate', 'error')} ">
+    <label for="maintainDate">
+        <g:message code="article.maintainDate.label" default="Maintain Date"/>
+
+    </label>
+    <g:datePicker name="maintainDate" precision="day" value="${articleInstance?.maintainDate}" default="none" noSelection="['': '']"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: articleInstance, field: 'createdDate', 'error')} required">
@@ -42,13 +56,5 @@
         <span class="required-indicator">*</span>
     </label>
     <g:datePicker name="createdDate" precision="day" value="${articleInstance?.createdDate}"/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: articleInstance, field: 'maintainDate', 'error')} required">
-    <label for="maintainDate">
-        <g:message code="article.maintainDate.label" default="Maintain Date"/>
-        <span class="required-indicator">*</span>
-    </label>
-    <g:datePicker name="maintainDate" precision="day" value="${articleInstance?.maintainDate}"/>
 </div>
 

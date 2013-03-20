@@ -1,0 +1,124 @@
+<article>
+    <metadata>string</metadata>
+    <speedread>
+        <!--Zero or more repetitions:-->
+        <para>
+            e
+            <!--Zero or more repetitions:-->
+            <emphasis role="string">
+                gero
+                <!--Optional:-->
+                <emphasis/>
+                cum
+            </emphasis>
+            sonoras
+            <!--Optional:-->
+            <graphic fileref="string">string</graphic>
+            aeoliam
+        </para>
+    </speedread>
+    <fulltext>
+        <!--Zero or more repetitions:-->
+        <section1>
+            <!--Optional:-->
+            <title>string</title>
+            <!--Zero or more repetitions:-->
+            <para>
+                quae
+                <!--Zero or more repetitions:-->
+                <emphasis role="string">
+                    ventos
+                    <!--Optional:-->
+                    <emphasis/>
+                    verrantque
+                </emphasis>
+                temperat
+                <!--Optional:-->
+                <graphic fileref="string">string</graphic>
+                per
+            </para>
+            <!--Zero or more repetitions:-->
+            <section2>
+                <!--You have a CHOICE of the next 3 items at this level-->
+                <title>string</title>
+                <para>
+                    turbine
+                    <!--Zero or more repetitions:-->
+                    <emphasis role="string">
+                        circum
+                        <!--Optional:-->
+                        <emphasis/>
+                        regemque
+                    </emphasis>
+                    nimborum
+                    <!--Optional:-->
+                    <graphic fileref="string">string</graphic>
+                    fremunt
+                </para>
+                <itemizedlist>
+                    foedere
+                    <!--Zero or more repetitions:-->
+                    <listitem>
+                        <para>
+                            ferant
+                            <!--Zero or more repetitions:-->
+                            <emphasis role="string">
+                                profundum
+                                <!--Optional:-->
+                                <emphasis/>
+                                sceptra
+                            </emphasis>
+                            et
+                            <!--Optional:-->
+                            <graphic fileref="string">string</graphic>
+                            turbine
+                        </para>
+                        <!--Optional:-->
+                        <itemizedlist/>
+                    </listitem>
+                    iovis
+                    <!--Optional:-->
+                    <emphasis role="string">
+                        flammato
+                        <!--Optional:-->
+                        <emphasis/>
+                        speluncis
+                    </emphasis>
+                    profundum
+                </itemizedlist>
+            </section2>
+            <!--Optional:-->
+            <itemizedlist>
+                bella
+                <!--Zero or more repetitions:-->
+                <listitem>
+                    <para>
+                        nubibus
+                        <!--Zero or more repetitions:-->
+                        <emphasis role="string">
+                            flammas
+                            <!--Optional:-->
+                            <emphasis/>
+                            ac
+                        </emphasis>
+                        hoc
+                        <!--Optional:-->
+                        <graphic fileref="string">string</graphic>
+                        rapidum
+                    </para>
+                    <!--Optional:-->
+                    <itemizedlist/>
+                </listitem>
+                ac
+                <!--Optional:-->
+                <emphasis role="string">
+                    caelumque
+                    <!--Optional:-->
+                    <emphasis/>
+                    speluncis
+                </emphasis>
+                circum
+            </itemizedlist>
+        </section1>
+    </fulltext>
+</article>

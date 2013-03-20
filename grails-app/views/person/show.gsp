@@ -34,6 +34,15 @@
             </li>
         </g:if>
 
+        <g:if test="${personInstance?.service}">
+            <li class="fieldcontain">
+                <span id="service-label" class="property-label"><g:message code="person.service.label" default="Service"/></span>
+
+                <span class="property-value" aria-labelledby="service-label"><g:link controller="TElement" action="show" id="${personInstance?.service?.id}">${personInstance?.service?.encodeAsHTML()}</g:link></span>
+
+            </li>
+        </g:if>
+
     </ol>
     <g:form>
         <fieldset class="buttons">

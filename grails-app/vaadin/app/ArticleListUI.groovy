@@ -19,21 +19,23 @@ class ArticleListUI {
 
     public static final String THIS_CHOICE = "list"
     ContainerUI parent
+    Person author
 
     class ArticleListContainer extends BeanItemContainer {
-        protected ArticleListContainer(List<Article> articles) {
+        private ArrayList<String> propertyIds
+
+        protected ArticleListContainer(List<Article> articles, ArrayList<String> columnFields) {
             super(Article.class, articles)
+            propertyIds = columnFields
         }
 
         @Override
         Collection<String> getContainerPropertyIds() {
-            return ["title", "author", "createdDate"]
+            return propertyIds
         }
     }
 
     private Table table = new Table()
-
-    private Table mostRecentTable
 
     Component showBody() {
 
@@ -68,33 +70,30 @@ class ArticleListUI {
     }
 
     private Layout createMyContentTab() {
-        ComboBox author = new ComboBox("Author", new BeanItemContainer<Person>(Person.list()))
-        author.setNullSelectionAllowed(false)
-        author.setImmediate(true)
-        author.addValueChangeListener(new Property.ValueChangeListener() {
-            @Override
-            void valueChange(Property.ValueChangeEvent valueChangeEvent) {
-                EditorService editorService = Grails.get(EditorService)
-                List<Article> articles = editorService.listArticlesForAuthor(author.value)
-                mostRecentTable.setContainerDataSource(new ArticleListContainer(articles))
-            }
-        })
 
         HorizontalLayout myContentTabLayout = new HorizontalLayout()
         myContentTabLayout.setSizeFull()
         myContentTabLayout.setSpacing(true)
 
-        mostRecentTable = createListAllContentTable("Most recent")
+
+        EditorService editorService = Grails.get(EditorService)
+        List<Article> articles = editorService.listArticlesForAuthor(author)
+        Table mostRecentTable = createArticleTable(articles, "Most recent", ["title", "createdDate", "service"])
         final mostRecentLayout = new VerticalLayout()
-        mostRecentLayout.addComponent(author)
+        mostRecentLayout.setSizeFull()
         mostRecentLayout.addComponent(mostRecentTable)
 
         myContentTabLayout.addComponent(mostRecentLayout)
 
-        final VerticalLayout maintainLayout = new VerticalLayout(createListAllContentTable("Maintenance"))
+
+        articles = editorService.listMaintainedArticles()
+        final VerticalLayout maintainLayout = new VerticalLayout(createArticleTable(articles, "Maintenance", ["title", "service", "maintainDate"]))
         maintainLayout.setMargin(true)
+        maintainLayout.setSizeFull()
         myContentTabLayout.addComponent(maintainLayout)
-        myContentTabLayout.addComponent(createListAllContentTable("Service"))
+
+        articles = editorService.listArticlesForService(author.service)
+        myContentTabLayout.addComponent(createArticleTable(articles, "Service", ["title", "author", "createdDate"]))
 
         return myContentTabLayout
     }
@@ -115,11 +114,11 @@ class ArticleListUI {
 
     private Table createListAllContentTable(String caption) {
         List<Article> articles = listAllArticles()
-        return createArticleTable(articles, caption)
+        return createArticleTable(articles, caption, ["title", "author", "service", "maintained", "createdDate", "maintainDate"])
     }
 
-    private Table createArticleTable(List<Article> articles, String caption) {
-        ArticleListContainer container = new ArticleListContainer(articles)
+    private Table createArticleTable(List<Article> articles, String caption, ArrayList<String> columnFields) {
+        ArticleListContainer container = new ArticleListContainer(articles, columnFields)
         Table table = new Table(caption)
         table.setSizeFull()
 
@@ -154,7 +153,7 @@ class ArticleListUI {
             void valueChange(Property.ValueChangeEvent valueChangeEvent) {
                 EditorService editorService = Grails.get(EditorService)
                 def articles = editorService.findArticles(search.value)
-                ArticleListContainer container = new ArticleListContainer(articles)
+                ArticleListContainer container = new ArticleListContainer(articles, ["title", "author", "createdDate"])
                 table.setContainerDataSource(container)
             }
         })

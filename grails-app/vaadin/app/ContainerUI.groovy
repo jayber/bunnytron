@@ -2,6 +2,7 @@ package app
 
 import com.vaadin.annotations.StyleSheet
 import com.vaadin.annotations.Theme
+import com.vaadin.data.util.BeanItemContainer
 import com.vaadin.event.LayoutEvents
 import com.vaadin.server.ExternalResource
 import com.vaadin.server.Page
@@ -10,23 +11,13 @@ import com.vaadin.shared.ui.MarginInfo
 import com.vaadin.shared.ui.label.ContentMode
 import com.vaadin.ui.*
 import com.vaadin.ui.themes.Reindeer
+import editor.Person
 
 import java.text.SimpleDateFormat
 
 @Theme("reindeer")
-@com.vaadin.annotations.JavaScript([
-"codemirror/lib/codemirror.js",
-"codemirror/mode/xml/xml.js",
-"codemirror/lib/util/closetag.js",
-"codemirror/lib/util/foldcode.js",
-"codemirror/lib/util/simple-hint.js",
-"codemirror/lib/util/formatting.js",
-"codemirror/lib/util/xml-hint.js"
-])
 @StyleSheet([
-"codemirror/lib/codemirror.css",
-"css/editor.css",
-"codemirror/theme/neat.css"
+"css/editor.css"
 ])
 class ContainerUI extends UI {
 
@@ -39,7 +30,7 @@ class ContainerUI extends UI {
                     switchBodies(new ChoiceUI(container: this).createChoiceBody())
                 },
                 (ArticleListUI.THIS_CHOICE): {
-                    switchBodies(new ArticleListUI(parent: this).showBody())
+                    switchBodies(new ArticleListUI(parent: this, author: author.value).showBody())
                 },
                 (EditorUI.THIS_CHOICE): {
                     switchBodies(new EditorUI(parent: this).createEditorBody())
@@ -53,6 +44,8 @@ class ContainerUI extends UI {
         ]
 
     private Component currentBody
+
+    private ComboBox author = new ComboBox(null, new BeanItemContainer<Person>(Person.list([fetch: [service: "eager"]])))
 
     @Override
     protected void init(VaadinRequest request) {
@@ -100,9 +93,18 @@ class ContainerUI extends UI {
         titleLayout.setComponentAlignment(label, Alignment.BOTTOM_LEFT);
         titleLayout.setComponentAlignment(logo, Alignment.BOTTOM_LEFT);
 
+        HorizontalLayout bottomLayout = new HorizontalLayout()
+        bottomLayout.setWidth("100%")
         def subtitle = new Label("warm and fluffy")
         subtitle.setStyleName(Reindeer.LABEL_SMALL)
-        topLayout.addComponent(subtitle)
+
+        bottomLayout.addComponent(subtitle)
+        topLayout.addComponent(bottomLayout)
+        author.setNullSelectionAllowed(false)
+        author.setImmediate(true)
+        bottomLayout.addComponent(author)
+        bottomLayout.setComponentAlignment(author, Alignment.BOTTOM_RIGHT);
+
 
         return topLayout;
     }
