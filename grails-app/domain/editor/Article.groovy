@@ -13,7 +13,13 @@ class Article {
 
     String title = ""
     Person author
-    String body = ""
+    String body = "<article>\n" +
+            "    <metadata></metadata>\n" +
+            "    <speedread>\n" +
+            "    </speedread>\n" +
+            "    <fulltext>\n" +
+            "    </fulltext>\n" +
+            "</article>"
     Date createdDate = new Date()
     Boolean maintained = false
     Date maintainDate

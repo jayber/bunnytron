@@ -26,6 +26,8 @@ class EditorService {
     }
 
     List<Article> listMaintainedArticles() {
+        CONSTRAINTS["sort"] = "maintainDate"
+        CONSTRAINTS["order"] = "asc"
         Article.findAllByMaintained(Boolean.TRUE, CONSTRAINTS)
     }
 

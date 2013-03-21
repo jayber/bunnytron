@@ -47,3 +47,11 @@
     background-color: #ffffff;
     height: 20em;
 }
+
+.v-table-cell-content-green {
+    color: green;
+}
+
+.v-table-cell-content-red {
+    color: red;
+}

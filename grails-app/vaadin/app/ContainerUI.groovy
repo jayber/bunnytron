@@ -49,6 +49,9 @@ class ContainerUI extends UI {
 
     @Override
     protected void init(VaadinRequest request) {
+        author.setNullSelectionAllowed(false)
+        author.setTextInputAllowed(false)
+        author.setValue(author.getItemIds()[0])
         root = new VerticalLayout()
         root.setSizeFull()
         setContent(root)

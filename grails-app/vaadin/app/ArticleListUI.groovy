@@ -5,6 +5,7 @@ import com.vaadin.data.util.BeanItem
 import com.vaadin.data.util.BeanItemContainer
 import com.vaadin.event.ItemClickEvent
 import com.vaadin.grails.Grails
+import com.vaadin.server.ExternalResource
 import com.vaadin.server.Sizeable
 import com.vaadin.ui.*
 import editor.Article
@@ -60,11 +61,11 @@ class ArticleListUI {
         accordion.setSizeFull()
 
         Layout myContentTabLayout = createMyContentTab()
-        accordion.addTab(myContentTabLayout, "My content")
+        TabSheet.Tab tab = accordion.addTab(myContentTabLayout, "My content")
 
         VerticalLayout contentTabLayout = createContentTabLayout()
 
-        TabSheet.Tab tab = accordion.addTab(contentTabLayout, "All content")
+        accordion.addTab(contentTabLayout, "All content")
         accordion.setSelectedTab(tab)
         return accordion
     }
@@ -77,8 +78,9 @@ class ArticleListUI {
 
 
         EditorService editorService = Grails.get(EditorService)
-        List<Article> articles = editorService.listArticlesForAuthor(author)
-        Table mostRecentTable = createArticleTable(articles, "Most recent", ["title", "createdDate", "service"])
+        List<Article> authorsArticles = editorService.listArticlesForAuthor(author)
+        Table mostRecentTable = createArticleTable(authorsArticles, "My articles", ["title", "service", "maintained"])
+
         final mostRecentLayout = new VerticalLayout()
         mostRecentLayout.setSizeFull()
         mostRecentLayout.addComponent(mostRecentTable)
@@ -86,14 +88,21 @@ class ArticleListUI {
         myContentTabLayout.addComponent(mostRecentLayout)
 
 
-        articles = editorService.listMaintainedArticles()
-        final VerticalLayout maintainLayout = new VerticalLayout(createArticleTable(articles, "Maintenance", ["title", "service", "maintainDate"]))
-        maintainLayout.setMargin(true)
-        maintainLayout.setSizeFull()
-        myContentTabLayout.addComponent(maintainLayout)
+        authorsArticles = editorService.listMaintainedArticles()
+        Table maintainedTable = createArticleTable(authorsArticles, "Maintained articles", ["title", "service", "maintainDate"])
+        maintainedTable.setCellStyleGenerator(new Table.CellStyleGenerator() {
+            @Override
+            String getStyle(Table source, Object itemId, Object property) {
+                if (itemId.maintainDate.before(new Date())) {
+                    return "red"
+                }
+                return "green"
+            }
+        })
+        myContentTabLayout.addComponent(maintainedTable)
 
-        articles = editorService.listArticlesForService(author.service)
-        myContentTabLayout.addComponent(createArticleTable(articles, "Service", ["title", "author", "createdDate"]))
+        authorsArticles = editorService.listArticlesForService(author.service)
+        myContentTabLayout.addComponent(createArticleTable(authorsArticles, "Articles in your service: ${author.service}", ["title", "author", "createdDate"]))
 
         return myContentTabLayout
     }
@@ -119,11 +128,13 @@ class ArticleListUI {
 
     private Table createArticleTable(List<Article> articles, String caption, ArrayList<String> columnFields) {
         ArticleListContainer container = new ArticleListContainer(articles, columnFields)
-        Table table = new Table(caption)
+        final Table table = new Table(caption)
         table.setSizeFull()
 
         table.setContainerDataSource(container)
         table.selectable = true
+        table.setSizeUndefined()
+        table.setColumnWidth(columnFields[0], 130)
         table.addItemClickListener(new ItemClickEvent.ItemClickListener() {
             void itemClick(ItemClickEvent event) {
                 BeanItem item = event.getItem()
@@ -134,6 +145,14 @@ class ArticleListUI {
         })
 
         table.setSizeFull()
+        if (columnFields.contains("maintained")) {
+            table.addGeneratedColumn("maintained", new Table.ColumnGenerator() {
+                @Override
+                Object generateCell(Table source, Object itemId, Object columnId) {
+                    new Image(null, new ExternalResource(itemId.maintained ? "/images/tick.png" : "/images/cross.png"))
+                }
+            })
+        }
         return table
     }
 
