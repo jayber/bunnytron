@@ -153,6 +153,16 @@ class ArticleListUI {
                 }
             })
         }
+
+
+        columnFields.findAll { it.contains("Date") } each { columnName ->
+            table.addGeneratedColumn(columnName, new Table.ColumnGenerator() {
+                @Override
+                Object generateCell(Table source, Object itemId, Object columnId) {
+                    itemId.properties[columnId]?.format("dd/MM/yy HH:mm")
+                }
+            })
+        }
         return table
     }
 

@@ -244,6 +244,21 @@ class EditorUI {
         fields.bind(author, "author")
         form.addComponent(author)
 
+        CheckBox maintainFlag = new CheckBox("Maintain?")
+        fields.bind(maintainFlag, "maintained")
+        form.addComponent(maintainFlag)
+
+        DateField maintainDate = new DateField("Maintain Date")
+        maintainDate.setResolution(Resolution.MINUTE)
+        fields.bind(maintainDate, "maintainDate")
+        form.addComponent(maintainDate)
+
+        ComboBox service = new ComboBox("Service", new BeanItemContainer<TElement>(TElement.list()))
+        service.setNullSelectionAllowed(false)
+        service.setRequired(true)
+        fields.bind(service, "service")
+        form.addComponent(service)
+
         return form
     }
 
