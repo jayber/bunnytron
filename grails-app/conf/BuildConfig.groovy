@@ -38,7 +38,7 @@ grails.project.dependency.resolution = {
 
         runtime 'org.hsqldb:hsqldb:2.2.8'
 
-//        compile 'org.vaadin.addons:codemirror:0.9.3'
+        compile 'com.vaadin.addon:vaadin-charts:1.0.0'
     }
 
     plugins {

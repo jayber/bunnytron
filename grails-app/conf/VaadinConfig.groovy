@@ -6,6 +6,10 @@ vaadin {
             "/ui/*": "app.ContainerUI"
     ]
 
+    initParameters {
+        widgetset = 'com.example.myapp.widgetset.MyAppWidgetSet'
+    }
+
     // This is optional because the servlet is provided by default.
     // servletClass = "com.mycompany.MyGrailsAwareApplicationServlet"
 

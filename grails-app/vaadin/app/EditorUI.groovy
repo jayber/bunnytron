@@ -1,5 +1,8 @@
 package app
 
+import com.vaadin.addon.charts.Chart
+import com.vaadin.addon.charts.model.ChartType
+import com.vaadin.data.Property
 import com.vaadin.data.fieldgroup.FieldGroup
 import com.vaadin.data.util.BeanItem
 import com.vaadin.data.util.BeanItemContainer
@@ -48,6 +51,8 @@ class EditorUI {
 
     private HorizontalLayout titleLayout
 
+    private DateField maintainDate
+
     public Component createEditorBody() {
 
         VerticalLayout vlayout = new VerticalLayout()
@@ -58,13 +63,14 @@ class EditorUI {
         titleLayout = new HorizontalLayout(rightArrow, titleLabel)
         titleLayout.setComponentAlignment(rightArrow, Alignment.BOTTOM_LEFT)
         titleLayout.setComponentAlignment(titleLabel, Alignment.BOTTOM_LEFT)
-        titleLayout.setMargin(true)
         titleLayout.addStyleName("homeLink")
         titleLayout.setDescription("Click to edit details")
-        vlayout.addComponent(titleLayout)
+        VerticalLayout topLayout = new VerticalLayout(titleLayout)
+        topLayout.setMargin(new MarginInfo(false, false, true, true))
+        vlayout.addComponent(topLayout)
 
-        final detailsLayout = createDetailsLayout()
-        vlayout.addComponent(detailsLayout)
+        final detailsLayout = createForm()
+        topLayout.addComponent(detailsLayout)
 
         titleLayout.addLayoutClickListener(new LayoutEvents.LayoutClickListener() {
             @Override
@@ -95,11 +101,21 @@ class EditorUI {
             }
         })
 
+        Component graphTab = createGraphTab()
+        tabSheet.addTab(graphTab, "Statistics")
+
         HorizontalLayout buttonLayout = createButtonLayout()
         vlayout.addComponent(buttonLayout)
         vlayout.setComponentAlignment(buttonLayout, Alignment.BOTTOM_LEFT)
 
         return vlayout;
+    }
+
+    Component createGraphTab() {
+        HorizontalLayout layout = new HorizontalLayout()
+        Chart chart = new Chart(ChartType.BAR)
+        layout.addComponent(chart)
+        return layout
     }
 
     def Component createCodingTab() {
@@ -177,18 +193,6 @@ class EditorUI {
         keywordLayout.addComponent(new Label(element.name))
     }
 
-    private VerticalLayout createDetailsLayout() {
-        VerticalLayout bodyLayout = new VerticalLayout();
-        bodyLayout.setSpacing(true)
-        bodyLayout.setMargin(new MarginInfo(false, true, true, true))
-        bodyLayout.setSizeUndefined()
-        bodyLayout.visible = false
-
-        bodyLayout.addComponent(createForm());
-
-        return bodyLayout
-    }
-
     private HorizontalLayout createButtonLayout() {
         buttonLayout = new HorizontalLayout()
         buttonLayout.setMargin(new MarginInfo(false, true, false, true))
@@ -227,39 +231,61 @@ class EditorUI {
 
     Component createForm() {
         fields = new FieldGroup(new BeanItem(article))
-        VerticalLayout form = new VerticalLayout();
-        form.setWidth(100, Sizeable.Unit.PERCENTAGE)
+
+        TextField title = fields.buildAndBind("title")
+        title.setRequired(true)
+        titleLabel.setPropertyDataSource(title)
+
         DateField createdDate = new DateField("Created Date")
         createdDate.setResolution(Resolution.MINUTE)
+        createdDate.setRequired(true)
         fields.bind(createdDate, "createdDate")
-        form.addComponent(createdDate)
-
-        TextField bind = fields.buildAndBind("title")
-        titleLabel.setPropertyDataSource(bind)
-        form.addComponent(bind)
 
         ComboBox author = new ComboBox("Author", new BeanItemContainer<Person>(Person.list()))
         author.setNullSelectionAllowed(false)
         author.setRequired(true)
         fields.bind(author, "author")
-        form.addComponent(author)
+
+        maintainDate = new DateField("Maintain Date")
+        fields.bind(maintainDate, "maintainDate")
+        maintainDate.setResolution(Resolution.DAY)
+
+        updateMaintainDateField(article.maintained)
 
         CheckBox maintainFlag = new CheckBox("Maintain?")
+        maintainFlag.setImmediate(true)
+        maintainFlag.addValueChangeListener(new Property.ValueChangeListener() {
+            @Override
+            void valueChange(Property.ValueChangeEvent valueChangeEvent) {
+                updateMaintainDateField(valueChangeEvent.getProperty().value)
+            }
+        })
         fields.bind(maintainFlag, "maintained")
-        form.addComponent(maintainFlag)
-
-        DateField maintainDate = new DateField("Maintain Date")
-        maintainDate.setResolution(Resolution.MINUTE)
-        fields.bind(maintainDate, "maintainDate")
-        form.addComponent(maintainDate)
 
         ComboBox service = new ComboBox("Service", new BeanItemContainer<TElement>(TElement.list()))
         service.setNullSelectionAllowed(false)
         service.setRequired(true)
         fields.bind(service, "service")
-        form.addComponent(service)
+        FormLayout formLayout1 = new FormLayout(title, createdDate, author)
+        FormLayout formLayout2 = new FormLayout(maintainFlag, maintainDate, service)
+        HorizontalLayout layout = new HorizontalLayout(formLayout1, formLayout2)
+        layout.setComponentAlignment(formLayout1, Alignment.MIDDLE_LEFT)
+        layout.setComponentAlignment(formLayout2, Alignment.MIDDLE_RIGHT)
+        layout.setSpacing(true)
 
-        return form
+        layout.visible = false
+        return layout
+    }
+
+    private void updateMaintainDateField(boolean value) {
+        if (value) {
+            maintainDate.setEnabled(true)
+            maintainDate.setRequired(true)
+        } else {
+            maintainDate.setValue(null)
+            maintainDate.setEnabled(false)
+            maintainDate.setRequired(false)
+        }
     }
 
     private EditorArea createEditorArea() {
