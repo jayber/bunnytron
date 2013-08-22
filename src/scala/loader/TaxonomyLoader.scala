@@ -1,5 +1,7 @@
 package loader
 
-class TaxonomyLoader {
+object TaxonomyLoader {
+  def main(args: Array[String]) {
 
+  }
 }
