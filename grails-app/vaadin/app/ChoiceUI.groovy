@@ -12,8 +12,9 @@ import com.vaadin.ui.themes.Reindeer
 class ChoiceUI {
 
     public static final String CHOICE_CHOICE = "choice"
-    public static final String SITE_CHOICE = "site"
+    public static final String TAXON_CHOICE = "taxonomy"
     public static final String PERSON_CHOICE = "persons"
+    public static final String TRAWL_CHOICE = "trawl"
     ContainerUI container
 
     public createChoiceBody() {
@@ -26,13 +27,17 @@ class ChoiceUI {
         hlayout.addComponent(button1)
         hlayout.setComponentAlignment(button1, Alignment.MIDDLE_CENTER)
 
-        VerticalLayout button2 = createChoiceButton(SITE_CHOICE, "/images/octopus.png", "Layout site")
+        VerticalLayout button2 = createChoiceButton(TAXON_CHOICE, "/images/frogtaxonomy2.jpg", "Taxonomy")
         hlayout.addComponent(button2)
         hlayout.setComponentAlignment(button2, Alignment.MIDDLE_CENTER)
 
         VerticalLayout button3 = createChoiceButton(PERSON_CHOICE, "/images/person2.jpg", "Other actions")
         hlayout.addComponent(button3)
         hlayout.setComponentAlignment(button3, Alignment.MIDDLE_CENTER)
+
+        VerticalLayout button4 = createChoiceButton(TRAWL_CHOICE, "/images/angler-fish2.png", "Trawl the web")
+        hlayout.addComponent(button4)
+        hlayout.setComponentAlignment(button4, Alignment.MIDDLE_CENTER)
 
         return hlayout
     }

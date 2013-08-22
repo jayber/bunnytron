@@ -38,8 +38,11 @@ class ContainerUI extends UI {
                 (ChoiceUI.PERSON_CHOICE): {
                     getPage().open("/index", "")
                 },
-                (ChoiceUI.SITE_CHOICE): {
-                    switchBodies(new SiteLayoutUI(parent: this).createBody())
+                (ChoiceUI.TRAWL_CHOICE): {
+                    switchBodies(new TrawlUI(parent: this).createBody())
+                },
+                (ChoiceUI.TAXON_CHOICE): {
+                    switchBodies(new TaxonUI(parent: this).createBody())
                 }
         ]
 

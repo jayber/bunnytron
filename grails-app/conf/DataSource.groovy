@@ -1,3 +1,11 @@
+grails {
+    neo4j {
+        type = "embedded"
+        location = "db/neo4j"
+        params = []
+    }
+}
+
 dataSource {
     pooled = true
     driverClassName = "org.hsqldb.jdbcDriver"

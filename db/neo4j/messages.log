@@ -1,0 +1,1222 @@
+2013-08-22 10:09:33.064+0000: Creating new db @ O:\bunnytron\db\neo4j\neostore
+2013-08-22 10:09:33.093+0000: [O:\bunnytron\db\neo4j\neostore.nodestore.db] brickCount=0 brickSize=125829b mappedMem=12582912b (storeSize=0b)
+2013-08-22 10:09:33.099+0000: O:\bunnytron\db\neo4j\neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.151+0000: [O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-08-22 10:09:33.167+0000: [O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-08-22 10:09:33.167+0000: O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.167+0000: O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.167+0000: [O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-08-22 10:09:33.167+0000: [O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-08-22 10:09:33.167+0000: [O:\bunnytron\db\neo4j\neostore.propertystore.db.strings] brickCount=0 brickSize=39808b mappedMem=39845888b (storeSize=128b)
+2013-08-22 10:09:33.167+0000: [O:\bunnytron\db\neo4j\neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2013-08-22 10:09:33.167+0000: [O:\bunnytron\db\neo4j\neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2013-08-22 10:09:33.167+0000: [O:\bunnytron\db\neo4j\neostore.propertystore.db.arrays] brickCount=0 brickSize=46080b mappedMem=46137344b (storeSize=128b)
+2013-08-22 10:09:33.168+0000: [O:\bunnytron\db\neo4j\neostore.propertystore.db] brickCount=0 brickSize=471828b mappedMem=47185920b (storeSize=0b)
+2013-08-22 10:09:33.168+0000: [O:\bunnytron\db\neo4j\neostore.relationshipstore.db] brickCount=0 brickSize=576708b mappedMem=57671680b (storeSize=0b)
+2013-08-22 10:09:33.168+0000: [O:\bunnytron\db\neo4j\neostore.nodestore.db] brickCount=0 brickSize=12582b mappedMem=12582912b (storeSize=9b)
+2013-08-22 10:09:33.168+0000: [O:\bunnytron\db\neo4j\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-08-22 10:09:33.168+0000: O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.168+0000: O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.168+0000: O:\bunnytron\db\neo4j\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.168+0000: O:\bunnytron\db\neo4j\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.172+0000: O:\bunnytron\db\neo4j\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.176+0000: O:\bunnytron\db\neo4j\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.179+0000: O:\bunnytron\db\neo4j\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.182+0000: O:\bunnytron\db\neo4j\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.186+0000: O:\bunnytron\db\neo4j\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:09:33.191+0000: O:\bunnytron\db\neo4j\neostore hit=0 miss=8 switches=0 ooe=0
+2013-08-22 10:09:33.197+0000: [O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-08-22 10:09:33.197+0000: [O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-08-22 10:09:33.198+0000: [O:\bunnytron\db\neo4j\neostore.propertystore.db.strings] brickCount=0 brickSize=39808b mappedMem=39845888b (storeSize=128b)
+2013-08-22 10:09:33.199+0000: [O:\bunnytron\db\neo4j\neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2013-08-22 10:09:33.199+0000: [O:\bunnytron\db\neo4j\neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2013-08-22 10:09:33.200+0000: [O:\bunnytron\db\neo4j\neostore.propertystore.db.arrays] brickCount=0 brickSize=46080b mappedMem=46137344b (storeSize=128b)
+2013-08-22 10:09:33.200+0000: [O:\bunnytron\db\neo4j\neostore.propertystore.db] brickCount=0 brickSize=471828b mappedMem=47185920b (storeSize=0b)
+2013-08-22 10:09:33.201+0000: [O:\bunnytron\db\neo4j\neostore.relationshipstore.db] brickCount=0 brickSize=576708b mappedMem=57671680b (storeSize=0b)
+2013-08-22 10:09:33.201+0000: [O:\bunnytron\db\neo4j\neostore.nodestore.db] brickCount=0 brickSize=12582b mappedMem=12582912b (storeSize=9b)
+2013-08-22 10:09:33.202+0000: [O:\bunnytron\db\neo4j\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-08-22 10:09:33.209+0000: Opened logical log [O:\bunnytron\db\neo4j\nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2013-08-22 10:09:33.265+0000: TM new log: tm_tx_log.1
+2013-08-22 10:09:33.270+0000: Opened logical log [O:\bunnytron\db\neo4j\index\lucene.log.1] version=0, lastTxId=1 (clean)
+2013-08-22 10:09:33.275+0000: --- STARTUP diagnostics START ---
+2013-08-22 10:09:33.277+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=false
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=44M
+    neostore.propertystore.db.strings.mapped_memory=38M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=db/neo4j
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=55M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=12M
+    neo4j.ext.udc.first_delay=600000
+    neo4j.ext.udc.reg=unreg
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=45M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-08-22 10:09:33.279+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-08-22 10:09:33.279+0000: System memory information:
+    Total Physical memory: 11.88 GB
+    Free Physical memory: 8.38 GB
+    Committed virtual memory: 1.07 GB
+    Total swap space: 23.75 GB
+    Free swap space: 19.25 GB
+2013-08-22 10:09:33.316+0000: JVM memory information:
+    Free  memory: 626.34 MB
+    Total memory: 743.38 MB
+    Max   memory: 743.38 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=5.88 MB, used=5.53 MB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=205.94 MB, used=27.12 MB, max=205.94 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=25.44 MB, used=2.57 MB, max=25.44 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=512.00 MB, used=87.34 MB, max=512.00 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=256.00 MB, used=70.87 MB, max=256.00 MB, threshold=0.00 B
+2013-08-22 10:09:33.318+0000: Operating system information:
+    Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 8
+    Process id: 3308@WS03597
+    Byte order: LITTLE_ENDIAN
+    Local timezone: Europe/London
+2013-08-22 10:09:33.319+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Sun Microsystems Inc.
+    VM Version: 20.12-b01
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Dgrails.home=O:\globallibs\grails-2.2.1, -Dbase.dir=O:\bunnytron, -Dtools.jar=C:\Java\jdk1.6.0_37\lib\tools.jar, -Dgroovy.starter.conf=O:\globallibs\grails-2.2.1/conf/groovy-starter.conf, -Xmx768M, -Xms768M, -XX:MaxPermSize=256m, -XX:PermSize=256m, -Djline.WindowsTerminal.directConsole=false, -javaagent:O:\globallibs\grails-2.2.1\lib\org.springsource.springloaded\springloaded-core\jars\springloaded-core-1.1.1.jar, -Xverify:none, -Dspringloaded=profile=grails, -Didea.launcher.port=7533, -Didea.launcher.bin.path=C:\Program, Files, (x86)\JetBrains\IntelliJ, IDEA, 12.1\bin, -Dfile.encoding=UTF-8]
+2013-08-22 10:09:33.319+0000: Java classpath:
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.gebish/geb-spock/jars/geb-spock-0.9.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-orm/jars/spring-orm-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.github.detro.ghostdriver/phantomjsdriver/jars/phantomjsdriver-1.0.3.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-datastore-gorm-plugin-support/jars/grails-datastore-gorm-plugin-support-1.1.7.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.gebish/geb-implicit-assertions/jars/geb-implicit-assertions-0.9.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.6.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-hibernate/jars/grails-hibernate-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.8.2.jar
+     [loader.0] file:/O:/globallibs/grails-2.2.1/lib/net.java.dev.jna/jna/jars/jna-3.2.3.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.ant/ant-trax/jars/ant-trax-1.7.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-core/jars/grails-core-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/antlr/antlr/jars/antlr-2.7.7.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.javassist/javassist/jars/javassist-3.16.1-GA.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-jasper/jars/tomcat-embed-jasper-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-io/commons-io/jars/commons-io-2.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.vaadin/vaadin-themes/jars/vaadin-themes-7.0.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.commons/commons-exec/jars/commons-exec-1.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.googlecode.json-simple/json-simple/jars/json-simple-1.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-fileupload/commons-fileupload/jars/commons-fileupload-1.2.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.ant/ant-junit/jars/ant-junit-1.8.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-datastore-gorm-test/jars/grails-datastore-gorm-test-1.1.7.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.jsoup/jsoup/jars/jsoup-1.6.3.jar
+     [loader.1] file:/O:/globallibs/grails-2.2.1/dist/grails-bootstrap-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.vaadin/vaadin-shared/jars/vaadin-shared-7.0.1.jar
+     [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\modules\jdk.boot.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-spring/jars/grails-spring-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-validation/jars/grails-plugin-validation-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-scaffolding/jars/grails-plugin-scaffolding-2.2.1.jar
+     [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\rt.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-i18n/jars/grails-plugin-i18n-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.neo4j/neo4j-graph-algo/jars/neo4j-graph-algo-1.8.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/net.java.dev.jna/jna/jars/jna-3.4.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat/tomcat-catalina-ant/jars/tomcat-catalina-ant-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-datasource/jars/grails-plugin-datasource-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-mimetypes/jars/grails-plugin-mimetypes-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-servlets/jars/grails-plugin-servlets-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/xpp3/xpp3_min/jars/xpp3_min-1.1.4c.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-datastore-web/jars/grails-datastore-web-1.1.7.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.hibernate/hibernate-validator/jars/hibernate-validator-4.1.0.Final.jar
+     [loader.0] file:/O:/globallibs/grails-2.2.1/lib/commons-cli/commons-cli/jars/commons-cli-1.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-dbcp/commons-dbcp/jars/commons-dbcp-1.4.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.w3c.css/sac/jars/sac-1.3.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/asm/asm/jars/asm-3.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-log4j/jars/grails-plugin-log4j-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.hibernate/hibernate-commons-annotations/jars/hibernate-commons-annotations-3.2.0.Final.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.bouncycastle/bcprov-jdk15/jars/bcprov-jdk15-1.45.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-validator/commons-validator/jars/commons-validator-1.3.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-datastore-gorm/jars/grails-datastore-gorm-1.1.7.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.seleniumhq.selenium/selenium-firefox-driver/jars/selenium-firefox-driver-2.31.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.vaadin/vaadin-shared-deps/jars/vaadin-shared-deps-1.0.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.seleniumhq.selenium/selenium-chrome-driver/jars/selenium-chrome-driver-2.31.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/cglib/cglib/jars/cglib-2.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.hsqldb/hsqldb/jars/hsqldb-2.2.8.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.neo4j/neo4j-udc/jars/neo4j-udc-1.8.2.jar
+     [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\jce.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-aspects/jars/spring-aspects-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.neo4j/neo4j-kernel/jars/neo4j-kernel-1.8.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.gebish/geb-ast/jars/geb-ast-0.9.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.8.3.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.vaadin/vaadin-client-compiled/jars/vaadin-client-compiled-7.0.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar
+     [classpath] C:\Program Files (x86)\JetBrains\IntelliJ IDEA 12.1\lib\idea_rt.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-filters/jars/grails-plugin-filters-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.vaadin/vaadin-theme-compiler/jars/vaadin-theme-compiler-7.0.1.jar
+     [loader.2] file:/C:/Java/jdk1.6.0_37/jre/lib/ext/sunjce_provider.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-tomcat/jars/grails-plugin-tomcat-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat/tomcat-util/jars/tomcat-util-7.0.30.jar
+     [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\resources.jar
+     [loader.1] file:/C:/Program%20Files%20(x86)/JetBrains/IntelliJ%20IDEA%2012.1/lib/idea_rt.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.codehaus.groovy/groovy-all/jars/groovy-all-2.0.7.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-codecs/jars/grails-plugin-codecs-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.ant/ant/jars/ant-1.8.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/junit/junit/jars/junit-4.10.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.commons/commons-jexl/jars/commons-jexl-2.1.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+     [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\jsse.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat/tomcat-juli/jars/tomcat-juli-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-log4j/jars/tomcat-embed-logging-log4j-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-bootstrap/jars/grails-bootstrap-2.2.1.jar
+     [loader.2] file:/C:/Java/jdk1.6.0_37/jre/lib/ext/localedata.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.h2database/h2/jars/h2-1.3.164.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-datastore-core/jars/grails-datastore-core-1.1.7.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-domain-class/jars/grails-plugin-domain-class-2.2.1.jar
+     [bootstrap] C:\Java\jdk1.6.0_37\jre\classes
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/xalan/serializer/jars/serializer-2.7.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.ivy/ivy/jars/ivy-2.2.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/javax.transaction/jta/jars/jta-1.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.vaadin/vaadin-client/jars/vaadin-client-7.0.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat/tomcat-catalina/jars/tomcat-catalina-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/2.2.1/projects/editor/resources/
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-webmvc/jars/spring-webmvc-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-core/jars/spring-core-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/jars/concurrentlinkedhashmap-lru-1.3.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.seleniumhq.selenium/selenium-support/jars/selenium-support-2.31.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/jline/jline/jars/jline-1.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/jars/hibernate-jpa-2.0-api-1.0.1.Final.jar
+     [loader.0] file:/O:/globallibs/grails-2.2.1/lib/org.fusesource.jansi/jansi/jars/jansi-1.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.6.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-crud/jars/grails-crud-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/net.java.dev.jna/platform/jars/platform-3.4.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-datastore-gorm-neo4j/jars/grails-datastore-gorm-neo4j-1.0.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat/tomcat-api/jars/tomcat-api-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-juli/jars/tomcat-embed-logging-juli-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.geronimo.specs/geronimo-jta_1.1_spec/jars/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.gebish/geb-core/jars/geb-core-0.9.0.jar
+     [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\sunrsasign.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.seleniumhq.selenium/selenium-remote-driver/jars/selenium-remote-driver-2.31.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.4.6.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/net.java.dev.jna/jna/jars/jna-3.2.3.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.vaadin/vaadin-server/jars/vaadin-server-7.0.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.aspectj/aspectjrt/jars/aspectjrt-1.6.10.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.aspectj/aspectjweaver/jars/aspectjweaver-1.6.10.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-expression/jars/spring-expression-3.1.4.RELEASE.jar
+     [loader.0] file:/O:/globallibs/grails-2.2.1/lib/jline/jline/jars/jline-1.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-docs/jars/grails-docs-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-jdbc/jars/spring-jdbc-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat/tomcat-annotations-api/jars/tomcat-annotations-api-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.hibernate/hibernate-core/jars/hibernate-core-3.6.10.Final.jar
+     [classpath + loader.1] file:/O:/globallibs/grails-2.2.1/lib/org.springsource.springloaded/springloaded-core/jars/springloaded-core-1.1.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.hibernate/hibernate-ehcache/jars/hibernate-ehcache-3.6.10.Final.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.scala-lang/scala-library/jars/scala-library-2.9.1-1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-gsp/jars/grails-plugin-gsp-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/oro/oro/jars/oro-2.0.8.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.liquibase/liquibase-core/jars/liquibase-core-2.0.5.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/2.2.1/projects/editor/scriptCache/
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-tx/jars/spring-tx-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat/tomcat-coyote/jars/tomcat-coyote-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-test/jars/grails-test-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-asm/jars/spring-asm-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.google.guava/guava/bundles/guava-14.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.neo4j/neo4j-jmx/jars/neo4j-jmx-1.8.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-test/jars/spring-test-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.neo4j/neo4j-community/jars/neo4j-community-1.8.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.bouncycastle/bcpg-jdk15/jars/bcpg-jdk15-1.45.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/cglib/cglib-nodep/jars/cglib-nodep-2.1_3.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-jms/jars/spring-jms-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-services/jars/grails-plugin-services-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.neo4j/neo4j-cypher/jars/neo4j-cypher-1.8.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-url-mappings/jars/grails-plugin-url-mappings-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-datastore-simple/jars/grails-datastore-simple-1.1.7.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/log4j/log4j/bundles/log4j-1.2.16.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.fusesource.jansi/jansi/jars/jansi-1.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.neo4j/neo4j-lucene-index/jars/neo4j-lucene-index-1.8.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-scripts/jars/grails-scripts-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-beans/jars/spring-beans-3.1.4.RELEASE.jar
+     [loader.0] file:/O:/globallibs/grails-2.2.1/lib/org.codehaus.gant/gant_groovy1.8/jars/gant_groovy1.8-1.9.6.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-web/jars/spring-web-3.1.4.RELEASE.jar
+     [loader.1] file:/O:/globallibs/grails-2.2.1/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-2.0.7.jar
+     [loader.0] file:/O:/globallibs/grails-2.2.1/lib/org.apache.ant/ant/jars/ant-1.8.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-pool/commons-pool/jars/commons-pool-1.5.6.jar
+     [loader.2] file:/C:/Java/jdk1.6.0_37/jre/lib/ext/dnsns.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/dom4j/dom4j/jars/dom4j-1.6.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework.uaa/org.springframework.uaa.client/bundles/org.springframework.uaa.client-1.0.1.RELEASE.jar
+     [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\charsets.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.json/json/jars/json-20080701.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-resources/jars/grails-resources-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-testing/jars/grails-plugin-testing-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/opensymphony/sitemesh/jars/sitemesh-2.4.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-aop/jars/spring-aop-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-converters/jars/grails-plugin-converters-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-context/jars/spring-context-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.springframework/spring-context-support/jars/spring-context-support-3.1.4.RELEASE.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/javax.servlet/jstl/jars/jstl-1.1.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.seleniumhq.selenium/selenium-api/jars/selenium-api-2.31.0.jar
+     [loader.0] file:/C:/Java/jdk1.6.0_37/lib/tools.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/net.sourceforge.cssparser/cssparser/jars/cssparser-0.9.5.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.lucene/lucene-core/jars/lucene-core-3.5.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/javax.validation/validation-api/jars/validation-api-1.0.0.GA-sources.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.neo4j/neo4j-graph-matching/jars/neo4j-graph-matching-1.8.2.jar
+     [loader.0] file:/O:/globallibs/grails-2.2.1/lib/org.apache.ivy/ivy/jars/ivy-2.2.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-core/jars/tomcat-embed-core-7.0.30.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-plugin-controllers/jars/grails-plugin-controllers-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-web/jars/grails-web-2.2.1.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/commons-el/commons-el/jars/commons-el-1.0.jar
+     [loader.0] file:/C:/Users/bromlej/.grails/ivy-cache/org.grails/grails-logging/jars/grails-logging-2.2.1.jar
+2013-08-22 10:09:33.364+0000: Library path:
+    C:\Java\jdk1.6.0_37\bin
+    C:\Windows\Sun\Java\bin
+    C:\Windows\System32
+    C:\Windows
+    C:\Program Files (x86)\JetBrains\IntelliJ IDEA 12.1\bin
+    C:\oraclexe\app\oracle\product\11.2.0\server\bin
+    C:\Oracle\product\11.1.0\client_1
+    C:\Oracle\product\11.1.0\client_1\bin
+    C:\Windows\System32
+    C:\Windows
+    C:\Windows\System32\wbem
+    C:\Windows\System32\WindowsPowerShell\v1.0
+    C:\Program Files (x86)\TortoiseSVN\bin
+    C:\Java\jdk1.6.0_37\bin
+    C:\groovy\groovy-2.0.6\bin
+    C:\Program Files\TortoiseSVN\bin
+    C:\Program Files (x86)\Git\cmd
+    O:\globallibs\grails-2.2.1\bin
+    C:\maven\apache-maven-3.0.5\bin
+    O:\globallibs\mongodb-2.4.1\bin
+    O:\globallibs\play-2.1.3
+    O:\globallibs\sbt\bin
+    O:\globallibs\gradle-1.6\bin
+    O:\globallibs\gawain-2.2
+    O:\globallibs\scala\bin
+    C:\Program Files (x86)\scala\bin
+    C:\Program Files (x86)\JetBrains\IntelliJ IDEA 12.1\jre\jre\bin
+    O:\bunnytron
+2013-08-22 10:09:33.364+0000: System.properties:
+    http.proxyPassword = gl0bal31
+    sun.java.launcher = SUN_STANDARD
+    catalina.base = C:\Users\bromlej\.grails\2.2.1\projects\editor\tomcat
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    catalina.useNaming = true
+    org.mortbay.xml.XmlParser.NotValidating = true
+    sun.desktop = windows
+    grails.env.default = true
+    tools.jar = C:\Java\jdk1.6.0_37\lib\tools.jar
+    grails.env.initializing = true
+    grails.env = development
+    http.proxyPort = 8080
+    user.name = bromlej
+    idea.launcher.bin.path = C:\Program Files (x86)\JetBrains\IntelliJ IDEA 12.1\bin
+    user.language = en
+    sun.boot.library.path = C:\Java\jdk1.6.0_37\jre\bin
+    javax.sql.DataSource.Factory = org.apache.commons.dbcp.BasicDataSourceFactory
+    http.proxyUser = bromlej
+    user.timezone = Europe/London
+    sun.arch.data.model = 64
+    http.nonProxyHosts = localhost
+    sun.cpu.isalist = amd64
+    sun.jnu.encoding = Cp1252
+    file.encoding.pkg = sun.io
+    base.name = bunnytron
+    file.separator = \
+    grails.server.factory = org.grails.plugins.tomcat.TomcatServerFactory
+    user.country = GB
+    grails.home = O:\globallibs\grails-2.2.1
+    grails.version = 2.2.1
+    path.separator = ;
+    user.variant = 
+    grails.env.set = true
+    sun.io.unicode.encoding = UnicodeLittle
+    awt.toolkit = sun.awt.windows.WToolkit
+    user.home = C:\Users\bromlej
+    springloaded = profile=grails
+    program.name = grails
+    net.sf.ehcache.skipUpdateCheck = true
+    sun.java.command = com.intellij.rt.execution.application.AppMain org.codehaus.groovy.grails.cli.support.GrailsStarter --main org.codehaus.groovy.grails.cli.GrailsScriptRunner --conf O:\globallibs\grails-2.2.1/conf/groovy-starter.conf run-app
+    idea.launcher.port = 7533
+    catalina.home = C:\Users\bromlej\.grails\2.2.1\projects\editor\tomcat
+    base.dir = O:\bunnytron
+    sun.cpu.endian = little
+    sun.os.patch.level = Service Pack 1
+    http.proxyHost = cache2.practicallaw.com
+    user.dir = O:\bunnytron
+    disable.grails.plugin.transform = false
+    groovy.starter.conf = O:\globallibs\grails-2.2.1/conf/groovy-starter.conf
+    jline.WindowsTerminal.directConsole = false
+    file.encoding = UTF-8
+    grails.buildScope = all
+    springloaded.directoriesContainingReloadableCode = O:\bunnytron\target\classes,C:\Users\bromlej\.grails\2.2.1\projects\editor\plugin-classes
+2013-08-22 10:09:33.364+0000: Network information:
+    Interface Software Loopback Interface 1:
+        address: 0:0:0:0:0:0:0:1
+        address: 127.0.0.1
+    Interface WAN Miniport (SSTP):
+    Interface WAN Miniport (L2TP):
+    Interface WAN Miniport (PPTP):
+    Interface WAN Miniport (PPPOE):
+    Interface WAN Miniport (IPv6):
+    Interface WAN Miniport (Network Monitor):
+    Interface WAN Miniport (IP):
+    Interface RAS Async Adapter:
+    Interface WAN Miniport (IKEv2):
+    Interface Teredo Tunneling Pseudo-Interface:
+        address: fe80:0:0:0:0:100:7f:fffe%11
+    Interface Intel(R) 82579LM Gigabit Network Connection:
+        address: fe80:0:0:0:e01f:3def:d040:ccb5%12
+        address: 10.198.142.245
+    Interface Microsoft ISATAP Adapter:
+        address: fe80:0:0:0:0:5efe:ac6:8ef5%13
+    Interface Microsoft ISATAP Adapter #2:
+    Interface Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000:
+    Interface Intel(R) 82579LM Gigabit Network Connection-WFP LightWeight Filter-0000:
+    Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+    Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+    Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2013-08-22 10:09:33.380+0000: --- STARTUP diagnostics END ---
+2013-08-22 10:09:33.384+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-08-22 10:09:33.444+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-08-22 10:09:33.454+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-08-22 10:09:33.456+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-08-22 10:09:33.456+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1377166173065, id:-1094536014312965883, store version: 13561656364791302]
+2013-08-22 10:09:33.456+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.2
+2013-08-22 10:09:33.456+0000: Neo4j component versions:
+2013-08-22 10:09:33.457+0000:   Neo4j - Graph Database Kernel 1.8.2
+2013-08-22 10:09:33.457+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-08-22 10:09:33.459+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-08-22 10:09:33.459+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-08-22 10:09:33.460+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-08-22 10:09:33.460+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-08-22 10:09:33.460+0000: Id usage:
+    Id usage:
+      NodeStore: used=1 high=0
+      RelationshipStore: used=0 high=-1
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=0 high=-1
+      PropertyIndexStore: used=0 high=-1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-08-22 10:09:33.460+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-08-22 10:09:33.460+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-08-22 10:09:33.460+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-08-22 10:09:33.460+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-08-22 10:09:33.461+0000: Disk space on partition (Total / Free / Free %): 500105424896 / 410465030144 / 17
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-08-22T11:09:33+0100 - 11.00 B
+      index:
+        lucene-store.db: 2013-08-22T11:09:33+0100 - 40.00 B
+        lucene.log.1: 2013-08-22T11:09:33+0100 - 16.00 B
+        lucene.log.active: 2013-08-22T11:09:33+0100 - 4.00 B
+      - Total: 2013-08-22T11:09:33+0100 - 60.00 B
+      lock: 2013-08-22T11:09:33+0100 - 0.00 B
+      messages.log: 2013-08-22T11:09:32+0100 - 36.62 kB
+      neostore: 2013-08-22T11:09:33+0100 - 54.00 B
+      neostore.id: 2013-08-22T11:09:33+0100 - 9.00 B
+      neostore.nodestore.db: 2013-08-22T11:09:33+0100 - 9.00 B
+      neostore.nodestore.db.id: 2013-08-22T11:09:33+0100 - 9.00 B
+      neostore.propertystore.db: 2013-08-22T11:09:33+0100 - 0.00 B
+      neostore.propertystore.db.arrays: 2013-08-22T11:09:33+0100 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-08-22T11:09:33+0100 - 9.00 B
+      neostore.propertystore.db.id: 2013-08-22T11:09:33+0100 - 9.00 B
+      neostore.propertystore.db.index: 2013-08-22T11:09:33+0100 - 0.00 B
+      neostore.propertystore.db.index.id: 2013-08-22T11:09:33+0100 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-08-22T11:09:33+0100 - 38.00 B
+      neostore.propertystore.db.index.keys.id: 2013-08-22T11:09:33+0100 - 9.00 B
+      neostore.propertystore.db.strings: 2013-08-22T11:09:33+0100 - 128.00 B
+      neostore.propertystore.db.strings.id: 2013-08-22T11:09:33+0100 - 9.00 B
+      neostore.relationshipstore.db: 2013-08-22T11:09:33+0100 - 0.00 B
+      neostore.relationshipstore.db.id: 2013-08-22T11:09:33+0100 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-08-22T11:09:33+0100 - 0.00 B
+      neostore.relationshiptypestore.db.id: 2013-08-22T11:09:33+0100 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-08-22T11:09:33+0100 - 38.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-08-22T11:09:33+0100 - 9.00 B
+      nioneo_logical.log.1: 2013-08-22T11:09:33+0100 - 16.00 B
+      nioneo_logical.log.active: 2013-08-22T11:09:33+0100 - 4.00 B
+      store_lock: 2013-08-22T11:09:32+0100 - 0.00 B
+      tm_tx_log.1: 2013-08-22T11:09:33+0100 - 0.00 B
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=7M
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo_store=O:\bunnytron\db\neo4j\neostore
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=2M
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=9M
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=6M
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=O:\bunnytron\db\neo4j
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: keep_logical_logs=true
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=7M
+2013-08-22 10:22:59.356+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 11.88 GB
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 8.69 GB
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 184.98 MB
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 23.75 GB
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 19.81 GB
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 74.41 MB
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 81.06 MB
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 123.94 MB
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=610.81 kB, max=48.00 MB, threshold=0.00 B
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=5.41 MB, max=16.63 MB, threshold=?
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=1.24 MB, max=2.06 MB, threshold=?
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=0.00 B, max=105.25 MB, threshold=0.00 B
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Perm Gen (Non-heap memory): committed=20.75 MB, used=13.58 MB, max=82.00 MB, threshold=0.00 B
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 8
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 3500@WS03597
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/London
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Sun Microsystems Inc.
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 20.12-b01
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Djava.util.logging.config.file=conf/logging.properties, -Dlog4j.configuration=file:conf/log4j.properties, -XX:+UseConcMarkSweepGC, -XX:+CMSClassUnloadingEnabled]
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/geronimo-jta_1.1_spec-1.1.1.jar
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/mimepull-1.6.jar
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/asm-util-3.2.jar
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-graph-matching-1.9.2.jar
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/servlet-api-2.5-20081211.jar
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/pipes-1.0.jar
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\sunrsasign.jar
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/logback-access-0.9.30.jar
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-logging-1.1.1.jar
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jcl-over-slf4j-1.6.1.jar
+2013-08-22 10:22:59.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jackson-jaxrs-1.9.7.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/neo4j-cypher-plugin-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/conf/
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/logback-classic-0.9.30.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-graph-algo-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/antlr-2.7.7.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/lucene-core-3.6.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/neo4j-gremlin-plugin-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/neo4j-server-1.9.2-static-web.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-io-1.4.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/gremlin-groovy-1.5.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\modules\jdk.boot.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/scala-library-2.10.0.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\rt.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/asm-commons-3.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-udc-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-lucene-index-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jetty-6.1.25.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jackson-core-asl-1.9.7.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-beanutils-core-1.8.0.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/asm-analysis-3.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/blueprints-core-1.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/asm-tree-3.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/rhino-1.7R3.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jackson-mapper-asl-1.9.7.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-collections-3.2.1.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-cypher-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jsr311-api-1.1.2.r612.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/bcprov-jdk16-140.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/jansi-1.5.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/logback-core-0.9.30.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/stax-api-1.0.1.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-shell-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/jettison-1.3.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/slf4j-api-1.6.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jersey-server-1.9.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/janino-2.5.10.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\jce.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/neo4j-server-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/concurrentlinkedhashmap-lru-1.3.1.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Java/jdk1.6.0_37/jre/lib/ext/dnsns.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-kernel-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Java/jdk1.6.0_37/jre/lib/ext/sunjce_provider.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/groovy-1.8.5.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\charsets.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\resources.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/rrd4j-2.0.7.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-jmx-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/gremlin-java-1.5.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/O:/globallibs/neo4j/
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/blueprints-neo4j-graph-1.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-lang-2.4.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\jsse.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-beanutils-1.8.0.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Java/jdk1.6.0_37/jre/lib/ext/localedata.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-configuration-1.6.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jersey-core-1.9.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\classes
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jetty-util-6.1.25.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jersey-multipart-1.9.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/asm-3.1.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-digester-1.8.1.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/server-api-1.9.2.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Java\jdk1.6.0_37\jre\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\Sun\Java\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\oraclexe\app\oracle\product\11.2.0\server\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Oracle\product\11.1.0\client_1
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Oracle\product\11.1.0\client_1\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\WindowsPowerShell\v1.0
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\TortoiseSVN\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Java\jdk1.6.0_37\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\groovy\groovy-2.0.6\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\TortoiseSVN\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Git\cmd
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\grails-2.2.1\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\maven\apache-maven-3.0.5\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\mongodb-2.4.1\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\play-2.1.3
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\sbt\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\gradle-1.6\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\gawain-2.2
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\scala\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\scala\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\neo4j
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = C:\Java\jdk1.6.0_37\jre\bin
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.properties = conf/neo4j-server.properties
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = ;
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = GB
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = Service Pack 1
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = O:\globallibs\neo4j
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.variant = 
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: log4j.configuration = file:conf/log4j.properties
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = Cp1252
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = C:\Users\bromlej
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/London
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = Cp1252
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = bromlej
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org.neo4j.server.Bootstrapper
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.windows.WToolkit
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = \
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = windows
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = amd64
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Software Loopback Interface 1:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (SSTP):
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (L2TP):
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (PPTP):
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (PPPOE):
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6):
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor):
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP):
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface RAS Async Adapter:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IKEv2):
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Teredo Tunneling Pseudo-Interface:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:100:7f:fffe%11
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Intel(R) 82579LM Gigabit Network Connection:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:e01f:3def:d040:ccb5%12
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 10.198.142.245
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:5efe:ac6:8ef5%13
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #2:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Intel(R) 82579LM Gigabit Network Connection-WFP LightWeight Filter-0000:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2013-08-22 10:22:59.387+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2013-08-22 10:22:59.449+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db.names non clean shutdown detected
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=190b)
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db non clean shutdown detected
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=20b)
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.strings non clean shutdown detected
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.propertystore.db.strings] brickCount=0 brickSize=6272b mappedMem=6291456b (storeSize=128b)
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.index.keys non clean shutdown detected
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.index non clean shutdown detected
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.arrays non clean shutdown detected
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.propertystore.db.arrays] brickCount=0 brickSize=7296b mappedMem=7340032b (storeSize=128b)
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db non clean shutdown detected
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.propertystore.db] brickCount=0 brickSize=73390b mappedMem=7340032b (storeSize=0b)
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.relationshipstore.db non clean shutdown detected
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.relationshipstore.db] brickCount=0 brickSize=94347b mappedMem=9437184b (storeSize=0b)
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.nodestore.db non clean shutdown detected
+2013-08-22 10:22:59.465+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.nodestore.db] brickCount=0 brickSize=2097b mappedMem=2097152b (storeSize=9b)
+2013-08-22 10:22:59.481+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore non clean shutdown detected
+2013-08-22 10:22:59.481+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-08-22 10:22:59.481+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Non clean shutdown detected on log [O:\bunnytron\db\neo4j\nioneo_logical.log.1]. Recovery started ...
+2013-08-22 10:22:59.481+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: [O:\bunnytron\db\neo4j\nioneo_logical.log.1] logVersion=0 with committed tx=1
+2013-08-22 10:22:59.496+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: [O:\bunnytron\db\neo4j\nioneo_logical.log.1] entries found=65 lastEntryPos=3082
+2013-08-22 10:22:59.496+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [O:\bunnytron\db\neo4j\nioneo_logical.log.1] version=0, lastTxId=8 (recovered)
+2013-08-22 10:22:59.496+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: XaResourceManager[nioneo_logical.log] sorting 1 xids
+2013-08-22 10:22:59.496+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: XaResourceManager[nioneo_logical.log] checkRecoveryComplete 0 xids
+2013-08-22 10:22:59.512+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db.names rebuild id generator, highId=5 defragged count=0
+2013-08-22 10:22:59.512+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.index.keys rebuild id generator, highId=7 defragged count=0
+2013-08-22 10:22:59.512+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.index rebuild id generator, highId=6 defragged count=0
+2013-08-22 10:22:59.527+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2013-08-22 10:22:59.527+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2013-08-22 10:22:59.559+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db rebuild id generator, highId=10 defragged count=0
+2013-08-22 10:22:59.590+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.relationshipstore.db rebuild id generator, highId=9 defragged count=0
+2013-08-22 10:22:59.605+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.nodestore.db rebuild id generator, highId=9 defragged count=0
+2013-08-22 10:22:59.605+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore rebuild id generator, highId=6 defragged count=0
+2013-08-22 10:22:59.605+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: XaResourceManager[nioneo_logical.log] recovery completed.
+2013-08-22 10:22:59.605+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Recovery on log [O:\bunnytron\db\neo4j\nioneo_logical.log.1] completed.
+2013-08-22 10:22:59.605+0000 INFO  [o.n.k.i.t.TxManager]: TM opening log: O:\bunnytron\db\neo4j\tm_tx_log.1
+2013-08-22 10:22:59.622+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Non clean shutdown detected on log [O:\bunnytron\db\neo4j\index\lucene.log.1]. Recovery started ...
+2013-08-22 10:22:59.623+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: [O:\bunnytron\db\neo4j\index\lucene.log.1] logVersion=0 with committed tx=1
+2013-08-22 10:22:59.939+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: [O:\bunnytron\db\neo4j\index\lucene.log.1] entries found=13 lastEntryPos=624
+2013-08-22 10:22:59.939+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [O:\bunnytron\db\neo4j\index\lucene.log.1] version=0, lastTxId=4 (recovered)
+2013-08-22 10:22:59.939+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: XaResourceManager[lucene.log] sorting 1 xids
+2013-08-22 10:22:59.939+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: XaResourceManager[lucene.log] checkRecoveryComplete 0 xids
+2013-08-22 10:22:59.939+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: XaResourceManager[lucene.log] recovery completed.
+2013-08-22 10:22:59.939+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Recovery on log [O:\bunnytron\db\neo4j\index\lucene.log.1] completed.
+2013-08-22 10:22:59.940+0000 INFO  [o.n.k.i.t.TxManager]: Unresolved transactions found in O:\bunnytron\db\neo4j\tm_tx_log.1, recovery started... 
+2013-08-22 10:22:59.958+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Rotating [O:\bunnytron\db\neo4j\index\lucene.log.1] @ version=0 to O:\bunnytron\db\neo4j\index\lucene.log.2 from position 629
+2013-08-22 10:22:59.961+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Rotate: old log scanned, newLog @ pos=16
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Log rotated, newLog @ pos=16, version 1 and last tx 4
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Rotating [O:\bunnytron\db\neo4j\nioneo_logical.log.1] @ version=0 to O:\bunnytron\db\neo4j\nioneo_logical.log.2 from position 3087
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Rotate: old log scanned, newLog @ pos=16
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Log rotated, newLog @ pos=16, version 1 and last tx 8
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.t.TxManager]: Recovery completed, all transactions have been resolved to a consistent state.
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1377166173065, id:-1094536014312965883, store version: 13561656364791302]
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel 1.9.2
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel 1.9.2
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2013-08-22 10:22:59.993+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.0
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.0
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.0
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.0
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.0
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.0
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.0
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.0
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=233 high=232
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=2859 high=2858
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=4 high=3
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=1790 high=1789
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=6 high=5
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 500105424896 / 410463350784 / 82
+Storage files: (filename : modification date - size)
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2013-08-22T11:09:33+0100 - 11.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene:
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:       node:
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:         node_auto_index:
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2013-08-22T11:22:59+0100 - 20.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_1: 2013-08-22T11:22:59+0100 - 454.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2013-08-22T11:22:59+0100 - 0.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.fdt: 2013-08-22T11:22:59+0100 - 32.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.fdx: 2013-08-22T11:22:59+0100 - 12.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.fnm: 2013-08-22T11:22:59+0100 - 22.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.frq: 2013-08-22T11:22:59+0100 - 2.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.nrm: 2013-08-22T11:22:59+0100 - 6.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.prx: 2013-08-22T11:22:59+0100 - 2.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.tii: 2013-08-22T11:22:59+0100 - 35.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.tis: 2013-08-22T11:22:59+0100 - 57.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.fdt: 2013-08-22T11:22:59+0100 - 32.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.fdx: 2013-08-22T11:22:59+0100 - 12.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.fnm: 2013-08-22T11:22:59+0100 - 22.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.frq: 2013-08-22T11:22:59+0100 - 2.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.nrm: 2013-08-22T11:22:59+0100 - 6.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.prx: 2013-08-22T11:22:59+0100 - 2.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.tii: 2013-08-22T11:22:59+0100 - 35.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.tis: 2013-08-22T11:22:59+0100 - 57.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2013-08-22T11:22:59+0100 - 810.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2013-08-22T11:10:21+0100 - 810.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2013-08-22T11:10:21+0100 - 810.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2013-08-22T11:09:33+0100 - 40.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.2: 2013-08-22T11:22:59+0100 - 16.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2013-08-22T11:22:59+0100 - 4.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v0: 2013-08-22T11:22:59+0100 - 629.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2013-08-22T11:22:59+0100 - 1.46 kB
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index.db: 2013-08-22T11:10:21+0100 - 123.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2013-08-22T11:09:33+0100 - 0.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2013-08-22T11:11:28+0100 - 78.20 kB
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2013-08-22T11:22:59+0100 - 54.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2013-08-22T11:22:59+0100 - 9.00 B
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2013-08-22T11:22:59+0100 - 2.05 kB
+2013-08-22 10:22:59.994+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2013-08-22T11:22:59+0100 - 9.00 B
+2013-08-22 10:22:59.995+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2013-08-22T11:22:59+0100 - 71.67 kB
+2013-08-22 10:22:59.995+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2013-08-22T11:09:33+0100 - 128.00 B
+2013-08-22 10:22:59.995+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2013-08-22T11:22:59+0100 - 9.00 B
+2013-08-22 10:22:59.995+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2013-08-22T11:22:59+0100 - 9.00 B
+2013-08-22 10:22:59.996+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2013-08-22T11:22:59+0100 - 54.00 B
+2013-08-22 10:22:59.996+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2013-08-22T11:22:59+0100 - 9.00 B
+2013-08-22 10:22:59.996+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2013-08-22T11:22:59+0100 - 266.00 B
+2013-08-22 10:22:59.996+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2013-08-22T11:22:59+0100 - 9.00 B
+2013-08-22 10:22:59.997+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2013-08-22T11:09:33+0100 - 128.00 B
+2013-08-22 10:22:59.997+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2013-08-22T11:22:59+0100 - 9.00 B
+2013-08-22 10:22:59.997+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2013-08-22T11:22:59+0100 - 92.14 kB
+2013-08-22 10:22:59.997+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2013-08-22T11:22:59+0100 - 9.00 B
+2013-08-22 10:22:59.998+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2013-08-22T11:22:59+0100 - 20.00 B
+2013-08-22 10:22:59.998+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2013-08-22T11:22:59+0100 - 9.00 B
+2013-08-22 10:22:59.998+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2013-08-22T11:22:59+0100 - 190.00 B
+2013-08-22 10:22:59.998+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2013-08-22T11:22:59+0100 - 9.00 B
+2013-08-22 10:22:59.999+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.2: 2013-08-22T11:22:59+0100 - 16.00 B
+2013-08-22 10:22:59.999+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2013-08-22T11:22:59+0100 - 4.00 B
+2013-08-22 10:22:59.999+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v0: 2013-08-22T11:22:59+0100 - 3.01 kB
+2013-08-22 10:22:59.999+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2013-08-22T11:09:32+0100 - 0.00 B
+2013-08-22 10:22:59.999+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2013-08-22T11:22:59+0100 - 0.00 B
+2013-08-22 10:22:59.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-08-22 10:23:00.001+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Started - database is now available
+2013-08-22 10:23:00.001+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2013-08-22 10:23:00.003+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Stopping - database is now unavailable
+2013-08-22 10:23:00.003+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor stopped. 
+2013-08-22 10:23:00.009+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log O:\bunnytron\db\neo4j\index\lucene.log
+2013-08-22 10:23:00.011+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2013-08-22 10:23:00.016+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log O:\bunnytron\db\neo4j\nioneo_logical.log
+2013-08-22 10:23:00.018+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db.names hit=0 miss=20 switches=0 ooe=0
+2013-08-22 10:23:00.023+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db hit=0 miss=12 switches=0 ooe=0
+2013-08-22 10:23:00.027+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:23:00.032+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.index.keys hit=0 miss=30 switches=0 ooe=0
+2013-08-22 10:23:00.036+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.index hit=0 miss=18 switches=0 ooe=0
+2013-08-22 10:23:00.041+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-08-22 10:23:00.047+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.propertystore.db hit=10 miss=0 switches=0 ooe=0
+2013-08-22 10:23:00.051+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.relationshipstore.db hit=11 miss=0 switches=0 ooe=0
+2013-08-22 10:23:00.055+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore.nodestore.db hit=12 miss=0 switches=0 ooe=0
+2013-08-22 10:23:00.059+0000 INFO  [o.n.k.i.n.s.StoreFactory]: O:\bunnytron\db\neo4j\neostore hit=0 miss=29 switches=0 ooe=0
+2013-08-22 10:23:00.064+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2013-08-22 10:23:00.064+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2013-08-22 10:23:00.064+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=7M
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo_store=O:\bunnytron\db\neo4j\neostore
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=2M
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=9M
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=6M
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source=server
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=O:/bunnytron/db/neo4j
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: keep_logical_logs=true
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=7M
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: remote_shell_enabled=true
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 11.88 GB
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 8.68 GB
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 189.39 MB
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 23.75 GB
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 19.81 GB
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 72.98 MB
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 81.06 MB
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 123.94 MB
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=684.25 kB, max=48.00 MB, threshold=0.00 B
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=5.76 MB, max=16.63 MB, threshold=?
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=1.20 MB, max=2.06 MB, threshold=?
+2013-08-22 10:23:00.097+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=1.12 MB, max=105.25 MB, threshold=0.00 B
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Perm Gen (Non-heap memory): committed=20.75 MB, used=18.64 MB, max=82.00 MB, threshold=0.00 B
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 8
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 3500@WS03597
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/London
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Sun Microsystems Inc.
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 20.12-b01
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Djava.util.logging.config.file=conf/logging.properties, -Dlog4j.configuration=file:conf/log4j.properties, -XX:+UseConcMarkSweepGC, -XX:+CMSClassUnloadingEnabled]
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/geronimo-jta_1.1_spec-1.1.1.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/mimepull-1.6.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/asm-util-3.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-graph-matching-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/servlet-api-2.5-20081211.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/pipes-1.0.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\sunrsasign.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/logback-access-0.9.30.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-logging-1.1.1.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jcl-over-slf4j-1.6.1.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jackson-jaxrs-1.9.7.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/neo4j-cypher-plugin-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/conf/
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/logback-classic-0.9.30.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-graph-algo-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/antlr-2.7.7.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/lucene-core-3.6.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/neo4j-gremlin-plugin-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/neo4j-server-1.9.2-static-web.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-io-1.4.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/gremlin-groovy-1.5.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\modules\jdk.boot.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/scala-library-2.10.0.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\rt.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/asm-commons-3.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-udc-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-lucene-index-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jetty-6.1.25.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jackson-core-asl-1.9.7.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-beanutils-core-1.8.0.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/asm-analysis-3.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/blueprints-core-1.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/asm-tree-3.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/rhino-1.7R3.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jackson-mapper-asl-1.9.7.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-collections-3.2.1.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-cypher-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jsr311-api-1.1.2.r612.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/bcprov-jdk16-140.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/jansi-1.5.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/logback-core-0.9.30.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/stax-api-1.0.1.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-shell-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/jettison-1.3.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/slf4j-api-1.6.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jersey-server-1.9.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/janino-2.5.10.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\jce.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/neo4j-server-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/concurrentlinkedhashmap-lru-1.3.1.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Java/jdk1.6.0_37/jre/lib/ext/dnsns.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-kernel-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Java/jdk1.6.0_37/jre/lib/ext/sunjce_provider.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/groovy-1.8.5.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\charsets.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\resources.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/rrd4j-2.0.7.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/neo4j-jmx-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/gremlin-java-1.5.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/O:/globallibs/neo4j/
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/plugins/gremlin1.5/blueprints-neo4j-graph-1.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-lang-2.4.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\lib\jsse.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-beanutils-1.8.0.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Java/jdk1.6.0_37/jre/lib/ext/localedata.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-configuration-1.6.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jersey-core-1.9.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Java\jdk1.6.0_37\jre\classes
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jetty-util-6.1.25.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/jersey-multipart-1.9.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/asm-3.1.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/system/lib/commons-digester-1.8.1.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/server-api-1.9.2.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/O:/globallibs/neo4j/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Java\jdk1.6.0_37\jre\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\Sun\Java\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\oraclexe\app\oracle\product\11.2.0\server\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Oracle\product\11.1.0\client_1
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Oracle\product\11.1.0\client_1\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\WindowsPowerShell\v1.0
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\TortoiseSVN\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Java\jdk1.6.0_37\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\groovy\groovy-2.0.6\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\TortoiseSVN\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Git\cmd
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\grails-2.2.1\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\maven\apache-maven-3.0.5\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\mongodb-2.4.1\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\play-2.1.3
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\sbt\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\gradle-1.6\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\gawain-2.2
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\scala\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\scala\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: O:\globallibs\neo4j
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = C:\Java\jdk1.6.0_37\jre\bin
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.properties = conf/neo4j-server.properties
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = ;
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = GB
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = Service Pack 1
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = O:\globallibs\neo4j
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.variant = 
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: log4j.configuration = file:conf/log4j.properties
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = Cp1252
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = C:\Users\bromlej
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/London
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = Cp1252
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = bromlej
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org.neo4j.server.Bootstrapper
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.windows.WToolkit
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = \
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = windows
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = amd64
+2013-08-22 10:23:00.098+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Software Loopback Interface 1:
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (SSTP):
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (L2TP):
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (PPTP):
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (PPPOE):
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6):
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor):
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP):
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface RAS Async Adapter:
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IKEv2):
+2013-08-22 10:23:00.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Teredo Tunneling Pseudo-Interface:
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:100:7f:fffe%11
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Intel(R) 82579LM Gigabit Network Connection:
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:e01f:3def:d040:ccb5%12
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 10.198.142.245
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter:
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:5efe:ac6:8ef5%13
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #2:
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000:
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Intel(R) 82579LM Gigabit Network Connection-WFP LightWeight Filter-0000:
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2013-08-22 10:23:00.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2013-08-22 10:23:00.113+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=190b)
+2013-08-22 10:23:00.114+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=20b)
+2013-08-22 10:23:00.115+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.propertystore.db.strings] brickCount=0 brickSize=6272b mappedMem=6291456b (storeSize=128b)
+2013-08-22 10:23:00.115+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=266b)
+2013-08-22 10:23:00.116+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-08-22 10:23:00.117+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.propertystore.db.arrays] brickCount=0 brickSize=7296b mappedMem=7340032b (storeSize=128b)
+2013-08-22 10:23:00.117+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.propertystore.db] brickCount=10 brickSize=7339b mappedMem=7340032b (storeSize=73390b)
+2013-08-22 10:23:00.118+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.relationshipstore.db] brickCount=10 brickSize=9405b mappedMem=9437184b (storeSize=94347b)
+2013-08-22 10:23:00.118+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore.nodestore.db] brickCount=1 brickSize=2097b mappedMem=2097152b (storeSize=2097b)
+2013-08-22 10:23:00.119+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [O:\bunnytron\db\neo4j\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-08-22 10:23:00.120+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [O:\bunnytron\db\neo4j\nioneo_logical.log.1] version=2, lastTxId=8 (clean)
+2013-08-22 10:23:00.123+0000 INFO  [o.n.k.i.t.TxManager]: TM opening log: O:\bunnytron\db\neo4j\tm_tx_log.1
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [O:\bunnytron\db\neo4j\index\lucene.log.1] version=2, lastTxId=4 (clean)
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1377166173065, id:-1094536014312965883, store version: 13561656364791302]
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel 1.9.2
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel 1.9.2
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.0
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.0
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.0
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.0
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.0
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.0
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.0
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.0
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=233 high=232
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=2859 high=2858
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=4 high=3
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=1790 high=1789
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=6 high=5
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 500105424896 / 410463248384 / 82
+Storage files: (filename : modification date - size)
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2013-08-22T11:09:33+0100 - 11.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene:
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:       node:
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:         node_auto_index:
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2013-08-22T11:22:59+0100 - 20.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_1: 2013-08-22T11:22:59+0100 - 454.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.fdt: 2013-08-22T11:22:59+0100 - 32.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.fdx: 2013-08-22T11:22:59+0100 - 12.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.fnm: 2013-08-22T11:22:59+0100 - 22.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.frq: 2013-08-22T11:22:59+0100 - 2.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.nrm: 2013-08-22T11:22:59+0100 - 6.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.prx: 2013-08-22T11:22:59+0100 - 2.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.tii: 2013-08-22T11:22:59+0100 - 35.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.tis: 2013-08-22T11:22:59+0100 - 57.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.fdt: 2013-08-22T11:22:59+0100 - 32.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.fdx: 2013-08-22T11:22:59+0100 - 12.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.fnm: 2013-08-22T11:22:59+0100 - 22.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.frq: 2013-08-22T11:22:59+0100 - 2.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.nrm: 2013-08-22T11:22:59+0100 - 6.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.prx: 2013-08-22T11:22:59+0100 - 2.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.tii: 2013-08-22T11:22:59+0100 - 35.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.tis: 2013-08-22T11:22:59+0100 - 57.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2013-08-22T11:23:00+0100 - 810.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2013-08-22T11:10:21+0100 - 810.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2013-08-22T11:10:21+0100 - 810.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2013-08-22T11:23:00+0100 - 40.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2013-08-22T11:23:01+0100 - 16.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2013-08-22T11:23:01+0100 - 4.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v0: 2013-08-22T11:22:59+0100 - 629.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v1: 2013-08-22T11:23:00+0100 - 16.00 B
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2013-08-22T11:23:01+0100 - 1.48 kB
+2013-08-22 10:23:01.520+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index.db: 2013-08-22T11:10:21+0100 - 123.00 B
+2013-08-22 10:23:01.521+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2013-08-22T11:23:00+0100 - 0.00 B
+2013-08-22 10:23:01.521+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2013-08-22T11:23:00+0100 - 117.45 kB
+2013-08-22 10:23:01.521+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2013-08-22T11:23:00+0100 - 54.00 B
+2013-08-22 10:23:01.537+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2013-08-22T11:23:00+0100 - 9.00 B
+2013-08-22 10:23:01.537+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2013-08-22T11:23:00+0100 - 2.05 kB
+2013-08-22 10:23:01.537+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2013-08-22T11:23:00+0100 - 9.00 B
+2013-08-22 10:23:01.537+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2013-08-22T11:23:00+0100 - 71.67 kB
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2013-08-22T11:23:00+0100 - 128.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2013-08-22T11:23:00+0100 - 9.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2013-08-22T11:23:00+0100 - 9.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2013-08-22T11:23:00+0100 - 54.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2013-08-22T11:23:00+0100 - 9.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2013-08-22T11:23:00+0100 - 266.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2013-08-22T11:23:00+0100 - 9.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2013-08-22T11:23:00+0100 - 128.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2013-08-22T11:23:00+0100 - 9.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2013-08-22T11:23:00+0100 - 92.14 kB
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2013-08-22T11:23:00+0100 - 9.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2013-08-22T11:23:00+0100 - 20.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2013-08-22T11:23:00+0100 - 9.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2013-08-22T11:23:00+0100 - 190.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2013-08-22T11:23:00+0100 - 9.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2013-08-22T11:23:00+0100 - 16.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2013-08-22T11:23:00+0100 - 4.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v0: 2013-08-22T11:22:59+0100 - 3.01 kB
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v1: 2013-08-22T11:23:00+0100 - 16.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2013-08-22T11:09:32+0100 - 0.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2013-08-22T11:23:00+0100 - 0.00 B
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Started - database is now available
+2013-08-22 10:23:01.552+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2013-08-22 10:23:02.792+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED START ---
+2013-08-22 10:23:02.792+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator START ---
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: Server configuration:
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.database.location = O:/bunnytron/db/neo4j
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.port = 7474
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.enabled = true
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.port = 7473
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.cert.location = conf/ssl/snakeoil.cert
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.key.location = conf/ssl/snakeoil.key
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.keystore.location = data/keystore
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.rrdb.location = data/rrd
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.db.tuning.properties = conf/neo4j.properties
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.manage.console_engines = [gremlin, shell]
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.http.log.enabled = false
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.http.log.config = conf/neo4j-http-logging.xml
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.management.uri = /db/manage/
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.data.uri = /db/data/
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator END ---
+2013-08-22 10:23:02.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted discovery module (org.neo4j.server.rest.discovery) at: /
+2013-08-22 10:23:02.839+0000 INFO  [o.n.k.i.DiagnosticsManager]: Loaded server plugin "CypherPlugin" (org.neo4j.server.plugin.cypher.CypherPlugin)
+2013-08-22 10:23:02.839+0000 INFO  [o.n.k.i.DiagnosticsManager]:   GraphDatabaseService.execute_query: execute a query
+2013-08-22 10:23:02.839+0000 INFO  [o.n.k.i.DiagnosticsManager]: Loaded server plugin "GremlinPlugin" (org.neo4j.server.plugin.gremlin.GremlinPlugin)
+2013-08-22 10:23:02.839+0000 INFO  [o.n.k.i.DiagnosticsManager]:   GraphDatabaseService.execute_script: execute a Gremlin script with 'g' set to the Neo4jGraph and 'results' containing the results. Only results of one object type is supported.
+2013-08-22 10:23:02.839+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted REST API at: /db/data/
+2013-08-22 10:23:02.839+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted management API at: /db/manage/
+2013-08-22 10:23:02.917+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted webadmin at: /webadmin
+2013-08-22 10:23:04.031+0000 INFO  [o.n.k.i.DiagnosticsManager]: Server started on: http://localhost:7474/
+2013-08-22 10:23:04.031+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
+2013-08-22 11:23:34.818+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 102ms [total block time: 0.102s]
+2013-08-22 12:23:06.455+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 103ms [total block time: 0.205s]
+2013-08-22 13:23:35.134+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 118ms [total block time: 0.323s]

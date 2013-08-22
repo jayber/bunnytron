@@ -2,7 +2,6 @@ package app
 
 import com.vaadin.data.Property
 import com.vaadin.data.util.BeanItem
-import com.vaadin.data.util.BeanItemContainer
 import com.vaadin.event.ItemClickEvent
 import com.vaadin.grails.Grails
 import com.vaadin.server.ExternalResource
@@ -21,20 +20,6 @@ class ArticleListUI {
     public static final String THIS_CHOICE = "list"
     ContainerUI parent
     Person author
-
-    class ArticleListContainer extends BeanItemContainer {
-        private ArrayList<String> propertyIds
-
-        protected ArticleListContainer(List<Article> articles, ArrayList<String> columnFields) {
-            super(Article.class, articles)
-            propertyIds = columnFields
-        }
-
-        @Override
-        Collection<String> getContainerPropertyIds() {
-            return propertyIds
-        }
-    }
 
     private Table table = new Table()
 
@@ -127,7 +112,7 @@ class ArticleListUI {
     }
 
     private Table createArticleTable(List<Article> articles, String caption, ArrayList<String> columnFields) {
-        ArticleListContainer container = new ArticleListContainer(articles, columnFields)
+        NamedColumnFieldContainer container = new NamedColumnFieldContainer(articles, columnFields, Article.class)
         final Table table = new Table(caption)
         table.setSizeFull()
 
@@ -182,7 +167,7 @@ class ArticleListUI {
             void valueChange(Property.ValueChangeEvent valueChangeEvent) {
                 EditorService editorService = Grails.get(EditorService)
                 def articles = editorService.findArticles(search.value)
-                ArticleListContainer container = new ArticleListContainer(articles, ["title", "author", "createdDate"])
+                NamedColumnFieldContainer container = new NamedColumnFieldContainer(articles, ["title", "author", "createdDate"], Article.class)
                 table.setContainerDataSource(container)
             }
         })

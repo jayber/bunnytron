@@ -1,20 +1,6 @@
-import org.codehaus.gant.GantState
-
 includeTargets << grailsScript("_GrailsInit")
 includeTargets << grailsScript("_GrailsClasspath")
 includeTargets << grailsScript("_GrailsRun")
-
-target(test: "Compile widget set for vaadin") {
-    depends(classpath)
-    GantState.verbosity = GantState.VERBOSE
-    ant.java(classname: "com.google.gwt.dev.Compiler")
-            {
-                arg value: '-war'
-                arg value: 'web-app'
-                arg value: 'Bunnytron'
-            }
-}
-
 
 target(widgetset_init: "init") {
     ant.property(name: "widgetset", value: "Bunnytron")
@@ -22,7 +8,6 @@ target(widgetset_init: "init") {
     ant.property(name: "client-side-destination", value: "web-app/VAADIN/widgetsets")
     ant.property(name: "generate.widgetset", value: "1")
 }
-
 
 target(compile_widgetset: "widgetset") {
     depends(classpath, compile, widgetset_init)

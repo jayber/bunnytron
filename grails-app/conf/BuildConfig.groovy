@@ -26,6 +26,7 @@ grails.project.dependency.resolution = {
         mavenCentral()
 
         mavenRepo "http://maven.vaadin.com/vaadin-addons"
+        mavenRepo "http://repo.grails.org/grails/repo/"
 
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
         //mavenRepo "http://snapshots.repository.codehaus.org"
@@ -37,8 +38,8 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         runtime 'org.hsqldb:hsqldb:2.2.8'
-
-        compile 'com.vaadin.addon:vaadin-charts:1.0.0'
+        compile "org.grails.plugins:neo4j:1.0.0"
+//        compile 'com.vaadin.addon:vaadin-charts:1.0.0'
     }
 
     plugins {
